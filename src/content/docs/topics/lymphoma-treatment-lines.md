@@ -46,11 +46,13 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
 擬答：
 
 - **第一步：先判斷復發時間點，這會直接改變二線策略的選擇**
-  - 如果是**早期復發**（一線治療後 12 個月內復發或未達 CR），現在的證據（如 ZUMA-7、TRANSFORM 這類第二線 CAR-T 試驗）支持直接進入 **CAR-T 細胞治療**（如 axi-cel、liso-cel），已經取代傳統「先化療、再移植」的舊路徑，因為這個族群走傳統路徑的預後本來就差。
+  - 如果是**早期復發**（一線治療後 12 個月內復發或未達 CR）且病人適合接受 CAR-T，現在的證據（ZUMA-7 用 axi-cel、TRANSFORM 用 liso-cel）支持直接進入 **CAR-T 細胞治療**，已經取代傳統「先化療、再移植」的舊路徑，因為這個族群走傳統路徑的預後本來就差。
+  - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：把「CAR-T 是新的二線標準」講成適用所有 CAR-T 產品——同樣設計的 BELINDA 試驗（用 tisagenlecleucel）並沒有顯示優於傳統路徑的結果，這個效益是特定產品（axi-cel、liso-cel）才有的證據，不是「只要是 CAR-T 就一定比較好」，回答時要記得加上這個限定條件。
   - 如果是**較晚復發**（超過 12 個月），傳統路徑仍然適用：先用挽救性化療（salvage chemotherapy）誘導緩解，再評估自體移植。
 - **第二步（適用於走傳統路徑的病人）：講出實際的挽救性 regimen 名字，不能只說「二線化療」**
   - 常見挽救性 regimen 包括 **R-ICE**（rituximab + ifosfamide + carboplatin + etoposide）、**R-DHAP**（rituximab + dexamethasone + high-dose cytarabine + cisplatin）、**R-GDP**（rituximab + gemcitabine + dexamethasone + cisplatin）。
-  - 這類挽救性化療的整體反應率（ORR）大約落在六到七成左右，但要能達到足夠深的緩解、順利銜接移植的比例會再打折扣，這是要主動講出來的細節，不能只丟一個籠統的高反應率數字。
+  - 這類挽救性化療的整體反應率（ORR）依方案與研究不同，大約落在四到六成五之間（如 CORAL 試驗中 R-ICE 64%、R-DHAP 63%；LY.12 試驗中 (R)-DHAP 45%、(R)-GDP 44%），不是隨口講一個「六到七成」的高反應率就能交代過去。
+  - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：把挽救性化療的反應率講得太樂觀——實際上只有大約一半的病人能因反應夠好而真正走到自體移植這一步，另一半會因反應不足而轉向其他策略（如前面提到的第二線 CAR-T），這個「反應率不等於能移植的比例」的落差是常被忽略的細節。
 - **第三步：同時評估是否要收 stem cell、準備做 auto-PBSCT**
   - 走傳統挽救化療路徑的病人，治療階段要主動評估病人是否適合收集 stem cell、準備自體移植（auto-PBSCT），這是二線決策裡不能漏講的一環。
 

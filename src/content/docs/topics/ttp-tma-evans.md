@@ -62,9 +62,10 @@ sidebar:
 擬答：
 - **診斷：確診 TTP 要靠 ADAMTS13 activity 檢驗。**
   - 診斷切點要記得是 <10% 這個數量級，這代表 ADAMTS13 嚴重缺乏。
-- **治療：核心治療是 plasma exchange（PEX），但我不會只回答 PEX 就結束。**
+- **治療：核心治療是 plasma exchange（PEX）合併 steroid，但現在的標準治療已經不只這兩樣，我不會只回答 PEX 就結束。**
   - 考官常會追問「除了 PEX 還要加什麼」，我會主動講出合併使用 steroid，這是常被漏講的追加治療。
-  - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：只答出 PEX 就停住，沒有主動補上 steroid 這個常被追問的重點。
+  - 目前的標準治療常規會再加上 **caplacizumab**（一種抗 vWF 的 nanobody，能阻斷 vWF 與血小板結合，縮短急性期病程、降低早期惡化風險）以及 **rituximab**（用於根除自體抗體、降低復發率），這兩者現在已經是完整治療核心的一部分，不是只有 PEX+steroid。
+  - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：只答出 PEX 就停住，沒有主動補上 steroid；就算補了 steroid，也可能漏講 caplacizumab、rituximab 這兩個現在已經常規使用的藥物，讓答案停在比較舊的治療標準。
   - 如果病人對治療反應慢，我要能講出評估治療反應的方式（例如追蹤血小板數目有沒有回升、LDH 有沒有下降趨勢），而不是只會執行 PEX 卻講不出怎麼判斷有沒有效。
 
 **5. Evans syndrome 的判斷線索**：血小板低下合併貧血，但抹片看不太到血小板、又看到 NRBC——套框架第一步分支：這種「有 hemolysis 證據但沒有破碎紅血球」的組合是在暗示 Evans syndrome（同時有 autoimmune hemolysis + immune thrombocytopenia），而不是單純 ITP。

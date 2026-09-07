@@ -43,7 +43,7 @@ SLiM-CRAB criteria 常被考生逐字背字母，但真正該記的是背後那�
 擬答：
 - **目前的標準誘導治療是三合一，近年逐漸走向四合一，不能只講出「有在用某個組合」這種空泛講法**
   - 三合一標準：**VRd**，也就是 bortezomib + lenalidomide + dexamethasone，是目前最廣泛使用的 induction regimen。
-  - 四合一新標準：在 VRd 基礎上加上 **daratumumab**（anti-CD38 單株抗體），組成 **Dara-VRd**。近年的三期試驗證據（如 GRIFFIN、PERSEUS）顯示加上 daratumumab 可以進一步提高深度反應（VGPR 以上、MRD negativity）的比例，逐漸成為適合移植病人的新標準組合。
+  - 四合一新標準：在 VRd 基礎上加上 **daratumumab**（anti-CD38 單株抗體），組成 **Dara-VRd**。第三期 PERSEUS 試驗顯示 Dara-VRd 組 48 個月 PFS 達 84.3%（VRd 組僅 67.7%），CR 以上比例 87.9% vs 70.1%，MRD 陰性比例 75.2% vs 47.5%，且這個效益在高風險細胞遺傳學病人身上也一致存在——這已經不只是「逐漸成為」，2025 年 EHA-EMN 指引已明確將 Dara-VRd 列為移植適合病人的新標準治療，優先於單純 VRd。
   - 如果病人腎功能不佳、或不適合用 IMiD（如 lenalidomide），可以改用 **VCd**（bortezomib + cyclophosphamide + dexamethasone）作為替代。
 - **預期反應要分層次講，不能只丟一個「CR rate」**
   - VRd 的整體反應率（ORR，達到 PR 以上）通常在九成以上，達到 VGPR 以上的比例也相當高。
