@@ -52,7 +52,7 @@ sidebar:
   - Coombs test 陽性代表紅血球表面被抗體或補體標記，方向是 immune-mediated，例如 autoimmune hemolytic anemia。
   - Coombs test 陰性則排除 immune 機轉，方向轉往先天性或結構性的疾病，例如 hereditary spherocytosis。
 - **若 Coombs test 陰性,支持 hereditary spherocytosis 的診斷**
-  - 可以搭配家族史（體染色體顯性遺傳,常有家族中類似病史）、脾臟腫大的理學發現，以及 osmotic fragility test 或 EMA binding test 等確認性檢查。
+  - 可以搭配家族史（約 75% 為體染色體顯性遺傳，常有家族中類似病史；其餘約 25% 是體染色體隱性遺傳或 de novo 突變，這種情況下家族史可能是陰性的，沒有家族史不能排除診斷）、脾臟腫大的理學發現，以及 osmotic fragility test 或 EMA binding test 等確認性檢查。
   - 這個案例的年齡、貧血程度與抹片表現都符合 hereditary spherocytosis 的典型呈現。
 
 **Q: Hereditary spherocytosis 的病人不想做脾臟切除術，怎麼辦？**
@@ -102,8 +102,9 @@ sidebar:
   - 處置原則是術前或術後儘早補打莢膜細菌相關疫苗，並衛教病人若發燒要提高警覺、及早就醫,部分病人會考慮預防性抗生素。
 - **血栓風險**
   - 術後常見反應性血小板增多（thrombocytosis），加上脾臟本身有調節部分凝血因子與血球的功能被移除，整體血栓風險（包含 portal vein thrombosis）會上升，需要視情況評估是否需要抗血小板或抗凝治療。
-- **肺動脈高壓（pulmonary hypertension）**
-  - 長期脾臟切除的病人被認為肺動脈高壓風險略為上升,推測與慢性溶血性疾病本身、或脾臟切除後失去過濾功能導致活化的血小板與微小血栓進入肺循環有關,是長期追蹤時要留意的併發症之一。
+- **肺動脈高壓（pulmonary hypertension）——這點因果關係還有爭議，回答時不要講得太肯定**
+  - 部分研究觀察到脾臟切除病人肺動脈高壓的盛行率偏高，但目前因果關係並未確立：2022 年版 ESC/ERS 肺高壓指引已經把「脾臟切除」從 Group 5（不明機轉）病因分類中移除，部分學者認為這個關聯性其實是原本的溶血性疾病（如地中海貧血、鐮刀型貧血）本身造成，而不是脾臟切除單獨導致。
+  - 回答時可以講「有觀察到相關性、但因果證據還不確定」，比直接斷言「脾臟切除會導致肺動脈高壓」更嚴謹，也比較不會被考官抓到把相關性講成因果性。
 
 **Q: 輸血會有什麼副作用？**
 

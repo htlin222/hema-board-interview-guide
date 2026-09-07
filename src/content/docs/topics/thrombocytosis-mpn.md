@@ -12,7 +12,7 @@ sidebar:
 2. **確定是 clonal 之後，用 WBC differential 的「形態」分 CML 還是其他 MPN**：不用等基因報告，抹片形態就能先分方向——
    - **CML**：differential 會看到 basophilia、left shift、**各個成熟階段的顆粒球同時存在**（myeloblast 到 segmented neutrophil 一路都有），這是 CML 最具特徵性的抹片印象。
    - **ET / 其他 MPN**：differential 大致正常，主要異常集中在血小板數量本身，沒有 CML 那種「全階段顆粒球同時出現」的左移圖像。
-3. **驅動基因檢測，用同一個機轉去理解三個基因**：JAK2、CALR、MPL 這三個基因的共同點是**都落在 thrombopoietin (TPO) receptor 訊息傳遞路徑的下游**，突變後讓這條路徑持續活化，即使沒有 TPO 刺激骨髓也一直產血小板——理解這個共同機轉之後，「為什麼驗這三個基因」「為什麼結果都指向同一個表現」就不用個別死記，是同一套邏輯的三個入口。
+3. **驅動基因檢測，用同一個機轉去理解三個基因**：JAK2、CALR、MPL 這三個基因的共同終點都是讓 **JAK-STAT 訊息傳遞路徑持續活化**，即使沒有 TPO 刺激骨髓也一直產血小板，但三者作用的位置不同——**MPL** 突變直接發生在 thrombopoietin receptor 本身，造成不需要配體就能活化受體；**CALR** 突變蛋白會結合並活化 MPL receptor，作用在受體這一層；**JAK2** 突變則是在受體下游、細胞內的酪胺酸激酶持續活化。理解「三個基因是用不同方式讓同一條路徑活化」之後，「為什麼驗這三個基因」「為什麼結果都指向同一個表現」就不用個別死記，是同一套邏輯的三個入口。
 
 ## 套用到實際問法
 
@@ -46,7 +46,7 @@ sidebar:
 - **第一步：疑似 ET 時要驗三個驅動基因——JAK2、CALR、MPL**
   - 這三個基因的共同點是都落在 thrombopoietin（TPO）receptor 訊息傳遞路徑的下游，突變後會讓這條路徑持續活化，即使沒有 TPO 刺激，骨髓也會持續製造血小板。
 - **第二步：要主動講出各基因在 ET 病人中的大致比例分布**
-  - JAK2 突變比例最高，其次是 CALR，MPL 最少。
+  - JAK2 突變比例最高，約六成（60-66%）；其次是 CALR，約兩成（19-27%）；MPL 最少，約 3-4%；剩下約一成是三個基因都驗不到的 triple-negative。
   - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 陷阱：只答得出「要驗 JAK2」，講不出 CALR、MPL 以及三者的大致比例分布，會被認為準備不夠周全——這題常被考官拿來評估準備得夠不夠細。
 
 **Q4：這些驅動基因的機轉是什麼？**
@@ -68,7 +68,7 @@ sidebar:
 擬答：
 - **第一步：講出風險分層依據的三個面向——年齡、血栓病史、基因型**
   - 年齡跟過去有沒有血栓病史是傳統的分層因子。
-  - 基因型也要納入考慮：JAK2 突變的血栓風險通常高於 CALR 突變。
+  - 基因型也要納入考慮：JAK2 突變的血栓風險通常高於 CALR 突變，約為兩倍（研究顯示 10 年累積血栓發生率 JAK2 組約 14.5% vs CALR 組約 5%），且血栓風險不是單純由血小板數量決定——JAK2 突變病人的血小板數目往往還比 CALR 突變病人低，血栓風險卻更高，機轉可能跟嗜中性球/血小板活化程度較高有關。
 - **第二步：依風險等級決定是否需要 cytoreductive therapy**
   - 建議直接照 guideline 的風險分層架構完整講一輪，把年齡、血栓病史、基因型三個面向都講到，再對應到是否啟動 cytoreductive therapy 的治療決策，而不是跳著講。
 
