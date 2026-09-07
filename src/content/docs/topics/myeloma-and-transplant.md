@@ -17,7 +17,9 @@ SLiM-CRAB criteria 常被考生逐字背字母，但真正該記的是背後那�
 
 ## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg> 推理架構：移植適不適合，是同一套骨架
 
-跟 AML/lymphoma 的移植時機判斷是同一套邏輯：**年齡、functional status、共病** 決定病人能不能承受移植相關的治療強度與毒性，不是每個確診病人都自動排入移植流程。donor 的選擇（sibling vs unrelated）則進一步受 HLA 配對機率影響。
+跟 AML/lymphoma 的移植時機判斷是同一套邏輯：**年齡、functional status、共病** 決定病人能不能承受移植相關的治療強度與毒性，不是每個確診病人都自動排入移植流程。
+
+**但要特別注意一個容易混淆的地方**：myeloma 標準治療用的是 **autologous transplant（自體移植）**，不是 allogeneic（異體）移植——病人打完誘導治療後，用自己的周邊血幹細胞（經 G-CSF ± plerixafor 動員、apheresis 採集後冷凍保存）接受高劑量 melphalan 化療，再把自己的幹細胞回輸回去，目的是加速骨髓恢復，不是靠新的免疫系統去打疾病。所以標準流程裡**沒有「配對 donor」這件事**。Allogeneic transplant 在 myeloma 只用在特定高風險/多次復發的年輕病人身上，且僅限臨床試驗框架下考慮，因為異體移植伴隨的 GVHD 與治療相關死亡率（TRM）風險高，目前證據沒有一致支持它能帶來優於自體移植的存活效益——回答時不要把 AML 的異體移植邏輯直接套到 myeloma 身上。
 
 ## 套用到實際問法
 
@@ -35,44 +37,55 @@ SLiM-CRAB criteria 常被考生逐字背字母，但真正該記的是背後那�
 **Q: Induction therapy 你會怎麼選、預期反應如何？**
 
 擬答：
-- **講出你會用的 induction regimen**
-  - 說出目前常用的 induction regimen 名稱，讓考官知道你熟悉臨床上實際在用的組合。
-- **講出預期的治療反應**
-  - 講出這個 regimen 大致的 CR rate（完全緩解率）概念，顯示你對治療效果有基本掌握，而不是只知道藥名。
-- <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：只講得出 regimen 名稱、答不出大致的緩解率概念，容易被認為只是背名詞、沒有真正理解治療強度與效果。
+- **目前的標準誘導治療是三合一，近年逐漸走向四合一，不能只講出「有在用某個組合」這種空泛講法**
+  - 三合一標準：**VRd**，也就是 bortezomib + lenalidomide + dexamethasone，是目前最廣泛使用的 induction regimen。
+  - 四合一新標準：在 VRd 基礎上加上 **daratumumab**（anti-CD38 單株抗體），組成 **Dara-VRd**。近年的三期試驗證據（如 GRIFFIN、PERSEUS）顯示加上 daratumumab 可以進一步提高深度反應（VGPR 以上、MRD negativity）的比例，逐漸成為適合移植病人的新標準組合。
+  - 如果病人腎功能不佳、或不適合用 IMiD（如 lenalidomide），可以改用 **VCd**（bortezomib + cyclophosphamide + dexamethasone）作為替代。
+- **預期反應要分層次講，不能只丟一個「CR rate」**
+  - VRd 的整體反應率（ORR，達到 PR 以上）通常在九成以上，達到 VGPR 以上的比例也相當高。
+  - 但誘導治療階段單獨達到 **CR（complete response）** 的比例通常不高（文獻報告大約兩到三成），因為更深的反應（CR、sCR、MRD negativity）多半要到移植／鞏固治療之後才會逐步達成——這是最容易被忽略的細節：不能只講「CR rate 很高」，要講清楚誘導階段跟移植後的反應深度是不同層次的。
+  - 加上 daratumumab 的四合一組合，可以進一步墊高深度反應與 MRD 陰性的比例，這是選擇四合一而非三合一的臨床理由。
+- <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：只答得出「VRd」這個藥名縮寫，卻講不出它是標準三合一、講不出四合一的演進方向（加 daratumumab）、也講不出誘導階段反應深度有限這幾層細節，會被認為只是背了一個縮寫，沒有真正理解治療脈絡。
 
 **Q: 藥物細節——bortezomib（Velcade）你熟嗎？**
 
 擬答：
 - **給法**
-  - 講出 bortezomib（Velcade）在一個治療週期中的給藥方式（週期中哪幾天給藥）。
+  - Bortezomib 現在臨床上優先採用**皮下注射（subcutaneous）**，而不是早期的靜脈注射，因為皮下注射可以顯著降低周邊神經病變的發生率，療效則不打折扣。
+  - 給藥頻率上，現在傾向採用**每週一次**的給法（例如週期中的 day 1、8、15），取代早期的**一週兩次**給法（例如 day 1、4、8、11），因為每週一次在維持療效的同時可以明顯降低周邊神經病變的風險，目前多數含 bortezomib 的 regimen（如 VRd）都採用這種給法。
 - **常見副作用**
-  - 講出 bortezomib 常見的副作用有哪些。
+  - 最具代表性、也是劑量限制性的副作用是**周邊神經病變（peripheral neuropathy）**，以感覺神經病變為主，嚴重時會迫使減量或停藥。
+  - 其他常見副作用包括血小板低下（thrombocytopenia）、腸胃道不適（噁心、腹瀉）、疲憊，以及**帶狀皰疹（herpes zoster）再活化**風險上升——所以用藥期間通常會同時給予 acyclovir 之類的抗病毒藥物做預防。
 - **不同給藥頻率的差異考量**
-  - 講出 weekly 給法與其他給藥頻率之間的差異考量（例如為什麼臨床上會選擇改成 weekly 給法）。
-- <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：只背得出藥名跟「這是 proteasome inhibitor」，答不出實際給法或副作用細節，容易被認為只讀過藥物分類、沒有臨床操作的概念。
+  - 一週兩次的給法療效證據較早、較紮實（早期關鍵三期試驗多採用此給法），但周邊神經病變的發生率與嚴重度也較高。
+  - 一週一次的給法是為了在維持相近療效的前提下，換取病人長期用藥的耐受性跟生活品質，是現在臨床實務上多數 regimen 採用的給法。
+- <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：只答得出「這是 proteasome inhibitor」這個藥物分類，講不出實際給藥途徑（皮下優於靜脈）、給藥頻率的選擇邏輯（每週一次是為了降低神經病變），或講不出周邊神經病變是最具代表性的副作用，會被認為只讀過藥物分類、沒有臨床操作的概念。
 
 **Q: Maintenance therapy，thalidomide 跟 lenalidomide 你怎麼比較？**
 
 擬答：
-- **先講比較的方向，不是只丟一個結論**
-  - Thalidomide 與 lenalidomide 相比，要能講出哪一個藥物的證據等級比較強，並說明支持這個判斷的理由方向。
-  - 這類「兩個藥物的證據等級比較」是常見追問方式，考官要看的是你講不講得出比較邏輯。
-- <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：只講出其中一個藥名當答案，被追問「為什麼」或「證據等級怎麼比」時就答不出來——重點是要能講出比較的方向與理由，不是純粹背誦結論。
+- **先講結論方向：lenalidomide 的證據等級明顯強於 thalidomide，是目前的標準維持治療藥物**
+  - 多個大型隨機對照試驗與統合分析都顯示，移植後使用 lenalidomide 做維持治療可以延長無疾病惡化存活期（PFS），且有研究顯示對整體存活期（OS）也有幫助。
+  - Thalidomide 維持治療雖然也顯示有 PFS 的效益，但整體存活的效益證據不如 lenalidomide 一致，而且 thalidomide 本身**周邊神經病變**的副作用明顯較重，長期使用的耐受性較差。
+- **講出為什麼現在臨床上幾乎都選 lenalidomide 而非 thalidomide**
+  - 兩者副作用型態不同：thalidomide 神經毒性重、致畸胎性強；lenalidomide 神經毒性相對輕，但長期使用需要留意**續發性癌症（second primary malignancy）**風險上升，用藥期間需要長期監測。
+  - 目前的實務共識是：能用 lenalidomide 就優先用 lenalidomide 做維持，thalidomide 多半保留給無法取得或無法耐受 lenalidomide 的病人。
+- <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：只講出「lenalidomide 比較好」這個結論，被追問「為什麼」或「證據等級怎麼比」時答不出 PFS/OS 的比較方向、或講不出兩者副作用型態的差異，會被認為只是背結論、沒有理解背後的證據脈絡。
 
 **Q: 移植相關——哪些病人需要移植、donor 怎麼選、tandem 有沒有比較好？**
 
 擬答：
 - **哪些病人需要移植**
-  - 套用移植適不適合的推理框架：先看年齡、functional status、共病，判斷病人能不能承受移植相關的治療強度與毒性。
+  - 套用移植適不適合的推理框架：先看年齡、functional status、共病，判斷病人能不能承受高劑量 melphalan 化療加上自體幹細胞回輸這套流程的強度與毒性。
   - 不是每個確診病人都自動排入移植流程；除了病人本身條件，還要考慮機構現況與病人意願。
-- **Donor 選擇：sibling vs unrelated**
-  - 講出 sibling donor 與 unrelated donor 的大致比例概念。
-  - 講出哪些病人比較容易找不到 HLA matched donor——donor 的選擇受 HLA 配對機率影響。
-- **Tandem transplant 與 single transplant**
-  - 講出 tandem transplant 與 single transplant 在存活率上是否有差異的目前證據方向。
-  - 這類問題考官通常也知道證據不是非黑即白，重點是要能講出你有沒有概念、能不能講出目前的證據方向，而不是給一個非黑即白的斷言。
-- <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：把移植適應症簡化成「確診 myeloma 就要移植」，忽略年齡、functional status、共病的個別評估，以及機構現況與病人意願這些實務因素。
+- <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> **myeloma 的標準移植是自體移植，沒有「配對 donor」這一步**
+  - 病人的幹細胞來源是自己：先用 induction therapy 把病情控制住，再用 G-CSF（必要時加上 plerixafor）動員周邊血幹細胞、經由 apheresis 採集後冷凍保存，之後接受高劑量 melphalan 化療，再把自己的幹細胞回輸回去加速骨髓恢復。
+  - Allogeneic transplant（真正需要 HLA 配對 donor 的移植）在 myeloma 裡不是標準治療，只在特定高風險或多次復發的年輕病人身上、於臨床試驗框架下考慮，因為異體移植伴隨的 graft-versus-host disease（GVHD）與治療相關死亡率風險高，目前證據沒有一致支持它能帶來優於自體移植的整體存活效益。
+- **Tandem transplant 與 single transplant，指的都是自體移植（tandem = 兩次連續的自體移植）**
+  - 目前證據對「所有病人都做 tandem auto-transplant」沒有一致支持——在未特別篩選的族群中，部分大型試驗（如 STaMINA）沒有看到明確的存活優勢。
+  - 但對特定高風險族群（例如合併 del17p、t(4;14) 等高風險細胞遺傳學特徵，或第一次移植後反應不夠深），部分研究（如 EMN02/HO95）顯示 tandem transplant 可能帶來額外的存活效益。
+  - 這部分證據不是非黑即白，回答時要講出「一般族群證據不一致、但特定高風險族群可能有效益」這個方向，而不是給一句武斷的結論。
+- <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：把「donor 怎麼選」直接套用 AML 異體移植的邏輯來回答 myeloma 的移植問題——這是最容易被抓包的觀念錯誤，myeloma 標準移植是自體、不需要配對 donor；也不要把移植適應症簡化成「確診 myeloma 就要移植」，忽略年齡、functional status、共病的個別評估。
 
 ## 容易被電的點
 

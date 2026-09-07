@@ -36,10 +36,14 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
 **Q3：二線治療怎麼選？**
 
 擬答：
-- **第一步：選常見的二線 regimen，並講出大致的療效數量級**
-  - 要能講出常見二線 regimen 的名字，以及大致的 ORR（overall response rate）數量級。
-- **第二步：同時評估是否要收 stem cell、準備做 auto-PBSCT**
-  - 二線治療階段要主動評估病人是否適合收集 stem cell、準備自體移植（auto-PBSCT），這是二線決策裡不能漏講的一環。
+- **第一步：先判斷復發時間點，這會直接改變二線策略的選擇**
+  - 如果是**早期復發**（一線治療後 12 個月內復發或未達 CR），現在的證據（如 ZUMA-7、TRANSFORM 這類第二線 CAR-T 試驗）支持直接進入 **CAR-T 細胞治療**（如 axi-cel、liso-cel），已經取代傳統「先化療、再移植」的舊路徑，因為這個族群走傳統路徑的預後本來就差。
+  - 如果是**較晚復發**（超過 12 個月），傳統路徑仍然適用：先用挽救性化療（salvage chemotherapy）誘導緩解，再評估自體移植。
+- **第二步（適用於走傳統路徑的病人）：講出實際的挽救性 regimen 名字，不能只說「二線化療」**
+  - 常見挽救性 regimen 包括 **R-ICE**（rituximab + ifosfamide + carboplatin + etoposide）、**R-DHAP**（rituximab + dexamethasone + high-dose cytarabine + cisplatin）、**R-GDP**（rituximab + gemcitabine + dexamethasone + cisplatin）。
+  - 這類挽救性化療的整體反應率（ORR）大約落在六到七成左右，但要能達到足夠深的緩解、順利銜接移植的比例會再打折扣，這是要主動講出來的細節，不能只丟一個籠統的高反應率數字。
+- **第三步：同時評估是否要收 stem cell、準備做 auto-PBSCT**
+  - 走傳統挽救化療路徑的病人，治療階段要主動評估病人是否適合收集 stem cell、準備自體移植（auto-PBSCT），這是二線決策裡不能漏講的一環。
 
 **Q4：三線及以後的治療怎麼選？**
 
@@ -55,8 +59,8 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
 ## 其他常見延伸
 
 - **Follicular lymphoma**
-  - 符合治療指徵時，要能講出一線藥物的選擇。
-  - GELF criteria（判斷何時該啟動治療的標準）建議至少知道大方向即可，不用逐字背誦。
+  - 符合治療指徵時，常見的一線選擇是 **bendamustine + rituximab（BR）**，或 **R-CHOP**（rituximab + cyclophosphamide + doxorubicin + vincristine + prednisone），依病人年紀、共病、腫瘤負荷（tumor bulk）決定選哪一種；BR 的血液學毒性通常較輕，是許多病人的優先選擇。
+  - GELF criteria（判斷何時該啟動治療的標準，例如腫瘤體積大、多處淋巴結腫大、有全身症狀、血球低下等）建議至少知道大方向即可，不用逐字背誦——核心概念是「腫瘤負荷夠大或病人有症狀，才啟動治療；否則採取 watch and wait」。
 - **Lymphoma 做移植的時機**
   - 不同機構的實務做法差異很大：有些機構偏向提早做移植，有些則是打到藥物選項用盡才做。
   - 考官通常是想了解你對「機構間做法沒有絕對對錯」這件事有沒有概念，而不是在考單一標準答案，回答時不需要堅持某一種做法才是唯一正確解。
