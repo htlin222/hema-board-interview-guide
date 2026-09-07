@@ -16,19 +16,35 @@ sidebar:
 
 ## AML
 
-- 決策點：哪些病人適合 intensive chemotherapy、哪些病人要轉向移植。
-- 常見追問「t(9;22) transform 成 AML 常不常見」——這是個容易答反的陷阱：**BCR-ABL1 陽性的急性白血病中，ALL 遠比 AML 常見**，Philadelphia chromosome 本身最典型對應的其實是 CML 慢性期。
+- **決策點：哪些病人適合 intensive chemotherapy、哪些病人要轉向移植**
+  - 這個判斷要套用框架裡「風險分層決定治療強度」的邏輯：年輕、體能狀況好（performance status 佳），且細胞遺傳學／分子分層屬於 favorable 或至少可以耐受高強度治療的病人，傾向走 intensive chemotherapy，甚至要提早評估是否轉向 allogeneic transplant。
+  - 年紀大、共病多、體能差，或風險分層屬於不利族群的病人，則傾向 less intensive 的治療路徑，而不是硬上高強度化療。
+  - 回答這題時，要主動講出「先確認診斷、再風險分層、才決定治療強度」這一整套骨架，不能只丟「這個病人該不該化療」的結論，要讓口試官看到你的判斷邏輯是怎麼一步步推出來的。
+- **常見追問：「t(9;22) transform 成 AML 常不常見」——容易答反的陷阱題**
+  - ⚠️ 直覺容易覺得 t(9;22)／BCR-ABL1 陽性應該常見於 AML，但事實剛好相反：**BCR-ABL1 陽性的急性白血病中，ALL 遠比 AML 常見**。
+  - 正確結論：Philadelphia chromosome（t(9;22)／BCR-ABL1）本身最典型對應的疾病其實是 **CML 慢性期**，不是 AML；被問到這題時，要先把這個對應關係講清楚，再回答 transform 成 AML 的相對機率，順序不能顛倒。
 
 ## MDS
 
-- 典型案例呈現方式：先給一次貧血合併輕微 dysplasia、blast 比例不高的骨髓報告，過一段時間再給第二次追蹤報告顯示 blast 比例明顯上升——目的是考你會不會注意到**疾病演進**而不是只看單一時間點的靜態分層。
-- 要能講出 IPSS risk score 怎麼估、對應的處置方向（best supportive care、clinical trial、hypomethylating agent 等）。
-- 常見延伸提問：hypomethylating agent（如 azacitidine）的作用機轉、為什麼對 MDS 有效；特定染色體異常（如 del(5q)）在本地病人中常不常見。
+- **典型案例呈現方式：兩次骨髓報告的「疾病演進」設計**
+  - 口試官通常會先給一次貧血合併輕微 dysplasia、blast 比例不高的骨髓報告。
+  - 過一段時間，再給第二次追蹤報告，顯示 blast 比例明顯上升。
+  - 這個設計的目的是考你會不會注意到**疾病演進**，而不是只看單一時間點的靜態分層；回答時要主動指出「這兩次報告要放在一起看、比較 blast 比例的變化趨勢」，而不是只針對第一次報告的靜態數字就下結論結案。
+- **要能講出 IPSS risk score 怎麼估、對應的處置方向**
+  - 依 IPSS risk score 估出來的風險分層，會對應到不同的處置強度：分層低的傾向 best supportive care 或考慮 clinical trial；分層較高、需要積極介入的則會用到 hypomethylating agent 等治療。
+  - 講的時候要把「分層」跟「處置方向」明確配對講出來，不能只背分層公式而講不出後續要怎麼處理。
+- **常見延伸提問**
+  - hypomethylating agent（例如 azacitidine）的作用機轉、以及為什麼對 MDS 有效，要能講出來。
+  - 也可能被問到特定染色體異常（例如 del(5q)）在本地病人中常不常見，要有心理準備回答盛行率相關的問題。
 
 ## CML
 
-- TKI 治療策略：一線藥物選擇、不同藥物（如 imatinib、dasatinib、nilotinib）的副作用比較、後續停藥策略（treatment-free remission）的條件。
-- CML 的 milestone 監測時程（分子學反應的時間點）建議整理成一張表背熟，這是常見的追問細節——這是 CML 取代「風險分層決定強度」的那一步，本質上仍是框架裡「持續評估、依結果調整」的同一種邏輯，只是換成監測分子反應而非骨髓型態。
+- **TKI 治療策略**
+  - 一線藥物選擇要能講出來，並比較不同 TKI（如 imatinib、dasatinib、nilotinib）之間的副作用差異，這是最常被追問的細節。
+  - 也要能講後續的停藥策略，也就是 treatment-free remission 的條件是什麼——這代表病人在深度且持續的分子學反應下，有機會嘗試停藥並持續監測。
+- **CML 的 milestone 監測時程**
+  - 分子學反應（molecular response）在不同時間點該達到的監測目標，建議整理成一張表背熟，這是口試現場常見的追問細節。
+  - 這一步是 CML 取代「風險分層決定治療強度」的那個位置——CML 幾乎所有病人一律先用 TKI，不靠分層決定要不要治療；本質上仍是框架裡「持續評估、依結果調整」的同一種邏輯，只是評估的對象換成監測分子反應，而不是骨髓型態或細胞遺傳學分層。
 
 ## 容易被電的點
 

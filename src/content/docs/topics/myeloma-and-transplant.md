@@ -21,14 +21,58 @@ SLiM-CRAB criteria 常被考生逐字背字母，但真正該記的是背後那�
 
 ## 套用到實際問法
 
-- **Smoldering MM**：套框架，判斷有沒有 CRAB（傷害已發生）或 SLiM（傷害即將發生）的替代指標，決定要不要從觀察轉為治療。
-- **Induction therapy**：常用 regimen、大致的 CR rate。
-- **藥物細節**：例如 bortezomib（Velcade）的給法（週期中哪幾天給藥）、常見副作用，以及不同給藥頻率（如 weekly 給法）之間的差異考量。
-- **Maintenance therapy**：thalidomide 與 lenalidomide 相比，哪一個有比較強的證據支持——這類「兩個藥物的證據等級比較」是常見追問方式，回答時要能講出比較的方向（不只是背結論）。
-- **移植相關**：
-  - 哪些病人需要移植：套框架——年齡、functional status、共病決定能否承受移植強度，再考慮機構現況與病人意願。
-  - Sibling vs unrelated donor 的比例、哪些病人比較容易找不到 HLA matched donor。
-  - Tandem transplant 與 single transplant 的存活率是否有差異——這類問題考官通常也知道證據不是非黑即白，重點是你有沒有概念、能不能講出目前的證據方向。
+**Q: Smoldering MM 病人，你怎麼判斷要不要開始治療？**
+
+擬答：
+- **第一步：找有沒有 CRAB（傷害已發生）**
+  - 逐一檢視是否已經出現 end-organ damage 的直接證據：高血鈣、腎功能惡化、貧血、骨病灶（CRAB）。
+  - 只要符合任一項 CRAB，就代表傷害已經發生，應該開始治療，不能再觀察。
+- **第二步：沒有 CRAB 時，再看有沒有 SLiM（傷害即將發生）**
+  - 檢查骨髓漿細胞比例是否極高、free light chain ratio 是否極端、MRI 是否看到 focal lesion。
+  - 符合 SLiM 任一項，代表傷害即將發生、屬於極高風險族群，同樣要從觀察轉為治療，不是等到真的出現 CRAB 才處理。
+- ⚠️ 常見陷阱：把 SLiM-CRAB 逐字背成字母表，被追問「為什麼」時講不出判斷邏輯——真正該講出來的是「有沒有已發生或即將發生的 end-organ damage」這句原則，而不是死記縮寫。
+
+**Q: Induction therapy 你會怎麼選、預期反應如何？**
+
+擬答：
+- **講出你會用的 induction regimen**
+  - 說出目前常用的 induction regimen 名稱，讓考官知道你熟悉臨床上實際在用的組合。
+- **講出預期的治療反應**
+  - 講出這個 regimen 大致的 CR rate（完全緩解率）概念，顯示你對治療效果有基本掌握，而不是只知道藥名。
+- ⚠️ 常見陷阱：只講得出 regimen 名稱、答不出大致的緩解率概念，容易被認為只是背名詞、沒有真正理解治療強度與效果。
+
+**Q: 藥物細節——bortezomib（Velcade）你熟嗎？**
+
+擬答：
+- **給法**
+  - 講出 bortezomib（Velcade）在一個治療週期中的給藥方式（週期中哪幾天給藥）。
+- **常見副作用**
+  - 講出 bortezomib 常見的副作用有哪些。
+- **不同給藥頻率的差異考量**
+  - 講出 weekly 給法與其他給藥頻率之間的差異考量（例如為什麼臨床上會選擇改成 weekly 給法）。
+- ⚠️ 常見陷阱：只背得出藥名跟「這是 proteasome inhibitor」，答不出實際給法或副作用細節，容易被認為只讀過藥物分類、沒有臨床操作的概念。
+
+**Q: Maintenance therapy，thalidomide 跟 lenalidomide 你怎麼比較？**
+
+擬答：
+- **先講比較的方向，不是只丟一個結論**
+  - Thalidomide 與 lenalidomide 相比，要能講出哪一個藥物的證據等級比較強，並說明支持這個判斷的理由方向。
+  - 這類「兩個藥物的證據等級比較」是常見追問方式，考官要看的是你講不講得出比較邏輯。
+- ⚠️ 常見陷阱：只講出其中一個藥名當答案，被追問「為什麼」或「證據等級怎麼比」時就答不出來——重點是要能講出比較的方向與理由，不是純粹背誦結論。
+
+**Q: 移植相關——哪些病人需要移植、donor 怎麼選、tandem 有沒有比較好？**
+
+擬答：
+- **哪些病人需要移植**
+  - 套用移植適不適合的推理框架：先看年齡、functional status、共病，判斷病人能不能承受移植相關的治療強度與毒性。
+  - 不是每個確診病人都自動排入移植流程；除了病人本身條件，還要考慮機構現況與病人意願。
+- **Donor 選擇：sibling vs unrelated**
+  - 講出 sibling donor 與 unrelated donor 的大致比例概念。
+  - 講出哪些病人比較容易找不到 HLA matched donor——donor 的選擇受 HLA 配對機率影響。
+- **Tandem transplant 與 single transplant**
+  - 講出 tandem transplant 與 single transplant 在存活率上是否有差異的目前證據方向。
+  - 這類問題考官通常也知道證據不是非黑即白，重點是要能講出你有沒有概念、能不能講出目前的證據方向，而不是給一個非黑即白的斷言。
+- ⚠️ 常見陷阱：把移植適應症簡化成「確診 myeloma 就要移植」，忽略年齡、functional status、共病的個別評估，以及機構現況與病人意願這些實務因素。
 
 ## 容易被電的點
 

@@ -25,26 +25,71 @@ IDA 落在「microcytic + hypoproliferative」這一格，於是下一步自然�
 
 ## 套用到實際問法
 
-1. **門診健檢發現 mild anemia、ferritin 偏低，你怎麼 approach？**
-   - 依上面框架：先看 MCV 確認 microcytic，確診用 ferritin（<15–30 ng/mL 高度支持，發炎狀態下切點上修，可搭配 TSAT/TIBC），**再往回找 source**——病史問飲食、GI 症狀、月經量、慢性失血警訊；理學檢查看蒼白、匙狀甲、舌炎。
+**Q: 門診健檢發現 mild anemia、ferritin 偏低，你怎麼 approach？**
 
-2. **怎麼知道病人是不是月經過多（hypermenorrhea）？**
-   - 定義為單次月經失血量 >80 mL，臨床上以衛生棉/棉條使用頻率（如每小時要換、合併血塊）、經期天數 >7 天間接評估，或用 PBAC（Pictorial Blood Assessment Chart）問卷輔助。
+擬答：
+- **第一步：確認是不是 microcytic anemia**
+  - 先看 CBC 的 MCV，確認是不是 microcytic anemia，MCV 偏低會傾向缺鐵這個方向。
+- **第二步：抽 ferritin 確診**
+  - Ferritin < 15–30 ng/mL 高度支持缺鐵性貧血的診斷。
+  - ⚠️ Ferritin 是 acute phase reactant，如果病人合併發炎狀態，切點要往上修，最好搭配 TSAT、TIBC 一起判讀，不然發炎會把 ferritin 撐高、掩蓋掉真正的缺鐵狀態。
+- **第三步：確診後一定要往回找原因，不能直接補鐵結案**
+  - 病史要主動問飲食習慣、有沒有 GI 症狀、月經量多寡、有沒有慢性失血的警訊。
+  - 理學檢查要看有沒有蒼白、匙狀甲（koilonychia）、舌炎（glossitis）這些缺鐵相關的徵象。
 
-3. **鐵劑要怎麼給？口服還是 IV？**
-   - 口服為一線（ferrous sulfate/fumarate/gluconate，空腹或配 vit C 吸收較好，副作用腸胃不適/便秘/黑便）。
-   - 改 IV 時機：口服不耐受、吸收不良（IBD、胃繞道術後）、需快速補充（術前）、失血速度超過口服補充速度。
-   - 台灣常用 IV 鐵劑（iron sucrose、ferric carboxymaltose）依仿單/體重表給藥，Ganzoni equation 鮮少真的手算。
+**Q: 怎麼知道病人是不是月經過多（hypermenorrhea）？**
 
-4. **要治療多久？治療到什麼程度才能停？**
-   - 口服 3–4 週後 Hb 應開始上升（約每週 1 g/dL）；Hb 恢復正常後**再持續補 3 個月**補滿鐵儲存（ferritin 回到正常範圍）。
+擬答：
+- **先講定義**
+  - 月經過多的定義是單次月經失血量超過 80 mL。
+- **臨床上失血量很難直接測量，改用間接指標評估**
+  - 問衛生棉或棉條的使用頻率，例如是不是每小時就要更換一次、有沒有合併大血塊。
+  - 問經期天數，如果經期持續超過 7 天也支持月經過多的診斷。
+  - 可以用 PBAC（Pictorial Blood Assessment Chart）問卷輔助做半定量的評估。
 
-5. **治療一段時間 Hb 沒有回升，要考慮什麼？**
-   - 用框架反推：不是「retic 沒反應」就是「source 沒斷」——(a) 順從性不佳、(b) 失血來源未被處理、(c) 吸收不良（未診斷 celiac、H. pylori、IBD）、(d) 診斷有誤或合併其他貧血（thalassemia、ACD、B12/folate 缺乏）。
+**Q: 鐵劑要怎麼給？口服還是 IV？**
 
-6. **這份 Hb electrophoresis 報告能不能排除 thalassemia？**
-   - 不完全能。Electrophoresis 正常**無法排除 alpha-thalassemia trait**（HbA2/HbF 比例在 alpha-thal minor 通常正常），高度懷疑時（家族史、MCV 過低不成比例）要加驗基因。
-   - 若病人同時有 IDA，鐵缺乏本身會使 HbA2 假性降低，可能掩蓋 beta-thalassemia trait，需治療 IDA 後重驗。
+擬答：
+- **第一線是口服鐵劑**
+  - 常用藥物包括 ferrous sulfate、ferrous fumarate、ferrous gluconate。
+  - 空腹服用或搭配維生素 C 一起吃，可以增加吸收效率。
+  - 常見副作用是腸胃不適、便秘、解黑便，要事先跟病人說明，避免病人自行停藥。
+- **改成 IV 鐵劑的時機**
+  - 病人對口服鐵劑不耐受，副作用太大沒辦法繼續吃。
+  - 病人有吸收不良的狀況，例如 IBD 或胃繞道手術後。
+  - 需要快速補充鐵，例如手術前時間不夠等口服慢慢補。
+  - 失血的速度超過口服補充能追上的速度。
+- **台灣臨床實務上的給法**
+  - 常用的 IV 鐵劑包括 iron sucrose、ferric carboxymaltose，依照仿單或體重對照表給藥。
+  - ⚠️ Ganzoni equation 是用來計算總鐵缺乏量的公式，但臨床上很少真的手算，背不出來不用慌，誠實說明依仿單/體重表操作的臨床實務做法即可。
+
+**Q: 要治療多久？治療到什麼程度才能停？**
+
+擬答：
+- **先看治療反應**
+  - 口服補鐵大約 3–4 週後 Hb 應該要開始上升，速度大概是每週上升 1 g/dL。
+- **再看治療終點**
+  - Hb 恢復正常後不能馬上停藥，要再持續補鐵 3 個月，把體內的鐵儲存補滿。
+  - 判斷是否可以停藥的依據是 ferritin 有沒有回到正常範圍，而不是只看 Hb 正常就結案。
+
+**Q: 治療一段時間 Hb 沒有回升，要考慮什麼？**
+
+擬答：
+- **用推理架構反推：Hb 沒起色，代表不是「骨髓做不出來」就是「source 沒斷」**
+  - 順從性不佳：病人沒有按時服藥，或因為副作用自行減量、停藥。
+  - 失血來源沒有被真正處理：原本找到的出血點（例如月經過多、GI 病灶）沒有被治療或處置，持續在流失鐵。
+  - 有吸收不良的狀況但還沒被診斷出來：例如未診斷的 celiac disease、H. pylori 感染、IBD，都會影響鐵的吸收。
+  - 診斷本身有誤，或合併其他型態的貧血：例如同時有 thalassemia、anemia of chronic disease（ACD）、或 B12/folate 缺乏，補鐵當然沒效。
+
+**Q: 這份 Hb electrophoresis 報告能不能排除 thalassemia？**
+
+擬答：
+- **不完全能排除**
+  - Electrophoresis 正常無法排除 alpha-thalassemia trait，因為 alpha-thal minor 病人的 HbA2/HbF 比例通常仍落在正常範圍內。
+  - ⚠️ 如果臨床上高度懷疑（有家族史、或 MCV 低得跟貧血程度不成比例），要加驗基因檢測才能真正確認或排除。
+- **合併 IDA 時要特別注意交互影響**
+  - 鐵缺乏本身會讓 HbA2 假性降低，可能掩蓋掉真正存在的 beta-thalassemia trait。
+  - 正確做法是先把 IDA 治療好、鐵補足之後，再重驗一次 Hb electrophoresis 才會準確。
 
 ## 容易被電的點
 
