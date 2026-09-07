@@ -6,7 +6,7 @@ sidebar:
 
 急診情境題的固定班底，起手式幾乎都是同一個套路：年輕（或中年）女性、貧血合併血小板低下。**這類題目考官刻意不會一開始就讓你鎖定單一診斷**，用下面這張分流圖，看到「貧血+thrombocytopenia」就能自己把病人分到對的分支，而不是憑第一印象猜診斷。
 
-## 🧭 推理架構：貧血 + thrombocytopenia，一張分流圖走到底
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg> 推理架構：貧血 + thrombocytopenia，一張分流圖走到底
 
 **第一步永遠是問：有沒有 hemolysis 的證據？**（LDH↑、indirect bilirubin↑、haptoglobin↓、reticulocyte↑）
 
@@ -38,7 +38,7 @@ sidebar:
 - **具體會列出三個一定要講的診斷：TTP、ITP、Evans syndrome。**
   - 這三個診斷分別對應框架分流圖上不同的分支，一次講出來是在向考官展示我有完整的分流概念，而不是只知道一個病名。
   - 如果病史有提到惡性腫瘤（尤其乳癌）的病史，我會再加上 tumor infiltration（骨髓被腫瘤細胞佔據）這個鑑別，因為這是框架裡另外一條獨立分支。
-  - ⚠️ 常見陷阱：只鎖定一個看起來最像的診斷（通常是 TTP）就往下鑽，沒有先把鑑別診斷清單一次列完，這樣會讓考官覺得我是用背的、不是用框架推理。
+  - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：只鎖定一個看起來最像的診斷（通常是 TTP）就往下鑽，沒有先把鑑別診斷清單一次列完，這樣會讓考官覺得我是用背的、不是用框架推理。
 
 **3. TMA vs Evans syndrome 的區辨**：兩者都有 hemolysis + thrombocytopenia，差別在**有沒有破碎紅血球**——這是框架第二步的核心判斷點，考官常直接問「哪一個 LDH 通常比較高」這類鑑別要點來確認你有沒有真的分清楚。
 
@@ -47,7 +47,7 @@ sidebar:
 - **真正的區辨點是抹片上有沒有破碎紅血球（schistocytes），這是框架第二步的核心判斷。**
   - 有破碎紅血球，屬於 MAHA pattern，走向 TMA family，要一次條列 TTP、HUS、DIC、malignant hypertension、drug-induced TMA，不只鎖一個往下鑽。
   - 沒有破碎紅血球，但看到 NRBC 增加、spherocytes、或 Coombs test 陽性，代表同時存在 immune hemolysis 跟 immune thrombocytopenia，走向 Evans syndrome。
-  - ⚠️ 常見陷阱：考官常會直接問「哪一個的 LDH 通常比較高」這類細節鑑別題，用來確認我是不是真的分清楚兩者的機轉差異，不能只回答「兩個都會 hemolysis」就交代過去。
+  - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：考官常會直接問「哪一個的 LDH 通常比較高」這類細節鑑別題，用來確認我是不是真的分清楚兩者的機轉差異，不能只回答「兩個都會 hemolysis」就交代過去。
 
 **4. 確診 TTP**
 
@@ -56,7 +56,7 @@ sidebar:
   - 診斷切點要記得是 <10% 這個數量級，這代表 ADAMTS13 嚴重缺乏。
 - **治療：核心治療是 plasma exchange（PEX），但我不會只回答 PEX 就結束。**
   - 考官常會追問「除了 PEX 還要加什麼」，我會主動講出合併使用 steroid，這是常被漏講的追加治療。
-  - ⚠️ 常見陷阱：只答出 PEX 就停住，沒有主動補上 steroid 這個常被追問的重點。
+  - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：只答出 PEX 就停住，沒有主動補上 steroid 這個常被追問的重點。
   - 如果病人對治療反應慢，我要能講出評估治療反應的方式（例如追蹤血小板數目有沒有回升、LDH 有沒有下降趨勢），而不是只會執行 PEX 卻講不出怎麼判斷有沒有效。
 
 **5. Evans syndrome 的判斷線索**：血小板低下合併貧血，但抹片看不太到血小板、又看到 NRBC——套框架第一步分支：這種「有 hemolysis 證據但沒有破碎紅血球」的組合是在暗示 Evans syndrome（同時有 autoimmune hemolysis + immune thrombocytopenia），而不是單純 ITP。
@@ -65,7 +65,7 @@ sidebar:
 - **題目給的線索是血小板低下合併貧血，抹片上血小板數量明顯偏少、又看到 NRBC 增加。**
 - **我會套框架第一步分支去判讀：這是「有 hemolysis 證據，但沒有破碎紅血球」的組合。**
   - 這個組合暗示的是 Evans syndrome，也就是 autoimmune hemolysis 加上 immune thrombocytopenia 同時存在，而不是單純 ITP。
-  - ⚠️ 常見陷阱：不能因為血小板低就直接診斷單純 ITP，一定要先確認有沒有合併 hemolysis 的證據（貧血、NRBC 增加等），才能排除 Evans syndrome。
+  - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：不能因為血小板低就直接診斷單純 ITP，一定要先確認有沒有合併 hemolysis 的證據（貧血、NRBC 增加等），才能排除 Evans syndrome。
 
 **6. 如果情境是骨髓轉移癌**：leukoerythroblastic picture（PB 看到 immature myeloid + nucleated RBC）合併 cytopenia，套框架的獨立分支，聯想到 malignancy（尤其乳癌）骨髓侵犯。
 
@@ -82,7 +82,7 @@ sidebar:
   - Metastatic cancer（骨髓轉移癌）。
   - HLH。
   - AIHA。
-- ⚠️ 常見陷阱：只講出最容易聯想到的 metastatic cancer 就停下來，沒有把 MDS、HLH、AIHA 這些次要但同樣重要的鑑別診斷一併列出。
+- <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：只講出最容易聯想到的 metastatic cancer 就停下來，沒有把 MDS、HLH、AIHA 這些次要但同樣重要的鑑別診斷一併列出。
 
 ## 容易被電的點
 

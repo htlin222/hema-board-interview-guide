@@ -6,7 +6,7 @@ sidebar:
 
 這三個診斷考的重點都不是型態學（那是跑台的範圍），而是**診斷後的決策流程**。三者都套 [lymphoma 篇](/hema-board-interview-guide/topics/lymphoma-treatment-lines/) 提過的「先分期/分層、再決定治療強度」骨架，只是分層工具跟後續路徑不同。
 
-## 🧭 推理架構：急性骨髓疾病的共通決策順序
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg> 推理架構：急性骨髓疾病的共通決策順序
 
 1. **確認診斷**：臨床表現 → 骨髓檢查 → flow cytometry → cytogenetics／基因突變檢測。
 2. **風險分層**：依 favorable／intermediate／high risk 分層——這一步決定接下來要多積極。
@@ -21,7 +21,7 @@ sidebar:
   - 年紀大、共病多、體能差，或風險分層屬於不利族群的病人，則傾向 less intensive 的治療路徑，而不是硬上高強度化療。
   - 回答這題時，要主動講出「先確認診斷、再風險分層、才決定治療強度」這一整套骨架，不能只丟「這個病人該不該化療」的結論，要讓口試官看到你的判斷邏輯是怎麼一步步推出來的。
 - **常見追問：「t(9;22) transform 成 AML 常不常見」——容易答反的陷阱題**
-  - ⚠️ 直覺容易覺得 t(9;22)／BCR-ABL1 陽性應該常見於 AML，但事實剛好相反：**BCR-ABL1 陽性的急性白血病中，ALL 遠比 AML 常見**。
+  - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 直覺容易覺得 t(9;22)／BCR-ABL1 陽性應該常見於 AML，但事實剛好相反：**BCR-ABL1 陽性的急性白血病中，ALL 遠比 AML 常見**。
   - 正確結論：Philadelphia chromosome（t(9;22)／BCR-ABL1）本身最典型對應的疾病其實是 **CML 慢性期**，不是 AML；被問到這題時，要先把這個對應關係講清楚，再回答 transform 成 AML 的相對機率，順序不能顛倒。
 
 ## MDS

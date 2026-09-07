@@ -6,7 +6,7 @@ sidebar:
 
 Malignancy 部分的口試重點不是背分類系統，而是**能不能把治療流程從頭到尾講一遍，並解釋每個決策點為什麼這樣選**。下面這個「四層決策骨架」不是 lymphoma 專屬，[myeloma](/hema-board-interview-guide/topics/myeloma-and-transplant/) 和 [AML/MDS/CML](/hema-board-interview-guide/topics/aml-mds-cml/) 的治療線問題都套同一套骨架。
 
-## 🧭 推理架構：任何 malignancy 治療決策的四層骨架
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg> 推理架構：任何 malignancy 治療決策的四層骨架
 
 1. **診斷/分期先確認**：分期、風險分數（如 lymphoma 的 IPI）決定起手治療強度，這一層做錯後面全部推翻。
 2. **一線治療依風險分層選**：不是所有病人打同一種藥，依分層結果選對應強度的 regimen。
@@ -20,7 +20,7 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
 擬答：
 - **第一步：用分期和 IPI risk score 決定起手治療強度**
   - 分期、IPI score 是決定一線治療強度的依據，不是所有病人都打同一種 regimen，要依風險分層結果選對應強度的方案（套框架第一、二層）。
-  - ⚠️ 常見陷阱：題目給的分期若刻意設定成「分數不高、分期不晚」的組合，這通常不是單純在考分期判讀，而是在替後面「治療反應不理想」的橋段鋪陷阱，要留意後續劇情是否出現分數與臨床表現不相符的轉折。
+  - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：題目給的分期若刻意設定成「分數不高、分期不晚」的組合，這通常不是單純在考分期判讀，而是在替後面「治療反應不理想」的橋段鋪陷阱，要留意後續劇情是否出現分數與臨床表現不相符的轉折。
 
 **Q2：一線治療效果不理想（PR，未達 CR）時怎麼辦？**
 
@@ -31,7 +31,7 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
   - 要主動講出來：補做 FISH 排除 double/triple-hit lymphoma。
 - **第二步：釐清目前反應狀態在治療決策上的意義**
   - 目前是 PR（未達 CR），在治療決策上通常視為 refractory disease 來處理。
-  - ⚠️ 常見陷阱：治療反應不理想時直接跳去換藥，沒有先套框架第三層想到「診斷本身可能需要重新確認」，這是考官最愛電人的點。
+  - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：治療反應不理想時直接跳去換藥，沒有先套框架第三層想到「診斷本身可能需要重新確認」，這是考官最愛電人的點。
 
 **Q3：二線治療怎麼選？**
 

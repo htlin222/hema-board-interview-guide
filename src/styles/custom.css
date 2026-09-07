@@ -1,0 +1,19 @@
+.icon-inline {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	vertical-align: -0.15em;
+	margin-right: 0.35em;
+	flex-shrink: 0;
+}
+
+:root {
+	--icon-warning-color: #b45309;
+}
+:root[data-theme='dark'] {
+	--icon-warning-color: #fbbf24;
+}
+
+.icon-warning {
+	color: var(--icon-warning-color);
+}

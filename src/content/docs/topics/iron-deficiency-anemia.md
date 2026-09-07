@@ -6,7 +6,7 @@ sidebar:
 
 歷屆最常出現的門診題之一，屬於「基本題但常被電」的類型。**這題真正在考的不是「IDA 怎麼治療」，而是「看到 anemia 你的思考順序是什麼」**——把下面這個框架練熟，任何 anemia 案例題都能照同一套邏輯走，不用個別背。
 
-## 🧭 推理架構：看到任何 anemia，先問三個問題
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg> 推理架構：看到任何 anemia，先問三個問題
 
 這是可以套用在**所有** anemia 案例題的公版起手式，不只是 IDA：
 
@@ -16,7 +16,7 @@ sidebar:
 
 IDA 落在「microcytic + hypoproliferative」這一格，於是下一步自然是驗 iron study 去跟同一格裡的 thalassemia、anemia of chronic disease 做鑑別——**這一步不用背，是從框架自然推出來的**。
 
-## 🧭 核心邏輯：IDA 不是診斷終點，是一個訊號
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg> 核心邏輯：IDA 不是診斷終點，是一個訊號
 
 **這是整個主題最容易被電的觀念**：IDA 幾乎從不是「原發病」，它是身體在告訴你「鐵流失或吸收出了問題」。所以確診 IDA 之後，考官真正想聽到的下一句話永遠是「那我要去找為什麼」，而不是直接跳到補鐵劑量。找的方向依人口學分流：
 
@@ -32,7 +32,7 @@ IDA 落在「microcytic + hypoproliferative」這一格，於是下一步自然�
   - 先看 CBC 的 MCV，確認是不是 microcytic anemia，MCV 偏低會傾向缺鐵這個方向。
 - **第二步：抽 ferritin 確診**
   - Ferritin < 15–30 ng/mL 高度支持缺鐵性貧血的診斷。
-  - ⚠️ Ferritin 是 acute phase reactant，如果病人合併發炎狀態，切點要往上修，最好搭配 TSAT、TIBC 一起判讀，不然發炎會把 ferritin 撐高、掩蓋掉真正的缺鐵狀態。
+  - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> Ferritin 是 acute phase reactant，如果病人合併發炎狀態，切點要往上修，最好搭配 TSAT、TIBC 一起判讀，不然發炎會把 ferritin 撐高、掩蓋掉真正的缺鐵狀態。
 - **第三步：確診後一定要往回找原因，不能直接補鐵結案**
   - 病史要主動問飲食習慣、有沒有 GI 症狀、月經量多寡、有沒有慢性失血的警訊。
   - 理學檢查要看有沒有蒼白、匙狀甲（koilonychia）、舌炎（glossitis）這些缺鐵相關的徵象。
@@ -61,7 +61,7 @@ IDA 落在「microcytic + hypoproliferative」這一格，於是下一步自然�
   - 失血的速度超過口服補充能追上的速度。
 - **台灣臨床實務上的給法**
   - 常用的 IV 鐵劑包括 iron sucrose、ferric carboxymaltose，依照仿單或體重對照表給藥。
-  - ⚠️ Ganzoni equation 是用來計算總鐵缺乏量的公式，但臨床上很少真的手算，背不出來不用慌，誠實說明依仿單/體重表操作的臨床實務做法即可。
+  - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> Ganzoni equation 是用來計算總鐵缺乏量的公式，但臨床上很少真的手算，背不出來不用慌，誠實說明依仿單/體重表操作的臨床實務做法即可。
 
 **Q: 要治療多久？治療到什麼程度才能停？**
 
@@ -86,7 +86,7 @@ IDA 落在「microcytic + hypoproliferative」這一格，於是下一步自然�
 擬答：
 - **不完全能排除**
   - Electrophoresis 正常無法排除 alpha-thalassemia trait，因為 alpha-thal minor 病人的 HbA2/HbF 比例通常仍落在正常範圍內。
-  - ⚠️ 如果臨床上高度懷疑（有家族史、或 MCV 低得跟貧血程度不成比例），要加驗基因檢測才能真正確認或排除。
+  - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 如果臨床上高度懷疑（有家族史、或 MCV 低得跟貧血程度不成比例），要加驗基因檢測才能真正確認或排除。
 - **合併 IDA 時要特別注意交互影響**
   - 鐵缺乏本身會讓 HbA2 假性降低，可能掩蓋掉真正存在的 beta-thalassemia trait。
   - 正確做法是先把 IDA 治療好、鐵補足之後，再重驗一次 Hb electrophoresis 才會準確。

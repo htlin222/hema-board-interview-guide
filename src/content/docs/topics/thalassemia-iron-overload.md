@@ -6,7 +6,7 @@ sidebar:
 
 常與 IDA 題組出現在同一個案例的延伸，也會單獨以年輕女性 microcytic anemia 情境出現。這裡有三個可重複套用的推理框架，練熟以後不管案例怎麼變化題目都能自己推。
 
-## 🧭 框架一：microcytic anemia 怎麼分 IDA vs thalassemia trait
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg> 框架一：microcytic anemia 怎麼分 IDA vs thalassemia trait
 
 延續 [IDA 篇](/hema-board-interview-guide/topics/iron-deficiency-anemia/) 的「MCV 分類」起手式，落在 microcytic 這一格之後：
 
@@ -14,7 +14,7 @@ sidebar:
 - 確認：ferritin（排除/確認合併 IDA）+ Hb electrophoresis（看 HbA2、HbF 比例）。
 - **electrophoresis 的盲點**：正常結果**不能排除 alpha-thalassemia trait**（HbA2/HbF 在 alpha-thal minor 通常正常），高度懷疑時要加驗基因。
 
-## 🧭 框架二：沒輸血的病人為什麼還會 iron overload
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg> 框架二：沒輸血的病人為什麼還會 iron overload
 
 **核心邏輯只有一句話：人體沒有主動排鐵機制，鐵只會累積不會主動排出**。所以任何 iron overload 案例，病因永遠二選一，考官問「為什麼」時就是要你講出這個分岔：
 
@@ -23,7 +23,7 @@ sidebar:
 
 分清楚是哪一型，直接決定後續處置方向是「減少輸血依賴」還是「腸道端介入／及早 chelation」。
 
-## 🧭 框架三：iron overload 侵犯器官的順序，用「儲存優先度」和「耗氧敏感度」去推
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg> 框架三：iron overload 侵犯器官的順序，用「儲存優先度」和「耗氧敏感度」去推
 
 不用死背「肝→心→內分泌」這個順序，用邏輯推：
 
@@ -45,7 +45,7 @@ sidebar:
      - 抽 ferritin，用來排除或確認病人是否合併 IDA，因為 thalassemia trait 病人仍可能同時缺鐵。
      - 送 Hb electrophoresis，看 HbA2、HbF 比例，beta-thalassemia trait 典型會看到 HbA2 上升。
    - **第三步：electrophoresis 結果正常時不能就此排除診斷**
-     - ⚠️ 常見陷阱：alpha-thalassemia trait（alpha-thal minor）病人的 HbA2/HbF 比例通常正常，electrophoresis 報告「正常」容易被誤判為已經排除 thalassemia。
+     - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：alpha-thalassemia trait（alpha-thal minor）病人的 HbA2/HbF 比例通常正常，electrophoresis 報告「正常」容易被誤判為已經排除 thalassemia。
      - 若臨床仍高度懷疑（家族史強、electrophoresis 正常但 microcytosis 明顯），要進一步加驗基因檢測（alpha-globin gene study）才能確診。
 
 2. **確診 thalassemia（trait 或 intermedia）之後怎麼處置？**
@@ -56,7 +56,7 @@ sidebar:
    - **遺傳諮詢是這題的重點，不能只講追蹤就結束**
      - 若病人是帶因者（trait）且有生育計畫，要主動建議配偶也接受篩檢。
      - 目的是避免夫妻雙方都帶因時，下一代生出重症型 thalassemia。
-     - ⚠️ 要特別點名 alpha-thalassemia major／Hb Bart's hydrops fetalis：這是致命性疾病（胎兒水腫，通常胎死腹中或出生後迅速死亡），是遺傳諮詢要優先攔截的情境，答題時漏講這個致命性後果會被電。
+     - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 要特別點名 alpha-thalassemia major／Hb Bart's hydrops fetalis：這是致命性疾病（胎兒水腫，通常胎死腹中或出生後迅速死亡），是遺傳諮詢要優先攔截的情境，答題時漏講這個致命性後果會被電。
 
 3. **沒有輸血的病人，為什麼 ferritin 還是會升高？**
 
@@ -78,7 +78,7 @@ sidebar:
      - 心臟鐵沉積是 thalassemia 病人主要死因之一，回答時要主動點出這個臨床重要性。
    - **臨床上最容易篩出異常的器官：內分泌器官**
      - 血糖、甲狀腺、性腺功能可以直接抽血或做 OGTT 篩檢出來，這屬於「最容易發現」，但不代表「最早受損」。
-     - ⚠️ 常見陷阱：把「最早侵犯」「最敏感」「臨床最容易查」三個問法答成同一個答案，考官會刻意用不同形容詞問同一器官序列來測試有沒有分清楚，回答時要三個分開講。
+     - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：把「最早侵犯」「最敏感」「臨床最容易查」三個問法答成同一個答案，考官會刻意用不同形容詞問同一器官序列來測試有沒有分清楚，回答時要三個分開講。
 
 5. **怎麼確認病人有沒有 iron overload？**
 
@@ -100,7 +100,7 @@ sidebar:
      - 病人需符合規律輸血、對輸血依賴的病史，才符合啟動 chelation 治療給付的前提。
    - **給付門檻：ferritin 數值**
      - 常見門檻是 ferritin 大於 1000 ng/mL 才符合健保給付標準。
-     - ⚠️ 常見陷阱：把門檻數字講死。實際門檻會隨當年健保規定調整，回答時要補一句「實際門檻依當年健保公告為準，建議考前確認最新規定」，避免講死一個過時數字被電。
+     - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：把門檻數字講死。實際門檻會隨當年健保規定調整，回答時要補一句「實際門檻依當年健保公告為準，建議考前確認最新規定」，避免講死一個過時數字被電。
 
 7. **常用 chelation 藥物有哪些？機轉/給法/副作用？**
 
@@ -123,7 +123,7 @@ sidebar:
 
    擬答：
    - **第一步：不要直接歸因於原本的 thalassemia**
-     - ⚠️ 常見陷阱：看到病人本來就有 thalassemia，就直接把貧血型態的改變也算進原本的疾病裡，沒有重新評估，這是最容易被電的反射性回答。
+     - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：看到病人本來就有 thalassemia，就直接把貧血型態的改變也算進原本的疾病裡，沒有重新評估，這是最容易被電的反射性回答。
    - **第二步：用框架一反推，重新跑一次 anemia 分類流程**
      - 從 MCV 重新分類貧血，不要預設答案，把新出現的貧血型態當成獨立事件重新檢查。
    - **第三步：列出年紀漸長後可能疊加的原因**

@@ -6,7 +6,7 @@ sidebar:
 
 跟 IDA 並列最高頻的門診/benign 主題，常出到「一路問到底」的完整題組。這裡有三層框架，疊起來用就能推導出幾乎所有出血案例的答題順序。
 
-## 🧭 框架一：先分「哪一層 hemostasis 出問題」——比抽血更早的第一步
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg> 框架一：先分「哪一層 hemostasis 出問題」——比抽血更早的第一步
 
 **這是考官最想聽到的起手式，很多人直接跳去背 PT/aPTT 鑑別清單反而漏了這一步**。看到出血案例，第一個問題永遠是問病史裡的出血型態，而不是先看檢驗報告：
 
@@ -15,7 +15,7 @@ sidebar:
 
 這個分流決定你接下來要往 platelet/vWF 方向查，還是往 PT/aPTT/factor 方向查——**先講出這一句分流邏輯，再進入檢驗數字**，是這題的答題骨架。
 
-## 🧭 框架二：PT/aPTT 異常不用背鑑別清單，用 pathway 圖推
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg> 框架二：PT/aPTT 異常不用背鑑別清單，用 pathway 圖推
 
 PT 和 aPTT 各自測的是哪些因子，其實是可以現場畫出來推的，不用死記鑑別診斷清單：
 
@@ -30,7 +30,7 @@ PT 和 aPTT 各自測的是哪些因子，其實是可以現場畫出來推的�
 
 **這張圖背後最重要的例外**：isolated aPTT prolongation 的鑑別診斷裡包含 lupus anticoagulant／APS，但 **APS 臨床上最常見的表現是血栓，不是出血**——考官很愛在這裡反問，答的時候要主動點出這個矛盾。
 
-## 🧭 框架三：mixing study 的判讀邏輯——「量不夠」還是「有東西在擋」
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg> 框架三：mixing study 的判讀邏輯——「量不夠」還是「有東西在擋」
 
 Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異常會不會被「稀釋掉」。
 
@@ -51,7 +51,7 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
      - 先想因子缺乏：Factor VIII 缺乏（hemophilia A）、factor IX 缺乏（hemophilia B）、factor XI 缺乏、factor XII 缺乏。
    - **再想 acquired inhibitor：acquired hemophilia，通常是 anti-FVIII 抗體造成的後天抑制物。**
    - **接著一定要提 lupus anticoagulant/APS，這是這題最常被追問的陷阱。**
-     - ⚠️ Lupus anticoagulant 在檢驗上會讓 aPTT 延長，但臨床上 APS 最主要的表現是血栓，不是出血，答的時候要主動點出這個矛盾，不要讓考官覺得你以為 lupus anticoagulant 等於出血傾向。
+     - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> Lupus anticoagulant 在檢驗上會讓 aPTT 延長，但臨床上 APS 最主要的表現是血栓，不是出血，答的時候要主動點出這個矛盾，不要讓考官覺得你以為 lupus anticoagulant 等於出血傾向。
    - **最後別漏掉 vWD：因為 vWF 在血中會攜帶並保護 factor VIII，vWF 缺乏或功能異常時 FVIII 半衰期縮短、活性下降，也可能間接使 aPTT 延長。**
 
 2. **Combined PT/aPTT prolongation 的鑑別診斷？**
@@ -74,8 +74,8 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
 
    擬答：
    - **做法：把病人血漿和正常血漿以 1:1 混合，同時測 0 小時（立即）和 2 小時（37°C 培養後）兩個時間點，並且要跑一組正常血漿的 control 一起培養對照。**
-     - ⚠️ 一定要同時測 0 小時和 2 小時，因為有些 inhibitor 是 time/temperature-dependent，像 acquired hemophilia 的 anti-FVIII 抗體，立即測可能看起來 correctable，培養 2 小時後才會現形變成 not correctable；lupus anticoagulant 通常是立即作用型，0 小時就看得出來。
-     - ⚠️ 一定要跑 control 組：如果 control 組自己也 prolong，代表是檢體處理不當或 factor degradation 造成的技術性問題，不是真的有 inhibitor，不能誤判成陽性。
+     - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 一定要同時測 0 小時和 2 小時，因為有些 inhibitor 是 time/temperature-dependent，像 acquired hemophilia 的 anti-FVIII 抗體，立即測可能看起來 correctable，培養 2 小時後才會現形變成 not correctable；lupus anticoagulant 通常是立即作用型，0 小時就看得出來。
+     - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 一定要跑 control 組：如果 control 組自己也 prolong，代表是檢體處理不當或 factor degradation 造成的技術性問題，不是真的有 inhibitor，不能誤判成陽性。
    - **判讀第一層：correctable 還是 not correctable。**
      - Correctable（混合後恢復正常）代表病人只是缺量，混進去的正常血漿把缺的因子補足了，指向 quantitative 因子缺乏。
      - Not correctable（混合後仍然延長）代表有東西在主動抑制，正常血漿混進去也一樣被抑制掉，指向 inhibitor 存在。
@@ -87,7 +87,7 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
 
    擬答：
    - **針對 hemophilia 相關因子，主要驗 factor VIII、factor IX、factor XI 活性，用來確診並分型。**
-     - ⚠️ Factor XII 缺乏雖然會讓 aPTT 延長，但臨床上通常不會造成出血，所以一般不急著驗。
+     - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> Factor XII 缺乏雖然會讓 aPTT 延長，但臨床上通常不會造成出血，所以一般不急著驗。
    - **如果臨床上懷疑 vWD，要加驗 vWF antigen 和 vWF activity（ristocetin cofactor assay）**，因為 vWD 的診斷需要同時看 vWF 的量和功能，不能只靠 factor VIII 活性。
 
 6. **Hemophilia 的嚴重度分級與對應 factor level？**

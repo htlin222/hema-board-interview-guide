@@ -12,6 +12,7 @@ export default defineConfig({
 			title: '血液科口試走向指南',
 			description: '整理歷屆考生心得，去名化後的口試主題、典型問答流程與準備策略',
 			social: [],
+			customCss: ['./src/styles/custom.css'],
 			plugins: [
 				catppuccin({
 					dark: { flavor: 'mocha', accent: 'mauve' },
