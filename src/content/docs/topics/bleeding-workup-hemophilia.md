@@ -151,6 +151,22 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
       - 根除 inhibitor 則使用 **steroid**（可單獨使用或合併其他藥物）、**cyclophosphamide**、或 **rituximab**。
       - 文獻上合併治療（steroid 加 cyclophosphamide）的緩解率可能比單用 steroid 高，但需要權衡感染等副作用風險，不是一律都要合併使用。
 
+11. **Isolated aPTT prolongation，mixing study 後恢復正常，這樣的 pattern 要怎麼往下推理，最後會指向什麼診斷？**
+
+    **最佳答法**：不要停在「mixing study correctable，所以是因子缺乏」就結束，要把框架三跟框架二串起來、再往前多推一步。**依照**「mixing study correctable 代表量的問題（框架三），isolated aPTT 又把範圍鎖定在 intrinsic pathway 獨有的因子（框架二）」這個雙框架疊加的邏輯，先推出最可能缺的是 factor VIII，**因為**它是 intrinsic pathway 因子裡最常見、也最容易受間接機轉影響而下降的一個；但真正拉開分數的地方是接下來這一步——講出 FVIII 活性下降不能就地停在「缺 FVIII」，還要主動往回問「是不是 vWF 保護不足才連帶讓 FVIII 下降」，因為 vWF 在血漿中負責攜帶並保護 factor VIII 避免被過早清除，一旦 vWF 量不足或功能異常，FVIII 半衰期就會縮短、活性隨之下降，最後才推到 von Willebrand disease（VWD）這個診斷——這才是把框架二、框架三跟診斷邏輯完整串起來的答法，而不是把 FVIII 缺乏本身當成終點。
+
+    擬答：
+    - **第一層：套框架三，correctable 代表量的問題，不是 inhibitor。**
+      - Mixing study 混合後恢復正常，代表病人只是缺量，混進去的正常血漿把缺的因子補足了，方向是找因子缺乏，不用往 inhibitor（Bethesda assay）那條路走。
+    - **第二層：套框架二，isolated aPTT 把範圍鎖定在 intrinsic pathway 獨有的因子。**
+      - PT 正常代表 common pathway 沒事，問題只可能在 factor VIII、IX、XI（factor XII 缺乏臨床上不太出血，優先度較低）。
+      - 這幾個因子裡最常見、也最容易被問到「最可能是哪一個」的答案是 **factor VIII**。
+    - **第三層：不能停在「FVIII 缺乏」，要主動往回推一步問「為什麼 FVIII 會缺」，指向 von Willebrand disease。**
+      - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱是答到「FVIII 缺乏」就停住，忘了 FVIII 在血漿中是靠 vWF 攜帶並保護才不會被過早清除的——vWF 缺乏或功能異常時，FVIII 半衰期縮短、活性繼發性下降，這才是為什麼 isolated aPTT prolongation 最後常常指向 VWD，而不是原發性 hemophilia A。
+      - **VWD 是最常見的遺傳性出血疾病**，這是流行病學上的基本事實，答題時可以順帶點出來強化這個診斷的合理性。
+      - 確診要靠 **vWF antigen** 和 **vWF activity（ristocetin cofactor assay）**（呼應第 5 題已經提過的檢查），同時看量跟功能才能完整鑑別，不能只看 factor VIII 活性下降就下結論。
+      - 分型上大方向分成：**type 1**（量的部分性缺乏，最常見）、**type 2**（功能性異常，又分好幾個次分型）、**type 3**（幾乎完全缺乏，最嚴重、但最少見）。
+
 ## 容易被電的點
 
 - 沒有先講出血型態分流（框架一）就直接跳進 PT/aPTT 數字，考官會覺得你只是背檢驗流程而不理解邏輯。

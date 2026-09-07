@@ -25,6 +25,11 @@ sidebar:
   - **最佳答法**：先講「Philadelphia chromosome 最典型對應的疾病是 CML 慢性期」這個定錨點，再回答 transform 成 AML 的相對機率，順序不能顛倒。**依照**「先確認診斷、再談後續」的推理順序，把 t(9;22) 的原始定位講清楚，才有立足點去比較 BCR-ABL1 陽性急性白血病中 ALL 遠比 AML 常見這件事。**因為**這題就是考官刻意設計來測「直覺跟事實是否一致」的陷阱——直覺容易把 Ph 染色體跟 AML 連在一起，但正確答案是 ALL 遠比 AML 常見，能先講對應關係再答機率，才展現出你不是靠直覺答題，而是真的釐清了疾病分類的邏輯。
   - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 直覺容易覺得 t(9;22)／BCR-ABL1 陽性應該常見於 AML，但事實剛好相反：**BCR-ABL1 陽性的急性白血病中，ALL 遠比 AML 常見**。
   - 正確結論：Philadelphia chromosome（t(9;22)／BCR-ABL1）本身最典型對應的疾病其實是 **CML 慢性期**，不是 AML；被問到這題時，要先把這個對應關係講清楚，再回答 transform 成 AML 的相對機率，順序不能顛倒。
+- **急性白血病型態不確定是 AML 還是 ALL 時的基本處理**
+  - **最佳答法**：不要在型態學卡住不敢下結論，要主動提出下一步的檢驗行動。**依照**「型態學本身有時無法可靠區分 myeloid 與 lymphoid lineage」這個事實，講出遇到看起來介於兩者之間的抹片時，正確反應是問問病理能不能先幫忙加染 **MPO**，或是口頭直接聯絡 **flow cytometry**，**因為**考官要看的是你在不確定的時候有沒有「知道下一步該做什麼」的臨床反應，而不是要你當場憑肉眼武斷分類——講得出下一步動作，比硬猜一個答案更能拿分。
+  - MPO（myeloperoxidase）染色陽性支持 myeloid lineage（傾向 AML）；但型態學跟細胞化學染色都只能做初步判斷。
+  - 最終確診 lineage 一定要靠 **flow cytometry** 做 immunophenotyping，不能只靠骨髓抹片型態或單一染色就下結論——這也是跟 [ALL 篇](/hema-board-interview-guide/topics/all-leukemia/) 共通的免疫分型邏輯，AML 跟 ALL 的最終區分本來就不是靠肉眼。
+  - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱是覺得答不出來就是知識不足而慌張，其實臨床上遇到不確定的型態，主動聯絡病理或檢驗單位加做染色、加驗 flow，才是正確且專業的處理方式，不是知識不足的表現。
 
 ## MDS
 
