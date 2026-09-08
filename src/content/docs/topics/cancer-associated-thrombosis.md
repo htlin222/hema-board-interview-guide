@@ -30,6 +30,13 @@ sidebar:
 
 **最佳答法**：先講機轉性的高風險族群、再補上容易被忽略的異物來源，把答案講成「腫瘤本身」加「治療相關」兩個層次。**依照**「癌症相關血栓的來源不是只有腫瘤本身，留置導管也是活化凝血的異物表面」這個機轉邏輯，把 Port-A／中心靜脈導管單獨拉出來講，**因為**這是這題最容易漏講、也最容易被電的部分——很多人只講得出前列腺癌、乳癌、肺癌這些「腫瘤診斷」層次的答案，卻忘記病人身上還有一個天天在活化凝血系統的導管，講不出這一段會讓考官覺得你的鑑別診斷不完整。
 
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「血栓的來源不是只有腫瘤本身，留置的中心靜脈導管本身就是天天在活化凝血系統的異物表面。」——一開口就把「治療相關異物」這一層機轉點出來，不要只從前列腺癌、乳癌、肺癌這種腫瘤名單開始鋪陳。
+
+</div>
+
 擬答：
 - **腫瘤本身的高風險族群**
   - 前列腺癌、乳癌、肺癌都是臨床上常合併血栓的癌症類型，盛行率高、遇到的機會多，是最基本要講出來的答案。
@@ -40,9 +47,24 @@ sidebar:
 - **病人整體狀態也要考慮進去**
   - 活動力下降、長期臥床的病人靜脈回流變差,是額外疊加的風險因子，問診時要主動評估病人的活動力。
 
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「導管相關的血栓跟腫瘤本身造成的血栓，機轉有什麼不同？」→ 腫瘤本身是分泌 tissue factor 等促凝血物質活化凝血瀑布；導管則是異物表面直接活化凝血系統，兩者機轉不同，但會疊加提高風險。
+- 「這幾種高風險癌症當中，哪一種風險又更高、為什麼？」→ 胰臟癌、胃癌這類分泌 mucin 的腺癌風險最高，機轉上直接對應 Trousseau syndrome 最初描述的腫瘤型態。
+
+</div>
+
 **Q: 那怎樣的狀況會讓你想做 survey（篩檢栓塞）？**
 
 **最佳答法**：把答案講成「典型表現」跟「不典型表現」兩組，不要只講下肢腫脹這個最明顯的答案。**依照**「臨床上最容易漏診的血栓不是典型下肢 DVT，而是不典型表現」這個臨床現實，把不明原因喘、CXR 正常但血氧偏低、神經學症狀這幾個不典型線索講在前面、講清楚，**因為**下肢 DVT 太明顯，鑑別度低，考官真正想確認的是你會不會在沒有典型症狀時也保持警覺，主動安排篩檢，這才是這題的核心考點。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「臨床上最容易漏診的血栓不是典型下肢腫脹，而是不明原因喘、胸部影像正常卻血氧偏低這種不典型表現。」——一開口就把鑑別度低的下肢 DVT 放到後面，先點出考官真正想確認的警覺性。
+
+</div>
 
 擬答：
 - **不典型表現，最容易被忽略但也最重要**
@@ -54,6 +76,14 @@ sidebar:
 - **篩檢工具的角色與限制，可以視情況補充**
   - D-dimer 在癌症病人身上的陰性預測價值有限，因為癌症病人本身 D-dimer 常常偏高，數值上升不一定代表有血栓，要搭配臨床懷疑度一起判讀，不能單靠 D-dimer 陰性就排除。
   - 高度懷疑時應直接安排影像檢查（如都卜勒超音波、電腦斷層血管攝影），而不是執著於先做 D-dimer 篩檢再決定。
+
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「D-dimer 在癌症病人身上準確嗎？為什麼不能單靠它排除血栓？」→ 癌症病人本身 D-dimer 常偏高，陰性預測價值有限，數值上升不代表一定有血栓，須搭配臨床懷疑度判讀。
+- 「高度懷疑但 D-dimer 又不可靠時，你會怎麼做？」→ 不執著於先做 D-dimer，直接安排影像檢查（都卜勒超音波或電腦斷層血管攝影）確認診斷。
+
+</div>
 
 ## 容易被電的點
 

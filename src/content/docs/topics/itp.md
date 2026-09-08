@@ -24,22 +24,85 @@ sidebar:
   - 第二步：在生產端正常的前提下，逐一排除同一條「周邊被破壞」路徑上的其他可能，包括 TTP、DIC、drug-induced thrombocytopenia、Evans syndrome。
   - 結論句：只有在骨髓生產端驗證正常、且上述周邊破壞機轉都排除之後，剩下的才叫 ITP。
   - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 陷阱：只回答「ITP 要排除其他疾病」這種空話會被當成沒有套框架——一定要講出「先驗證骨髓生產正常、再排除周邊破壞機轉清單」這兩步驟的完整邏輯，才算是有推理過程的答案。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「ITP 沒有一個 checkpoint test 能直接驗出來，我的診斷邏輯是先驗證骨髓生產端正常，再逐一排除周邊被破壞的其他機轉。」
+
+</div>
+
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「如果骨髓穿刺顯示 megakaryocyte 數量反而減少，你的鑑別診斷會往哪個方向走？」→ 代表生產端本身出問題，轉向 aplastic anemia、marrow infiltration、MDS，跟 ITP 是完全不同的方向。
+- 「排除性診斷清單裡的 TTP、DIC，你會怎麼跟 ITP 做鑑別？」→ 看有沒有合併 hemolysis／schistocytes，可連結 [TTP/TMA/Evans 篇](/hema-board-interview-guide/topics/ttp-tma-evans/) 的分流邏輯。
+
+</div>
+
 - **遇到「血小板低下、周邊抹片幾乎看不到血小板」的情境題**
   - **最佳答法**：這題最好先講出第一直覺（周邊看不到血小板高度提示 ITP），但答題的重心要放在後面主動追問的動作，而不是把「這是 ITP」講完就結束。**依照**開頭「周邊被破壞」這條路徑上還有其他鑑別（TTP、DIC、drug-induced、Evans syndrome）的邏輯，看到血小板極低要繼續往下問有沒有貧血、抹片上有沒有 NRBC，這是在同一條路徑上做進一步分流，確認紅血球有沒有一起被破壞。**因為**光講「這是 ITP」鑑別度很低，幾乎每個人都能講出這一步，考官真正要看的是會不會主動往 Evans syndrome 延伸——這代表懂得 ITP 的鑑別診斷不是單點診斷，而是一個要持續排查的清單，漏掉這一步就等於鑑別診斷做半套。
   - 第一反應：這個組合高度提示 ITP（周邊破壞導致血小板數量極低但骨髓生產正常）。
   - 但不能停在這裡，要主動追問／檢查有沒有合併其他線索：是否同時有貧血、周邊血液抹片上是否看到 NRBC（nucleated RBC）。
   - 若合併上述線索，代表紅血球也同時被破壞，要提高警覺這其實是 Evans syndrome（ITP 合併自體免疫性溶血性貧血），而不是單純 ITP。
   - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 陷阱：只回答「這是 ITP」就結束作答，沒有主動提出要找 Evans syndrome 的伴隨線索，會被認為鑑別診斷做得不夠完整。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「周邊看不到血小板高度提示 ITP，但我還要主動問有沒有貧血、抹片上有沒有 NRBC，排除紅血球也一起被破壞的 Evans syndrome。」
+
+</div>
+
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「如果確認合併自體免疫性溶血性貧血，這個病人就不是單純 ITP 了，你接下來會怎麼處理？」→ 診斷轉為 Evans syndrome，處置要同時考慮兩條免疫破壞路徑，可延伸到 [TTP/TMA/Evans 篇](/hema-board-interview-guide/topics/ttp-tma-evans/)。
+- 「怎麼跟 TTP 做鑑別，兩者都可能血小板極低？」→ 回到 TTP/TMA/Evans 篇「有沒有合併 hemolysis」的分流邏輯，看 schistocytes 與器官缺血表現。
+
+</div>
+
 - **兒童 ITP 的病程與治療原則跟成人不同，是常被考的對比題**
   - **最佳答法**：這題最好的答法是先點出病程本質的差異（兒童多為急性自限、成人多為慢性），再把治療決策準則掛在「出血嚴重度」這個獨立軸線上，而不是直接套用成人的治療積極度。**依照**「診斷 ITP 之後，處置方向要看臨床出血嚴重度而不是只看診斷標籤」這個邏輯，兒童若只有皮膚出血、沒有黏膜或內臟出血，單純觀察就是正確處置，治療門檻本來就該比成人保守。**因為**最常見的錯答是把成人「血小板低就要積極治療」的直覺套到兒童身上，考官問這題就是要測有沒有意識到兒童 ITP 自限的病程特性，只答對病程差異、卻沒接上治療門檻的邏輯，等於只講了一半的對比。
   - 病程型態：兒童 ITP 多為急性（acute）病程，跟成人常見的慢性病程不同。
   - 治療決策準則：若臨床表現只有皮膚出血（skin bleeding），沒有黏膜出血或內臟出血，單純觀察（observation）即可，不需要積極治療。
   - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 陷阱：把成人 ITP 較積極的治療態度直接套用到兒童身上，忽略兒童病程通常自限、治療門檻應該較保守。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「兒童 ITP 多為急性自限病程，我的治療門檻是看出血嚴重度、不是看血小板數字本身。」
+
+</div>
+
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「如果兒童病人出現黏膜出血或內臟出血，處置會怎麼改變？」→ 出血嚴重度已超過單純皮膚出血，治療門檻要跟著提高，不能再單純觀察。
+- 「成人 ITP 為什麼治療態度可以比較積極？」→ 對比兒童多為急性自限病程，成人常見慢性病程，出血風險與病程走向不同。
+
+</div>
+
 - **Drug-induced immune thrombocytopenia 是 ITP 題組常見的延伸鑑別**
   - **最佳答法**：這題最好主動把「問用藥史」講成一個具體的問診動作提出來，而不是等考官點名藥物才想到，也不要整段只停留在免疫機轉的描述上。**依照**開頭「排除性診斷要逐一排除周邊被破壞路徑上其他可能」的邏輯，drug-induced thrombocytopenia 本來就是這條清單裡的一項，考官順著這條邏輯往下追問「還要排除什麼」時，主動接上「問診時要問用藥史」才是把框架落實成具體行動，而不是停在知識層次。**因為**常見的答法容易整段圍繞免疫機轉打轉，卻忘記講出「主動問藥物史」這個簡單卻現場很容易加分的動作，考官要看的正是有沒有把排除性診斷的邏輯轉化成實際問診行為，而不只是背出一串鑑別診斷名詞。
   - 這是 ITP 鑑別診斷中常被追問的延伸考點，考官很可能順著 ITP 的排除性診斷邏輯往下問「還要排除什麼」。
   - 問診時要主動詢問用藥史（medication history），不要等考官提示才想到藥物相關的血小板低下。
   - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 陷阱：整段回答只圍繞免疫機轉打轉，忘記把「主動問藥物史」講出來，等於漏掉一個現場很容易加分的具體動作。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「排除性診斷清單裡一定要有 drug-induced thrombocytopenia，所以問診時我會主動問用藥史，不等考官提示。」
+
+</div>
+
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「排除性診斷清單上，藥物之外還有哪些機轉要一起排除？」→ 回到開頭推理架構，逐一核對 TTP、DIC、Evans syndrome。
+- 「如果懷疑是藥物引起的，停藥後你預期會看到什麼？」→ 血小板數字回升可作為支持藥物相關機轉的臨床證據。
+
+</div>
 
 ## 跟其他主題的連動
 

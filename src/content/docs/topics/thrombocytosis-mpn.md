@@ -20,6 +20,13 @@ sidebar:
 
 **最佳答法**：先講「排除 reactive」這個第一動作，再順勢接著講第二步「靠 differential 形態學分方向」，把三層過濾架構的頭兩層一次講完，不要被問一句才答一句。**依照**「thrombocytosis 三層過濾」的架構，reactive 遠比 clonal 常見，所以起手式一定要先把常見誘因（IDA、感染、發炎、post-splenectomy、paraneoplastic）排除掉，再往 clonal 方向走。**因為**這題考的其實是「起手式」本身，考官要看的是你會不會一開口就跳去驗 JAK2、CALR、MPL——那樣代表思路順序錯誤；能主動接著講出「排除 reactive 之後才用抹片形態學分 CML 或 ET，不用等基因報告」，才顯示你對整個過濾架構有整體掌握，而不是只回答眼前這一步就停住。
 
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「reactive 遠比 clonal 常見，起手式是先排除 reactive，不是急著驗 JAK2、CALR、MPL。」
+
+</div>
+
 擬答：
 - **第一步：先問診、查病史，排除 reactive（次發性）thrombocytosis**
   - Reactive thrombocytosis 在臨床上遠比 clonal 常見，所以一定要先排除這個方向，不能一開始就往 MPN 想。
@@ -28,9 +35,24 @@ sidebar:
 - **第二步：排除 reactive 之後，才往 clonal 方向查，鑑別是 CML 還是 ET／其他 MPN**
   - 這一步先靠周邊血液抹片的 WBC differential 形態學來分方向，不用等基因報告出來才判斷。
 
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「排除 reactive 之後，抹片上要看什麼線索來分 CML 還是 ET？」→ 看 basophilia、left shift、有沒有各成熟階段顆粒球同時出現這個 CML 特徵性圖像（見 Q2）。
+- 「如果誘因是 IDA，怎麼確認 thrombocytosis 只是 reactive、不是合併 clonal？」→ 矯正 IDA 之後追蹤 platelet count 是否隨之下降；可連結〈缺鐵性貧血〉篇對 IDA 的 approach 邏輯。
+
+</div>
+
 **Q2：CML 與 ET 的 hemogram（differential）差異是什麼？**
 
 **最佳答法**：先講「要找什麼」（basophilia、left shift、各成熟階段顆粒球同時出現這個 CML 特徵性圖像），再用「沒有這個現象」反推 ET/其他 MPN，用一個高特異度特徵做二分，而不是把兩種疾病的抹片描述分別背出來。**依照**「三層過濾」架構中「先靠形態學分方向、基因報告晚一步」的邏輯，把 CML 的抹片印象當成唯一的判斷錨點來組織答案最有效率。**因為**考官問的是鑑別診斷的思考效率——先講出 CML 那個獨有的「全階段顆粒球同時存在」左移圖像，再用「沒有這個現象」推論 ET，就展現出你懂得用單一高鑑別度特徵做分流，而不是把兩種疾病的描述各自死記、答起來零散又慢，也漏掉兩者之間真正的鑑別關鍵。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「先找 CML 那個『各成熟階段顆粒球同時出現』的左移圖像，看不到就直接往 ET／其他 MPN 想。」
+
+</div>
 
 擬答：
 - **第一步：看 differential 有沒有 basophilia 跟左移（left shift）**
@@ -38,9 +60,24 @@ sidebar:
 - **第二步：如果 differential 大致正常，異常只集中在血小板數量本身**
   - 這種圖像比較符合 ET 或其他 MPN，因為它們沒有 CML 那種「各成熟階段顆粒球同時出現」的左移現象。
 
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「抹片形態學看起來像 ET，接下來要驗哪些基因來確診？」→ JAK2、CALR、MPL 三個驅動基因（見 Q3）。
+- 「為什麼可以先靠抹片形態學分方向、不用等基因報告？」→ 因為 CML「各成熟階段顆粒球同時出現」的左移圖像是高特異度特徵，抹片就能先分流，這正是三層過濾架構第二層的邏輯。
+
+</div>
+
 **Q3：疑似 ET 要驗哪些驅動基因？**
 
 **最佳答法**：先講出三個基因的名稱與共同機轉（都落在 TPO receptor 訊息傳遞路徑下游），再主動補上三者的大致比例分布，不要等考官追問才擠牙膏。**依照**「用同一套機轉理解三個基因」的推理架構，JAK2、CALR、MPL 本來就是同一條路徑的三個入口，講機轉時三個名字自然會一起帶出來，不需要分開記。**因為**考官常用這題測試準備的周全度——只答得出 JAK2 屬於及格線，主動講出 CALR、MPL 以及「JAK2 最高、CALR 次之、MPL 最少」的比例分布，才顯示你不是只記得最常見的那一個基因，而是把整套基因檢測連同其背後的盛行率都摸過一輪，這正是這題拉開分數的地方。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「JAK2、CALR、MPL 一次驗齊，因為它們是同一條 TPO 訊息傳遞路徑的三個不同入口，不是三種獨立疾病。」
+
+</div>
 
 擬答：
 - **第一步：疑似 ET 時要驗三個驅動基因——JAK2、CALR、MPL**
@@ -49,9 +86,24 @@ sidebar:
   - JAK2 突變比例最高，約六成（60-66%）；其次是 CALR，約兩成（19-27%）；MPL 最少，約 3-4%；剩下約一成是三個基因都驗不到的 triple-negative。
   - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 陷阱：只答得出「要驗 JAK2」，講不出 CALR、MPL 以及三者的大致比例分布，會被認為準備不夠周全——這題常被考官拿來評估準備得夠不夠細。
 
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「這三個基因的機轉分別作用在受體路徑的哪個位置？」→ MPL 突變在受體本身、CALR 突變在受體外部活化、JAK2 突變在受體下游酪胺酸激酶（見 Q4）。
+- 「如果三個基因都驗不到（triple-negative），代表什麼？」→ 約一成 ET 病人屬於這種情況，基因陰性不能單獨用來排除 ET 診斷。
+
+</div>
+
 **Q4：這些驅動基因的機轉是什麼？**
 
 **最佳答法**：先講出三者共同的下游機轉這個大方向就夠，不必鑽進分子生物學細節，接著主動把「同一套邏輯的三個入口」這句收斂的話講出來作結。**依照**「用同一個機轉理解三個基因」的推理架構，JAK2、CALR、MPL 的機轉本質上是同一件事——讓 TPO receptor 訊息傳遞路徑持續活化，講到這個層次就已經足夠。**因為**考官要驗的是你有沒有把三個基因串成一套邏輯來理解，而不是逐一背誦各自的分子機轉細節；能主動說出「三個基因是同一條路徑的不同進入點」，才代表你是真的理解機轉而非死記基因清單，卡在 TPO pathway 這一層是可接受的深度，硬要往下鑽細節反而偏離這題真正想考的重點。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「JAK2、CALR、MPL 機轉都一樣——讓 TPO receptor 路徑持續活化，差別只在作用位置：受體上、受體外、受體下游。」
+
+</div>
 
 擬答：
 - **第一步：講出三個基因的共同機轉——都造成 TPO pathway 持續活化**
@@ -61,9 +113,24 @@ sidebar:
   - 理解「都是同一條 TPO pathway 的不同進入點」之後，「為什麼要驗這三個基因」跟「為什麼結果都指向同一個表現」就是同一套邏輯的延伸，不需要分開硬背。
   - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 陷阱：機轉問到 TPO pathway 就卡住是可以接受的深度，但至少要能講出這句大方向——三個基因是同一條路徑的不同進入點。
 
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「JAK2 突變跟 CALR 突變在臨床上最重要的差別是什麼？」→ 血栓風險不同，JAK2 突變通常比 CALR 高（見 Q5）。
+- 「既然三個基因機轉都指向同一條路徑，為什麼還要三個一起驗、不能只驗一個？」→ 因為三者是不同的變異位點，臨床意義（如血栓風險）不同，合計起來才涵蓋大部分 ET 病人（見 Q3 的比例分布）。
+
+</div>
+
 **Q5：ET 的風險分層與治療 approach 怎麼講？**
 
 **最佳答法**：照 guideline 的架構把年齡、血栓病史、基因型三個面向完整講一輪，再對應到治療決策，不要跳著講或只挑一兩個因子回答。**依照**「風險分層決定治療」這種由診斷推向處置的臨床邏輯，三個分層因子要先講完整，才能合理地銜接到是否啟動 cytoreductive therapy 的決策。**因為**這題其實是把前面基因型的知識（JAK2 突變血栓風險高於 CALR 突變）收斂到臨床決策的最後一關，考官要看的是你會不會把基因型當成獨立於年齡、血栓病史之外的第三個分層因子一起納入考慮——只講傳統的年齡與血栓病史兩項，會顯得沒有把前面基因檢測學到的知識串聯到最終的治療決策上。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「血栓風險不是血小板數目說了算，基因型才是關鍵：JAK2 突變的血栓風險比 CALR 高，即使血小板數更低。」
+
+</div>
 
 擬答：
 - **第一步：講出風險分層依據的三個面向——年齡、血栓病史、基因型**
@@ -71,6 +138,14 @@ sidebar:
   - 基因型也要納入考慮：JAK2 突變的血栓風險通常高於 CALR 突變，約為兩倍（研究顯示 10 年累積血栓發生率 JAK2 組約 14.5% vs CALR 組約 5%），且血栓風險不是單純由血小板數量決定——JAK2 突變病人的血小板數目往往還比 CALR 突變病人低，血栓風險卻更高，機轉可能跟嗜中性球/血小板活化程度較高有關。
 - **第二步：依風險等級決定是否需要 cytoreductive therapy**
   - 建議直接照 guideline 的風險分層架構完整講一輪，把年齡、血栓病史、基因型三個面向都講到，再對應到是否啟動 cytoreductive therapy 的治療決策，而不是跳著講。
+
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「為什麼 JAK2 突變病人血小板數目較低、血栓風險卻更高？」→ 血栓風險不是單純由血小板數量決定，機轉可能跟嗜中性球／血小板活化程度較高有關。
+- 「一個年輕、無血栓病史、CALR 突變的病人，風險分層會怎麼歸類？」→ 傳統因子與基因型都偏向低風險，對應到「依風險等級決定是否需要 cytoreductive therapy」這一步，傾向不需要立即啟動治療。
+
+</div>
 
 ## 容易被電的點
 

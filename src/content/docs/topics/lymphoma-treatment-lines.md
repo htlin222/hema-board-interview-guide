@@ -19,15 +19,37 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
 
 **最佳答法**：答題順序應該先講「分期／IPI 如何轉譯成起手治療強度」的對應邏輯，再進到實際 regimen，而不是倒過來直接背方案名稱。**依照**推理架構第一、二層（分期定調、風險分層選藥）作答，才能讓考官看到你是用分層邏輯在決定治療強度，而不是死記哪個分期打哪個藥。**因為**題目給的分期組合往往是後續劇情（治療反應不如預期）的伏筆，先把分期與預期反應的對應關係講清楚，才能在下一題自然銜接「反應不如預期」時回頭質疑診斷的邏輯，展現你把病人當一個連續病程在推理，而不是把每一題當獨立問答。
 
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「分期跟 IPI score 不是拿來背方案名字的，是拿來決定起手治療強度的分層依據。」——先講對應邏輯，再講具體 regimen，順序不能顛倒。
+
+</div>
+
 擬答：
 
 - **第一步：用分期和 IPI risk score 決定起手治療強度**
   - 分期、IPI score 是決定一線治療強度的依據，不是所有病人都打同一種 regimen，要依風險分層結果選對應強度的方案（套框架第一、二層）。
   - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：題目給的分期若刻意設定成「分數不高、分期不晚」的組合，這通常不是單純在考分期判讀，而是在替後面「治療反應不理想」的橋段鋪陷阱，要留意後續劇情是否出現分數與臨床表現不相符的轉折。
 
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「如果打完一線治療後只有 PR、沒有達到 CR，你會怎麼想？」→ 先懷疑診斷有沒有錯，再考慮要不要換藥，見下一題。
+- 「同樣的分期／風險分層決定治療強度的邏輯，換成 myeloma 或 AML 病人也適用嗎？」→ 適用，四層骨架不是 lymphoma 專屬，可對照 [myeloma 篇](/hema-board-interview-guide/topics/myeloma-and-transplant/)、[AML/MDS/CML 篇](/hema-board-interview-guide/topics/aml-mds-cml/)。
+
+</div>
+
 **Q2：一線治療效果不理想（PR，未達 CR）時怎麼辦？**
 
 **最佳答法**：這題的最佳切入點是先講「為什麼要先懷疑診斷」的推理過程，再講具體要做什麼檢查，而不是一收到「PR 未達 CR」就直接列換藥選項。**依照**推理架構第三層，治療反應不理想時要先問「診斷有沒有錯」再問「要不要換藥」，尤其當風險分數（IPI 低、分期不晚）跟臨床結果對不上時，這個不一致本身就是要主動指出的訊號。**因為**考官刻意用「分數不支持效果差」這個設定製造陷阱，測試考生會不會被「治療反應不佳」這個表面訊息牽著走、直接跳去換藥，答對的人展現的是「先懷疑資料本身、再懷疑治療」的診斷推理深度，而不只是知道換藥選項有哪些。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「IPI 分數不支持治療效果差的時候，我要先回頭懷疑診斷，不是先換藥。」——一開口就點出「分數與反應對不上」才是這題真正的陷阱，不要先講換藥選項再補一句懷疑診斷。
+
+</div>
 
 擬答：
 
@@ -39,9 +61,24 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
   - 目前是 PR（未達 CR），在治療決策上通常視為 refractory disease 來處理。
   - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：治療反應不理想時直接跳去換藥，沒有先套框架第三層想到「診斷本身可能需要重新確認」，這是考官最愛電人的點。
 
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「重新 review 病理跟 FISH 後，確認就是單純 DLBCL、沒有 diagnosis error，只是 PR 未達 CR，下一步治療怎麼選？」→ 視為 refractory disease，套用「復發時間點」邏輯分流，見下一題。
+- 「這種『反應不理想時先懷疑診斷』的邏輯，套到 myeloma 或 AML 治療反應不佳時還適用嗎？」→ 適用，這是四層骨架第三層的通用邏輯，可對照 [myeloma 篇](/hema-board-interview-guide/topics/myeloma-and-transplant/)、[AML/MDS/CML 篇](/hema-board-interview-guide/topics/aml-mds-cml/)。
+
+</div>
+
 **Q3：二線治療怎麼選？**
 
 **最佳答法**：這題最佳的作答順序是先分流「復發時間點」這個分岔點，再依分流結果分別展開兩條路徑的細節，而不是把所有二線選項（CAR-T、挽救化療、移植）混在一起講。**依照**推理架構第二層的風險分層邏輯延伸到二線——早期復發本身就是一個高風險特徵，直接對應到證據等級更高的 CAR-T，晚期復發則沿用傳統挽救化療加移植路徑。**因為**考官要看的是你有沒有掌握「復發時間點改變整個治療策略樹」這個判斷框架，而不是只會背 R-ICE、R-DHAP 這些 regimen 名字；先講分岔邏輯再講細節用藥，才能展現你是用臨床決策樹在回答，而不是背誦清單。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「決定二線策略的第一個問題不是 CAR-T 還是化療，是復發時間點在不在 12 個月內。」——先講分岔點，再展開兩條路徑的細節，不要把選項全部混在一起講。
+
+</div>
 
 擬答：
 
@@ -56,9 +93,24 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
 - **第三步：同時評估是否要收 stem cell、準備做 auto-PBSCT**
   - 走傳統挽救化療路徑的病人，治療階段要主動評估病人是否適合收集 stem cell、準備自體移植（auto-PBSCT），這是二線決策裡不能漏講的一環。
 
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「為什麼 BELINDA 試驗（用 tisagenlecleucel）沒有像 ZUMA-7、TRANSFORM 一樣顯示出優於傳統路徑的結果？」→ 這是產品間證據不能互相外推的例子，不是所有 CAR-T 產品效果都一樣，回答時要分產品討論，不能一概而論。
+- 「走傳統挽救化療路徑但反應不好、無法進入移植的病人，接下來怎麼辦？」→ 進入三線治療的討論，見下一題。
+
+</div>
+
 **Q4：三線及以後的治療怎麼選？**
 
 **最佳答法**：這題要把「新藥角色」跟「健保給付限制」當成同一組答案裡缺一不可的兩半一起講，而不是講完藥名就停住等考官追問。**依照**推理架構第四層，後線治療的完整答案必須同時涵蓋療效證據與給付限制兩個面向，例如主動點出做過 auto-transplant 的病人可能不符合特定新藥的給付資格。**因為**只丟藥名鑑別度低（背幾個藥名不難），考官真正想確認的是你有沒有真實臨床工作中「藥證核准」與「實際能不能用到」之間有落差的意識，這才是區分「讀過文獻」跟「真的看過病人」的分水嶺。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「藥證核准跟健保給付條件不一定一樣，講新藥角色時要主動把這個落差講出來。」——講完藥名就停住等考官追問，等於把加分點讓給考官問，不如自己先講。
+
+</div>
 
 擬答：
 
@@ -70,6 +122,14 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
   - 只丟藥名不夠，要講出藥物核准適應症和健保實際給付條件之間可能存在落差。
   - 舉例：已經做過 auto-transplant 的病人，可能不符合特定新藥的健保給付資格，這種細節是加分點。
 
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「做過 auto-transplant 的病人，為什麼會影響到某些新藥的給付資格？」→ 這是健保給付邏輯的細節，回答方向抓住「核准≠給付」這個大方向即可，不必背哪個藥物的確切給付條件。
+- 「這個『療效證據 + 給付限制』要一起講的邏輯，換成 myeloma 的後線治療（如 CAR-T、bispecific）也適用嗎？」→ 適用，四層骨架第四層同樣套用在 [myeloma 篇](/hema-board-interview-guide/topics/myeloma-and-transplant/) 的後線新藥討論。
+
+</div>
+
 ## 其他常見延伸
 
 - **Follicular lymphoma**
@@ -77,18 +137,42 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
   - GELF criteria（判斷何時該啟動治療的標準，例如腫瘤體積大、多處淋巴結腫大、有全身症狀、血球低下等）建議至少知道大方向即可，不用逐字背誦——核心概念是「腫瘤負荷夠大或病人有症狀，才啟動治療；否則採取 watch and wait」。
   - **原發腸胃道（如 small intestine）表現的預後**
     - **最佳答法**：這題要把「表現部位」跟「治療啟動與否」串成同一個判斷邏輯來回答，不要把兩者當成無關的兩個問題分開答。**依照** GELF criteria 背後「腫瘤負荷夠大或病人有症狀才啟動治療」這個核心邏輯，原發於腸胃道（尤其 duodenum/small intestine）的局部 follicular lymphoma，多半屬於腫瘤負荷低、無全身症狀的惰性族群，**因為**考官要聽的是你會不會把「部位侷限、無症狀」直接對應到「屬於惰性、預後好」，並主動接一句「這類病人常可以 watch and wait，不必因為看到 lymphoma 就急著治療」——這個對比（侷限型 vs. 廣泛期／有全身症狀）才是分數所在，只回答「follicular lymphoma 是惰性淋巴瘤」沒有把部位表現的意義講出來，等於沒有真正回答到題目問的東西。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「部位侷限、沒有全身症狀，這本身就是在告訴你這是可以 watch and wait 的惰性族群。」——不要只回答「follicular lymphoma 是惰性淋巴瘤」，要把部位表現直接對應到處置方向。
+
+</div>
+
     - 擬答：
       - **第一步：先定位這是哪一種臨床情境——侷限性、無症狀的腸胃道表現**
         - 原發於 small intestine（尤其 duodenum）的 follicular lymphoma，多半是侷限、低腫瘤負荷、無全身症狀的表現型態，屬於預後良好的族群。
       - **第二步：套用 GELF criteria 的邏輯，判斷要不要啟動治療**
         - 這類病人通常不符合 GELF 的治療啟動標準（腫瘤體積大、多處淋巴結腫大、全身症狀、血球低下等都沒有出現），因此可以採取 watch and wait，不需要立即積極治療。
         - 對比：如果是廣泛期（advanced stage）或合併全身症狀（B symptoms）的 follicular lymphoma，則屬於需要啟動治療的情境，兩者的處置邏輯完全不同，不能一概而論。
+
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「如果同樣是原發腸胃道的 follicular lymphoma，但合併多處淋巴結腫大或 B symptoms，處置邏輯會不會改變？」→ 會，這時不符合 watch and wait 的條件，要套 GELF criteria 判斷啟動治療。
+- 「如果之後真的符合 GELF 治療啟動標準，一線治療怎麼選？」→ 依年紀、共病、腫瘤負荷選 BR 或 R-CHOP，見前面「Follicular lymphoma」條目。
+
+</div>
 - **Lymphoma 做移植的時機**
   - 不同機構的實務做法差異很大：有些機構偏向提早做移植，有些則是打到藥物選項用盡才做。
   - 考官通常是想了解你對「機構間做法沒有絕對對錯」這件事有沒有概念，而不是在考單一標準答案，回答時不需要堅持某一種做法才是唯一正確解。
 
 - **WHO 分類版本間的差異**
   - **最佳答法**：這題不用背每個版本改了哪些細項，**依照**「分類依據本身在演進」這條大方向回答即可，**因為**考官想確認的是你知不知道 lymphoma 分類系統的邏輯轉變方向，而不是考古題式的版本比較——答出「從型態學為主，走向整合分子／免疫表型／臨床特徵」這個方向就已經拿到這題的分數，再往下背版本細節是報酬遞減的準備方式。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「WHO 分類的核心變化方向是從型態學為主，走向整合分子／免疫表型／臨床特徵。」——先講方向，不要一開口就想背哪一版改了哪些細項。
+
+</div>
+
   - 擬答：
     - **第一步：早期版本以型態學（morphology）為主要分類依據**
       - 早期的 WHO 分類系統主要依賴細胞形態學（morphology）來區分不同的淋巴瘤亞型。
@@ -96,14 +180,38 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
       - 2008 年之後的版本不再單純用型態學分類，而是把分子／基因特徵（molecular/genetic features）、免疫表現型（immunophenotype）、臨床特徵（clinical features）整合進分類架構，用更全面的資訊界定疾病實體（disease entity）。
       - 口試時只要能講出這個「分類依據的演進方向」，不需要逐版本背誦改了哪些細項。
 
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「這個『整合分子特徵』的邏輯，在 double/triple-hit lymphoma 的診斷上怎麼體現？」→ 治療反應不理想時要補做 FISH 排除 double/triple-hit，正是分子特徵被整合進診斷流程的例子，見 Q2。
+- 「AML 的分類系統是不是也有類似『從型態學走向分子分類』的演進？」→ 可對照 [AML/MDS/CML 篇](/hema-board-interview-guide/topics/aml-mds-cml/) 討論。
+
+</div>
+
 - **Asymptomatic lymphocytosis 的基本 approach**
   - **最佳答法**：這題是在測「你會不會列出正確的第一線檢查順序」，**依照**「先臨床、後檢驗」的基本邏輯回答，門診發現無症狀淋巴球增多症時，第一步永遠是完整病史與理學檢查（H&P），排除感染或其他造成反應性淋巴球增多的原因，而不是一開始就跳去講 flow cytometry 的細節標記，**因為**這是一個相對基礎的題型，鑑別度來自於答題順序有沒有先臨床排除、再送檢驗，直接跳過 H&P 直接講 CD5/CD23 會顯得像背答案而不是真的在做臨床判斷。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「看到無症狀淋巴球增多症，第一步是完整病史與理學檢查排除反應性原因，不是直接跳去講 flow cytometry 的 CD5、CD23。」
+
+</div>
+
   - 擬答：
     - **第一步：完整病史與理學檢查（H&P），先排除感染或其他反應性原因**
       - 門診發現無症狀淋巴球增多症時，先做完整病史詢問與理學檢查，排除感染、其他造成反應性淋巴球增多的常見原因。
     - **第二步：送周邊血 flow cytometry，檢查 CD5、CD23 等表面標記**
       - 若臨床上沒有找到反應性的解釋，下一步是送周邊血 flow cytometry，檢查 CD5、CD23 等表面標記，協助判斷是否為 CLL（chronic lymphocytic leukemia）這類 clonal lymphoproliferative disorder。
       - 這是一個相對基礎的題型，常被拿來測考生會不會列出正確的第一線檢查，而不是一開始就跳去講進階的分子檢測或治療。
+
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「Flow cytometry 驗出 CD5、CD23 陽性、確診是 CLL，這個病人現在就要開始治療嗎？」→ 不一定，要看有沒有達到治療啟動指徵，邏輯上類似 follicular lymphoma 的 GELF criteria：低腫瘤負荷、無症狀可以觀察。
+- 「這種『先臨床排除、再送進階檢驗』的答題順序，在其他 malignancy 的最初評估上也適用嗎？」→ 適用，這正是四層骨架第一層「診斷/分期先確認」的精神，順序錯了後面全部推翻。
+
+</div>
 
 ## 容易被電的點
 

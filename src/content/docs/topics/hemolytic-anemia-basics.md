@@ -32,6 +32,13 @@ sidebar:
 
 **最佳答法**：先把三大類的常見病因講完當作及格線，再主動補上考官特別愛問的少見/情境性原因，展現廣度。**依照**「這題本質是在測分類架構完不完整」這個出題邏輯，常見病因（缺鐵、thalassemia、B12缺乏等）大家都會講，**因為**考官要用少見原因來鑑別考生是不是真的理解機轉、還是只背了一張標準表——燒傷後的血液濃縮與破壞、長期劇烈運動造成的 march hemoglobinuria，都是機轉可以推理出來、但沒背過就答不出來的例子。
 
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「常見病因大家都會背，這題真正拉分的是講得出燒傷後血液濃縮、march hemoglobinuria 這類機轉可以推理、但沒背過就答不出來的少見原因。」
+
+</div>
+
 擬答：
 - **Microcytic：鐵不夠、或血紅素合成鏈出問題**
   - 缺鐵性貧血最常見，其次是 thalassemia trait、anemia of chronic disease、少見的鉛中毒和 sideroblastic anemia。
@@ -43,9 +50,24 @@ sidebar:
   - B12/folate 缺乏是最典型的 megaloblastic anemia，其他常見原因包括酒精、肝病、甲狀腺低下。
   - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 老年病人如果貧血型態從 microcytic 轉成 normocytic，要主動想到 megaloblastic anemia 或 MDS，因為這代表造血功能本身在退化，而不是單純缺鐵沒補好。
 
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「老年病人的貧血型態從 microcytic 轉成 normocytic，你會怎麼解讀？」→ 主動想到 megaloblastic anemia 或 MDS，代表造血功能本身在退化，而不是缺鐵沒補好。
+- 「Normocytic anemia 裡面藏著哪些其實是溶血性貧血？你怎麼確認？」→ 接下一題的邏輯：先驗四項溶血證據（retic 上升、LDH 上升、indirect bilirubin 上升、haptoglobin 下降），再用抹片型態＋Coombs test 分 immune 或 non-immune。
+
+</div>
+
 **Q: 26 歲女性,Hb 8.2、MCV 102，抹片看到 spherocyte，你懷疑有 hemolysis，下一步要做什麼？**
 
 **最佳答法**：直接點名「下一步」是 Coombs test，並講出為什麼這一步不能跳過。**依照**「spherocyte 這個型態本身不能區分 immune 或 non-immune」這個檢驗限制，Coombs test 陽性或陰性是決定接下來走哪條鑑別診斷路線的關鍵分岔點，**因為**考官問「下一步」通常就是要確認你知不知道這一步的必要性,而不是讓你跳過去直接猜診斷——很多考生看到 spherocyte 就直接跳答 hereditary spherocytosis，漏掉了先排除 immune-mediated 原因這一步,順序顛倒是這題最常見的失分點。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「看到 spherocyte 不能直接跳答 hereditary spherocytosis，下一步永遠是先做 Coombs test，分清楚是 immune 還是 non-immune。」
+
+</div>
 
 擬答：
 - **下一步做 Coombs test（Direct Antiglobulin Test, DAT）**
@@ -55,9 +77,24 @@ sidebar:
   - 可以搭配家族史（約 75% 為體染色體顯性遺傳，常有家族中類似病史；其餘約 25% 是體染色體隱性遺傳或 de novo 突變，這種情況下家族史可能是陰性的，沒有家族史不能排除診斷）、脾臟腫大的理學發現，以及 osmotic fragility test 或 EMA binding test 等確認性檢查。
   - 這個案例的年齡、貧血程度與抹片表現都符合 hereditary spherocytosis 的典型呈現。
 
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「如果這個病人的 Coombs test 是陽性，你會怎麼往下走？」→ 方向轉為 immune-mediated，例如 autoimmune hemolytic anemia，可進一步參考 [TTP/TMA/Evans 篇](/hema-board-interview-guide/topics/ttp-tma-evans/) 中 immune-mediated 溶血的鑑別思路。
+- 「確診 hereditary spherocytosis 之後，治療上你會怎麼跟病人討論？」→ 接下一題：脾臟切除術治的是溶血、不是矯正膜缺陷本身，要先評估嚴重度分級。
+
+</div>
+
 **Q: Hereditary spherocytosis 的病人不想做脾臟切除術，怎麼辦？**
 
 **最佳答法**：先講清楚脾臟切除術在這個疾病裡扮演的角色是「治療溶血」而非「治癒疾病」，再講保守處置的選項。**依照**「膜缺陷本身無法被移除脾臟矯正，切脾只是拿掉破壞紅血球的主要場所」這個機轉理解，脾臟切除不是唯一選項，**因為**考官要看你知不知道這個疾病有嚴重度分級、也有保守治療的空間,而不是把脾臟切除講成唯一或絕對必要的處置,這樣才顯示你理解的是治療原則而不是單一動作。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「脾臟切除治的是溶血這個結果，不是矯正紅血球膜本身的缺陷，所以要不要開刀是看嚴重度分級，不是無條件的必要處置。」
+
+</div>
 
 擬答：
 - **先評估溶血的嚴重度，不是每個病人都需要立即手術**
@@ -67,9 +104,24 @@ sidebar:
   - 若病人反覆輸血、有明顯症狀性貧血、膽結石（因慢性溶血造成膽色素結石）或生長發育受影響,才會積極建議脾臟切除術。
   - 若病人堅持不做手術,可以與病人詳細討論保留脾臟的風險（持續溶血、疲勞、膽結石機率增加）,並加強感染預防措施（見下一題的疫苗接種原則）與長期追蹤。
 
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「如果病人堅持不做脾臟切除，你要怎麼幫他做長期照護？」→ 加強感染預防措施與長期追蹤，並持續注意慢性溶血相關的膽結石與葉酸缺乏風險。
+- 「如果之後真的決定做脾臟切除，你會提醒病人術後要注意什麼？」→ 直接對應下一題：終身存在的 OPSI 感染風險、術後血栓風險上升，以及因果證據仍有爭議的肺動脈高壓。
+
+</div>
+
 **Q: 除了常見的免疫性或先天性原因，還有什麼比較少見的原因會造成溶血？**
 
 **最佳答法**：先承認這題在考廣度而非深度，再用「感染可以透過不同機轉造成溶血」這個大方向去帶出實際例子，不要只列病名沒講機轉。**依照**「感染性疾病造成溶血的機轉可以是直接破壞紅血球、也可以是誘發免疫反應」這個二分邏輯，登革熱這類感染就是很好的例子，**因為**考官喜歡用這種「跳出教科書標準清單」的少見原因來測考生會不會慌，只要能講出合理機轉方向，就算沒有很精確的細節也能拿到基本分。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「少見原因最終都收斂回 immune vs non-immune、有沒有 schistocyte 這兩條軸線，講不出病名不可怕，講得出機轉方向就有分。」
+
+</div>
 
 擬答：
 - **感染相關的溶血原因**
@@ -79,9 +131,24 @@ sidebar:
 - **回到基本架構去分類這些少見原因**
   - 不管原因多罕見，最終都可以套回「immune vs non-immune」以及「有沒有 schistocyte（機械性破壞）」這兩條分類邏輯去理解，不需要每個少見病因都個別死背。
 
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「除了感染，還有哪些少見但重要的溶血原因你會想到？」→ 接下一題的 PNH：後天造血幹細胞 PIGA 基因突變、造成補體介導的溶血，也是一個「跳出標準清單」的例子。
+- 「你剛剛提到 DIC 造成的 schistocyte，這跟血栓性微血管病變（TMA）的 schistocyte 要怎麼區分？」→ 可進一步參考 [TTP/TMA/Evans 篇](/hema-board-interview-guide/topics/ttp-tma-evans/) 做細部鑑別。
+
+</div>
+
 **Q: PNH（陣發性夜間血紅素尿症）的病人會有什麼表現？**
 
 **最佳答法**：先講機轉再講表現，因為 PNH 的症狀組合看起來分散（血栓、溶血、骨髓衰竭），只有講出機轉才能讓這些表現變得有邏輯。**依照**「PNH 是後天造血幹細胞的 PIGA 基因突變，導致紅血球表面缺乏 GPI-anchored 的補體抑制蛋白（如 CD55、CD59），細胞因此對補體攻擊變得脆弱」這個核心機轉，血管內溶血、血栓傾向、與骨髓造血功能不足這三組看似不相關的表現，其實都能從同一個機轉推導出來，**因為**考官如果問「PNH 的表現」，通常是要確認你知不知道這是一個補體介導的疾病，而不是只背出「茶色尿」這個表面症狀。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「PNH 表面看起來是血栓、溶血、骨髓衰竭三組不相關的表現，其實都是同一個補體攻擊機轉推出來的，不是三個獨立的病。」
+
+</div>
 
 擬答：
 - **血管內溶血相關表現**
@@ -92,9 +159,24 @@ sidebar:
 - **骨髓造血功能不足的表現**
   - PNH 常與再生不良性貧血（aplastic anemia）有重疊或相互轉化的關係，部分病人會合併血球減少（cytopenia），呈現骨髓衰竭的表現。
 
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「PNH 病人的血栓好發在哪些不典型部位？為什麼這件事很重要？」→ 肝靜脈（Budd-Chiari syndrome）、腦靜脈竇，這是這個疾病死亡率的主要原因之一，問診跟影像要主動往這個方向想。
+- 「PNH 造成的貧血，MCV 分類上會落在哪一類？」→ 回扣本篇最上方的推理架構：多數溶血性貧血屬於 normocytic，PNH 也不例外。
+
+</div>
+
 **Q: 脾臟切除術後有哪些併發症或長期需要注意的問題？**
 
 **最佳答法**：把併發症分成「立即」跟「長期」兩個時間軸講，而不是條列式丟出三個名詞。**依照**「脾臟同時負責過濾血球跟部分免疫功能，切除之後這兩個功能都會受影響，只是發生的時間點不同」這個機轉理解，感染風險是長期持續存在的問題、血栓風險則跟術後血小板增多有關，**因為**考官問這題通常是想確認你知不知道脾臟切除不是「拿掉就沒事」，而是需要終身注意的臨床照護議題。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「脾臟切除不是拿掉就沒事：感染風險終身存在、血栓風險術後就要開始追蹤，肺動脈高壓的因果關係目前還有爭議，講的時候語氣要留有餘地。」
+
+</div>
 
 擬答：
 - **感染風險（最重要,終身存在）**
@@ -106,9 +188,24 @@ sidebar:
   - 部分研究觀察到脾臟切除病人肺動脈高壓的盛行率偏高，但目前因果關係並未確立：2022 年版 ESC/ERS 肺高壓指引已經把「脾臟切除」從 Group 5（不明機轉）病因分類中移除，部分學者認為這個關聯性其實是原本的溶血性疾病（如地中海貧血、鐮刀型貧血）本身造成，而不是脾臟切除單獨導致。
   - 回答時可以講「有觀察到相關性、但因果證據還不確定」，比直接斷言「脾臟切除會導致肺動脈高壓」更嚴謹，也比較不會被考官抓到把相關性講成因果性。
 
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「這個病人術前你會怎麼準備，降低 OPSI 的風險？」→ 術前或術後儘早補打莢膜細菌相關疫苗，衛教發燒要及早就醫，部分病人考慮預防性抗生素。
+- 「如果同一個病人之後又需要多次輸血，風險會怎麼疊加？」→ 接下一題：重複輸血本身還會帶來鐵過載與同種免疫反應等長期風險，跟脾臟切除的血栓、感染風險是不同機轉，但會疊加在病人身上。
+
+</div>
+
 **Q: 輸血會有什麼副作用？**
 
 **最佳答法**：先按時間軸把輸血反應分成急性跟慢性,再點出考官最常鎖定的那一項。**依照**「多數考生會背出急性溶血反應、發燒反應這些急性副作用,但漏掉慢性、長期輸血才會出現的問題」這個常見盲點，鐵過載（iron overload）是重複輸血病人最重要、也最常被考的慢性併發症，**因為**這題背後其實是在測考生的輸血醫學/血庫基本功，而這正是多數考生自陳的弱項，講得完整與否很容易看出準備深度。
+
+<div class="callout callout-keywords">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+「急性輸血反應大家都會背，這題真正在考的是慢性長期輸血的鐵過載——這才是輸血醫學/血庫基本功夠不夠扎實的分水嶺。」
+
+</div>
 
 擬答：
 - **急性輸血反應（輸血當下到數小時內）**
@@ -119,6 +216,14 @@ sidebar:
 - **慢性/長期輸血的副作用（多次輸血後才會顯現）**
   - 鐵過載（iron overload）：每一單位濃縮紅血球都含有一定量的鐵，人體沒有主動排鐵的機制，重複輸血會讓鐵持續累積在肝臟、心臟、內分泌器官,長期下來造成器官功能損傷,這是慢性輸血病人（如 thalassemia major）最重要的長期併發症,需要定期監測 ferritin 並視情況給予排鐵治療（iron chelation therapy）。
   - 同種免疫反應（alloimmunization）：重複輸血會讓病人產生對紅血球抗原的抗體，增加未來配血的困難度與延遲性溶血反應的風險。
+
+<div class="callout callout-followup">
+<div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+- 「鐵過載病人你會怎麼監測跟治療？」→ 定期監測 ferritin，視情況給予排鐵治療（iron chelation therapy），可進一步參考 [地中海貧血與鐵過載篇](/hema-board-interview-guide/topics/thalassemia-iron-overload/)。
+- 「病人已經出現 alloimmunization，以後配血會遇到什麼問題？」→ 配血更耗時、更困難，也提高延遲性溶血反應的風險。
+
+</div>
 
 ## 容易被電的點
 

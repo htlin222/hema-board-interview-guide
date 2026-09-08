@@ -39,6 +39,13 @@ sidebar:
 
    **最佳答法**：先講「MCV 下降幅度跟 Hb 貧血嚴重度不成比例」這個判別點，再往下走抽血確認的步驟，最後主動點出 electrophoresis 正常時的盲點，不要停在「送電泳」就結束。**依照**「MCV/Hb 不成比例是分辨 thalassemia trait 與 IDA 的核心線索」這個邏輯，這句要放在檢查步驟之前先講，才顯示出你是先鑑別診斷、再決定要做哪些檢查；**因為**考官真正要測的是 electrophoresis 正常不能排除 alpha-thalassemia trait 這個延伸陷阱，只講到「送 ferritin 跟電泳」是及格答案，主動補上這個盲點並建議加驗基因，才是把題目答完整。
 
+   <div class="callout callout-keywords">
+   <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+   「MCV 掉的幅度跟 Hb 貧血程度不成比例，才是我懷疑 thalassemia trait、而不是等 electrophoresis 報告出來才判斷的第一個線索。」
+
+   </div>
+
    擬答：
    - **第一步：病史詢問家族貧血史**
      - 有家族史陽性且是年輕女性 microcytic anemia，要優先懷疑 thalassemia trait，而不是直接當成單純 IDA 處理。
@@ -50,9 +57,25 @@ sidebar:
      - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：alpha-thalassemia trait（alpha-thal minor）病人的 HbA2/HbF 比例通常正常，electrophoresis 報告「正常」容易被誤判為已經排除 thalassemia。
      - 若臨床仍高度懷疑（家族史強、electrophoresis 正常但 microcytosis 明顯），要進一步加驗基因檢測（alpha-globin gene study）才能確診。
 
+   <div class="callout callout-followup">
+   <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+   - 「如果 electrophoresis 正常，你還會不會進一步做基因檢測？」→ alpha-thalassemia trait 的 HbA2/HbF 通常正常，electrophoresis 正常不能排除診斷，高度懷疑時要加驗 alpha-globin gene study。
+   - 「如果同時發現 ferritin 也偏低，代表什麼？」→ 病人可能合併 IDA，需要回到 [IDA 篇](/hema-board-interview-guide/topics/iron-deficiency-anemia/) 的邏輯先確認缺鐵原因，再決定要不要補鐵。
+   - 「確診之後，你接下來要跟病人談什麼？」→ 銜接下一題的遺傳諮詢與配偶篩檢。
+
+   </div>
+
 2. **確診 thalassemia（trait 或 intermedia）之後怎麼處置？**
 
    **最佳答法**：先簡短帶過長期追蹤，但重心要放在主動轉向遺傳諮詢，不要把這題答成慢性病例行追蹤模式就結束。**依照**「trait 是帶因狀態、下一代重症風險取決於夫妻雙方基因型」這個遺傳邏輯，主動建議配偶篩檢才是把答案講完整；**因為**考官真正要聽的是你會不會點名 Hb Bart's hydrops fetalis 這個致命結果——把 trait 只當成需要門診追蹤的慢性狀態、漏講這個致命性後果，正是最容易被電、也最能看出理解深度是否足夠的地方。
+
+   <div class="callout callout-keywords">
+   <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+   「確診 thalassemia trait 之後，我第一句要講的不是回診追蹤排程，是問配偶要不要篩檢——因為下一代的重症風險才是這題的重點。」
+
+   </div>
 
    擬答：
    - **長期門診追蹤**
@@ -62,9 +85,24 @@ sidebar:
      - 目的是避免夫妻雙方都帶因時，下一代生出重症型 thalassemia。
      - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 要特別點名 alpha-thalassemia major／Hb Bart's hydrops fetalis：這是致命性疾病（胎兒水腫，通常胎死腹中或出生後迅速死亡），是遺傳諮詢要優先攔截的情境，答題時漏講這個致命性後果會被電。
 
+   <div class="callout callout-followup">
+   <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+   - 「配偶篩檢後發現雙方都帶因，最擔心哪一種結果？」→ alpha-thalassemia major／Hb Bart's hydrops fetalis，屬於致命性胎兒水腫，是遺傳諮詢要優先攔截的情境。
+   - 「這位帶因者本身之後會不會發展成 iron overload？」→ 銜接框架二／第 3 題，即使沒有輸血病史，ineffective erythropoiesis 仍可能讓鐵持續透過腸道吸收堆積。
+
+   </div>
+
 3. **沒有輸血的病人，為什麼 ferritin 還是會升高？**
 
    **最佳答法**：先講「鐵只有外源輸血、內源吸收這兩條路徑」的二分法，指出病人沒輸血史所以要整個轉往內源機轉，再一路講到 hepcidin 這個中介步驟才算完整，不要講完「ineffective erythropoiesis」就停住。**依照**「ineffective erythropoiesis 抑制 hepcidin、hepcidin 是腸道鐵吸收的煞車」這條因果鏈，答案必須把這個中介機轉講出來；**因為**考官要驗證的是你懂不懂「沒輸血也會 iron overload」背後真正的生理路徑，而不是只死背這個現象會發生卻講不出中間那一步。
+
+   <div class="callout callout-keywords">
+   <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+   「沒輸血也會鐵過量，是因為 ineffective erythropoiesis 壓低了 hepcidin、腸道鐵吸收的煞車鬆開了——這句話沒講到 hepcidin，這題就沒答完。」
+
+   </div>
 
    擬答：
    - **先點出病因二選一的邏輯，再套進本題**
@@ -74,9 +112,24 @@ sidebar:
      - Hepcidin 是腸道鐵吸收的煞車，煞車被壓低後，腸道鐵吸收會代償性增加。
      - 結果是即使病人完全沒輸血，鐵仍會持續透過腸道吸收堆積在體內，ferritin 因此持續上升。
 
+   <div class="callout callout-followup">
+   <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+   - 「這種內源性的 iron overload，健保給付的 chelation 條件符合嗎？」→ 銜接第 6 題，給付前提通常要求輸血依賴病史，單純內源性吸收增加的病人需要另外檢視是否符合條件。
+   - 「怎麼確認病人已經有 iron overload、程度多嚴重？」→ 銜接第 5 題的 ferritin 初篩加影像學金標準流程。
+
+   </div>
+
 4. **Iron overload 最早／最敏感／臨床最容易檢查的器官分別是哪個？**
 
    **最佳答法**：三個形容詞要對應三個不同器官分開回答，不要籠統地只講一個「肝→心→內分泌」的順序當答案。**依照**「儲存優先度」跟「耗氧敏感度」是框架三裡兩套不同的評估邏輯——「最早被鐵佔滿」是儲存倉庫的概念，「功能異常最早出現」是耐受度的概念，兩者本來就不是同一件事，必須拆開講；**因為**考官刻意用三個不同形容詞問同一組器官，就是要考你有沒有分清楚「儲存量最多」跟「功能受損最快」是兩回事，把三個問法答成同一個答案正是這題設計來抓的破綻。
+
+   <div class="callout callout-keywords">
+   <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+   「『最早』『最敏感』『臨床最容易查』問的是肝、心、內分泌三個不同器官，不是同一個答案換三種問法而已。」
+
+   </div>
 
    擬答：
    - **最早被鐵佔滿的器官：肝臟**
@@ -88,9 +141,24 @@ sidebar:
      - 血糖、甲狀腺、性腺功能可以直接抽血或做 OGTT 篩檢出來，這屬於「最容易發現」，但不代表「最早受損」。
      - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：把「最早侵犯」「最敏感」「臨床最容易查」三個問法答成同一個答案，考官會刻意用不同形容詞問同一器官序列來測試有沒有分清楚，回答時要三個分開講。
 
+   <div class="callout callout-followup">
+   <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+   - 「如果肝臟鐵沉積已經飽和、但 cardiac MRI T2\* 還正常，代表什麼？」→ 呼應框架三，心臟鐵沉積通常要等肝臟儲存飽和後才會顯著出現，此時仍要持續監測心臟而非放心。
+   - 「怎麼確認病人現在到底有沒有 iron overload？」→ 銜接第 5 題的檢查流程。
+
+   </div>
+
 5. **怎麼確認病人有沒有 iron overload？**
 
    **最佳答法**：先講 ferritin 是初篩工具、不是確診依據，主動點出它是 acute phase reactant 會被發炎撐高這個限制，再往影像學金標準推進，並特別點名 cardiac MRI T2\* 的重要性，不要只列出檢查清單。**依照**「心臟是對鐵毒性最敏感、也是主要死因的器官」（框架三），cardiac MRI T2\* 的地位就不只是例行項目，而是評估流程裡不能省略的一環；**因為**考官要看的是你能不能把 ferritin 的局限性、影像學金標準、器官風險分層這三件事串成一條有先後邏輯的線，而不是把幾個檢查名詞平鋪直敘背出來。
+
+   <div class="callout callout-keywords">
+   <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+   「Ferritin 只是初篩、還會被發炎撐高，真正的金標準是 MRI，尤其是 cardiac MRI T2\*——因為心臟是鐵毒性耐受度最低的器官。」
+
+   </div>
 
    擬答：
    - **第一步：Serum ferritin 初篩**
@@ -103,9 +171,24 @@ sidebar:
    - **第四步：不要漏掉內分泌端的篩檢**
      - 用 OGTT 篩檢 iron overload 相關的糖尿病，呼應內分泌器官是「臨床最容易篩出異常」的器官這個觀念。
 
+   <div class="callout callout-followup">
+   <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+   - 「Cardiac MRI T2\* 已經異常，藥物選擇上要怎麼調整？」→ 銜接第 7 題，deferiprone 對心臟鐵移除效果較佳，常與 deferoxamine 併用。
+   - 「病人 ferritin 因為同時有感染而飆高，這代表 iron overload 惡化了嗎？」→ 不一定，ferritin 是 acute phase reactant 會被發炎撐高，須搭配影像學才能準確判斷。
+
+   </div>
+
 6. **Iron chelation 的健保給付條件？**
 
    **最佳答法**：先講兩個給付前提（輸血依賴病史、ferritin 門檻），但講完數字後一定要補一句「實際門檻依當年健保公告為準」，不要把某個數字講死當成永久標準答案。**依照**健保給付規定是行政政策、會隨年度調整，而不是固定不變的生理機轉這個事實，把過時或不確定的數字講成鐵律本身就是邏輯上的錯誤；**因為**考官問這題常常是要測你有沒有意識到「行政規定」跟「醫學機轉」性質不同，講死一個可能已經過期的門檻，比誠實承認「需依當年公告確認」更容易被電。
+
+   <div class="callout callout-keywords">
+   <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+   「健保給付的 ferritin 門檻是行政政策數字、會逐年調整，不是固定的生理機轉——講死一個數字，比誠實說『依當年公告為準』更容易被電。」
+
+   </div>
 
    擬答：
    - **給付前提：病人通常要有輸血依賴病史**
@@ -114,9 +197,24 @@ sidebar:
      - 常見門檻是 ferritin 大於 1000 ng/mL 才符合健保給付標準。
      - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：把門檻數字講死。實際門檻會隨當年健保規定調整，回答時要補一句「實際門檻依當年健保公告為準，建議考前確認最新規定」，避免講死一個過時數字被電。
 
+   <div class="callout callout-followup">
+   <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+   - 「病人 ferritin 很高但沒有規律輸血病史，符合給付嗎？」→ 呼應第 3 題的內源性 iron overload，通常不符合以輸血依賴為前提的給付條件，需要另外討論。
+   - 「符合給付之後，藥物怎麼選？」→ 銜接第 7 題三種 chelation 藥物的給法與副作用。
+
+   </div>
+
 7. **常用 chelation 藥物有哪些？機轉/給法/副作用？**
 
    **最佳答法**：逐一講完三個藥物各自的給法跟副作用之後，一定要收尾回扣到「藥物怎麼選」這一層，把順從性跟器官侵犯優先順序併進去，不要把答案停在條列三個藥的副作用清單。**依照**框架三「心臟是對鐵毒性最敏感、也是主要死因的器官」，deferiprone 對心臟鐵移除效果較佳、常與 deferoxamine 併用這件事才有意義、才有臨床邏輯支撐；**因為**考官要看的是你會不會把藥理知識跟前面器官侵犯順序的框架串連起來用，只背三個藥各自的副作用而不談選藥依據，等於把整題拆成三張獨立的 flashcard 而漏掉考官真正想聽的整合能力。
+
+   <div class="callout callout-keywords">
+   <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+   「三個藥物的副作用背完只是及格，加分題是講出為什麼 deferiprone 要跟耐受度最低的心臟綁在一起、常跟 deferoxamine 併用。」
+
+   </div>
 
    擬答：
    - **Deferoxamine（Desferal）**
@@ -133,9 +231,24 @@ sidebar:
      - Deferiprone 對心臟鐵移除的效果較佳，常與 deferoxamine 併用，用在嚴重心臟鐵沉積的病人身上。
      - 因為心臟是對鐵毒性耐受度最低、最敏感的器官（框架三），心臟鐵沉積嚴重時要優先選對心臟效果好的藥物組合，這是把框架三講活的加分點。
 
+   <div class="callout callout-followup">
+   <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+   - 「Deferiprone 治療期間最需要監測什麼、為什麼？」→ 顆粒性白血球缺乏症（agranulocytosis），必須定期監測 CBC 才能早期揪出。
+   - 「病人服藥順從性差、常常忘記皮下輸注，你會怎麼調整處方？」→ 改用口服、一天一次的 deferasirox，順從性較好，但要定期監測腎功能與尿蛋白。
+
+   </div>
+
 8. **病人年紀漸長後貧血從 microcytic 轉為 normocytic，要考慮什麼？**
 
    **最佳答法**：先講「不能把新出現的貧血型態直接歸因於原本的 thalassemia」這個提醒，再重新跑一次框架一的 MCV 分類流程，最後才列出可能疊加的病因，順序不能倒過來。**依照**「貧血型態的改變是一個獨立的新臨床事件，需要重新分類而不是套用舊診斷」這個原則，不能因為病人已有慢性 thalassemia 病史，就用既有診斷直接解釋新出現的變化；**因為**考官設計這題就是要測有沒有慣性思維陷阱——把新訊息硬塞進舊框架、省略重新評估這一步，答對「先歸零重新分類」這個切入點，才顯示出真正在做臨床推理而不是背景知識的堆疊。
+
+   <div class="callout callout-keywords">
+   <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
+
+   「病人本來就有 thalassemia，不代表新出現的 normocytic anemia 也要算進同一個診斷——先當成獨立事件，重新跑一次 MCV 分類。」
+
+   </div>
 
    擬答：
    - **第一步：不要直接歸因於原本的 thalassemia**
@@ -146,6 +259,14 @@ sidebar:
      - Iron overload 本身可能改變骨髓造血狀況，進而改變貧血的表現型態。
      - 慢性病貧血（anemia of chronic disease）在老年病人身上盛行率上升，也會把原本 microcytic 的表現拉往 normocytic。
      - 老年常見的其他貧血原因，例如 megaloblastic anemia（B12／folate 缺乏）或 MDS（骨髓分化不良症候群），都可能合併出現，進一步改變原本的貧血型態。
+
+   <div class="callout callout-followup">
+   <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
+
+   - 「重新分類後又落回 microcytic，你會怎麼想？」→ 回到框架一的邏輯，考慮是否合併 IDA，或 iron overload 本身已經改變骨髓造血狀況。
+   - 「這幾個可能疊加的病因，你會優先排除哪一個？」→ 先抽血排除 B12／folate 缺乏這類容易確認的原因，再視臨床狀況評估是否需要進一步檢查 MDS。
+
+   </div>
 
 ## 容易被電的點
 
