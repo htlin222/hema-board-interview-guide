@@ -21,6 +21,45 @@ SLiM-CRAB criteria 常被考生逐字背字母，但真正該記的是背後那�
 
 **但要特別注意一個容易混淆的地方**：myeloma 標準治療用的是 **autologous transplant（自體移植）**，不是 allogeneic（異體）移植——病人打完誘導治療後，用自己的周邊血幹細胞（經 G-CSF ± plerixafor 動員、apheresis 採集後冷凍保存）接受高劑量 melphalan 化療，再把自己的幹細胞回輸回去，目的是加速骨髓恢復，不是靠新的免疫系統去打疾病。所以標準流程裡**沒有「配對 donor」這件事**。Allogeneic transplant 在 myeloma 只用在特定高風險/多次復發的年輕病人身上，且僅限臨床試驗框架下考慮，因為異體移植伴隨的 GVHD 與治療相關死亡率（TRM）風險高，目前證據沒有一致支持它能帶來優於自體移植的存活效益——回答時不要把 AML 的異體移植邏輯直接套到 myeloma 身上。
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18"/><path d="M9 3v18"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 速記表
+
+考前快速掃過用。下面幾張表把整頁的判斷點壓成可以「看一眼就講得出來」的形式，細節與擬答仍在後面各題。
+
+**Smoldering 什麼時候該轉成主動治療（對應「有沒有傷害發生」框架、第一題）**
+
+| 指標組 | 代表的意義 | 包含什麼 | 處置 |
+| --- | --- | --- | --- |
+| CRAB | end-organ damage 的直接證據，傷害**已經**發生 | 高血鈣、腎功能惡化、貧血、骨病灶 | 符合任一項就開始治療，不能再觀察 |
+| SLiM | 極高風險的替代指標，傷害**即將**發生 | 骨髓漿細胞比例極高、free light chain ratio 極端、MRI 看到 focal lesion | 同樣要從觀察轉為治療，不是等真的出現 CRAB 才處理 |
+
+**誘導與維持用藥速查（對應第二題、第四題）**
+
+| 藥物／Regimen | 組成或用法 | 定位與證據 |
+| --- | --- | --- |
+| VRd | bortezomib + lenalidomide + dexamethasone | 三合一，目前最廣泛使用的誘導；ORR（≥PR）九成以上，但誘導階段單獨達 CR 大約兩到三成 |
+| Dara-VRd | VRd 加上 daratumumab（anti-CD38 單株抗體） | 四合一新標準；PERSEUS：48 個月 PFS 84.3% vs 67.7%、≥CR 87.9% vs 70.1%、MRD 陰性 75.2% vs 47.5%，高風險細胞遺傳學病人亦一致；2025 年 EHA-EMN 指引列為移植適合病人的新標準 |
+| VCd | bortezomib + cyclophosphamide + dexamethasone | 腎功能不佳或不適合 IMiD（如 lenalidomide）時的替代 |
+| Lenalidomide（維持） | 移植後單用維持 | 目前標準維持藥物：多個大型 RCT 與統合分析顯示延長 PFS，部分研究 OS 亦獲益；需長期監測續發性癌症 |
+| Thalidomide（維持） | 移植後單用維持 | 也有 PFS 效益，但 OS 證據不如 lenalidomide 一致，周邊神經病變重、致畸胎性強；保留給無法取得或無法耐受 lenalidomide 的病人 |
+
+**Bortezomib 的臨床操作細節（對應第三題）**
+
+| 項目 | 現行做法 | 理由 |
+| --- | --- | --- |
+| 給藥途徑 | 皮下注射優於早期的靜脈注射 | 顯著降低周邊神經病變發生率，療效不打折扣 |
+| 給藥頻率 | 每週一次（如 day 1、8、15）取代一週兩次（day 1、4、8、11） | 維持相近療效但明顯降低神經毒性；一週兩次證據較早、較紮實，代價是神經病變較多較重 |
+| 劑量限制性副作用 | 周邊神經病變，以感覺神經為主 | 嚴重時迫使減量或停藥，是這顆藥最具代表性的毒性 |
+| 其他常見副作用 | 血小板低下、腸胃道不適（噁心、腹瀉）、疲憊 | 不是劑量限制性，但要能一起列出來 |
+| 必備預防 | 用藥期間常規給 acyclovir 之類抗病毒藥 | 帶狀皰疹（herpes zoster）再活化風險上升 |
+
+**自體 vs 異體 vs tandem，本頁最關鍵的觀念（對應第五題）**
+
+| 移植型態 | 在 myeloma 的角色 | 流程／關鍵差異 | 風險與證據 |
+| --- | --- | --- | --- |
+| Autologous（標準） | 誘導後的標準鞏固步驟，但要先用年齡、functional status、共病判斷能不能承受，另考慮機構現況與病人意願 | 幹細胞來自病人自己：G-CSF ±plerixafor 動員 → apheresis 採集冷凍 → 高劑量 melphalan → 回輸加速骨髓恢復；**沒有配對 donor 這一步** | 不是每個確診病人都自動排入移植流程 |
+| Allogeneic | 不是標準治療，只在特定高風險或多次復發的年輕病人、且於臨床試驗框架下考慮 | 真正需要 HLA 配對 donor，靠的是新的免疫系統 | GVHD 與治療相關死亡率（TRM）風險高，證據沒有一致支持優於自體移植 |
+| Tandem（兩次連續的自體移植） | 不是所有病人都做 | 仍然是自體移植的範疇 | 未篩選族群無明確存活優勢（如 STaMINA）；高風險細胞遺傳學（del17p、t(4;14)）或首次移植反應不夠深者，EMN02/HO95 等顯示可能有額外效益 |
+
 ## 套用到實際問法
 
 **Q: Smoldering MM 病人，你怎麼判斷要不要開始治療？**

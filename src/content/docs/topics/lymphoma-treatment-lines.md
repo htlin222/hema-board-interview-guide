@@ -13,6 +13,44 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
 3. **治療反應不理想時，先問「診斷有沒有錯」，再問「要不要換藥」**：這是**最容易被漏掉、也是考官最愛設計的陷阱**——尤其當風險分數不支持「治療效果差」這個結果時（分數低、分期不晚，卻沒達到 CR），第一反應不該是換藥，而是回頭質疑診斷本身：病理有沒有漏看更 aggressive 的成分？要不要補做 FISH 排除 double/triple-hit？
 4. **後線治療要同時考慮兩件事：療效證據 + 給付限制**：講新藥角色（CAR-T、bispecific antibody、ADC）只丟藥名不夠，要主動點出「藥證核准」跟「健保給付條件」不一定一致——例如某些藥物在已做過 auto-transplant 的病人身上可能不符合健保使用資格，這種細節是加分點。
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18"/><path d="M9 3v18"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 速記表
+
+考前快速掃過用。下面幾張表把整頁的判斷點壓成可以「看一眼就講得出來」的形式，細節與擬答仍在後面各題。
+
+**DLBCL 一路到後線，每一線靠什麼決定（對應四層骨架、Q1–Q4）**
+
+| 治療線 | 決策依據 | 一定要主動講出來的重點 |
+| --- | --- | --- |
+| 一線 | 分期＋IPI risk score 決定起手治療強度（骨架第一、二層） | 不是所有病人打同一種 regimen；題目給「分數不高、分期不晚」常是後續劇情的伏筆 |
+| 反應不理想（PR 未達 CR） | 先問「診斷有沒有錯」，再問「要不要換藥」（骨架第三層） | 回頭 review 病理是否為更 aggressive 亞型、補做 FISH 排除 double/triple-hit；PR 在決策上視為 refractory disease |
+| 二線 | 復發時間點（12 個月）分流（骨架第二層延伸） | CAR-T 或挽救化療＋auto-PBSCT 兩條路，先講分岔點再展開細節 |
+| 三線以後 | 療效證據＋健保給付限制（骨架第四層） | CAR-T、bispecific antibody、ADC（如 polatuzumab）；主動點出「藥證核准 ≠ 健保給付」，例如做過 auto-transplant 可能不符給付資格 |
+
+**二線那個分岔點怎麼走（對應 Q3）**
+
+| 復發時間點 | 走哪條路 | 支持證據 | 講的時候要補的限定 |
+| --- | --- | --- | --- |
+| 早期復發（一線後 12 個月內復發或未達 CR）且適合 CAR-T | 直接進入 CAR-T，已取代傳統「先化療、再移植」 | ZUMA-7（axi-cel）、TRANSFORM（liso-cel） | 效益是特定產品才有：BELINDA（tisagenlecleucel）並未顯示優於傳統路徑，不能講成「只要是 CAR-T 就比較好」 |
+| 較晚復發（超過 12 個月） | 挽救性化療誘導緩解，再評估自體移植 | 傳統路徑仍適用 | 治療階段就要評估收 stem cell、準備 auto-PBSCT；只有大約一半病人反應夠好而真正走到移植 |
+
+**挽救性化療 regimen 與反應率，不能只說「二線化療」（對應 Q3 第二步）**
+
+| Regimen | 組成 | 試驗中的 ORR |
+| --- | --- | --- |
+| R-ICE | rituximab + ifosfamide + carboplatin + etoposide | CORAL 64% |
+| R-DHAP | rituximab + dexamethasone + high-dose cytarabine + cisplatin | CORAL 63%；LY.12 的 (R)-DHAP 45% |
+| R-GDP | rituximab + gemcitabine + dexamethasone + cisplatin | LY.12 的 (R)-GDP 44% |
+| 整體概念 | 依方案與研究不同 | 大約四到六成五，別隨口講「六到七成」 |
+
+**其他常見延伸：什麼時候才動手（對應「其他常見延伸」各條）**
+
+| 情境 | 怎麼判斷 | 處置方向 |
+| --- | --- | --- |
+| Follicular lymphoma，原發腸胃道（duodenum/small intestine）、無症狀 | 侷限、低腫瘤負荷，不符合 GELF 的治療啟動標準 | Watch and wait，不必看到 lymphoma 就急著治療 |
+| Follicular lymphoma，廣泛期或合併 B symptoms | 符合 GELF 的啟動情境（腫瘤體積大、多處淋巴結腫大、全身症狀、血球低下） | 啟動一線治療，處置邏輯與前一列完全不同 |
+| Follicular lymphoma 一線選藥 | 依年紀、共病、腫瘤負荷 | BR（bendamustine + rituximab，血液學毒性較輕，常優先）或 R-CHOP |
+| Asymptomatic lymphocytosis | 先臨床、後檢驗 | 先完整 H&P 排除感染／反應性原因，再送周邊血 flow cytometry 看 CD5、CD23 判斷是否 CLL |
+
 ## 套用到實際問法（以 DLBCL 為例）
 
 **Q1：給一個 DLBCL 病人的分期／IPI score，這個病人下一步治療怎麼選？**

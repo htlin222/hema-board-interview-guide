@@ -33,6 +33,46 @@ sidebar:
 
 把這三個問題分開回答，考官問「最早侵犯哪裡／最敏感哪裡／臨床最容易查哪裡」這種刻意用不同形容詞問同一器官序列的題目時，就不會混淆答錯。
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18"/><path d="M9 3v18"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 速記表
+
+考前快速掃過用。下面幾張表把整頁的判斷點壓成可以「看一眼就講得出來」的形式，細節與擬答仍在後面各題。
+
+**Microcytic anemia 要分 IDA 還是 thalassemia trait（框架一／第 1 題）**
+
+| 檢查／線索 | 結果長什麼樣 | 怎麼解讀 |
+| --- | --- | --- |
+| MCV 下降幅度 vs Hb 貧血嚴重度 | MCV 掉很多、Hb 卻沒掉很多（不成比例） | 提示 thalassemia trait；這句要放在檢查步驟之前先講 |
+| MCV 下降幅度 vs Hb 貧血嚴重度 | 兩者掉的幅度較成比例 | 提示 IDA |
+| Ferritin | 偏低 | 合併 IDA——trait 病人仍可能同時缺鐵，回到 IDA 篇找缺鐵原因 |
+| Hb electrophoresis | HbA2 上升 | beta-thalassemia trait 的典型表現 |
+| Hb electrophoresis | 正常 | ⚠️ 不能排除 alpha-thalassemia trait（HbA2／HbF 通常正常）；高度懷疑要加驗 alpha-globin gene study |
+
+**沒輸血的人為什麼還會鐵過載——病因永遠二選一（框架二／第 3 題）**
+
+前提一句話：人體沒有主動排鐵機制，鐵只會累積不會主動排出。
+
+| 病因分類 | 鐵怎麼進來 | 處置方向與給付含義 |
+| --- | --- | --- |
+| 外源性 | 反覆輸血直接帶入鐵 | 方向是減少輸血依賴；符合以「輸血依賴病史」為前提的 chelation 給付 |
+| 內源性（ineffective erythropoiesis） | 骨髓內紅血球前驅細胞大量凋亡、RBC turnover↑ → 抑制 hepcidin → 腸道鐵吸收的煞車鬆開 → 吸收代償性增加 | 方向是腸道端介入／及早 chelation；沒有規律輸血病史通常不符合給付前提 |
+
+**三個形容詞問的是三個不同器官（框架三／第 4、5 題）**
+
+| 器官 | 對應哪一個問法 | 為什麼 | 評估用什麼 |
+| --- | --- | --- | --- |
+| 肝臟 | 最早被鐵佔滿 | 是身體預設的鐵儲存倉庫（Kupffer cell／hepatocyte） | Liver MRI（T2\* 或 R2 法，如 SQUID、FerriScan）；liver biopsy 為侵入性替代方案 |
+| 心臟 | 沉積較晚，但一旦發生失代償最快 | 要等肝臟儲存飽和才顯著沉積；心肌對鐵誘發的 oxidative stress 耐受度低 → 心律不整、心衰竭來得又急又快，是過去主要死因之一 | Cardiac MRI T2\*，不可省略 |
+| 內分泌器官 | 臨床上最容易篩出異常（≠ 最早受損） | 血糖、甲狀腺、性腺抽血或 OGTT 就能篩 | OGTT 篩 iron overload 相關糖尿病、甲狀腺與性腺功能 |
+| （全身鐵負荷初篩） | 第一線篩檢、不是確診依據 | Ferritin 是 acute phase reactant，發炎時會被撐高 | Serum ferritin，須搭配影像學才能判讀 |
+
+**三個排鐵劑怎麼比、怎麼選（第 7 題）**
+
+| 藥名 | 給法 | 主要副作用／要監測什麼 | 什麼情況優先選 |
+| --- | --- | --- | --- |
+| Deferoxamine（Desferal） | 皮下或靜脈持續輸注，麻煩耗時、順從性差 | 聽力毒性、視力毒性；注射部位局部反應 | 嚴重心臟鐵沉積時，常與 deferiprone 併用 |
+| Deferasirox（Exjade） | 口服，一天一次，順從性較好 | 腎功能異常、腸胃不適、肝功能異常；定期監測腎功能與尿蛋白 | 病人順從性差、無法接受皮下輸注時 |
+| Deferiprone | 口服 | ⚠️ agranulocytosis（顆粒性白血球缺乏症）；用藥期間必須定期監測 CBC | 心臟鐵移除效果較佳，cardiac MRI T2\* 異常時優先，常與 deferoxamine 併用 |
+
 ## 套用到實際問法
 
 1. **年輕女性、microcytic anemia、家族史陽性，怎麼查？**

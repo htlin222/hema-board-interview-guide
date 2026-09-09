@@ -26,6 +26,50 @@ sidebar:
 
 這個架構的核心是：**抹片型態相似不代表機轉相同**——spherocyte 可以是 immune 也可以是 non-immune，真正的分岔點永遠是 Coombs test 陽性或陰性。
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18"/><path d="M9 3v18"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 速記表
+
+考前快速掃過用。下面幾張表把整頁的判斷點壓成可以「看一眼就講得出來」的形式，細節與擬答仍在後面各題。
+
+**MCV 一分三類，各自要想到什麼（推理架構・第一層）**
+
+| 分類 | 這一格裡有什麼 | 考官愛問的少見／情境性原因 |
+| --- | --- | --- |
+| Microcytic（MCV 低） | 缺鐵、thalassemia trait、anemia of chronic disease（部分病人） | 鉛中毒、sideroblastic anemia |
+| Normocytic（MCV 正常） | 急性失血、多數溶血性貧血、anemia of chronic disease、腎性貧血、骨髓浸潤或再生不良 | 燒傷（體液滲漏造成血液濃縮的假象＋熱傷害直接破壞紅血球膜）、march hemoglobinuria（足底反覆撞擊造成微血管內機械性破壞，良性、通常自行緩解） |
+| Macrocytic（MCV 高） | B12／folate 缺乏（megaloblastic）、酒精、肝病、甲狀腺低下 | 藥物（hydroxyurea、化療藥）、MDS 造成的無效造血 |
+| 老年人（型態會漂移） | 年輕時是 microcytic 的缺鐵，年紀大常轉成 normocytic 甚至 macrocytic | 主動想 megaloblastic anemia（B12／folate）或 MDS——造血功能本身在退化，不是缺鐵沒補好 |
+
+**溶血的四項實驗室證據各自代表什麼（推理架構・第二層第 1 步）**
+
+| 檢驗項目 | 方向 | 代表什麼 |
+| --- | --- | --- |
+| Reticulocyte count | 上升 | 骨髓在代償 |
+| LDH | 上升 | 細胞被破壞後釋出 |
+| Indirect bilirubin | 上升 | 血基質代謝產物增加 |
+| Haptoglobin | 下降 | 被釋出的游離血紅素消耗掉 |
+| 四項合起來看 | 不必每項到極端值，但方向要一致 | 只證明「有溶血」；講完就停住是失分點，下一步一定要接抹片型態＋Coombs test |
+
+**Coombs test（DAT）分岔：兩條路各是什麼（第二層第 2 步／spherocyte 那題）**
+
+| Coombs test（DAT） | 機轉方向 | 代表疾病 | 抹片看到什麼 |
+| --- | --- | --- | --- |
+| 陽性 | Immune-mediated：紅血球表面被抗體或補體標記 | Autoimmune hemolytic anemia（AIHA） | Spherocyte（部分細胞膜被脾臟巨噬細胞咬掉） |
+| 陰性・膜結構 | Non-immune：先天紅血球膜蛋白缺陷 | Hereditary spherocytosis | Spherocyte（型態一樣，但機轉不是抗體攻擊） |
+| 陰性・酵素 | Non-immune：氧化壓力誘發溶血 | G6PD deficiency | Bite cell、Heinz body |
+| 陰性・機械性 | Non-immune：微血管內機械性切割 | TTP／TMA、人工瓣膜、DIC | Schistocyte |
+| 少見原因（感染） | 瘧疾＝寄生蟲直接在紅血球內複製破壞；登革熱＝骨髓抑制、血小板減少，部分病人誘發免疫介導破壞；敗血症合併 DIC＝纖維蛋白網切割 | 最終仍收斂回 immune vs non-immune、有沒有 schistocyte 兩條軸 | DIC 時可見 schistocyte |
+
+**輸血副作用：急性 vs 慢性（輸血那題）**
+
+| 輸血反應 | 時機 | 要講出來的重點 |
+| --- | --- | --- |
+| 急性溶血反應 | 急性 | 多因 ABO 不合，發燒、腰痛、血尿，嚴重可致命；強調輸血前 crossmatch 與床邊核對病人與血袋 |
+| 發燒性非溶血反應 | 急性 | 最常見的輸血反應之一，機轉與白血球釋放的細胞激素有關 |
+| 過敏反應 | 急性 | 從蕁麻疹到 anaphylaxis 都有可能；嚴重過敏要想到 IgA 缺乏症 |
+| TRALI／TACO | 急性 | 都表現呼吸困難但機轉不同：TRALI 是免疫機轉的肺損傷、TACO 是容積過載，靠病史、理學檢查與影像鑑別 |
+| 鐵過載 | 慢性（多次輸血後） | 每單位濃縮紅血球都含鐵、人體沒有主動排鐵機制，累積在肝、心、內分泌器官；thalassemia major 這類病人最重要的長期併發症，定期監測 ferritin、視情況 iron chelation。這題只答急性反應就是最常見的失分點 |
+| Alloimmunization | 慢性（多次輸血後） | 產生對紅血球抗原的抗體，未來配血更困難、延遲性溶血反應風險上升 |
+
 ## 套用到實際問法
 
 **Q: Anemia 依照 MCV 分成 micro/normo/macrocytic 三大類，各自的鑑別診斷有哪些？特別是比較少見的原因？**

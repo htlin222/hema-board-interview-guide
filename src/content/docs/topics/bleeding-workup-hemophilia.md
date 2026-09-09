@@ -42,6 +42,43 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
 1. **要同時測 0 小時（立即）和 2 小時（培養後）**，因為有些 inhibitor 是 **time/temperature-dependent**（如 acquired hemophilia 的 anti-FVIII 抗體），立即測可能看起來是 correctable，培養 2 小時後才會現形變成 not correctable；lupus anticoagulant 通常是立即作用型，0 小時就看得出來。
 2. **要跑一組正常血漿的 control** 一起培養對照——如果 control 組自己也 prolong，代表是檢體處理不當或 factor degradation 造成的技術性問題，不是真的有 inhibitor，不能誤判。
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18"/><path d="M9 3v18"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 速記表
+
+考前快速掃過用。下面四張表把整頁的判斷點壓成可以「看一眼就講得出來」的形式，細節與擬答仍在後面各題。
+
+**出血型態 → 先分哪一層（框架一）**
+
+| 出血型態                                                         | 提示哪一層           | 接著查什麼            |
+| ---------------------------------------------------------------- | -------------------- | --------------------- |
+| 黏膜／皮膚、發生快、表淺傷口流不停（瘀點、鼻血、牙齦、月經過多） | Primary hemostasis   | 血小板數量／功能、vWF |
+| 深層組織／關節、延遲發生（受傷數小時後才腫、hemarthrosis）       | Secondary hemostasis | PT／aPTT、因子活性    |
+
+**PT / aPTT 四種組合 → 想什麼（框架二）**
+
+| PT   | aPTT | 問題落在哪                          | 要列出的鑑別診斷                                                                                                   |
+| ---- | ---- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| 正常 | 延長 | Intrinsic 獨有因子，或有 inhibitor  | FVIII（hemophilia A）、FIX（B）、FXI、FXII；acquired hemophilia；lupus anticoagulant（⚠️ 表現是血栓不是出血）；vWD |
+| 延長 | 正常 | Extrinsic 獨有的 FVII（半衰期最短） | 早期肝病、vitamin K 缺乏、warfarin                                                                                 |
+| 延長 | 延長 | Common pathway，或多重因子同時缺乏  | FII／FV／FX 缺乏；DIC、嚴重肝病、vit K 缺乏／warfarin、大量輸液稀釋                                                |
+| 正常 | 正常 | 兩條路都沒事 → 回頭走框架一         | 血小板數量／功能異常、vWD                                                                                          |
+
+**Mixing study 判讀（框架三）**
+
+| 0 小時           | 2 小時（37°C 培養後） | 判讀                         | 下一步                                                        |
+| ---------------- | --------------------- | ---------------------------- | ------------------------------------------------------------- |
+| 矯正             | 矯正                  | 量不夠 → 因子缺乏            | 驗 FVIII／FIX／FXI 活性；若疑 vWD 加驗 vWF antigen + activity |
+| 矯正             | 不矯正                | Time-dependent inhibitor     | Bethesda assay → acquired hemophilia（anti-FVIII）            |
+| 不矯正           | 不矯正                | 立即作用型 inhibitor         | 鑑別 lupus anticoagulant（不降單一因子活性）                  |
+| Control 組也延長 | —                     | 不是 inhibitor，是技術性問題 | 檢體處理／factor degradation，重採                            |
+
+**Hemophilia 嚴重度分級**
+
+| 嚴重度   | Factor level                                 | 出血情境                         |
+| -------- | -------------------------------------------- | -------------------------------- |
+| Severe   | < 1%（< 0.01 IU/mL）                         | 自發性出血，好發關節與肌肉       |
+| Moderate | 1–5%                                         | 中度創傷後才出血                 |
+| Mild     | > 5% 至 < 40%（5% 屬 moderate 上限，不重疊） | 大創傷或手術才出血，常成年才確診 |
+
 ## 套用到實際問法
 
 1. **Isolated aPTT prolongation 的鑑別診斷？**
@@ -65,7 +102,6 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
 
    <div class="callout callout-followup">
    <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
-
    - 「如果懷疑是 inhibitor 而不是單純因子缺乏，下一步要做什麼？」→ 做 mixing study 分辨是量的問題還是抑制物問題（見第 3、4 題）。
    - 「如果 mixing study 顯示 correctable，最後會不會指向 vWD？」→ 見第 11 題，correctable 之後不能停在 FVIII 缺乏，要往回問 vWF 保護不足的問題。
 
@@ -93,7 +129,6 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
 
    <div class="callout callout-followup">
    <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
-
    - 「肝病造成的凝血異常，為什麼常常 PT 比 aPTT 先出現異常？」→ 因為 factor VII 半衰期最短，肝功能下降時最早反映在 PT（見框架二）。
    - 「如果懷疑 DIC，還會合併看到什麼實驗室數值變化？」→ Fibrinogen 同時被消耗下降，是與單純肝病或稀釋性凝血病變區分的線索。
 
@@ -115,7 +150,6 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
 
    <div class="callout callout-followup">
    <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
-
    - 「如果 mixing study 顯示 correctable，接下來要驗哪些項目確診？」→ 見第 5 題，驗對應因子活性（懷疑 vWD 時加驗 vWF antigen/activity）。
    - 「如果 not correctable，怎麼進一步定量抑制物的強度？」→ 見第 10 題的 Bethesda assay。
 
@@ -145,7 +179,6 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
 
    <div class="callout callout-followup">
    <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
-
    - 「如果 0 小時 correctable、2 小時卻變成 not correctable，最可能是什麼診斷？」→ Acquired hemophilia（見第 10 題）。
    - 「如果 control 組自己也 prolong，代表什麼，會不會誤判成有 inhibitor？」→ 代表檢體處理不當或 factor degradation 造成的技術性問題，不是真的有 inhibitor，不能誤判成陽性。
 
@@ -169,7 +202,6 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
 
    <div class="callout callout-followup">
    <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
-
    - 「Factor VIII 活性偏低，怎麼判斷是原發性 hemophilia A 還是繼發於 vWD？」→ 要同時看 vWF antigen/activity，見第 11 題完整推理鏈。
    - 「確診 vWD 之後，還要怎麼分型？」→ 見第 11 題的 type 1/2/3 分型。
 
@@ -193,7 +225,6 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
 
    <div class="callout callout-followup">
    <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
-
    - 「Severe hemophilia 的病人，什麼時候要開始考慮 prophylaxis？」→ 見第 8 題，第一次關節出血後或幼年期就要開始。
    - 「Mild hemophilia 平常較少出血，臨床上最典型的表現是什麼？」→ 仍是 hemarthrosis（見第 7 題），只是 mild 病人常要等到較大創傷或手術才顯現。
 
@@ -217,7 +248,6 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
 
    <div class="callout callout-followup">
    <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
-
    - 「反覆關節出血如果沒控制，最終會演變成什麼？為什麼要提早介入？」→ Hemophilic arthropathy，這正是第 8 題 prophylaxis 要提早開始的理由。
    - 「同樣是深層、延遲發生的出血，換成術後出血不止，思考邏輯有沒有不一樣？」→ 邏輯相同，都先套框架一判斷是 primary 還是 secondary hemostasis 問題。
 
@@ -241,7 +271,6 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
 
    <div class="callout callout-followup">
    <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
-
    - 「如果病人已經產生 inhibitor，prophylaxis 的藥物選擇會不一樣嗎？」→ 見第 9 題，可以考慮 emicizumab 這類非因子藥物作為長期預防。
    - 「目標 trough level 為什麼不是一個固定數字？」→ 依現行指引與所用藥物半衰期、劑型調整，不是死背單一數字。
 
@@ -266,7 +295,6 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
 
    <div class="callout callout-followup">
    <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
-
    - 「長期想根除抗體，除了 ITI，還有什麼選項？」→ 見第 10 題的 steroid、cyclophosphamide、rituximab 等免疫抑制治療。
    - 「這個抑制物到底是不是 anti-FVIII 抗體造成的 acquired hemophilia，要怎麼跟 lupus anticoagulant 鑑別？」→ 見第 10 題，套 mixing study 的 time-dependent pattern，再加上臨床出血傾向相反這兩條證據鏈。
 
@@ -295,7 +323,6 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
 
     <div class="callout callout-followup">
     <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
-
     - 「確診之後怎麼定量抑制物的強度？」→ Bethesda assay，測出 inhibitor titer。
     - 「如果換成單純的 lupus anticoagulant／APS 病人，治療方向會完全不同，為什麼？」→ APS 治療重點是抗凝血而非止血，呼應框架二提到的血栓體質矛盾。
 
@@ -326,7 +353,6 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
 
     <div class="callout callout-followup">
     <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
-
     - 「VWD 的三個分型，在 vWF antigen/activity 檢驗上分別是什麼 pattern？」→ Type 1 是量的部分性缺乏、type 2 是功能性異常、type 3 是幾乎完全缺乏（本題已列出分型）。
     - 「如果病人是停經前女性且有月經過多，這個線索怎麼跟框架一對起來？」→ 黏膜/皮膚出血型態提示 primary hemostasis 問題，呼應 VWD 本質上是 primary hemostasis 異常，也可延伸到 [IDA 篇](/hema-board-interview-guide/topics/iron-deficiency-anemia/) 月經量怎麼問的邏輯。
 

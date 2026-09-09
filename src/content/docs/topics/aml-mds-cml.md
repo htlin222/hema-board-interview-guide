@@ -14,6 +14,40 @@ sidebar:
 
 同一套「確認診斷→分層→決定強度」順序也適用 MDS（用 IPSS score 分層），只是 CML 的路徑不同——CML 不是靠分層決定治療強度，而是**幾乎所有病人一律先用 TKI**，分層概念換成監測治療反應的 milestone。
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18"/><path d="M9 3v18"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 速記表
+
+考前快速掃過用。下面幾張表把整頁的判斷點壓成可以「看一眼就講得出來」的形式，細節與擬答仍在後面各題。
+
+**三個疾病各自用什麼分層、治療怎麼決定（對應「推理架構」與下面 AML／MDS／CML 三節）**
+
+| 疾病 | 分層／監測工具 | 治療怎麼決定 | 這頁的招牌陷阱 |
+| --- | --- | --- | --- |
+| AML | 年齡、體能狀況、細胞遺傳學／分子分層（favorable／intermediate／unfavorable） | 年輕、體能好、可耐受 → intensive chemotherapy；年紀大、共病多、體能差 → less intensive；intermediate／unfavorable 且體能可耐受 → 提早評估 allogeneic transplant | 一開口就丟「化療或移植」的結論，沒有先講分層依據 |
+| MDS | IPSS risk score；加上兩次骨髓報告之間 blast 比例的變化趨勢 | 分層低 → best supportive care 或 clinical trial；分層高 → hypomethylating agent（azacitidine），也可能考慮 allogeneic transplant | 只看第一次骨髓報告的靜態數字，漏掉 blast 上升代表的疾病演進 |
+| CML | 不靠分層決定強度，改看 BCR-ABL1 分子反應的 milestone | 幾乎所有病人一律先用 TKI，再依 milestone 有沒有達標調整 | 只說「要定期監測分子反應」，講不出具體切點 |
+
+**一線 TKI 怎麼依共病選（對應 CML 段落「TKI 治療策略：一線藥物與副作用比較」）**
+
+| 藥物 | 招牌副作用／要監測什麼 | 共病上的取捨 |
+| --- | --- | --- |
+| 選藥大原則 | 第二代 TKI 通常更快達到更深的分子學反應，但副作用型態不同 | 不是一律優先選二代，要依病人共病權衡 |
+| Imatinib | 腸胃道不適、水腫（periorbital／下肢）、肌肉痠痛；長期使用資料最多、耐受性整體不錯 | 有肺部病史而要避開 dasatinib 時的可考慮選項 |
+| Dasatinib | 肋膜積水（pleural effusion）；長期使用有肺動脈高壓的顧慮 | 有肺部／心臟病史的病人要謹慎選用 |
+| Nilotinib | QT 波間期延長、心血管／動脈阻塞性事件（周邊動脈疾病、心肌梗塞）；用藥前後監測心電圖、血糖、血脂；可能誘發高血糖與胰臟炎；服藥時間需注意進食（影響吸收與 QT 交互作用） | 有心血管病史的病人要避開 |
+| Bosutinib | 腹瀉；需留意肝毒性 | — |
+
+**CML 從治療中到停藥的時間軸（對應 CML 段落「milestone 監測時程」與「停藥策略 TFR」）**
+
+| 時間點 | 目標／要做的事 | 沒達標或復發怎麼辦 |
+| --- | --- | --- |
+| 3 個月 | BCR-ABL1 IS ≤ 10% | 屬 failure／warning：先查服藥順從性、藥物交互作用，再考慮換藥或加驗 BCR-ABL1 kinase domain mutation |
+| 6 個月 | BCR-ABL1 IS ≤ 1% | 同上 |
+| 12 個月 | 達到 major molecular response（MMR，≤ 0.1%） | 同上 |
+| 考慮停藥（TFR）前 | 第一次慢性期（無加速期／芽細胞期病史）、先前治療沒有失敗過、TKI 總時間滿 5 年（用過二代 TKI 可縮短到滿 4 年）、有高品質快速標準化的 qPCR 監測能力，且分子反應達 MR4.5 深度並維持至少 2 年 | 條件不是只看「反應夠深」，任一項不滿足就不啟動停藥 |
+| 停藥後 0–6 個月 | 每月監測一次 | 一旦復發要及時重新啟動 TKI |
+| 停藥後 6–12 個月 | 每 2 個月監測一次 | 同上 |
+| 停藥後 12 個月以後 | 可拉長到每 3 個月一次 | 同上 |
+
 ## AML
 
 - **決策點：哪些病人適合 intensive chemotherapy、哪些病人要轉向移植**

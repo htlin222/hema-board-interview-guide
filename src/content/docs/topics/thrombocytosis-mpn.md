@@ -14,6 +14,39 @@ sidebar:
    - **ET / 其他 MPN**：differential 大致正常，主要異常集中在血小板數量本身，沒有 CML 那種「全階段顆粒球同時出現」的左移圖像。
 3. **驅動基因檢測，用同一個機轉去理解三個基因**：JAK2、CALR、MPL 這三個基因的共同終點都是讓 **JAK-STAT 訊息傳遞路徑持續活化**，即使沒有 TPO 刺激骨髓也一直產血小板，但三者作用的位置不同——**MPL** 突變直接發生在 thrombopoietin receptor 本身，造成不需要配體就能活化受體；**CALR** 突變蛋白會結合並活化 MPL receptor，作用在受體這一層；**JAK2** 突變則是在受體下游、細胞內的酪胺酸激酶持續活化。理解「三個基因是用不同方式讓同一條路徑活化」之後，「為什麼驗這三個基因」「為什麼結果都指向同一個表現」就不用個別死記，是同一套邏輯的三個入口。
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18"/><path d="M9 3v18"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 速記表
+
+考前快速掃過用。下面幾張表把整頁的判斷點壓成可以「看一眼就講得出來」的形式，細節與擬答仍在後面各題。
+
+**三層過濾的完整走法（對應開頭推理架構與 Q1、Q2）**
+
+| 層次 | 要查什麼 | 看到什麼 | 判讀／下一步 |
+| --- | --- | --- | --- |
+| 第一層：排 reactive | 病史與誘因：IDA、感染、發炎、post-splenectomy、malignancy paraneoplastic | 找得到誘因 | reactive thrombocytosis；矯正 IDA 後追蹤 platelet 是否隨之下降 |
+| 第一層：排 reactive | 同上 | 找不到誘因 | 才往 clonal 走；一開口就驗基因＝順序錯誤 |
+| 第二層：抹片形態 | 周邊血液抹片 WBC differential | basophilia＋left shift＋myeloblast 到 segmented 各成熟階段顆粒球同時出現 | CML；此圖像特異度高，不用等基因報告 |
+| 第二層：抹片形態 | 同上 | differential 大致正常，異常只集中在血小板數量本身 | ET／其他 MPN → 進第三層 |
+| 第三層：驅動基因 | JAK2、CALR、MPL 三個一起驗 | 任一陽性 | 共同終點都是 JAK-STAT 路徑持續活化，無 TPO 刺激也一直產血小板 |
+| 第三層：驅動基因 | 同上 | 三個都驗不到（triple-negative，約一成） | 基因陰性不能單獨用來排除 ET |
+
+**JAK2／CALR／MPL 三個入口一次記（對應 Q3、Q4、Q5）**
+
+| 基因 | ET 中比例 | 作用位置 | 臨床意義 |
+| --- | --- | --- | --- |
+| JAK2 | 最高，約 60–66% | 受體下游、細胞內酪胺酸激酶持續活化 | 血栓風險最高，10 年累積約 14.5% |
+| CALR | 次之，約 19–27% | 突變蛋白結合並活化 MPL receptor，作用在受體這一層 | 血栓風險較低，10 年累積約 5% |
+| MPL | 最少，約 3–4% | thrombopoietin receptor 本身，不需配體就能活化 | 與另兩者同屬一條路徑的不同變異位點 |
+| Triple-negative | 約一成 | 三個基因都驗不到 | 不能因基因陰性就排除 ET |
+
+**ET 風險分層的三個面向（對應 Q5）**
+
+| 分層因子 | 內容 | 為什麼一定要講 |
+| --- | --- | --- |
+| 年齡 | 傳統分層因子 | 少講會被視為沒照 guideline 架構走一輪 |
+| 血栓病史 | 過去有無血栓事件，傳統分層因子 | 同上 |
+| 基因型 | JAK2 突變血栓風險約為 CALR 兩倍；JAK2 病人血小板數往往還更低卻風險更高，機轉可能與嗜中性球／血小板活化程度較高有關 | 這是獨立於年齡與病史的第三個因子，只答前兩項等於沒把基因檢測串到治療決策 |
+| 三者合起來 | 依風險等級決定是否啟動 cytoreductive therapy | 分層講完才能合理銜接到治療決策 |
+
 ## 套用到實際問法
 
 **Q1：起手式——門診病人發現 thrombocytosis，第一步怎麼查？**

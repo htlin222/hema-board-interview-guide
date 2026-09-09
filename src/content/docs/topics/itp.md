@@ -15,6 +15,38 @@ sidebar:
 
 **這就是為什麼「ITP 是排除性診斷」這句話不是空話**：確診邏輯是先驗證骨髓生產正常（megakaryocyte 不少），再排除其他周邊破壞機轉，剩下的才叫 ITP——沒有一個檢查能直接「驗出」ITP。
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18"/><path d="M9 3v18"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 速記表
+
+考前快速掃過用。下面幾張表把整頁的判斷點壓成可以「看一眼就講得出來」的形式，細節與擬答仍在後面各題。
+
+**骨髓 megakaryocyte 決定往哪條路走（對應開頭推理架構）**
+
+| 骨髓 megakaryocyte | 代表什麼 | 走哪條路 | 對應疾病 |
+| --- | --- | --- | --- |
+| 增加或正常 | 生產端沒問題 | 周邊被破壞 | ITP 最大宗，但同路徑上還有 TTP、DIC、drug-induced、Evans syndrome 要排除 |
+| 減少 | 生產端本身出問題 | 做不出來 | aplastic anemia、marrow infiltration、MDS，跟 ITP 無關 |
+| 增加、但周邊血小板極低 | ITP 的經典跑台組合 | 仍是周邊破壞 | 陷阱：易誤判成 MPN；判讀時骨髓與周邊數字一定要對照著看 |
+
+**ITP 確診的兩步驟與排除清單（對應「ITP 怎麼確診」、Evans、drug-induced 三題）**
+
+| 要排除的診斷 | 用什麼線索抓它 | 現場要講的動作 |
+| --- | --- | --- |
+| 生產端疾病 | 骨髓 megakaryocyte 數量正常或增加 | 第一步：先驗證骨髓生產端沒問題 |
+| TTP | 有沒有合併 hemolysis／schistocytes、器官缺血表現 | 第二步起，逐一排除周邊破壞清單 |
+| DIC | 有沒有合併 hemolysis | 同上 |
+| Drug-induced | 主動問用藥史；停藥後血小板回升可支持 | 不等考官提示就自己問藥物史 |
+| Evans syndrome | 有沒有合併貧血、抹片上有沒有 NRBC | 看到血小板極低要主動追問這兩項 |
+| 以上都排除後 | 沒有任何 checkpoint test 能直接驗出 ITP | 結論句：剩下的才叫 ITP |
+
+**兒童 vs 成人 ITP（對應兒童對比題）**
+
+| 對比軸 | 兒童 ITP | 成人 ITP |
+| --- | --- | --- |
+| 病程型態 | 多為急性（acute）、自限 | 常見慢性病程 |
+| 治療門檻 | 較保守；只有皮膚出血即可單純觀察 | 治療態度可較積極 |
+| 決策依據 | 看臨床出血嚴重度，不是看血小板數字本身；出現黏膜或內臟出血就要提高治療強度 | 同樣以出血風險與病程走向決定 |
+| 常見錯答 | 把成人「血小板低就要積極治療」的直覺直接套到兒童 | — |
+
 ## 套用到實際問法
 
 - **考官問「ITP 怎麼確診」時，要完整講出「排除性診斷」背後的兩步驟邏輯，而不是只丟一句「ITP 是排除性診斷」**

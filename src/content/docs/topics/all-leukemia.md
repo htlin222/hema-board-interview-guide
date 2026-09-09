@@ -16,6 +16,34 @@ ALL（acute lymphoblastic leukemia）在成人血液科門診相對少見，很�
 
 換句話說，ALL 不是另一套要重新背的骨架，而是同一套「確認診斷→分層→決定強度」邏輯，套用到不同的分層工具（lineage 判定、Philadelphia chromosome 狀態）跟不同的藥物組合（化療±TKI）上。
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18"/><path d="M9 3v18"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 速記表
+
+考前快速掃過用。下面幾張表把整頁的判斷點壓成可以「看一眼就講得出來」的形式，細節與擬答仍在後面各題。
+
+**型態不確定是 AML 還是 ALL 時，每個工具各自能回答什麼（對應第 1 題）**
+
+| 工具 | 能回答什麼 | 不能回答什麼／下一步 |
+| --- | --- | --- |
+| 骨髓抹片型態 | 看 blast 比例與型態，形成初步印象 | 型態學上有時無法可靠區分 myeloid 與 lymphoid，曖昧時不要硬猜 |
+| MPO（myeloperoxidase）染色 | 陽性支持 myeloid lineage（傾向 AML）；主動請病理科加做，臨床上常是更快先做的一步 | 陰性只代表不能排除 lymphoid，不等於排除 AML；仍屬初步篩選 |
+| Flow cytometry 免疫分型 | 用細胞表面標記（myeloid vs. B／T lymphoid）拍板 lineage，是分辨 AML 與 ALL 最直接且決定性的工具 | 要口頭聯絡實驗室說明是型態不確定的緊急個案、請優先處理，不要被動等報告排隊 |
+
+**Philadelphia chromosome 對應的疾病與相對常見度（對應第 2 題，最容易答反的陷阱）**
+
+| 被問到什麼 | 正確答案 | 一句話理由 |
+| --- | --- | --- |
+| t(9;22)／BCR-ABL1 最典型對應哪個疾病 | CML 慢性期 | 這是定錨點，不管從 AML 側還是 ALL 側被問，都要先講出來再談機率 |
+| BCR-ABL1 陽性的急性白血病裡，AML 還是 ALL 常見 | ALL 遠比 AML 常見 | 跟「Ph 染色體聽起來比較急、應該是 AML」的直覺相反，最常被答反 |
+| 為什麼這個標記在 ALL 特別重要 | 成人 ALL 有相當比例是陽性，且直接決定要不要加 TKI | 它是成人 ALL 治療分流的第一個分岔點，重要性甚至高於在 AML 裡 |
+
+**依 BCR-ABL1 狀態決定的治療路徑（對應第 3 題）**
+
+| 分型 | 治療骨幹 | 緩解後 |
+| --- | --- | --- |
+| BCR-ABL1 陽性 ALL | 化療骨幹之外加上 TKI（如 imatinib 或 dasatinib），針對驅動疾病的融合蛋白，提升緩解率與反應深度 | 積極評估並安排異體移植 |
+| BCR-ABL1 陰性 ALL | 以化療為主的多階段療程（induction → consolidation → maintenance），不需常規加 TKI | 仍要評估異體移植的角色 |
+| 兒童 ALL（拿來對比） | 以化療為主 | 移植角色相對保守，跟成人的積極態度不同 |
+
 ## 套用到實際問法
 
 - **急性白血病型態不確定是 AML 還是 ALL 時，基本處理流程是什麼**

@@ -23,6 +23,42 @@ IDA 落在「microcytic + hypoproliferative」這一格，於是下一步自然�
 - **停經前女性** → 月經史優先（hypermenorrhea 是最常見原因），但仍要排除其他失血源。
 - **停經後女性／男性／年輕但有警訊症狀者** → GI evaluation 優先（潛血、大腸鏡），因為這個族群 IDA 背後藏 GI malignancy 的機率顯著上升，考官很愛用這個年齡/性別轉折來考警覺性。
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18"/><path d="M9 3v18"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 速記表
+
+考前快速掃過用。下面幾張表把整頁的判斷點壓成可以「看一眼就講得出來」的形式，細節與擬答仍在後面各題。
+
+**確診 IDA 之後往哪裡找失血源（核心邏輯：IDA 是訊號不是終點；第一、二題）**
+
+| 族群 | 優先找哪裡 | 怎麼問／為什麼 |
+| --- | --- | --- |
+| 不分族群（共同起手式） | 病史問飲食習慣、GI 症狀、月經量、慢性失血警訊；理學看蒼白、匙狀甲（koilonychia）、舌炎（glossitis） | Ferritin 低只是及格線，考官要聽的是「所以我要往回找為什麼」 |
+| 停經前女性 | 月經史優先（hypermenorrhea 最常見），但仍要排除其他失血源 | 定義是單次失血 >80 mL，但門診量不到；改問棉片／棉條更換頻率（是否每小時一次）、有無大血塊、經期是否超過 7 天，或用 PBAC 問卷半定量 |
+| 停經後女性／男性／年輕但有警訊症狀 | GI evaluation 優先（潛血、大腸鏡） | 這個族群 IDA 背後藏 GI malignancy 的機率顯著上升，考官很愛用年齡／性別轉折考警覺性 |
+
+**口服 vs IV 鐵劑：什麼時候換路（第三題）**
+
+| 路線 | 什麼時候用 | 藥物與注意事項 |
+| --- | --- | --- |
+| 口服（預設第一線） | 大多數病人；決策順位是「能簡單處理就不要複雜化」 | Ferrous sulfate、ferrous fumarate、ferrous gluconate；空腹或搭配維生素 C 增加吸收；腸胃不適、便秘、解黑便要事先衛教，避免病人自行停藥 |
+| IV（口服行不通才用） | 一、對口服不耐受；二、吸收不良（IBD、胃繞道術後）；三、需要快速補鐵（術前時間不夠）；四、失血速度超過口服補充速度 | Iron sucrose、ferric carboxymaltose，依仿單或體重對照表給藥（Ganzoni equation 臨床少手算，背不出來就誠實講實務做法）；過敏反應含 anaphylaxis，給藥前後需監測；ferric carboxymaltose 可能誘發 hypophosphatemia；懷孕第二、三孕期可用，第一孕期通常避免 |
+
+**治療時間軸：什麼時候看什麼、何時能停（第四題）**
+
+| 指標 | 什麼時候看 | 代表什麼 |
+| --- | --- | --- |
+| Hb 開始上升 | 口服補鐵約 3–4 週後 | 判斷「有沒有治療反應」，速度約每週 1 g/dL |
+| Hb 恢復正常 | 之後仍要再持續補鐵 3 個月 | Hb 正常不等於鐵儲存補滿，不能馬上停藥 |
+| Ferritin | 決定停不停藥時 | 真正的治療終點指標，沒回到正常範圍前鐵不能停 |
+
+**Hb 沒回升的四個方向（第五題；先立二分結構：骨髓做不出來 vs 失血沒斷）**
+
+| 方向 | 具體情境 | 怎麼確認／下一步 |
+| --- | --- | --- |
+| 順從性不佳 | 沒按時服藥，或因副作用自行減量、停藥 | 回頭問服藥狀況與腸胃副作用 |
+| 失血源沒被真正處理 | 原本找到的出血點（月經過多、GI 病灶）沒有被治療或處置 | 回去處理 source，否則鐵持續流失 |
+| 未被診斷的吸收不良 | Celiac disease、H. pylori 感染、IBD | Celiac 用 tissue transglutaminase IgA（tTG-IgA）第一線篩檢；H. pylori 用 urea breath test 或糞便抗原，確診後 triple／quadruple therapy 除菌 |
+| 診斷有誤或合併其他貧血 | 同時有 thalassemia、anemia of chronic disease、B12／folate 缺乏 | 補鐵當然沒效；thalassemia 病人通常鐵過多而非缺乏，貿然補鐵是錯誤方向 |
+
 ## 套用到實際問法
 
 **Q: 門診健檢發現 mild anemia、ferritin 偏低，你怎麼 approach？**
