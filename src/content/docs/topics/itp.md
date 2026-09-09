@@ -128,3 +128,5 @@ sidebar:
   - **對應本頁推理架構，五分鐘版**：血小板低下的評估要先分生產端還是破壞端，跟本頁「做不出來 vs 被破壞掉」是同一個分岔，時間不多時看這支就夠。
 - **[ITP vs TTP](https://www.youtube.com/watch?v=CnCLlxpxcsM)** — Medicosis Perfectionalis · 5:28
   - **對應排除清單裡最該先排除的那一個**：ITP 診斷前要排掉 TTP，這支把兩者的關鍵差異（有沒有溶血與破碎紅血球）講得很利落。
+- **[VMR with Reza & Rabih – fever & pancytopenia](https://www.youtube.com/watch?v=N_RD3KQtn08)** — The Clinical Problem Solvers · 63:42
+  - **把「做不出來 vs 被破壞掉」放大到三系血球的版本**：發燒合併全血球減少時，怎麼判斷是骨髓生產端出事還是周邊被吃掉，推理邏輯跟本頁框架同源，只是戰場更大。

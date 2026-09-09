@@ -226,6 +226,8 @@ sidebar:
   - **對應「疾病演進」這個共通考點**：CML 慢性期怎麼進展到 blast crisis，跟 MDS 那題「兩次骨髓報告要一起看」是同一種縱向判讀的思路。
 - **[Hematological Malignancies – Part 1a: Hematopoiesis, Acute Leukemias](https://www.youtube.com/watch?v=5IIsrHQtesY)** — AMBOSS · 11:48
   - **對應本頁推理架構的第一步（確認診斷）**：從造血分化樹講起，說明急性白血病是卡在哪一階段的分化障礙——理解這點，flow cytometry 為什麼是確診 lineage 的關鍵就不用背。
+- **[Acute Promyelocytic Leukemia (APL) Illness Script](https://www.youtube.com/watch?v=VlPH4sLyVIQ)** — The Clinical Problem Solvers · 4:32
+  - **illness script 是什麼長相，看這支最快**：CPSolvers 把一個疾病壓縮成「哪種人、怎麼發病、有什麼特徵、怎麼確認」四格。APL 本身也是 AML 裡唯一需要當急症處理的亞型（DIC 風險），值得單獨記住。
 
 ## 容易被電的點
 

@@ -249,6 +249,8 @@ sidebar:
   - **對應「第一層：用 MCV 分三大類」**：Lecturio 把三類各自的鑑別診斷整理成表格式講解，跟本頁的三分表可以互相對照，補漏用最快。
 - **[Key Transfusion Reactions Every Doctor Should Know](https://www.youtube.com/watch?v=3d5EuH8fyFc)** — Lecturio Medical · 7:49
   - **對應輸血副作用那題**：急性溶血、發燒非溶血、過敏、TRALI、TACO 一次分清楚，正好補上多位學長自陳「輸血醫學是弱項」的那一塊。
+- **[VMR with Steph & Zaven – severe anemia](https://www.youtube.com/watch?v=COo4Xe_W6p8)** — The Clinical Problem Solvers · 48:20
+  - **口試現場最接近的模擬**：兩位主持人拿到一個嚴重貧血的未知案例，邊問邊縮小鑑別診斷，一路講到最後診斷。重點不在他們最後答什麼，而在**他們每一步為什麼往那個方向走**——這正是口試官在看的東西。長度 48 分鐘，適合當通勤時的推理練習，不是拿來背事實的。
 
 ## 容易被電的點
 

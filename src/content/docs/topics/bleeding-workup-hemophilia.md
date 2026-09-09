@@ -360,6 +360,10 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
   - **對應框架一的 secondary 那一半、以及框架二**：五分半把 cascade 走完，是 PT／aPTT 各測什麼的前置知識。
 - **[Secondary Hemostasis – Part 2: Cell-Based Model of Coagulation](https://www.youtube.com/watch?v=hr1Pgb3r_cU)** — AMBOSS · 10:36
   - **進階補充：現代的 cell-based model**：傳統瀑布圖是為了解釋「檢驗」而畫的，體內實際凝血是以細胞表面為中心進行。知道這個落差，就能理解為什麼 aPTT 延長不等於一定會出血（例如 factor XII 缺乏）。
+- **[Academy Session with Rabih – Coagulopathy](https://www.youtube.com/watch?v=w-xyKV8F_eE)** — The Clinical Problem Solvers · 56:03
+  - **把本頁三層框架實際跑一遍的案例版**：從病史的出血型態開始分流，再進到檢驗判讀，示範一位資深臨床醫師遇到 coagulopathy 時腦中的完整路徑。
+- **[VMR with Rabih & Magnus – nosebleeds](https://www.youtube.com/watch?v=xI68zsTSOcE)** — The Clinical Problem Solvers · 66:37
+  - **框架一的活教材**：主訴就是「流鼻血」——典型的黏膜出血，也就是 primary hemostasis 那一支。看他們怎麼從這個單一線索推開整個鑑別診斷，比讀分流表更能內化那個分岔。
 
 ## 容易被電的點
 

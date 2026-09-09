@@ -207,6 +207,8 @@ IDA 落在「microcytic + hypoproliferative」這一格，於是下一步自然�
   - **對應第五題（補鐵沒效要想什麼）**：IDA 與 ACD 的 iron panel 怎麼分，四分半的對照表，正是「診斷有誤或合併其他貧血」那條的實作版。
 - **[Anemia Overview: Causes, Types, and Diagnostic Framework](https://www.youtube.com/watch?v=DuyfIzUJKBc)** — Lecturio Medical · 9:15
   - **對應「看到任何 anemia 先問三個問題」**：標題直接叫 diagnostic framework，講的就是先分類再往下推的思路，跟本頁起手式同一套。
+- **[Academy Session with Rabih: GI bleed – Anemia or Thrombocytopenia?](https://www.youtube.com/watch?v=6zCSHkfdSPM)** — The Clinical Problem Solvers · 21:09
+  - **這支是「聽人推理」而不是「聽人講課」——本站整套框架寫法的原型就是 CPSolvers**。主持人拿到一個未分化的案例，把思考過程整個講出來：先確認是哪一種血球問題、再往回追出血源，跟本頁「IDA 是訊號、要往回找為什麼」是同一個動作。21 分鐘，是他們少數短篇。
 
 ## 容易被電的點
 

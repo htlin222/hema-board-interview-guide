@@ -227,6 +227,8 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
   - **對應「其他常見延伸」裡的無症狀淋巴球增多症**：CLL 的流行病學、免疫表型（CD5／CD23）與什麼時候才需要治療，補足那一段只點到的 flow cytometry 邏輯。
 - **[Hematological Malignancies – Part 2A: FAB Classification and Lymphomas](https://www.youtube.com/watch?v=r_3O75HndXg)** — AMBOSS · 12:34
   - **對應「WHO 分類版本差異」那段延伸**：先看懂舊的 FAB 型態學分類在做什麼，才體會得到後來為什麼要改成以分子／免疫表型為主的分類架構。
+- **[Hodgkin Lymphoma Illness Script](https://www.youtube.com/watch?v=3BRYVYlbhDQ)** — The Clinical Problem Solvers · 6:54
+  - **七分鐘的疾病輪廓速寫**：本頁主軸是 DLBCL，但考官常拿 Hodgkin 來對照問，用 illness script 的格式記住它的典型病人樣貌與特徵，比背分期系統實用。
 
 ## 容易被電的點
 
