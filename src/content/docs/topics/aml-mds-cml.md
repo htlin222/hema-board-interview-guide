@@ -210,6 +210,17 @@ sidebar:
 
 </div>
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg> 相關 YouTube 影片
+
+下列影片都是實際搜尋後、再用 YouTube oEmbed 逐一驗證過確實存在且可播放的（2026-09 檢查），不是憑印象列出的連結；每一支都標明**為什麼選它**、**對應到本頁哪一段**，看之前先知道要帶走什麼。
+
+- **[Acute Myeloid Leukemia (AML) – Auer Rods, Myeloperoxidase Positive](https://www.youtube.com/watch?v=bNlnYvjhxAU)** — Medicosis Perfectionalis · 12:08
+  - **對應 AML 段落與 MPO 那一題**：為什麼 MPO 陽性支持 myeloid lineage，看過型態圖之後，「型態不確定就加染 MPO、聯絡 flow」這個處置就變得直覺。
+- **[Chronic Myeloid Leukemia (CML) – Pathogenesis, Symptoms and Treatment](https://www.youtube.com/watch?v=RTdHf_V2EGw)** — JJ Medicine · 10:22
+  - **對應 CML 段落**：BCR-ABL1 融合基因怎麼形成、TKI 怎麼阻斷它，理解機轉之後 milestone 監測為什麼盯分子反應就講得出理由。
+- **[Myelodysplastic Syndrome (MDS) | Clinical Medicine](https://www.youtube.com/watch?v=HjyAGaUN_TY)** — Ninja Nerd · 23:44
+  - **對應 MDS 段落**：無效造血、blast 比例、風險分層到 hypomethylating agent 一路講完，補足本頁只點到的 IPSS 與 azacitidine 機轉。
+
 ## 容易被電的點
 
 - MDS 案例題容易忽略「兩次骨髓報告要一起看」的設計，只看第一次報告就下結論，漏掉疾病演進（blast 比例上升）這個關鍵訊息。

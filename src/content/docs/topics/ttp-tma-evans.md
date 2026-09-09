@@ -204,6 +204,17 @@ sidebar:
 
 </div>
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg> 相關 YouTube 影片
+
+下列影片都是實際搜尋後、再用 YouTube oEmbed 逐一驗證過確實存在且可播放的（2026-09 檢查），不是憑印象列出的連結；每一支都標明**為什麼選它**、**對應到本頁哪一段**，看之前先知道要帶走什麼。
+
+- **[Thrombocytopenia: Hemostasis – Lesson 8](https://www.youtube.com/watch?v=EwU5MFn4zfM)** — Strong Medicine · 21:46
+  - **對應本頁的分流圖**：血小板低下的完整鑑別骨架，包含什麼時候該想到 TMA、什麼時候是單純免疫破壞。
+- **[Thrombotic thrombocytopenic purpura (NORD)](https://www.youtube.com/watch?v=XpCanAZjwjc)** — Osmosis from Elsevier · 6:35
+  - **對應第 4 題**：ADAMTS13 缺乏 → vWF multimer 沒被剪斷 → 微血栓 → 破碎紅血球，這條機轉鏈講清楚，PEX 為什麼有效就不用背。
+- **[Warm autoimmune hemolytic anemia and cold agglutinin (NORD)](https://www.youtube.com/watch?v=t1JT57ZvldY)** — Osmosis from Elsevier · 6:33
+  - **對應 Evans syndrome 那一支分流**：AIHA 的機轉與 Coombs 判讀，是分辨「有溶血但沒有破碎紅血球」那條路徑的基礎。
+
 ## 容易被電的點
 
 - 看到「中年女性 + cytopenia」直接鎖死 TTP 往下猜，沒有先走框架的「有沒有溶血」「有沒有破碎紅血球」兩步分流——考官給的提示（例如特別強調病人年齡、性別、病史）常常就是在暗示你該走哪一支。

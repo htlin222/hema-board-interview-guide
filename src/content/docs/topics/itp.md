@@ -113,3 +113,14 @@ sidebar:
   - ITP 的骨髓經典表現是 megakaryocyte 數量增加、但周邊血小板數字極低，這個「骨髓看起來很多、周邊卻很少」的組合是這個主題的典型考點。
   - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 陷阱：看到骨髓抹片上 megakaryocyte 數量增加，容易直覺誤判成 MPN（骨髓增生性疾病），而忽略了要回頭對照周邊血液的血小板數字。
   - 判讀時一定要把骨髓抹片跟周邊血球數字兩邊對照著看，這正是框架裡「生產端正常」不等於「沒病」的陷阱——生產端正常只代表排除了生產性原因，不代表血小板數字正常、也不代表沒有周邊破壞機轉在進行。
+
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg> 相關 YouTube 影片
+
+下列影片都是實際搜尋後、再用 YouTube oEmbed 逐一驗證過確實存在且可播放的（2026-09 檢查），不是憑印象列出的連結；每一支都標明**為什麼選它**、**對應到本頁哪一段**，看之前先知道要帶走什麼。
+
+- **[Thrombocytopenia: Hemostasis – Lesson 8](https://www.youtube.com/watch?v=EwU5MFn4zfM)** — Strong Medicine · 21:46
+  - **對應本頁「做不出來 vs 被破壞掉」框架**：他也是先分生產端與周邊破壞兩條路再往下走，是這頁推理架構的完整版。
+- **[Immune Thrombocytopenia (ITP) – Comprehensive Explanation](https://www.youtube.com/watch?v=7IUt0AAvy3E)** — Medicosis Perfectionalis · 19:42
+  - **對應排除性診斷與治療那兩塊**：ITP 為什麼沒有確診檢查、以及成人與兒童治療門檻的差異，講得比本頁條列更完整。
+- **[Thrombocytopaenia (low platelets) Overview](https://www.youtube.com/watch?v=JF4ERKr_CnI)** — Armando Hasudungan · 10:01
+  - **補足 platelet physiology 這一層**：手繪把血小板生成、破壞機轉到分類走一遍，適合在讀框架之前先建立生理背景。

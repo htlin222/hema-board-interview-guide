@@ -268,6 +268,17 @@ sidebar:
 
    </div>
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg> 相關 YouTube 影片
+
+下列影片都是實際搜尋後、再用 YouTube oEmbed 逐一驗證過確實存在且可播放的（2026-09 檢查），不是憑印象列出的連結；每一支都標明**為什麼選它**、**對應到本頁哪一段**，看之前先知道要帶走什麼。
+
+- **[Thalassemia: Alpha & Beta-Thalassemias, Genetics, Pathophysiology](https://www.youtube.com/watch?v=tcoaLTpx6Qk)** — Alila Medical Media · 5:48
+  - **對應框架一的分型基礎**：alpha 與 beta 的基因型差異用動畫看最快，也順帶解釋為什麼 alpha-thal trait 的 HbA2 不會升高（本頁最愛考的盲點）。
+- **[Beta Thalassemia – minor, Major & Intermedia](https://www.youtube.com/watch?v=uVV-QxOo2uI)** — Medicosis Perfectionalis · 10:56
+  - **對應 trait vs intermedia 的臨床分野**：本頁第 8 題（年紀漸長後貧血型態改變）要能分清楚這三型的輸血依賴程度差異才答得完整。
+- **[Deferasirox, Deferoxamine, Deferiprone: Mechanisms of action](https://www.youtube.com/watch?v=qp9l5rBldVo)** — StudyMed · 3:10
+  - **對應第 7 題的三個排鐵劑比較**：三分鐘把機轉差異講完，看完再回頭記各自的副作用（聽力視力／腎功能／agranulocytosis）就容易掛得住。
+
 ## 容易被電的點
 
 - 案例題常不會停在確診就結束，考官習慣往下追加「那如果...呢」延伸到 iron overload 的細節，要有心理準備一路講到治療與監測。

@@ -225,6 +225,19 @@ sidebar:
 
 </div>
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg> 相關 YouTube 影片
+
+下列影片都是實際搜尋後、再用 YouTube oEmbed 逐一驗證過確實存在且可播放的（2026-09 檢查），不是憑印象列出的連結；每一支都標明**為什麼選它**、**對應到本頁哪一段**，看之前先知道要帶走什麼。
+
+- **[Anemia: Lesson 1 – Diagnostic Frameworks](https://www.youtube.com/watch?v=_542TQN_kvA)** — Strong Medicine · 14:56
+  - **對應「MCV 三分類」那一層**：他也是先立分類骨架、再談個別疾病，跟本頁推理架構是同一套思路。整個系列裡先看這支建立骨架，後面幾支才有掛的地方。
+- **[Anemia: Lesson 3 – Hemolysis](https://www.youtube.com/watch?v=JPiwnycHms4)** — Strong Medicine · 8:40
+  - **對應「溶血兩段式判斷」第一段**：retic／LDH／indirect bilirubin／haptoglobin 這四項為什麼要一起看、各自代表什麼，講得比條列清楚。
+- **[Anemia: Lesson 4 – Clues from the blood smear](https://www.youtube.com/watch?v=Y2Op6kWIyJQ)** — Strong Medicine · 5:00
+  - **對應「抹片型態相似不代表機轉相同」那句**：spherocyte、schistocyte、bite cell 長什麼樣、各自指向哪條路，五分鐘看完比讀文字有效。
+- **[Paroxysmal Nocturnal Hemoglobinuria (PNH)](https://www.youtube.com/watch?v=96ai63StNiI)** — Medicosis Perfectionalis · 11:54
+  - **對應 PNH 那題**：PIGA 突變 → GPI-anchor 缺失 → CD55/CD59 沒了 → 補體攻擊，這條因果鏈用畫的比用背的容易記住。
+
 ## 容易被電的點
 
 - 看到 spherocyte 就直接跳答 hereditary spherocytosis，漏掉先做 Coombs test 排除 immune-mediated 原因這一步，順序顛倒是最常見的扣分點。

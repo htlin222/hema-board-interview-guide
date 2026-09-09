@@ -147,6 +147,17 @@ sidebar:
 
 </div>
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg> 相關 YouTube 影片
+
+下列影片都是實際搜尋後、再用 YouTube oEmbed 逐一驗證過確實存在且可播放的（2026-09 檢查），不是憑印象列出的連結；每一支都標明**為什麼選它**、**對應到本頁哪一段**，看之前先知道要帶走什麼。
+
+- **[Thrombocytosis: Hemostasis – Lesson 9](https://www.youtube.com/watch?v=bRY4qQYiEIk)** — Strong Medicine · 10:44
+  - **對應「三層過濾」第一層**：reactive vs clonal 怎麼分、為什麼順序不能顛倒，跟本頁起手式的邏輯完全一致。
+- **[Myeloproliferative Neoplasms (MPNs) – CML, PV, ET, PMF](https://www.youtube.com/watch?v=6GlEZgHZFEo)** — Medicosis Perfectionalis · 9:00
+  - **對應第二層的 CML vs ET 定位**：把四個 MPN 放在同一張圖上比較，比單獨記 ET 一種疾病更容易分辨彼此。
+- **[Essential Thrombocytosis (ET)](https://www.youtube.com/watch?v=g14v3jx5sCI)** — Medicosis Perfectionalis · 7:58
+  - **對應第 3–5 題**：ET 的驅動基因與風險分層概念，看完再回來記 JAK2／CALR／MPL 的比例分布。
+
 ## 容易被電的點
 
 - 只答得出「要驗 JAK2」，講不出 CALR、MPL 以及它們的大致比例分布，會顯得準備不夠周全。

@@ -94,6 +94,17 @@ ALL（acute lymphoblastic leukemia）在成人血液科門診相對少見，很�
 
 </div>
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg> 相關 YouTube 影片
+
+下列影片都是實際搜尋後、再用 YouTube oEmbed 逐一驗證過確實存在且可播放的（2026-09 檢查），不是憑印象列出的連結；每一支都標明**為什麼選它**、**對應到本頁哪一段**，看之前先知道要帶走什麼。
+
+- **[Acute Leukemia – ALL and AML](https://www.youtube.com/watch?v=Uyp6WLVsnys)** — Medicosis Perfectionalis · 13:10
+  - **對應第 1 題**：把 ALL 與 AML 放在一起對照，型態、免疫表型、臨床表現的差異一次看清楚，正是「型態不確定時怎麼辦」那題的背景。
+- **[Acute Lymphoblastic Leukemia (ALL) – Symptoms, Pathogenesis, Diagnosis](https://www.youtube.com/watch?v=IN2MtisTzC0)** — Medicosis Perfectionalis · 16:04
+  - **對應診斷流程**：從臨床表現到骨髓、flow cytometry、細胞遺傳學的完整順序，跟本頁推理架構第一步相同。
+- **[Acute Lymphoblastic Leukemia (ALL) – Treatment](https://www.youtube.com/watch?v=SBDZtArHViE)** — Medicosis Perfectionalis · 9:29
+  - **對應第 3 題**：ALL 的療程分期（induction／consolidation／maintenance）以及 Ph 陽性要加 TKI 的道理。
+
 ## 容易被電的點
 
 - 把 t(9;22) transform 的常見度答反，講成「AML 比較常見」，忽略了 BCR-ABL1 陽性急性白血病其實是 ALL 遠比 AML 常見這件事——這跟 [AML/MDS/CML 篇](/hema-board-interview-guide/topics/aml-mds-cml/) 裡從 AML 角度問的同一個陷阱是同一題,只是問法反過來。

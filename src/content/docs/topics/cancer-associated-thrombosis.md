@@ -85,6 +85,17 @@ sidebar:
 
 </div>
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg> 相關 YouTube 影片
+
+下列影片都是實際搜尋後、再用 YouTube oEmbed 逐一驗證過確實存在且可播放的（2026-09 檢查），不是憑印象列出的連結；每一支都標明**為什麼選它**、**對應到本頁哪一段**，看之前先知道要帶走什麼。
+
+- **[Hypercoagulability as a Paraneoplastic Syndrome](https://www.youtube.com/watch?v=2aY5OOhZK_M)** — Lecturio Medical · 6:16
+  - **對應本頁推理架構**：腫瘤本身為什麼會把病人推向高凝血狀態（Trousseau syndrome 的概念底層），六分鐘把機轉講完。
+- **[Hypercoagulable States: Hemostasis – Lesson 12](https://www.youtube.com/watch?v=-yRsFPx9XUI)** — Strong Medicine · 15:00
+  - **把癌症血栓放回完整的血栓體質鑑別裡**：先天性 vs 後天性怎麼分、什麼時候該做 thrombophilia workup，避免一看到血栓就只想到腫瘤。
+- **[Venous Thromboembolism (DVT, PE) | Clinical Medicine](https://www.youtube.com/watch?v=0SVP95BOUNI)** — Ninja Nerd · 23:45
+  - **對應第 2 題的診斷流程**：不明原因喘、血氧偏低但 CXR 正常這類表現要怎麼往下查，這支把 DVT/PE 的診斷路徑講得很完整。
+
 ## 容易被電的點
 
 - 只講得出下肢 DVT 這個最典型的表現，漏講不明原因喘、CXR 正常但血氧偏低、突發神經學症狀這些不典型表現——這才是考官想確認你有沒有警覺性的重點。

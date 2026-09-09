@@ -332,6 +332,19 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
 
     </div>
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg> 相關 YouTube 影片
+
+下列影片都是實際搜尋後、再用 YouTube oEmbed 逐一驗證過確實存在且可播放的（2026-09 檢查），不是憑印象列出的連結；每一支都標明**為什麼選它**、**對應到本頁哪一段**，看之前先知道要帶走什麼。
+
+- **[Hemostasis: Lesson 4 – Tests (INR, PTT, platelets, fibrinogen, D-dimer)](https://www.youtube.com/watch?v=q548IZGbt28)** — Strong Medicine · 25:21
+  - **對應框架二的完整版**：PT 與 aPTT 各自測哪些因子、怎麼從 pathway 反推鑑別診斷，本頁那張推理圖的觀念都在這支裡。
+- **[How to interpret mixing studies (prolonged PT/PTT)](https://www.youtube.com/watch?v=aVnc2S5K1rE)** — Medmastery · 4:28
+  - **對應框架三**：correctable vs not correctable 的判讀邏輯，四分半講完，看完再回來記 0 小時／2 小時／control 這三個技術細節。
+- **[Hemophilia & Other Coagulation Deficiencies: Hemostasis – Lesson 11](https://www.youtube.com/watch?v=bG-VNAkbr74)** — Strong Medicine · 13:34
+  - **對應第 6–9 題**：嚴重度分級、prophylaxis、inhibitor 與 bypassing agent 的臨床脈絡一次串起來。
+- **[Von Willebrand Disease & Qualitative Platelet Disorders: Hemostasis – Lesson 10](https://www.youtube.com/watch?v=fP6Q-iAAzdM)** — Strong Medicine · 14:07
+  - **對應第 11 題**：為什麼 vWF 不足會把 FVIII 一起拖下水、進而延長 aPTT，這條間接機轉是該題的核心。
+
 ## 容易被電的點
 
 - 沒有先講出血型態分流（框架一）就直接跳進 PT/aPTT 數字，考官會覺得你只是背檢驗流程而不理解邏輯。

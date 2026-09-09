@@ -7,7 +7,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "verify:videos": "python3 scripts/verify-videos.py"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.42.0",

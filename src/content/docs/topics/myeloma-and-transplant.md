@@ -180,6 +180,17 @@ SLiM-CRAB criteria 常被考生逐字背字母，但真正該記的是背後那�
 
 </div>
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg> 相關 YouTube 影片
+
+下列影片都是實際搜尋後、再用 YouTube oEmbed 逐一驗證過確實存在且可播放的（2026-09 檢查），不是憑印象列出的連結；每一支都標明**為什麼選它**、**對應到本頁哪一段**，看之前先知道要帶走什麼。
+
+- **[Multiple Myeloma – signs and symptoms, pathophysiology, treatment](https://www.youtube.com/watch?v=ghvoKhpAc64)** — Armando Hasudungan · 11:41
+  - **對應 CRAB 那一題的病生理底層**：漿細胞增生怎麼造成高血鈣、腎損傷、貧血、骨病灶，理解機轉之後就不必死背四個字母。
+- **[High Dose Therapy and Autologous Stem Cell Transplantation](https://www.youtube.com/watch?v=BI5A-Dh0KeM)** — Myeloma UK · 3:02
+  - **對應本頁最關鍵的觀念更正**：myeloma 的標準移植是**自體**、不需要配對 donor。三分鐘看完動員、採集、高劑量 melphalan、回輸的完整流程，就不會再把 AML 的異體移植邏輯套過來。
+- **[Myeloma 101: Understanding Multiple Myeloma, Risk Factors, Diagnosis & Treatments](https://www.youtube.com/watch?v=r_RHXEKqofM)** — International Myeloma Foundation · 42:07
+  - **當背景補充用**：病人衛教取向、節奏偏慢，但把診斷到治療的全貌講得很完整，適合通勤時當廣播聽過一遍建立整體感。
+
 ## 容易被電的點
 
 - 被問「哪個淋巴／漿細胞疾病比較常見」這類鋪陳題時，答案方向要合理——迷思是特別罕見的疾病聽起來很厲害，但考官要的通常是流行病學上真正常見的選項（例如 diffuse large B-cell lymphoma、CLL 這類），選一個罕見疾病反而會被電。

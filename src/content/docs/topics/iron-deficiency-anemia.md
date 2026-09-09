@@ -191,6 +191,17 @@ IDA 落在「microcytic + hypoproliferative」這一格，於是下一步自然�
 
 </div>
 
+## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg> 相關 YouTube 影片
+
+下列影片都是實際搜尋後、再用 YouTube oEmbed 逐一驗證過確實存在且可播放的（2026-09 檢查），不是憑印象列出的連結；每一支都標明**為什麼選它**、**對應到本頁哪一段**，看之前先知道要帶走什麼。
+
+- **[Anemia: Lesson 2 – Interpreting the Iron Panel](https://www.youtube.com/watch?v=Nh8lvOW3ooA)** — Strong Medicine · 6:21
+  - **對應第一題的 ferritin 判讀陷阱**：發炎狀態把 ferritin 撐高時要怎麼靠 TSAT 補位判斷，正是本頁 ⚠️ 標註的那一條，六分鐘講完。
+- **[Anemia: Lesson 5 – An Approach to Diagnosis](https://www.youtube.com/watch?v=aupUH6ONmQg)** — Strong Medicine · 11:52
+  - **對應「看到任何 anemia 先問三個問題」**：把前幾課的分類、iron panel、溶血指標收斂成一條完整診斷流程，等於本頁框架的影音版。
+- **[Iron Deficiency Anemia – Causes, Symptoms, Diagnosis, Treatment](https://www.youtube.com/watch?v=nWHQRptC_9Q)** — Medicosis Perfectionalis · 15:30
+  - **補足治療那兩題的臨床細節**：口服/IV 選擇、療程長度、治療反應怎麼追，本頁只列重點，這支把來龍去脈補上。
+
 ## 容易被電的點
 
 - 誤以為 thalassemia 病人也常缺鐵並直接補鐵——thalassemia 病人通常是鐵過多而非缺乏，貿然補鐵是錯誤方向。
