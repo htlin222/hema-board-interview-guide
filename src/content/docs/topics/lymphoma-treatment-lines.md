@@ -223,6 +223,8 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
   - **補足病理與分期基礎**：IPI、細胞來源分型這些一線治療決策的前置知識，八分鐘補齊。
 - **[Lymphoma: Overview of Chimeric Antigen Receptor (CAR) T cells](https://www.youtube.com/watch?v=xR_2P3R3wVU)** — Harvard Medical School Continuing Education · 6:13
   - **對應二線 CAR-T 那一段**：ZUMA-7／TRANSFORM 之後二線路徑改變的背景，先懂 CAR-T 的機轉與流程，才講得出為什麼它能取代傳統挽救化療加移植。
+- **[Chronic Lymphocytic Leukemia (CLL)](https://www.youtube.com/watch?v=KNcypxyowWA)** — Medicosis Perfectionalis · 8:32
+  - **對應「其他常見延伸」裡的無症狀淋巴球增多症**：CLL 的流行病學、免疫表型（CD5／CD23）與什麼時候才需要治療，補足那一段只點到的 flow cytometry 邏輯。
 
 ## 容易被電的點
 

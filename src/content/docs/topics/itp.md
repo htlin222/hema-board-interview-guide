@@ -124,3 +124,7 @@ sidebar:
   - **對應排除性診斷與治療那兩塊**：ITP 為什麼沒有確診檢查、以及成人與兒童治療門檻的差異，講得比本頁條列更完整。
 - **[Thrombocytopaenia (low platelets) Overview](https://www.youtube.com/watch?v=JF4ERKr_CnI)** — Armando Hasudungan · 10:01
   - **補足 platelet physiology 這一層**：手繪把血小板生成、破壞機轉到分類走一遍，適合在讀框架之前先建立生理背景。
+- **[Thrombocytopenia (Low Platelet Count) – Evaluation Algorithm](https://www.youtube.com/watch?v=_jpMWlUx948)** — Medicosis Perfectionalis · 4:56
+  - **對應本頁推理架構，五分鐘版**：血小板低下的評估要先分生產端還是破壞端，跟本頁「做不出來 vs 被破壞掉」是同一個分岔，時間不多時看這支就夠。
+- **[ITP vs TTP](https://www.youtube.com/watch?v=CnCLlxpxcsM)** — Medicosis Perfectionalis · 5:28
+  - **對應排除清單裡最該先排除的那一個**：ITP 診斷前要排掉 TTP，這支把兩者的關鍵差異（有沒有溶血與破碎紅血球）講得很利落。

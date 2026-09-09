@@ -157,6 +157,10 @@ sidebar:
   - **對應第二層的 CML vs ET 定位**：把四個 MPN 放在同一張圖上比較，比單獨記 ET 一種疾病更容易分辨彼此。
 - **[Essential Thrombocytosis (ET)](https://www.youtube.com/watch?v=g14v3jx5sCI)** — Medicosis Perfectionalis · 7:58
   - **對應第 3–5 題**：ET 的驅動基因與風險分層概念，看完再回來記 JAK2／CALR／MPL 的比例分布。
+- **[Thrombocytosis (Primary and Secondary) – Why Is My Platelet Count High?](https://www.youtube.com/watch?v=2fVptmlkhJs)** — Medicosis Perfectionalis · 13:58
+  - **對應「三層過濾」第一層**：primary（clonal）vs secondary（reactive）怎麼分，跟本頁起手式的分流完全同一套，可以當作這頁框架的影音版。
+- **[Chronic Myeloid Leukemia (CML) – Philadelphia Chromosome](https://www.youtube.com/watch?v=aZz5idSKuEE)** — Medicosis Perfectionalis · 17:59
+  - **對應第二層的 CML vs ET**：BCR-ABL1 怎麼造成那個「各成熟階段顆粒球同時出現」的抹片圖像，理解機轉之後形態學判讀就不是死記。
 
 ## 容易被電的點
 

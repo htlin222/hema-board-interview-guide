@@ -278,6 +278,12 @@ sidebar:
   - **對應 trait vs intermedia 的臨床分野**：本頁第 8 題（年紀漸長後貧血型態改變）要能分清楚這三型的輸血依賴程度差異才答得完整。
 - **[Deferasirox, Deferoxamine, Deferiprone: Mechanisms of action](https://www.youtube.com/watch?v=qp9l5rBldVo)** — StudyMed · 3:10
   - **對應第 7 題的三個排鐵劑比較**：三分鐘把機轉差異講完，看完再回頭記各自的副作用（聽力視力／腎功能／agranulocytosis）就容易掛得住。
+- **[Mentzer Index – Iron Deficiency Anemia vs Thalassemia](https://www.youtube.com/watch?v=XFdf-8dRdaQ)** — Medicosis Perfectionalis · 4:28
+  - **對應框架一**：本頁講「MCV 掉的幅度跟 Hb 不成比例就要想 thalassemia」，Mentzer index（MCV÷RBC）就是把這個直覺量化成一個可以現場算的數字，四分半學會。
+- **[Alpha Thalassemia – All You Need to Know](https://www.youtube.com/watch?v=HYZMFZbNbPQ)** — Medicosis Perfectionalis · 8:00
+  - **對應 electrophoresis 的盲點**：alpha 鏈缺陷不會動到 HbA2／HbF 比例，所以電泳報告會「正常」。看完這支就懂為什麼那題的答案是「要加驗基因」。
+- **[Thalassemia – Lab Results: How To Diagnose Thalassemia](https://www.youtube.com/watch?v=HnOgCG1QKgU)** — Medicosis Perfectionalis · 5:41
+  - **對應第一題的檢查順序**：CBC、抹片、電泳、基因各自能回答什麼問題，把本頁的三步驟檢查邏輯用實際報告走一遍。
 
 ## 容易被電的點
 

@@ -237,6 +237,14 @@ sidebar:
   - **對應「抹片型態相似不代表機轉相同」那句**：spherocyte、schistocyte、bite cell 長什麼樣、各自指向哪條路，五分鐘看完比讀文字有效。
 - **[Paroxysmal Nocturnal Hemoglobinuria (PNH)](https://www.youtube.com/watch?v=96ai63StNiI)** — Medicosis Perfectionalis · 11:54
   - **對應 PNH 那題**：PIGA 突變 → GPI-anchor 缺失 → CD55/CD59 沒了 → 補體攻擊，這條因果鏈用畫的比用背的容易記住。
+- **[Intravascular vs Extravascular Hemolytic Anemia: What's The ACTUAL Difference?](https://www.youtube.com/watch?v=RIA_v4PLimc)** — Medicosis Perfectionalis · 7:05
+  - **溶血分兩型的機轉差異**：血管內溶血才會把游離血紅素倒進血漿、把 haptoglobin 吃光，血管外溶血則是脾臟慢慢咬。理解這個差別，本頁四項溶血指標為什麼會這樣變動就順理成章。
+- **[Direct vs. Indirect Coombs Test](https://www.youtube.com/watch?v=PozNhjmxvG0)** — Medicosis Perfectionalis · 3:12
+  - **對應第二層那個分岔點**：direct 驗的是紅血球表面已經黏上的抗體、indirect 驗的是血漿裡游離的抗體，三分鐘搞懂為什麼鑑別 immune／non-immune 要用 direct（DAT）而不是 indirect。
+- **[Hereditary Spherocytosis (HS)](https://www.youtube.com/watch?v=aBrt7XhA9L0)** — Medicosis Perfectionalis · 19:47
+  - **對應 HS 那兩題**：膜蛋白缺陷怎麼變成球形、為什麼脾臟切除治的是溶血而不是缺陷本身，本頁只給結論，這支把來龍去脈補齊。
+- **[Heinz Bodies and Bite Cells](https://www.youtube.com/watch?v=v83RVER0fhs)** — Medicosis Perfectionalis · 3:34
+  - **對應 G6PD deficiency 的抹片線索**：bite cell 是怎麼被脾臟咬出來的，看過圖之後就不會跟 spherocyte 搞混（本頁一再強調型態相似不代表機轉相同）。
 
 ## 容易被電的點
 

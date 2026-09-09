@@ -214,6 +214,12 @@ sidebar:
   - **對應第 4 題**：ADAMTS13 缺乏 → vWF multimer 沒被剪斷 → 微血栓 → 破碎紅血球，這條機轉鏈講清楚，PEX 為什麼有效就不用背。
 - **[Warm autoimmune hemolytic anemia and cold agglutinin (NORD)](https://www.youtube.com/watch?v=t1JT57ZvldY)** — Osmosis from Elsevier · 6:33
   - **對應 Evans syndrome 那一支分流**：AIHA 的機轉與 Coombs 判讀，是分辨「有溶血但沒有破碎紅血球」那條路徑的基礎。
+- **[ITP vs TTP](https://www.youtube.com/watch?v=CnCLlxpxcsM)** — Medicosis Perfectionalis · 5:28
+  - **對應本頁分流圖的核心**：同樣是血小板低，一個有溶血與破碎紅血球、一個沒有，五分半把兩者的分野講完，是這頁最省時間的一支。
+- **[Thrombotic Thrombocytopenic Purpura (TTP)](https://www.youtube.com/watch?v=8EFfBJkB0ds)** — Medicosis Perfectionalis · 19:19
+  - **對應第 4 題的完整版**：ADAMTS13、vWF multimer、微血栓、破碎紅血球這條因果鏈，加上 PEX 為什麼是核心治療。
+- **[Hemolytic Uremic Syndrome (HUS) vs. TTP](https://www.youtube.com/watch?v=WXwMmgveUNg)** — Medicosis Perfectionalis · 8:30
+  - **對應 TMA family 內部的鑑別**：本頁第 2 題要求一次列出 TTP／HUS／DIC 等，但考官追問「那你怎麼分 TTP 跟 HUS」時，這支給的是可以直接講出來的區辨點。
 
 ## 容易被電的點
 

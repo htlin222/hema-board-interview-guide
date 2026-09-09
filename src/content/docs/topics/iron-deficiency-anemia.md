@@ -201,6 +201,10 @@ IDA 落在「microcytic + hypoproliferative」這一格，於是下一步自然�
   - **對應「看到任何 anemia 先問三個問題」**：把前幾課的分類、iron panel、溶血指標收斂成一條完整診斷流程，等於本頁框架的影音版。
 - **[Iron Deficiency Anemia – Causes, Symptoms, Diagnosis, Treatment](https://www.youtube.com/watch?v=nWHQRptC_9Q)** — Medicosis Perfectionalis · 15:30
   - **補足治療那兩題的臨床細節**：口服/IV 選擇、療程長度、治療反應怎麼追，本頁只列重點，這支把來龍去脈補上。
+- **[Iron Studies – Serum Fe, TIBC, Ferritin & Transferrin Saturation](https://www.youtube.com/watch?v=FyqwhbqGjTY)** — Medicosis Perfectionalis · 8:06
+  - **對應第一題的 iron panel 判讀**：把 serum Fe／TIBC／ferritin／TSAT 四個數字之間的連動講清楚，之後遇到「ferritin 被發炎撐高」的情境才知道該看哪一個補位。
+- **[Iron Deficiency Anemia (IDA) vs Anemia of Chronic Disease (ACD)](https://www.youtube.com/watch?v=YRxlJWIIdd8)** — Medicosis Perfectionalis · 4:37
+  - **對應第五題（補鐵沒效要想什麼）**：IDA 與 ACD 的 iron panel 怎麼分，四分半的對照表，正是「診斷有誤或合併其他貧血」那條的實作版。
 
 ## 容易被電的點
 

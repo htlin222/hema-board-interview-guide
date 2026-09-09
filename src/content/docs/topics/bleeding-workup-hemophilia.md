@@ -344,6 +344,16 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
   - **對應第 6–9 題**：嚴重度分級、prophylaxis、inhibitor 與 bypassing agent 的臨床脈絡一次串起來。
 - **[Von Willebrand Disease & Qualitative Platelet Disorders: Hemostasis – Lesson 10](https://www.youtube.com/watch?v=fP6Q-iAAzdM)** — Strong Medicine · 14:07
   - **對應第 11 題**：為什麼 vWF 不足會把 FVIII 一起拖下水、進而延長 aPTT，這條間接機轉是該題的核心。
+- **[Primary vs. Secondary Hemostasis](https://www.youtube.com/watch?v=wPOMDs5-Cd0)** — Medicosis Perfectionalis · 12:32
+  - **對應框架一，這支幾乎是本頁第一段的影音版**：primary（血小板/vWF）與 secondary（凝血因子）為什麼會表現成不同的出血型態——黏膜表淺 vs 深層延遲，就是從這個機轉差異來的。
+- **[Intrinsic vs. Extrinsic Coagulation Pathways](https://www.youtube.com/watch?v=oepc4gRzim8)** — Medicosis Perfectionalis · 9:03
+  - **對應框架二的 pathway 圖**：兩條路徑各含哪些因子、在哪裡匯流成 common pathway，把這張圖記熟就不用背 PT／aPTT 的鑑別清單。
+- **[Coagulation Tests – PT, aPTT, TT, Fibrinogen, Mixing Studies](https://www.youtube.com/watch?v=_pD6WOizo3w)** — Medicosis Perfectionalis · 19:22
+  - **同時涵蓋框架二與框架三**：每個檢驗各自測什麼、異常怎麼往下推，最後接到 mixing study 的判讀，是本頁三層框架裡兩層的完整版。
+- **[Von Willebrand Disease (vWD) – The Most Comprehensive Explanation](https://www.youtube.com/watch?v=D0ahHF9oNY0)** — Medicosis Perfectionalis · 18:01
+  - **對應第 11 題**：vWF 怎麼同時管血小板黏附又保護 FVIII，所以 vWD 會同時有黏膜出血（primary）跟 aPTT 延長（secondary）兩種面貌——這是該題最漂亮的一句話。
+- **[Hemophilia Types – Hemophilia A, B, and C](https://www.youtube.com/watch?v=0TMN1YJSuRQ)** — Medicosis Perfectionalis · 9:10
+  - **對應第 5–6 題**：A（FVIII）、B（FIX）、C（FXI）的差異與嚴重度分級，順便解釋為什麼 factor XII 缺乏會延長 aPTT 卻不出血。
 
 ## 容易被電的點
 

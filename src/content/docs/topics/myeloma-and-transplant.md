@@ -190,6 +190,10 @@ SLiM-CRAB criteria 常被考生逐字背字母，但真正該記的是背後那�
   - **對應本頁最關鍵的觀念更正**：myeloma 的標準移植是**自體**、不需要配對 donor。三分鐘看完動員、採集、高劑量 melphalan、回輸的完整流程，就不會再把 AML 的異體移植邏輯套過來。
 - **[Myeloma 101: Understanding Multiple Myeloma, Risk Factors, Diagnosis & Treatments](https://www.youtube.com/watch?v=r_RHXEKqofM)** — International Myeloma Foundation · 42:07
   - **當背景補充用**：病人衛教取向、節奏偏慢，但把診斷到治療的全貌講得很完整，適合通勤時當廣播聽過一遍建立整體感。
+- **[Multiple Myeloma – Diagnosis and Treatment](https://www.youtube.com/watch?v=eov_LKNsW4k)** — Medicosis Perfectionalis · 13:57
+  - **對應第一題與第二題**：診斷準則與治療架構一次講完，看完再回來記 CRAB／SLiM 的判斷邏輯會更有掛的地方。
+- **[Multiple Myeloma, Waldenström Macroglobulinemia, MGUS, MGRS](https://www.youtube.com/watch?v=SpR0ZtWqtEc)** — Medicosis Perfectionalis · 10:35
+  - **對應「容易被電的點」那條流行病學題**：把漿細胞疾病譜系放在一起比較，才知道 MGUS 有多常見、myeloma 在其中的位置，避免被問「哪個比較常見」時答錯方向。
 
 ## 容易被電的點
 

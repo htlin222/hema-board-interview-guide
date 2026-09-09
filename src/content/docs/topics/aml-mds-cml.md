@@ -220,6 +220,10 @@ sidebar:
   - **對應 CML 段落**：BCR-ABL1 融合基因怎麼形成、TKI 怎麼阻斷它，理解機轉之後 milestone 監測為什麼盯分子反應就講得出理由。
 - **[Myelodysplastic Syndrome (MDS) | Clinical Medicine](https://www.youtube.com/watch?v=HjyAGaUN_TY)** — Ninja Nerd · 23:44
   - **對應 MDS 段落**：無效造血、blast 比例、風險分層到 hypomethylating agent 一路講完，補足本頁只點到的 IPSS 與 azacitidine 機轉。
+- **[Chronic Myeloid Leukemia (CML) – Philadelphia Chromosome](https://www.youtube.com/watch?v=aZz5idSKuEE)** — Medicosis Perfectionalis · 17:59
+  - **對應 CML 段落**：Philadelphia chromosome 怎麼形成 BCR-ABL1、為什麼 TKI 能精準阻斷它，是理解 milestone 監測為什麼盯分子反應的前提。
+- **[Blast Crisis in Chronic Myeloid Leukemia (CML)](https://www.youtube.com/watch?v=bo9qRqqSR3c)** — Medicosis Perfectionalis · 5:14
+  - **對應「疾病演進」這個共通考點**：CML 慢性期怎麼進展到 blast crisis，跟 MDS 那題「兩次骨髓報告要一起看」是同一種縱向判讀的思路。
 
 ## 容易被電的點
 

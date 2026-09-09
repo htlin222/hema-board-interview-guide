@@ -95,6 +95,10 @@ sidebar:
   - **把癌症血栓放回完整的血栓體質鑑別裡**：先天性 vs 後天性怎麼分、什麼時候該做 thrombophilia workup，避免一看到血栓就只想到腫瘤。
 - **[Venous Thromboembolism (DVT, PE) | Clinical Medicine](https://www.youtube.com/watch?v=0SVP95BOUNI)** — Ninja Nerd · 23:45
   - **對應第 2 題的診斷流程**：不明原因喘、血氧偏低但 CXR 正常這類表現要怎麼往下查，這支把 DVT/PE 的診斷路徑講得很完整。
+- **[Trousseau Syndrome (Trousseau Sign of Visceral Malignancy)](https://www.youtube.com/watch?v=E35A8f7WSiQ)** — Medicosis Perfectionalis · 4:42
+  - **直接對應本頁核心概念**：腫瘤分泌促凝物質造成遊走性血栓性靜脈炎，四分半把 Trousseau syndrome 講完，是這頁最精準的一支。
+- **[D-dimer – When The Stabilized Fibrin is Destroyed](https://www.youtube.com/watch?v=MH65zhqHyXg)** — Medicosis Perfectionalis · 9:16
+  - **對應第 2 題提到的 D-dimer 限制**：D-dimer 高只代表有纖維蛋白在被分解，癌症病人本來就常偏高——懂機轉才講得出為什麼它在這個族群的陰性預測價值會下降。
 
 ## 容易被電的點
 
