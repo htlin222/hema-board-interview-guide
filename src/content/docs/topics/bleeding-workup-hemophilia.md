@@ -354,6 +354,12 @@ Mixing study 在問一件事：把病人血漿跟正常血漿 1:1 混合，異�
   - **對應第 11 題**：vWF 怎麼同時管血小板黏附又保護 FVIII，所以 vWD 會同時有黏膜出血（primary）跟 aPTT 延長（secondary）兩種面貌——這是該題最漂亮的一句話。
 - **[Hemophilia Types – Hemophilia A, B, and C](https://www.youtube.com/watch?v=0TMN1YJSuRQ)** — Medicosis Perfectionalis · 9:10
   - **對應第 5–6 題**：A（FVIII）、B（FIX）、C（FXI）的差異與嚴重度分級，順便解釋為什麼 factor XII 缺乏會延長 aPTT 卻不出血。
+- **[Primary Hemostasis – Part 1: Platelet Adhesion](https://www.youtube.com/watch?v=PbQxoVCrfOc)** — AMBOSS · 7:47
+  - **對應框架一的 primary 那一半**：血小板怎麼靠 vWF 黏上內皮破損處，理解這一步才知道為什麼 primary 出問題會表現成「黏膜表淺、馬上流」。
+- **[Secondary Hemostasis – Part 1: Coagulation Cascade](https://www.youtube.com/watch?v=-ulGunQMGpQ)** — AMBOSS · 5:43
+  - **對應框架一的 secondary 那一半、以及框架二**：五分半把 cascade 走完，是 PT／aPTT 各測什麼的前置知識。
+- **[Secondary Hemostasis – Part 2: Cell-Based Model of Coagulation](https://www.youtube.com/watch?v=hr1Pgb3r_cU)** — AMBOSS · 10:36
+  - **進階補充：現代的 cell-based model**：傳統瀑布圖是為了解釋「檢驗」而畫的，體內實際凝血是以細胞表面為中心進行。知道這個落差，就能理解為什麼 aPTT 延長不等於一定會出血（例如 factor XII 缺乏）。
 
 ## 容易被電的點
 

@@ -224,6 +224,8 @@ sidebar:
   - **對應 CML 段落**：Philadelphia chromosome 怎麼形成 BCR-ABL1、為什麼 TKI 能精準阻斷它，是理解 milestone 監測為什麼盯分子反應的前提。
 - **[Blast Crisis in Chronic Myeloid Leukemia (CML)](https://www.youtube.com/watch?v=bo9qRqqSR3c)** — Medicosis Perfectionalis · 5:14
   - **對應「疾病演進」這個共通考點**：CML 慢性期怎麼進展到 blast crisis，跟 MDS 那題「兩次骨髓報告要一起看」是同一種縱向判讀的思路。
+- **[Hematological Malignancies – Part 1a: Hematopoiesis, Acute Leukemias](https://www.youtube.com/watch?v=5IIsrHQtesY)** — AMBOSS · 11:48
+  - **對應本頁推理架構的第一步（確認診斷）**：從造血分化樹講起，說明急性白血病是卡在哪一階段的分化障礙——理解這點，flow cytometry 為什麼是確診 lineage 的關鍵就不用背。
 
 ## 容易被電的點
 

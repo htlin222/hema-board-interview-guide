@@ -220,6 +220,8 @@ sidebar:
   - **對應第 4 題的完整版**：ADAMTS13、vWF multimer、微血栓、破碎紅血球這條因果鏈，加上 PEX 為什麼是核心治療。
 - **[Hemolytic Uremic Syndrome (HUS) vs. TTP](https://www.youtube.com/watch?v=WXwMmgveUNg)** — Medicosis Perfectionalis · 8:30
   - **對應 TMA family 內部的鑑別**：本頁第 2 題要求一次列出 TTP／HUS／DIC 等，但考官追問「那你怎麼分 TTP 跟 HUS」時，這支給的是可以直接講出來的區辨點。
+- **[Primary Hemostasis – Part 2: Platelet Activation](https://www.youtube.com/watch?v=vNq7oSnlwkc)** — AMBOSS · 8:08
+  - **對應 TTP 的機轉底層**：血小板被 vWF 活化聚集的正常過程，看懂之後才理解 ADAMTS13 缺乏時「超大 vWF multimer 沒被剪斷」為什麼會在微血管裡拉出血栓、把紅血球絞碎。
 
 ## 容易被電的點
 

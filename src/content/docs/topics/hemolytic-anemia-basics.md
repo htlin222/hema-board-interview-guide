@@ -245,6 +245,10 @@ sidebar:
   - **對應 HS 那兩題**：膜蛋白缺陷怎麼變成球形、為什麼脾臟切除治的是溶血而不是缺陷本身，本頁只給結論，這支把來龍去脈補齊。
 - **[Heinz Bodies and Bite Cells](https://www.youtube.com/watch?v=v83RVER0fhs)** — Medicosis Perfectionalis · 3:34
   - **對應 G6PD deficiency 的抹片線索**：bite cell 是怎麼被脾臟咬出來的，看過圖之後就不會跟 spherocyte 搞混（本頁一再強調型態相似不代表機轉相同）。
+- **[Anemia: Microcytic, Normocytic & Macrocytic Type](https://www.youtube.com/watch?v=E5CusOT6kEM)** — Lecturio Medical · 9:19
+  - **對應「第一層：用 MCV 分三大類」**：Lecturio 把三類各自的鑑別診斷整理成表格式講解，跟本頁的三分表可以互相對照，補漏用最快。
+- **[Key Transfusion Reactions Every Doctor Should Know](https://www.youtube.com/watch?v=3d5EuH8fyFc)** — Lecturio Medical · 7:49
+  - **對應輸血副作用那題**：急性溶血、發燒非溶血、過敏、TRALI、TACO 一次分清楚，正好補上多位學長自陳「輸血醫學是弱項」的那一塊。
 
 ## 容易被電的點
 

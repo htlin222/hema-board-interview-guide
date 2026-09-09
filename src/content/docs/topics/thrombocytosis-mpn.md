@@ -161,6 +161,10 @@ sidebar:
   - **對應「三層過濾」第一層**：primary（clonal）vs secondary（reactive）怎麼分，跟本頁起手式的分流完全同一套，可以當作這頁框架的影音版。
 - **[Chronic Myeloid Leukemia (CML) – Philadelphia Chromosome](https://www.youtube.com/watch?v=aZz5idSKuEE)** — Medicosis Perfectionalis · 17:59
   - **對應第二層的 CML vs ET**：BCR-ABL1 怎麼造成那個「各成熟階段顆粒球同時出現」的抹片圖像，理解機轉之後形態學判讀就不是死記。
+- **[Hematological Malignancies – Part 1b: Myeloproliferative Neoplasms](https://www.youtube.com/watch?v=eBy5NBf6SF4)** — AMBOSS · 7:19
+  - **對應第二層的 clonal 分支**：把 CML／PV／ET／PMF 放在同一張分類圖上，先看清楚彼此的位置，再回頭記各自的驅動基因。
+- **[Hematological Malignancies – Part 2B: Myeloproliferative Neoplasms](https://www.youtube.com/watch?v=bcC_LHzcY7g)** — AMBOSS · 4:54
+  - **四分半的快速複習版**：適合考前一天把 MPN 這一格的分類重新掃一遍。
 
 ## 容易被電的點
 

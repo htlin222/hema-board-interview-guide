@@ -104,6 +104,8 @@ ALL（acute lymphoblastic leukemia）在成人血液科門診相對少見，很�
   - **對應診斷流程**：從臨床表現到骨髓、flow cytometry、細胞遺傳學的完整順序，跟本頁推理架構第一步相同。
 - **[Acute Lymphoblastic Leukemia (ALL) – Treatment](https://www.youtube.com/watch?v=SBDZtArHViE)** — Medicosis Perfectionalis · 9:29
   - **對應第 3 題**：ALL 的療程分期（induction／consolidation／maintenance）以及 Ph 陽性要加 TKI 的道理。
+- **[Acute Leukemia: Etiology & Subtypes – Pathology](https://www.youtube.com/watch?v=TXP8dwAA3kk)** — Lecturio Medical · 19:30
+  - **對應第 1 題的病理背景**：ALL 與 AML 的亞型分類與病理特徵講得比一般教學影片深，看完再回來看「型態不確定怎麼辦」那題會更有把握。
 
 ## 容易被電的點
 
