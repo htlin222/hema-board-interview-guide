@@ -17,8 +17,6 @@ sidebar:
 
 ## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18"/><path d="M9 3v18"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 速記表
 
-考前快速掃過用。下面幾張表把整頁的判斷點壓成可以「看一眼就講得出來」的形式，細節與擬答仍在後面各題。
-
 **骨髓 megakaryocyte 決定往哪條路走（對應開頭推理架構）**
 
 | 骨髓 megakaryocyte | 代表什麼 | 走哪條路 | 對應疾病 |
@@ -147,8 +145,6 @@ sidebar:
   - 判讀時一定要把骨髓抹片跟周邊血球數字兩邊對照著看，這正是框架裡「生產端正常」不等於「沒病」的陷阱——生產端正常只代表排除了生產性原因，不代表血小板數字正常、也不代表沒有周邊破壞機轉在進行。
 
 ## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg> 相關 YouTube 影片
-
-下列影片都是實際搜尋後、再用 YouTube oEmbed 逐一驗證過確實存在且可播放的（2026-09 檢查），不是憑印象列出的連結；每一支都標明**為什麼選它**、**對應到本頁哪一段**，看之前先知道要帶走什麼。
 
 - **[Thrombocytopenia: Hemostasis – Lesson 8](https://www.youtube.com/watch?v=EwU5MFn4zfM)** — Strong Medicine · 21:46
   - **對應本頁「做不出來 vs 被破壞掉」框架**：他也是先分生產端與周邊破壞兩條路再往下走，是這頁推理架構的完整版。

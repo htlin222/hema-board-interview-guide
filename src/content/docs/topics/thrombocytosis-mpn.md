@@ -16,8 +16,6 @@ sidebar:
 
 ## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18"/><path d="M9 3v18"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 速記表
 
-考前快速掃過用。下面幾張表把整頁的判斷點壓成可以「看一眼就講得出來」的形式，細節與擬答仍在後面各題。
-
 **三層過濾的完整走法（對應開頭推理架構與 Q1、Q2）**
 
 | 層次 | 要查什麼 | 看到什麼 | 判讀／下一步 |
@@ -181,8 +179,6 @@ sidebar:
 </div>
 
 ## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg> 相關 YouTube 影片
-
-下列影片都是實際搜尋後、再用 YouTube oEmbed 逐一驗證過確實存在且可播放的（2026-09 檢查），不是憑印象列出的連結；每一支都標明**為什麼選它**、**對應到本頁哪一段**，看之前先知道要帶走什麼。
 
 - **[Thrombocytosis: Hemostasis – Lesson 9](https://www.youtube.com/watch?v=bRY4qQYiEIk)** — Strong Medicine · 10:44
   - **對應「三層過濾」第一層**：reactive vs clonal 怎麼分、為什麼順序不能顛倒，跟本頁起手式的邏輯完全一致。

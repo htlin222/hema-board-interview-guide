@@ -15,8 +15,6 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
 
 ## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18"/><path d="M9 3v18"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 速記表
 
-考前快速掃過用。下面幾張表把整頁的判斷點壓成可以「看一眼就講得出來」的形式，細節與擬答仍在後面各題。
-
 **DLBCL 一路到後線，每一線靠什麼決定（對應四層骨架、Q1–Q4）**
 
 | 治療線 | 決策依據 | 一定要主動講出來的重點 |
@@ -252,8 +250,6 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
 </div>
 
 ## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg> 相關 YouTube 影片
-
-下列影片都是實際搜尋後、再用 YouTube oEmbed 逐一驗證過確實存在且可播放的（2026-09 檢查），不是憑印象列出的連結；每一支都標明**為什麼選它**、**對應到本頁哪一段**，看之前先知道要帶走什麼。
 
 - **[How to Treat Diffuse Large B-Cell Lymphoma (DLBCL) in 2025](https://www.youtube.com/watch?v=raGkPnUs9XM)** — OncBrothers · 21:36
   - **對應四層決策骨架**：兩位血液腫瘤科醫師直接討論一線到後線的實際選擇，含近年新藥的定位，比教科書式介紹更貼近口試會問的「你怎麼選」。

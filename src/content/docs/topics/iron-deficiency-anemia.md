@@ -25,8 +25,6 @@ IDA 落在「microcytic + hypoproliferative」這一格，於是下一步自然�
 
 ## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18"/><path d="M9 3v18"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 速記表
 
-考前快速掃過用。下面幾張表把整頁的判斷點壓成可以「看一眼就講得出來」的形式，細節與擬答仍在後面各題。
-
 **確診 IDA 之後往哪裡找失血源（核心邏輯：IDA 是訊號不是終點；第一、二題）**
 
 | 族群 | 優先找哪裡 | 怎麼問／為什麼 |
@@ -242,8 +240,6 @@ IDA 落在「microcytic + hypoproliferative」這一格，於是下一步自然�
 </div>
 
 ## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg> 相關 YouTube 影片
-
-下列影片都是實際搜尋後、再用 YouTube oEmbed 逐一驗證過確實存在且可播放的（2026-09 檢查），不是憑印象列出的連結；每一支都標明**為什麼選它**、**對應到本頁哪一段**，看之前先知道要帶走什麼。
 
 - **[Anemia: Lesson 2 – Interpreting the Iron Panel](https://www.youtube.com/watch?v=Nh8lvOW3ooA)** — Strong Medicine · 6:21
   - **對應第一題的 ferritin 判讀陷阱**：發炎狀態把 ferritin 撐高時要怎麼靠 TSAT 補位判斷，正是本頁 ⚠️ 標註的那一條，六分鐘講完。

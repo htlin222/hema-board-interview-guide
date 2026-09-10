@@ -26,8 +26,6 @@ sidebar:
 
 ## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18"/><path d="M9 3v18"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 速記表
 
-考前快速掃過用。下面幾張表把整頁的判斷點壓成可以「看一眼就講得出來」的形式，細節與擬答仍在後面各題。
-
 **哪些狀況要提高血栓警覺（對應第 1 題「腫瘤病人有哪些狀況會讓你警覺到血栓」）**
 
 | 風險來源 | 屬於哪一層 | 機轉／為什麼要記 |
@@ -117,8 +115,6 @@ sidebar:
 </div>
 
 ## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg> 相關 YouTube 影片
-
-下列影片都是實際搜尋後、再用 YouTube oEmbed 逐一驗證過確實存在且可播放的（2026-09 檢查），不是憑印象列出的連結；每一支都標明**為什麼選它**、**對應到本頁哪一段**，看之前先知道要帶走什麼。
 
 - **[Hypercoagulability as a Paraneoplastic Syndrome](https://www.youtube.com/watch?v=2aY5OOhZK_M)** — Lecturio Medical · 6:16
   - **對應本頁推理架構**：腫瘤本身為什麼會把病人推向高凝血狀態（Trousseau syndrome 的概念底層），六分鐘把機轉講完。
