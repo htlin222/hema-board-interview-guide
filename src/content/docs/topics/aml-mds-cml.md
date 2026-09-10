@@ -20,9 +20,20 @@ sidebar:
 
 | 疾病 | 分層／監測工具 | 治療怎麼決定 | 這頁的招牌陷阱 |
 | --- | --- | --- | --- |
-| AML | 年齡、體能狀況、細胞遺傳學／分子分層（favorable／intermediate／unfavorable） | 年輕、體能好、可耐受 → intensive chemotherapy；年紀大、共病多、體能差 → less intensive；intermediate／unfavorable 且體能可耐受 → 提早評估 allogeneic transplant | 一開口就丟「化療或移植」的結論，沒有先講分層依據 |
+| AML | 誘導強度看 **fitness**（Ferrara criteria）；移植與否看 **ELN 2022 分層 × MRD × TRM** | 兩個問題分開答：fit 才給 7+3（>75 歲為相對禁忌），但 fit 不等於會獲益（TP53／複雜核型考慮 Ven+HMA）；移植門檻是「不移植復發風險 >35%」 | 把兩個問題混成一句「年輕體能好就打化療、順便早點評估移植」——favorable risk 反而不該在 CR1 移植 |
 | MDS | IPSS risk score；加上兩次骨髓報告之間 blast 比例的變化趨勢 | 分層低 → best supportive care 或 clinical trial；分層高 → hypomethylating agent（azacitidine），也可能考慮 allogeneic transplant | 只看第一次骨髓報告的靜態數字，漏掉 blast 上升代表的疾病演進 |
 | CML | 不靠分層決定強度，改看 BCR-ABL1 分子反應的 milestone | 幾乎所有病人一律先用 TKI，再依 milestone 有沒有達標調整 | 只說「要定期監測分子反應」，講不出具體切點 |
+
+**AML 兩個決策分開看（對應 AML 段落第一個論點）**
+
+| 問題 | 判準 | 怎麼分 |
+| --- | --- | --- |
+| 誘導給多強 | **Fitness**，不是年齡 | 不建議 7+3：>75 歲（相對禁忌）、或符合 Ferrara criteria 的 unfit（ECOG PS ≥3、EF ≤50%、DLCO/FEV1 ≤65% 或需氧、需腎替代、Child-Pugh B/C、難治感染、需住院精神疾病） |
+| 誘導給多強（進階） | Fitness 過關**不等於**會獲益 | TP53 突變、複雜核型即使 fit，長期預後仍差 → 趨勢改用 venetoclax + HMA 或標靶治療取代 7+3 |
+| 緩解後移植？Favorable | CBF、NPM1mut/FLT3-ITD wt、CEBPA bZIP | **不建議 CR1 移植**；首選 3–4 療程高劑量 cytarabine 或 auto-HCT。**但 MRD 持續陽性 → allo-HCT** |
+| 緩解後移植？Intermediate | 無共識，個別化 | MRD 陰性 → 化療／auto-HCT 即可；**MRD 陽性 → allo-HCT** |
+| 緩解後移植？Adverse | 生物學本身就決定 | **CR1 即移植，不論 MRD**，除非 TRM 過高 |
+| 整體門檻與反例 | 復發風險 vs 移植風險對沖 | 不移植復發風險 **>35%** 才考慮 allo-HCT；反過來 **MRD 陰性者可能因 NRM 上升而使移植獲益消失甚至為負**。共病用 HCT-CI 量化 |
 
 **一線 TKI 怎麼依共病選（對應 CML 段落「TKI 治療策略：一線藥物與副作用比較」）**
 
@@ -49,23 +60,32 @@ sidebar:
 ## AML
 
 - **決策點：哪些病人適合 intensive chemotherapy、哪些病人要轉向移植**
-  - **最佳答法**：先講出判斷這題的整體骨架，再套進病人的年齡、體能、細胞遺傳學三個變項分別討論，不要一開口就丟「化療或移植」的結論。**依照**推理架構裡「風險分層決定治療強度」的邏輯，答案應該是「先講分層依據、再對應到強度選擇」這個順序，而不是反過來先講結論再補理由。**因為**考官真正要測的是你有沒有系統性的決策路徑，而不是背出哪個病人該做什麼——能把 favorable／年輕／體能好 vs. unfavorable／年老／共病多兩種情境對照著講出來，才代表你真的理解分層邏輯，而不是記憶特定病例的答案。
-  - 這個判斷要套用框架裡「風險分層決定治療強度」的邏輯：年輕、體能狀況好（performance status 佳），且細胞遺傳學／分子分層屬於 favorable 或至少可以耐受高強度治療的病人，傾向走 intensive chemotherapy，甚至要提早評估是否轉向 allogeneic transplant。
-  - 年紀大、共病多、體能差，或風險分層屬於不利族群的病人，則傾向 less intensive 的治療路徑，而不是硬上高強度化療。
-  - 回答這題時，要主動講出「先確認診斷、再風險分層、才決定治療強度」這一整套骨架，不能只丟「這個病人該不該化療」的結論，要讓口試官看到你的判斷邏輯是怎麼一步步推出來的。
+  - **最佳答法**：把這題**拆成兩個獨立的問題**分開答，是拉開分數最有效的方式——(1) 誘導治療給多強？看的是 **fitness**；(2) 緩解後要不要移植？看的是**疾病生物學 + MRD**。**依照**「這兩個問題用的判斷變項根本不同」這個事實，混在一起講就會出現「年輕體能好所以打強化療、順便早點評估移植」這種聽起來合理但其實錯誤的答案（favorable risk 反而不該在 CR1 移植）。**因為**考官要看的是你知不知道現代 AML 的決策已經不是「年齡決定強度、風險決定移植」這麼粗，而是 fitness 與生物學各管一段。
+  - **第一個問題：誘導治療給多強？——判準是 fitness，不是年齡**
+    - 標準 7+3（cytarabine + anthracycline）不建議用於 **>75 歲**（相對禁忌），或符合 **Ferrara criteria** 的 unfit 病人：ECOG PS ≥3、EF ≤50%、DLCO 或 FEV1 ≤65%（或需氧氣）、需腎替代治療、Child-Pugh B/C 肝硬化、難治性感染、需住院的精神疾病等。
+    - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 現代的問法已經從「**誰撐得住**強化療」變成「**誰真的能從中獲益**」：即使 fitness 過關，若屬不良風險生物學（**TP53 突變、複雜核型**），誘導緩解率或許還可以，但長期預後仍差，趨勢是改採 **venetoclax + HMA** 或標靶治療取代 7+3。能講出這個轉變，等於告訴考官你讀的是近幾年的東西。
+  - **第二個問題：緩解後要不要移植？——ELN 2022 風險分類 × MRD × 移植相關死亡率**
+    - 整體門檻：預估**不移植的復發風險 >35%** 時才考慮 allo-HCT，也就是要拿復發風險去對沖移植本身的 TRM。
+    - **Favorable risk**（CBF、NPM1 突變／FLT3-ITD 野生型、CEBPA bZIP）：**不建議 CR1 移植**，首選 3–4 療程高劑量 cytarabine 鞏固或 auto-HCT；**但 MRD 持續陽性者仍要轉 allo-HCT**。
+    - **Intermediate risk**：沒有共識，要個別化。**MRD 陰性**可留在化療／auto-HCT；**MRD 陽性建議 allo-HCT**。
+    - **Adverse risk**：多數建議 **CR1 就移植，不論 MRD**，除非 TRM 風險過高。
+    - 支持數據：一項 769 人的研究顯示，依此策略接受移植者三年整體存活明顯較佳（favorable HR 0.38、intermediate HR 0.53、adverse HR 0.51）。
+    - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 反過來也要記得：**MRD 陰性的病人不一定該移植**——非復發死亡率（NRM）的增加可能把移植的效益抵消掉甚至變成負的。這是「移植不是越早越好」的具體證據，被追問時講得出來很加分。
+    - 其他要一併考慮的：年齡、共病（用 **HCT-CI** 量化）、donor 可及性與配對程度、中心經驗、病人意願。
 
 <div class="callout callout-keywords">
 <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
 
-「treatment intensity 的決策不是先問要不要化療，而是先把年齡、體能、細胞遺傳學三個變項放進風險分層裡。」
+「這題要拆成兩個問題：誘導強度看 fitness（Ferrara criteria），移植與否看生物學加 MRD——判準不同，不能混在一起講。」
 
 </div>
 
 <div class="callout callout-followup">
 <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
 
-- 「如果三個變項互相矛盾（例如年輕、體能好，但細胞遺傳學 unfavorable），怎麼決定？」→ 沒有單一變項說了算，unfavorable cytogenetics 通常會讓即使年輕體能好的病人也提早評估 allo-SCT。
-- 「什麼時候該轉去評估 allogeneic transplant？」→ 通常在 intermediate／unfavorable risk 且體能可耐受的情況下提早評估，可對照 [myeloma 篇](/hema-board-interview-guide/topics/myeloma-and-transplant/) 移植時機的判斷邏輯。
+- 「Favorable risk 的病人也要在 CR1 移植嗎？」→ 不用，首選高劑量 cytarabine 鞏固或 auto-HCT；除非 MRD 持續陽性（例如 CBF 融合基因未達 3-log 下降、NPM1 MRD 陽性）才轉 allo-HCT。
+- 「一個年輕、體能很好，但帶 TP53 突變的病人，你會直接打 7+3 嗎？」→ 這正是「fit 不等於會獲益」的情境，現代趨勢會考慮 venetoclax + HMA 或標靶治療，而不是硬上 7+3。
+- 「什麼時候該轉去評估 allogeneic transplant？」→ 以「不移植的復發風險 >35%」為門檻，整合 ELN 2022 分層與 MRD；可對照 [myeloma 篇](/hema-board-interview-guide/topics/myeloma-and-transplant/) 移植適應症的判斷邏輯（該篇重點是自體、這裡是異體）。
 
 </div>
 
