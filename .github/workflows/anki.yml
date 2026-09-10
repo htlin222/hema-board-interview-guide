@@ -1,0 +1,34 @@
+name: Build Anki deck
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/content/docs/topics/**.md'
+      - 'scripts/build_anki.py'
+      - '.github/workflows/anki.yml'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Build deck
+        run: uv run --script scripts/build_anki.py
+
+      # 牌組跟著內容走，所以固定用同一個 tag，每次覆蓋資產而不是堆出一串 release
+      - name: Publish to release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag=anki-latest
+          gh release view "$tag" >/dev/null 2>&1 \
+            || gh release create "$tag" --title "Anki 牌組（最新）" \
+                 --notes "由 main 分支的主題頁自動建置。匯入後牌組為巢狀結構：血液科口試 :: 主題 :: 卡片類型。卡片 GUID 由內容決定，重新匯入會更新既有卡片而不會產生重複。"
+          gh release upload "$tag" dist-anki/hema-board-interview.apkg --clobber
