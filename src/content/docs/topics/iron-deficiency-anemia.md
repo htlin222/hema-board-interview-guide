@@ -35,18 +35,20 @@ IDA 落在「microcytic + hypoproliferative」這一格，於是下一步自然�
 | 停經前女性 | 月經史優先（hypermenorrhea 最常見），但仍要排除其他失血源 | 定義是單次失血 >80 mL，但門診量不到；改問棉片／棉條更換頻率（是否每小時一次）、有無大血塊、經期是否超過 7 天，或用 PBAC 問卷半定量 |
 | 停經後女性／男性／年輕但有警訊症狀 | GI evaluation 優先（潛血、大腸鏡） | 這個族群 IDA 背後藏 GI malignancy 的機率顯著上升，考官很愛用年齡／性別轉折考警覺性 |
 
-**口服 vs IV 鐵劑：什麼時候換路（第三題）**
+**口服 vs IV 鐵劑：什麼時候換路（第三題；先問該不該跳過口服，再問口服失敗了沒）**
 
-| 路線 | 什麼時候用 | 藥物與注意事項 |
+| 決策層次 | 判斷內容 | 具體項目 |
 | --- | --- | --- |
-| 口服（預設第一線） | 大多數病人；決策順位是「能簡單處理就不要複雜化」 | Ferrous sulfate、ferrous fumarate、ferrous gluconate；空腹或搭配維生素 C 增加吸收；腸胃不適、便秘、解黑便要事先衛教，避免病人自行停藥 |
-| IV（口服行不通才用） | 一、對口服不耐受；二、吸收不良（IBD、胃繞道術後）；三、需要快速補鐵（術前時間不夠）；四、失血速度超過口服補充速度 | Iron sucrose、ferric carboxymaltose，依仿單或體重對照表給藥（Ganzoni equation 臨床少手算，背不出來就誠實講實務做法）；過敏反應含 anaphylaxis，給藥前後需監測；ferric carboxymaltose 可能誘發 hypophosphatemia；懷孕第二、三孕期可用，第一孕期通常避免 |
+| 第一層：直接走 IV | 有這些理由就不必等口服失敗，IV 即第一線 | 吸收註定不良（減重手術後、IBD、CKD 尤其透析）；發炎使 hepcidin 升高而關掉吸收（RA、癌症、心衰竭）；失血速度超過口服補充；需快速拉高 Hb（術前）；懷孕第二、三孕期較嚴重者；IRIDA |
+| 第二層：先試口服 | 沒有上述理由的一般病人 | Ferrous sulfate／fumarate／gluconate；空腹或配維生素 C；**約七成有腸胃道副作用、其中半數因此停藥**，要先衛教 |
+| 第三層：口服失敗的門檻 | 用數字判斷，不是憑感覺 | 2–4 週 Hb 未上升 ≥1 g/dL，或 1 個月 ferritin 未上升；CKD 依 KDIGO 用最適化口服 1–3 個月為期。換路前先排除「根本沒吃」與失血未處理 |
+| IV 的安全性 | 被問到不要只答「怕過敏」 | 無絕對禁忌症；輸注反應多為補體活化的**假過敏**、非 IgE 媒介；輕度約 1/200、重度約 1/200,000；ferric carboxymaltose 可能誘發 hypophosphatemia；第一孕期不建議 |
 
 **治療時間軸：什麼時候看什麼、何時能停（第四題）**
 
 | 指標 | 什麼時候看 | 代表什麼 |
 | --- | --- | --- |
-| Hb 開始上升 | 口服補鐵約 3–4 週後 | 判斷「有沒有治療反應」，速度約每週 1 g/dL |
+| Hb 上升 ≥1 g/dL | 口服補鐵後 2–4 週內 | 判斷「有沒有治療反應」；沒達到就是治療失敗，也正是換 IV 的門檻 |
 | Hb 恢復正常 | 之後仍要再持續補鐵 3 個月 | Hb 正常不等於鐵儲存補滿，不能馬上停藥 |
 | Ferritin | 決定停不停藥時 | 真正的治療終點指標，沒回到正常範圍前鐵不能停 |
 
@@ -119,25 +121,36 @@ IDA 落在「microcytic + hypoproliferative」這一格，於是下一步自然�
 
 **Q: 鐵劑要怎麼給？口服還是 IV？**
 
-**最佳答法**：先講口服為什麼是預設選項、再講改 IV 的四個具體情境，不要把口服跟 IV 講成兩個平行選項。**依照**「能簡單處理就不要複雜化」這個臨床決策順位邏輯，IV 永遠是「口服行不通了」之後的後備方案，**因為**考官要看的是你有沒有這個決策順位的概念，而不是背兩種給法各自的優缺點清單；公式（Ganzoni equation）背不出來就誠實講依仿單/體重表操作，**因為**誠實交代臨床實務做法，比硬凹一個記不準的公式安全得多。
+**最佳答法**：這題有兩層，只講一層會被追問到見底。**第一層**：這個病人有沒有理由**一開始就直接走 IV**——吸收註定不良（減重手術後、IBD、CKD）、或失血速度本來就追不上口服補充，這些族群 IV 是第一線而不是備案。**第二層**：沒有這些理由才從口服開始，而且要用**量化門檻**判斷失敗（2–4 週 Hb 沒有上升至少 1 g/dL），不是憑感覺說「效果不好」。**依照**「先問該不該跳過口服、再問口服失敗了沒」這個順序作答，**因為**多數人只會講「口服不耐受就換 IV」這一句，講得出 IV 第一線族群、又給得出換路的具體數字門檻，才是這題真正拉開分數的地方。
 
 <div class="callout callout-keywords">
 <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
 
-「口服是預設答案，IV 是口服行不通了才用的後備方案。」——一句話把決策順位講清楚，再往下展開四個改 IV 的情境。
+「先問這個病人該不該一開始就走 IV，而不是預設口服失敗才換——對特定族群 IV 本來就是第一線。」
 
 </div>
 
 擬答：
-- **第一線是口服鐵劑**
+- **第一層：先判斷這個病人該不該直接用 IV（這些族群 IV 是第一線，不必等口服失敗）**
+  - **吸收註定不良**：減重手術後（無法有效吸收）、IBD（口服可能加重腸道局部發炎，腸胃道副作用也較多）、慢性腎病尤其透析病人（發炎、胃酸減少、藥物交互作用都影響吸收）。
+  - **發炎狀態讓 hepcidin 升高、把腸道吸收關掉**：類風濕性關節炎、癌症、心衰竭。
+  - **失血速度超過口服補充能力**：月經過多、慢性腸胃道出血。
+  - **需要快速拉起 Hb**：例如術前準備。
+  - **懷孕第二、三孕期**且貧血較嚴重者，IV 矯正較快；<b>第一孕期不建議用 IV</b>，安全性資料不足。
+  - 遺傳性鐵吸收障礙（IRIDA）。
+  - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 這裡有個可以串起來的機轉：hepcidin 是腸道鐵吸收的總開關。發炎把它**拉高**、腸道吸收被關掉，所以口服無效；而在 [thalassemia 篇](/hema-board-interview-guide/topics/thalassemia-iron-overload/)，無效造血把它**壓低**、腸道吸收失控，所以不輸血也會鐵過載。同一個開關，兩個方向。
+- **第二層：沒有上述理由才從口服開始**
   - 常用藥物包括 ferrous sulfate、ferrous fumarate、ferrous gluconate。
   - 空腹服用或搭配維生素 C 一起吃，可以增加吸收效率。
-  - 常見副作用是腸胃不適、便秘、解黑便，要事先跟病人說明，避免病人自行停藥。
-- **改成 IV 鐵劑的時機**
-  - 病人對口服鐵劑不耐受，副作用太大沒辦法繼續吃。
-  - 病人有吸收不良的狀況，例如 IBD 或胃繞道手術後。
-  - 需要快速補充鐵，例如手術前時間不夠等口服慢慢補。
-  - 失血的速度超過口服補充能追上的速度。
+  - 要主動衛教副作用：便秘、噁心、金屬味、腹絞痛——**高達七成病人會出現腸胃道副作用，其中約一半因此停藥**。講得出這個比例，就解釋了為什麼「不耐受」是臨床上最常見的換路理由。
+- **第三層：口服失敗要用數字判斷，不是憑感覺**
+  - 一般族群：口服 **2–4 週後 Hb 上升不到 1 g/dL**，或 **1 個月後 ferritin 沒有上升**，即視為治療失敗，應改 IV。
+  - 慢性腎病族群：依 KDIGO，**最適化口服治療 1–3 個月**仍效果不佳就換 IV。
+  - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 換路之前要先排除「不是藥沒效，是根本沒吃」——順從性與持續失血沒處理，換成 IV 一樣會失敗。
+- **IV 鐵劑的安全性：被問到時不要只說「怕過敏」**
+  - IV 鐵劑**沒有絕對禁忌症**。
+  - 輸注反應**多數是補體活化造成的假過敏反應（pseudo-allergy），不是 IgE 媒介的真過敏**，處理方式與真過敏不同。
+  - 發生率低：輕度約 1/200，重度約 1/200,000。
 - **台灣臨床實務上的給法**
   - 常用的 IV 鐵劑包括 iron sucrose、ferric carboxymaltose，依照仿單或體重對照表給藥。
   - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> Ganzoni equation 是用來計算總鐵缺乏量的公式，但臨床上很少真的手算，背不出來不用慌，誠實說明依仿單/體重表操作的臨床實務做法即可。
@@ -145,7 +158,8 @@ IDA 落在「microcytic + hypoproliferative」這一格，於是下一步自然�
 <div class="callout callout-followup">
 <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
 
-- 「IV 鐵劑有什麼要注意的副作用？」→ 過敏反應（含 anaphylaxis，給藥前後需監測）、部分劑型（如 ferric carboxymaltose）可能誘發 hypophosphatemia。
+- 「IV 鐵劑有什麼要注意的副作用？」→ 輸注反應（多為補體活化的假過敏、非 IgE 媒介，輕度約 1/200、重度約 1/200,000）、部分劑型（如 ferric carboxymaltose）可能誘發 hypophosphatemia。
+- 「你說口服失敗要換 IV，那『失敗』的定義是什麼？」→ 2–4 週 Hb 未上升 ≥1 g/dL，或 1 個月 ferritin 未上升；CKD 族群依 KDIGO 用 1–3 個月為期。
 - 「懷孕婦女可以用 IV 鐵劑嗎？」→ 第二、三孕期可以用，第一孕期通常避免，實際仍依當時臨床狀況與科別會診決定。
 
 </div>
@@ -163,7 +177,7 @@ IDA 落在「microcytic + hypoproliferative」這一格，於是下一步自然�
 
 擬答：
 - **先看治療反應**
-  - 口服補鐵大約 3–4 週後 Hb 應該要開始上升，速度大概是每週上升 1 g/dL。
+  - 口服補鐵後 **2–4 週內 Hb 應該上升至少 1 g/dL**；沒有達到就要當成治療反應不足去追原因，而不是繼續等（這也正是換 IV 的門檻）。
 - **再看治療終點**
   - Hb 恢復正常後不能馬上停藥，要再持續補鐵 3 個月，把體內的鐵儲存補滿。
   - 判斷是否可以停藥的依據是 ferritin 有沒有回到正常範圍，而不是只看 Hb 正常就結案。
