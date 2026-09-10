@@ -1,0 +1,288 @@
+---
+import { getCollection } from 'astro:content';
+import { marked } from 'marked';
+import { extractHandout, stripIcons } from '../../lib/handout';
+
+export async function getStaticPaths() {
+	const docs = await getCollection('docs');
+	return docs
+		.filter((d) => d.id.startsWith('topics/') && !d.id.endsWith('exam-format-and-mindset'))
+		.map((entry) => ({ params: { slug: entry.id.replace('topics/', '') }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const md: string = entry.body ?? '';
+const { frameworks, tables, openers, pitfalls } = extractHandout(md);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const render = (s: string) => marked.parse(stripIcons(s), { async: false }) as string;
+---
+
+<html lang="zh-Hant">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>{entry.data.title}｜一頁速查</title>
+		<link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+		<style>
+			@page {
+				size: A4;
+				margin: 8mm 8mm;
+			}
+			:root {
+				--ink: #1a1a1a;
+				--muted: #5b5b66;
+				--line: #d6d6dd;
+				--accent: #6b3fa0;
+				--wash: #f4f0fa;
+			}
+			* {
+				box-sizing: border-box;
+			}
+			body {
+				margin: 0;
+				background: #eceaf0;
+				color: var(--ink);
+				font: 8pt/1.24 'PingFang TC', 'Heiti TC', 'Noto Sans TC', system-ui, sans-serif;
+			}
+			.sheet {
+				width: 210mm;
+				min-height: 297mm;
+				margin: 12px auto;
+				padding: 8mm 8mm;
+				background: #fff;
+				box-shadow: 0 2px 14px rgb(0 0 0 / 12%);
+			}
+			header {
+				display: flex;
+				align-items: baseline;
+				justify-content: space-between;
+				gap: 10px;
+				border-bottom: 2px solid var(--accent);
+				padding-bottom: 3px;
+				margin-bottom: 7px;
+			}
+			h1 {
+				font-size: 13.5pt;
+				margin: 0;
+				letter-spacing: 0.01em;
+			}
+			header .kicker {
+				font-size: 7.6pt;
+				color: var(--muted);
+				white-space: nowrap;
+			}
+			h2 {
+				font-size: 8.4pt;
+				margin: 5px 0 1.5px;
+				padding: 1.5px 6px;
+				background: var(--accent);
+				color: #fff;
+				border-radius: 2px;
+				break-after: avoid;
+			}
+			h3 {
+				font-size: 8.4pt;
+				margin: 4px 0 1px;
+				color: var(--accent);
+				break-after: avoid;
+			}
+			p {
+				margin: 2px 0;
+			}
+			ul,
+			ol {
+				margin: 2px 0;
+				padding-left: 1.05em;
+			}
+			li {
+				margin: 0.5px 0;
+			}
+			li > ul {
+				margin: 0;
+			}
+			strong {
+				font-weight: 700;
+			}
+			table {
+				width: 100%;
+				border-collapse: collapse;
+				margin: 2px 0 4px;
+				font-size: 7.1pt;
+				break-inside: auto;
+			}
+			th,
+			td {
+				border: 0.5px solid var(--line);
+				padding: 1.3px 3px;
+				vertical-align: top;
+				text-align: left;
+			}
+			th {
+				background: var(--wash);
+				font-weight: 700;
+				white-space: nowrap;
+			}
+			td:first-child {
+				font-weight: 700;
+				min-width: 5em;
+			}
+			tr {
+				break-inside: avoid;
+			}
+			.openers {
+				border: 0.5px solid var(--line);
+				border-left: 2.5px solid var(--accent);
+				padding: 3px 6px;
+				background: var(--wash);
+			}
+			.openers dl {
+				margin: 0;
+			}
+			.openers dt {
+				font-weight: 700;
+				margin-top: 2px;
+				break-after: avoid;
+			}
+			.openers dt:first-child {
+				margin-top: 0;
+			}
+			.openers dd {
+				margin: 0 0 0 0.7em;
+				color: #2b2b33;
+			}
+			.two {
+				column-count: 2;
+				column-gap: 7mm;
+				column-rule: 0.5px solid var(--line);
+			}
+			.two p,
+			.two li {
+				break-inside: avoid;
+			}
+			.openers dd {
+				break-inside: avoid;
+			}
+			footer {
+				margin-top: 5px;
+				padding-top: 2px;
+				border-top: 0.5px solid var(--line);
+				display: flex;
+				justify-content: space-between;
+				font-size: 7.2pt;
+				color: var(--muted);
+			}
+			.toolbar {
+				max-width: 210mm;
+				margin: 14px auto -4px;
+				display: flex;
+				gap: 8px;
+				align-items: center;
+				font: 13px system-ui, sans-serif;
+			}
+			.toolbar a,
+			.toolbar button {
+				font: inherit;
+				padding: 5px 11px;
+				border: 1px solid #b9b4c7;
+				border-radius: 5px;
+				background: #fff;
+				color: #3a3050;
+				cursor: pointer;
+				text-decoration: none;
+			}
+			.toolbar span {
+				color: #6b6478;
+			}
+			@media print {
+				body {
+					background: #fff;
+				}
+				.sheet {
+					width: auto;
+					min-height: 0;
+					margin: 0;
+					padding: 0;
+					box-shadow: none;
+				}
+				.toolbar {
+					display: none;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="toolbar">
+			<button onclick="window.print()">列印 / 存成 PDF</button>
+			<a href={`${base}/topics/${Astro.params.slug}/`}>回完整內容</a>
+			<a href={`${base}/handout/`}>所有速查表</a>
+			<span>A4 一頁；擬答與影片不印，需要時回網站看</span>
+		</div>
+
+		<div class="sheet">
+			<header>
+				<h1>{entry.data.title}</h1>
+				<div class="kicker">血液科口試走向指南 · 一頁速查</div>
+			</header>
+
+			{
+				frameworks.length > 0 && (
+					<>
+						<h2>推理架構</h2>
+						<div class="two">
+						{frameworks.map((f) => (
+							<>
+								<h3>{f.heading}</h3>
+								<Fragment set:html={render(f.body)} />
+							</>
+						))}
+						</div>
+					</>
+				)
+			}
+
+			{
+				openers.length > 0 && (
+					<>
+						<h2>破題關鍵句</h2>
+						<div class="openers two">
+							<dl>
+								{openers.map((o) => (
+									<>
+										{o.question && <dt>{o.question}</dt>}
+										<dd>{o.line}</dd>
+									</>
+								))}
+							</dl>
+						</div>
+					</>
+				)
+			}
+
+			{
+				tables && (
+					<>
+						<h2>速記表</h2>
+						<Fragment set:html={render(tables)} />
+					</>
+				)
+			}
+
+			{
+				pitfalls && (
+					<>
+						<h2>容易被電的點</h2>
+						<div class="two">
+							<Fragment set:html={render(pitfalls)} />
+						</div>
+					</>
+				)
+			}
+
+			<footer>
+				<span>htlin222.github.io/hema-board-interview-guide</span>
+				<span>去名化整理，非官方資料</span>
+			</footer>
+		</div>
+	</body>
+</html>

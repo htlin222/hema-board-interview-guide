@@ -59,6 +59,11 @@ export default defineConfig({
 					label: '主題別考點',
 					items: [{ autogenerate: { directory: 'topics' } }],
 				},
+				{
+					label: '一頁速查（可列印）',
+					link: '/handout/',
+					attrs: { target: '_blank' },
+				},
 			],
 		}),
 	],
