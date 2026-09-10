@@ -23,12 +23,15 @@ SLiM-CRAB criteria 常被考生逐字背字母，但真正該記的是背後那�
 
 ## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18"/><path d="M9 3v18"/><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 速記表
 
-**Smoldering 什麼時候該轉成主動治療（對應「有沒有傷害發生」框架、第一題）**
+**Smoldering MM 的三層判斷（對應第一題）**
 
-| 指標組 | 代表的意義 | 包含什麼 | 處置 |
+| 層次 | 問什麼 | 內容與切點 | 處置 |
 | --- | --- | --- | --- |
-| CRAB | end-organ damage 的直接證據，傷害**已經**發生 | 高血鈣、腎功能惡化、貧血、骨病灶 | 符合任一項就開始治療，不能再觀察 |
-| SLiM | 極高風險的替代指標，傷害**即將**發生 | 骨髓漿細胞比例極高、free light chain ratio 極端、MRI 看到 focal lesion | 同樣要從觀察轉為治療，不是等真的出現 CRAB 才處理 |
+| 第一層 CRAB | 傷害**已經**發生？ | 高血鈣、腎功能惡化、貧血、骨病灶 | 任一項即活動性 MM → 治療 |
+| 第一層 SLiM | 傷害**即將**發生？（IMWG 2014 起視同 MM） | 骨髓漿細胞 ≥60%；sFLC 比值 ≥100 且受累輕鏈 ≥10 mg/dL；MRI >1 個局灶性病灶 | 任一項即活動性 MM → 治療（約佔原 SMM 族群 10–15%） |
+| 第二層 2/20/20 | 真 SMM 的進展風險多高？ | M 蛋白 >2 g/dL、骨髓漿細胞 >20%、sFLC 比值 >20 | 0 項低危（2 年 6–10%）／1 項中危（18–26%）／≥2 項高危（44–47%）；再加 t(4;14)、t(14;16)、+1q、del(13q) 可切出超高危（63–73%） |
+| 第三層 低危／中危 | 要治療嗎？ | 不治療 | 觀察，每 3–6 個月追 M 蛋白、Hb、腎功能、sFLC；出現 evolving change（12 個月內 M 蛋白 ↑≥0.5 g/dL 合併 Hb ↓≥0.5 g/dL）即重新評估 |
+| 第三層 高危 | 要治療嗎？ | 討論提早介入或進臨床試驗 | 兩年期 lenalidomide ± dex，或 daratumumab 單藥；證據：QuiRedex（9.5 vs 2.1 年，HR 0.28；OS HR 0.57）、E3A06（PFS HR 0.28，OS 未達差異）、AQUILA（PFS HR 0.49；首個 FDA 核准於高危 SMM） |
 
 **誘導與維持用藥速查（對應第二題、第四題）**
 
@@ -62,29 +65,41 @@ SLiM-CRAB criteria 常被考生逐字背字母，但真正該記的是背後那�
 
 **Q: Smoldering MM 病人，你怎麼判斷要不要開始治療？**
 
-**最佳答法**：不要照 CRAB、SLiM 的字母順序背，而是先講判斷邏輯、再用邏輯去套兩組指標。**依照**「有沒有已發生或即將發生的 end-organ damage」這個核心框架，答題順序應該是先確認有沒有 CRAB（傷害已發生），沒有的話再確認有沒有 SLiM（傷害即將發生），**因為**考官問這題真正要聽的是你有沒有內化「治療時機取決於傷害有沒有發生」這個原則——只會逐字背縮寫的考生，一旦被追問「為什麼這幾項要治療」就會卡住，講不出這幾個切點背後共通的道理。
+**最佳答法**：這題有**三層**，只答第一層是最常見的不完整答案。**第一層**：先確認這個病人是不是根本已經不算 SMM 了（符合 CRAB 或 SLiM 任一項就是活動性 MM，直接治療）。**第二層**：確認是真 SMM 之後，用 **2/20/20 模型**做風險分層。**第三層**：只有**高危**才討論提早治療，低危與中危的標準做法仍是觀察。**依照**「確認診斷 → 風險分層 → 才談要不要治療」這個順序作答，**因為**多數人講完 CRAB／SLiM 就停了，等於把「這是不是 MM」誤當成「要不要治療」——但真正的 SMM 題目是從那裡才開始的。
 
 <div class="callout callout-keywords">
 <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
 
-「這題不是背 CRAB 跟 SLiM 兩組縮寫，是判斷有沒有已發生或即將發生的 end-organ damage。」——一開口就定調成判斷邏輯，不要先逐字唸縮寫再回頭補理由。
+「確認不是活動性 MM 之後，題目才真正開始——接下來要用 2/20/20 分層，只有高危才需要討論提早治療。」
 
 </div>
 
 擬答：
 
-- **第一步：找有沒有 CRAB（傷害已發生）**
-  - 逐一檢視是否已經出現 end-organ damage 的直接證據：高血鈣、腎功能惡化、貧血、骨病灶（CRAB）。
-  - 只要符合任一項 CRAB，就代表傷害已經發生，應該開始治療，不能再觀察。
-- **第二步：沒有 CRAB 時，再看有沒有 SLiM（傷害即將發生）**
-  - 檢查骨髓漿細胞比例是否極高、free light chain ratio 是否極端、MRI 是否看到 focal lesion。
-  - 符合 SLiM 任一項，代表傷害即將發生、屬於極高風險族群，同樣要從觀察轉為治療，不是等到真的出現 CRAB 才處理。
-- <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：把 SLiM-CRAB 逐字背成字母表，被追問「為什麼」時講不出判斷邏輯——真正該講出來的是「有沒有已發生或即將發生的 end-organ damage」這句原則，而不是死記縮寫。
+- **第一層：先排除這根本已經是活動性 MM（符合任一項就不是 SMM，直接治療）**
+  - **CRAB**（傷害已經發生）：高血鈣、腎功能惡化、貧血、骨病灶。
+  - **SLiM**（myeloma-defining biomarkers，傷害即將發生，IMWG 2014 起視同 MM）——這三項要講得出**具體切點**才算完整：
+    - 骨髓純漿細胞比例 **≥60%**
+    - 血清游離輕鏈比值（受累／未受累 sFLC）**≥100**，且受累輕鏈 **≥10 mg/dL**
+    - MRI 上 **>1 個**局灶性病灶
+  - 這一層會篩掉原本被歸類為 SMM 的族群約 **10–15%**。
+- **第二層：確認是真 SMM 之後，用 2/20/20 模型分層（IMWG 2020 標準模型）**
+  - 三個危險因子：血清 M 蛋白 **>2 g/dL**、骨髓漿細胞 **>20%**、sFLC 比值 **>20**。
+  - **0 項＝低危**（2 年進展風險約 6–10%）；**1 項＝中危**（約 18–26%）；**≥2 項＝高危**（約 44–47%）。
+  - 再加上細胞遺傳學異常（**t(4;14)、t(14;16)、+1q、del(13q)**）可以再切出「超高危」族群，2 年進展風險可達 **63–73%**。
+- **第三層：只有高危才討論提早治療**
+  - **低危／中危：觀察**，每 **3–6 個月**追蹤 M 蛋白、血色素、腎功能、sFLC 比值。
+  - 追蹤時要留意「**演變中的變化**（evolving change）」：12 個月內 M 蛋白上升 **≥0.5 g/dL** 合併血色素下降 **≥0.5 g/dL**，就要重新評估。
+  - **高危**：與病人討論兩年期 **lenalidomide ± dexamethasone**、或 **daratumumab 單藥**，或優先考慮納入臨床試驗。
+  - 支持證據講得出試驗名字會很加分：**QuiRedex**（Rd vs 觀察，中位進展時間 9.5 vs 2.1 年，HR 0.28，OS 亦獲益 HR 0.57）、**E3A06**（單藥 lenalidomide，PFS HR 0.28，但尚未顯示 OS 差異）、**AQUILA**（daratumumab 單藥，PFS HR 0.49，OS 呈改善趨勢 HR 0.52，是**首個經 FDA 核准用於高危 SMM 的方案**）。
+- <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：講完 CRAB／SLiM 就收尾，等於把「這是不是 MM」當成「要不要治療」回答完了。真正的 SMM 題目是從「確認是 SMM」之後才開始的——沒有 2/20/20 分層、沒有「低中危仍是觀察」這句，答案就是不完整的。
 
 <div class="callout callout-followup">
 <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
 
-- 「如果病人只符合 SLiM、完全沒有 CRAB，你還會建議馬上治療嗎？」→ 會，因為 SLiM 代表的是傷害「即將發生」的極高風險替代指標，邏輯上跟已發生的 CRAB 一樣需要治療，不是等到真的出現 CRAB 才處理。
+- 「如果病人只符合 SLiM、完全沒有 CRAB，你還會建議馬上治療嗎？」→ 會。IMWG 2014 起 SLiM 三項就視同活動性 MM，不必等 CRAB 出現。
+- 「一個 2/20/20 三項全中的病人，你會怎麼做？」→ 屬高危（甚至加上細胞遺傳學異常就是超高危），要與病人討論 lenalidomide ± dex 或 daratumumab 單藥的提早介入，或進臨床試驗。
+- 「低危 SMM 你要追蹤什麼、多久一次？」→ 每 3–6 個月追 M 蛋白、Hb、腎功能、sFLC 比值；出現 evolving change（12 個月內 M 蛋白升 ≥0.5 g/dL 合併 Hb 降 ≥0.5 g/dL）就重新評估。
 - 「確定要開始治療後，你會怎麼選 induction regimen？」→ 銜接下一題，現行標準是三合一 VRd，證據正支持走向四合一 Dara-VRd。
 
 </div>
