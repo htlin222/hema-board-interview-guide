@@ -4,6 +4,36 @@
 
 僅供準備血液專科口試參考，非官方資料，實際考試內容以主辦單位公告為準。
 
+網站：<https://htlin222.github.io/hema-board-interview-guide/>
+
+## 內容怎麼組織
+
+12 個主題章，每章的結構固定：
+
+| 段落 | 作用 |
+| --- | --- |
+| 推理架構 | 可重複套用的邏輯，讓沒背過的案例也能自己推 |
+| 破題關鍵句 | 一開口就該講的那一句 |
+| 最佳答法 | 用「依照…因為…」講出這樣答的道理 |
+| 擬答 | 巢狀條列，可直接照著唸 |
+| 追問 | 考官接下來最可能問什麼 |
+| 速記表 | 考前掃一眼用（全站 43 張） |
+| 容易被電的點 | 常見失分處 |
+| 相關 YouTube 影片 | 82 支，全部經 oEmbed 驗證存在 |
+
+醫學內容經 OpenEvidence 逐項查證，修正過的地方以指引與試驗數據為準。
+
+## 四種產物
+
+| 產物 | 位置 | 建置 |
+| --- | --- | --- |
+| 網站 | GitHub Pages | `npm run build` |
+| 一頁速查（可列印 A4） | 站內 `/handout/` | 同上，由主題頁即時抽取 |
+| EPUB（Kindle 相容） | [release `epub-latest`](../../releases/tag/epub-latest) | `npm run build:epub` |
+| Anki 牌組（巢狀） | [release `anki-latest`](../../releases/tag/anki-latest) | `npm run build:anki` |
+
+EPUB 與 Anki 都由主題頁的 markdown 直接產生，內容一改、workflow 會自動重建並覆蓋 release 資產，不需要人工同步。
+
 ## 本機開發
 
 ```bash
@@ -11,6 +41,17 @@ npm install
 npm run dev
 ```
 
+需要 [uv](https://docs.astral.sh/uv/) 才能跑 EPUB／Anki／圖檔的建置腳本（腳本用 PEP 723 內嵌相依，不必另外建 venv）。EPUB 另需 `pandoc`。
+
+## 檢查
+
+```bash
+npm run verify:videos     # 對每個 YouTube 連結重打 oEmbed，確認沒有失效
+epubcheck dist-epub/hema-board-interview.epub
+```
+
+影片連結的驗證是對**建置產物**重跑，而不是信任策展時的紀錄——實際抓到過漏驗的項目。
+
 ## 部署
 
-Push 到 `main` 會自動建置並部署到 GitHub Pages（見 [`.github/workflows/deploy.yml`](./.github/workflows/deploy.yml)）。
+Push 到 `main` 會觸發三個 workflow：網站部署到 GitHub Pages、EPUB 與 Anki 牌組重建並更新對應的 release。

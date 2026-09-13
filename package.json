@@ -8,7 +8,10 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "verify:videos": "python3 scripts/verify-videos.py"
+    "verify:videos": "python3 scripts/verify-videos.py",
+    "build:epub": "uv run --script scripts/build_epub.py",
+    "build:anki": "uv run --script scripts/build_anki.py",
+    "build:assets": "uv run --script scripts/make-brand-assets.py"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.42.0",

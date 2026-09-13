@@ -31,7 +31,9 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 TOPICS = ROOT / "src" / "content" / "docs" / "topics"
 OUT_DIR = ROOT / "dist-epub"
-OUT_FILE = OUT_DIR / "hema-board-interview.epub"  # ASCII：GitHub Release 會改掉 CJK 檔名
+OUT_FILE = (
+    OUT_DIR / "hema-board-interview.epub"
+)  # ASCII：GitHub Release 會改掉 CJK 檔名
 
 TITLE = "血液科口試走向指南"
 SUBTITLE = "推理架構 × 破題關鍵句 × 擬答 × 追問"
@@ -110,7 +112,9 @@ def make_cover(path: pathlib.Path) -> None:
         d.text(((W - w) / 2, y), text, font=f, fill="black")
 
     centered(TITLE, 660 * S, 64 * S)
-    d.rectangle([W / 2 - 110 * S, 770 * S, W / 2 + 110 * S, 770 * S + 2 * S], fill="black")
+    d.rectangle(
+        [W / 2 - 110 * S, 770 * S, W / 2 + 110 * S, 770 * S + 2 * S], fill="black"
+    )
     centered(SUBTITLE, 820 * S, 27 * S)
     centered("整理歷屆考生口試心得，去名化後只保留考試走向", 1120 * S, 22 * S)
     centered("htlin222.github.io/hema-board-interview-guide", 1180 * S, 19 * S)
@@ -164,7 +168,8 @@ def front_matter(raw: str, slug: str) -> tuple[str, int, str, str]:
 def build() -> int:
     files = sorted(TOPICS.glob("*.md"))
     chapters = sorted(
-        (front_matter(f.read_text(encoding="utf-8"), f.stem) for f in files), key=lambda c: c[1]
+        (front_matter(f.read_text(encoding="utf-8"), f.stem) for f in files),
+        key=lambda c: c[1],
     )
 
     tmp = pathlib.Path(tempfile.mkdtemp())
@@ -200,7 +205,7 @@ title: "{TITLE}"
 subtitle: "{SUBTITLE}"
 creator: htlin222
 language: zh-TW
-date: "{datetime.now().strftime('%Y-%m-%d')}"
+date: "{datetime.now().strftime("%Y-%m-%d")}"
 identifier: "{SITE}"
 description: "整理歷屆考生口試心得，去名化後的口試主題、推理架構、擬答與準備策略。"
 rights: "去名化整理，非官方資料"
@@ -218,8 +223,8 @@ rights: "去名化整理，非官方資料"
         "-t",
         "epub3",
         "--toc",
-        "--toc-depth=2",       # 章 → 節，兩層巢狀目錄
-        "--split-level=1",     # 一章一個檔案，Kindle 翻頁比較順
+        "--toc-depth=2",  # 章 → 節，兩層巢狀目錄
+        "--split-level=1",  # 一章一個檔案，Kindle 翻頁比較順
         f"--css={css_path}",
         f"--epub-cover-image={cover}",
         "--metadata",
