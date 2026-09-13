@@ -37,39 +37,39 @@ sidebar:
 
 **Microcytic anemia 要分 IDA 還是 thalassemia trait（框架一／第 1 題）**
 
-| 檢查／線索 | 結果長什麼樣 | 怎麼解讀 |
-| --- | --- | --- |
-| MCV 下降幅度 vs Hb 貧血嚴重度 | MCV 掉很多、Hb 卻沒掉很多（不成比例） | 提示 thalassemia trait；這句要放在檢查步驟之前先講 |
-| MCV 下降幅度 vs Hb 貧血嚴重度 | 兩者掉的幅度較成比例 | 提示 IDA |
-| Ferritin | 偏低 | 合併 IDA——trait 病人仍可能同時缺鐵，回到 IDA 篇找缺鐵原因 |
-| Hb electrophoresis | HbA2 上升 | beta-thalassemia trait 的典型表現 |
-| Hb electrophoresis | 正常 | ⚠️ 不能排除 alpha-thalassemia trait（HbA2／HbF 通常正常）；高度懷疑要加驗 alpha-globin gene study |
+| 檢查／線索                    | 結果長什麼樣                          | 怎麼解讀                                                                                          |
+| ----------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| MCV 下降幅度 vs Hb 貧血嚴重度 | MCV 掉很多、Hb 卻沒掉很多（不成比例） | 提示 thalassemia trait；這句要放在檢查步驟之前先講                                                |
+| MCV 下降幅度 vs Hb 貧血嚴重度 | 兩者掉的幅度較成比例                  | 提示 IDA                                                                                          |
+| Ferritin                      | 偏低                                  | 合併 IDA——trait 病人仍可能同時缺鐵，回到 IDA 篇找缺鐵原因                                         |
+| Hb electrophoresis            | HbA2 上升                             | beta-thalassemia trait 的典型表現                                                                 |
+| Hb electrophoresis            | 正常                                  | ⚠️ 不能排除 alpha-thalassemia trait（HbA2／HbF 通常正常）；高度懷疑要加驗 alpha-globin gene study |
 
 **沒輸血的人為什麼還會鐵過載——病因永遠二選一（框架二／第 3 題）**
 
 前提一句話：人體沒有主動排鐵機制，鐵只會累積不會主動排出。
 
-| 病因分類 | 鐵怎麼進來 | 處置方向與給付含義 |
-| --- | --- | --- |
-| 外源性 | 反覆輸血直接帶入鐵 | 方向是減少輸血依賴；符合以「輸血依賴病史」為前提的 chelation 給付 |
+| 病因分類                             | 鐵怎麼進來                                                                                          | 處置方向與給付含義                                                   |
+| ------------------------------------ | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| 外源性                               | 反覆輸血直接帶入鐵                                                                                  | 方向是減少輸血依賴；符合以「輸血依賴病史」為前提的 chelation 給付    |
 | 內源性（ineffective erythropoiesis） | 骨髓內紅血球前驅細胞大量凋亡、RBC turnover↑ → 抑制 hepcidin → 腸道鐵吸收的煞車鬆開 → 吸收代償性增加 | 方向是腸道端介入／及早 chelation；沒有規律輸血病史通常不符合給付前提 |
 
 **三個形容詞問的是三個不同器官（框架三／第 4、5 題）**
 
-| 器官 | 對應哪一個問法 | 為什麼 | 評估用什麼 |
-| --- | --- | --- | --- |
-| 肝臟 | 最早被鐵佔滿 | 是身體預設的鐵儲存倉庫（Kupffer cell／hepatocyte） | Liver MRI（T2\* 或 R2 法，如 SQUID、FerriScan）；liver biopsy 為侵入性替代方案 |
-| 心臟 | 沉積較晚，但一旦發生失代償最快 | 要等肝臟儲存飽和才顯著沉積；心肌對鐵誘發的 oxidative stress 耐受度低 → 心律不整、心衰竭來得又急又快，是過去主要死因之一 | Cardiac MRI T2\*，不可省略 |
-| 內分泌器官 | 臨床上最容易篩出異常（≠ 最早受損） | 血糖、甲狀腺、性腺抽血或 OGTT 就能篩 | OGTT 篩 iron overload 相關糖尿病、甲狀腺與性腺功能 |
-| （全身鐵負荷初篩） | 第一線篩檢、不是確診依據 | Ferritin 是 acute phase reactant，發炎時會被撐高 | Serum ferritin，須搭配影像學才能判讀 |
+| 器官               | 對應哪一個問法                     | 為什麼                                                                                                                  | 評估用什麼                                                                     |
+| ------------------ | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| 肝臟               | 最早被鐵佔滿                       | 是身體預設的鐵儲存倉庫（Kupffer cell／hepatocyte）                                                                      | Liver MRI（T2\* 或 R2 法，如 SQUID、FerriScan）；liver biopsy 為侵入性替代方案 |
+| 心臟               | 沉積較晚，但一旦發生失代償最快     | 要等肝臟儲存飽和才顯著沉積；心肌對鐵誘發的 oxidative stress 耐受度低 → 心律不整、心衰竭來得又急又快，是過去主要死因之一 | Cardiac MRI T2\*，不可省略                                                     |
+| 內分泌器官         | 臨床上最容易篩出異常（≠ 最早受損） | 血糖、甲狀腺、性腺抽血或 OGTT 就能篩                                                                                    | OGTT 篩 iron overload 相關糖尿病、甲狀腺與性腺功能                             |
+| （全身鐵負荷初篩） | 第一線篩檢、不是確診依據           | Ferritin 是 acute phase reactant，發炎時會被撐高                                                                        | Serum ferritin，須搭配影像學才能判讀                                           |
 
 **三個排鐵劑怎麼比、怎麼選（第 7 題）**
 
-| 藥名 | 給法 | 主要副作用／要監測什麼 | 什麼情況優先選 |
-| --- | --- | --- | --- |
-| Deferoxamine（Desferal） | 皮下或靜脈持續輸注，麻煩耗時、順從性差 | 聽力毒性、視力毒性；注射部位局部反應 | 嚴重心臟鐵沉積時，常與 deferiprone 併用 |
-| Deferasirox（Exjade） | 口服，一天一次，順從性較好 | 腎功能異常、腸胃不適、肝功能異常；定期監測腎功能與尿蛋白 | 病人順從性差、無法接受皮下輸注時 |
-| Deferiprone | 口服 | ⚠️ agranulocytosis（顆粒性白血球缺乏症）；用藥期間必須定期監測 CBC | 心臟鐵移除效果較佳，cardiac MRI T2\* 異常時優先，常與 deferoxamine 併用 |
+| 藥名                     | 給法                                   | 主要副作用／要監測什麼                                             | 什麼情況優先選                                                          |
+| ------------------------ | -------------------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------------- |
+| Deferoxamine（Desferal） | 皮下或靜脈持續輸注，麻煩耗時、順從性差 | 聽力毒性、視力毒性；注射部位局部反應                               | 嚴重心臟鐵沉積時，常與 deferiprone 併用                                 |
+| Deferasirox（Exjade）    | 口服，一天一次，順從性較好             | 腎功能異常、腸胃不適、肝功能異常；定期監測腎功能與尿蛋白           | 病人順從性差、無法接受皮下輸注時                                        |
+| Deferiprone              | 口服                                   | ⚠️ agranulocytosis（顆粒性白血球缺乏症）；用藥期間必須定期監測 CBC | 心臟鐵移除效果較佳，cardiac MRI T2\* 異常時優先，常與 deferoxamine 併用 |
 
 ## 套用到實際問法
 
@@ -97,7 +97,6 @@ sidebar:
 
    <div class="callout callout-followup">
    <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
-
    - 「如果 electrophoresis 正常，你還會不會進一步做基因檢測？」→ alpha-thalassemia trait 的 HbA2/HbF 通常正常，electrophoresis 正常不能排除診斷，高度懷疑時要加驗 alpha-globin gene study。
    - 「如果同時發現 ferritin 也偏低，代表什麼？」→ 病人可能合併 IDA，需要回到 [IDA 篇](/hema-board-interview-guide/topics/iron-deficiency-anemia/) 的邏輯先確認缺鐵原因，再決定要不要補鐵。
    - 「確診之後，你接下來要跟病人談什麼？」→ 銜接下一題的遺傳諮詢與配偶篩檢。
@@ -125,7 +124,6 @@ sidebar:
 
    <div class="callout callout-followup">
    <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
-
    - 「配偶篩檢後發現雙方都帶因，最擔心哪一種結果？」→ alpha-thalassemia major／Hb Bart's hydrops fetalis，屬於致命性胎兒水腫，是遺傳諮詢要優先攔截的情境。
    - 「這位帶因者本身之後會不會發展成 iron overload？」→ 銜接框架二／第 3 題，即使沒有輸血病史，ineffective erythropoiesis 仍可能讓鐵持續透過腸道吸收堆積。
 
@@ -152,7 +150,6 @@ sidebar:
 
    <div class="callout callout-followup">
    <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
-
    - 「這種內源性的 iron overload，健保給付的 chelation 條件符合嗎？」→ 銜接第 6 題，給付前提通常要求輸血依賴病史，單純內源性吸收增加的病人需要另外檢視是否符合條件。
    - 「怎麼確認病人已經有 iron overload、程度多嚴重？」→ 銜接第 5 題的 ferritin 初篩加影像學金標準流程。
 
@@ -181,7 +178,6 @@ sidebar:
 
    <div class="callout callout-followup">
    <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
-
    - 「如果肝臟鐵沉積已經飽和、但 cardiac MRI T2\* 還正常，代表什麼？」→ 呼應框架三，心臟鐵沉積通常要等肝臟儲存飽和後才會顯著出現，此時仍要持續監測心臟而非放心。
    - 「怎麼確認病人現在到底有沒有 iron overload？」→ 銜接第 5 題的檢查流程。
 
@@ -211,7 +207,6 @@ sidebar:
 
    <div class="callout callout-followup">
    <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
-
    - 「Cardiac MRI T2\* 已經異常，藥物選擇上要怎麼調整？」→ 銜接第 7 題，deferiprone 對心臟鐵移除效果較佳，常與 deferoxamine 併用。
    - 「病人 ferritin 因為同時有感染而飆高，這代表 iron overload 惡化了嗎？」→ 不一定，ferritin 是 acute phase reactant 會被發炎撐高，須搭配影像學才能準確判斷。
 
@@ -237,7 +232,6 @@ sidebar:
 
    <div class="callout callout-followup">
    <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
-
    - 「病人 ferritin 很高但沒有規律輸血病史，符合給付嗎？」→ 呼應第 3 題的內源性 iron overload，通常不符合以輸血依賴為前提的給付條件，需要另外討論。
    - 「符合給付之後，藥物怎麼選？」→ 銜接第 7 題三種 chelation 藥物的給法與副作用。
 
@@ -271,7 +265,6 @@ sidebar:
 
    <div class="callout callout-followup">
    <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
-
    - 「Deferiprone 治療期間最需要監測什麼、為什麼？」→ 顆粒性白血球缺乏症（agranulocytosis），必須定期監測 CBC 才能早期揪出。
    - 「病人服藥順從性差、常常忘記皮下輸注，你會怎麼調整處方？」→ 改用口服、一天一次的 deferasirox，順從性較好，但要定期監測腎功能與尿蛋白。
 
@@ -300,7 +293,6 @@ sidebar:
 
    <div class="callout callout-followup">
    <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
-
    - 「重新分類後又落回 microcytic，你會怎麼想？」→ 回到框架一的邏輯，考慮是否合併 IDA，或 iron overload 本身已經改變骨髓造血狀況。
    - 「這幾個可能疊加的病因，你會優先排除哪一個？」→ 先抽血排除 B12／folate 缺乏這類容易確認的原因，再視臨床狀況評估是否需要進一步檢查 MDS。
 

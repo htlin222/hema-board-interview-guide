@@ -23,45 +23,45 @@ sidebar:
 
 **貧血 + thrombocytopenia，兩個問題決定走哪一支（推理架構／第 1、2 題）**
 
-| 抹片與檢驗所見 | 走到哪一支 | 要列出的診斷 |
-| --- | --- | --- |
-| 沒有 hemolysis 證據 | 單純 immune-mediated thrombocytopenia | ITP（排除性診斷） |
-| 有 hemolysis 證據（LDH↑、indirect bilirubin↑、haptoglobin↓、reticulocyte↑）＋ 有破碎紅血球 | MAHA pattern → TMA family | TTP、HUS、DIC、malignant hypertension、drug-induced TMA，一次條列不要只鎖一個 |
-| 有 hemolysis 證據 ＋ 沒有破碎紅血球，但有 NRBC 增加／spherocytes／Coombs 陽性 | immune hemolysis ＋ immune thrombocytopenia 同時存在 | Evans syndrome，不是單純 ITP |
-| Leukoerythroblastic picture（immature myeloid ＋ NRBC） | 獨立分支，與溶血分流是兩件事 | 骨髓被佔據：metastatic cancer（尤其乳癌）、MDS、HLH、myelofibrosis |
+| 抹片與檢驗所見                                                                             | 走到哪一支                                           | 要列出的診斷                                                                  |
+| ------------------------------------------------------------------------------------------ | ---------------------------------------------------- | ----------------------------------------------------------------------------- |
+| 沒有 hemolysis 證據                                                                        | 單純 immune-mediated thrombocytopenia                | ITP（排除性診斷）                                                             |
+| 有 hemolysis 證據（LDH↑、indirect bilirubin↑、haptoglobin↓、reticulocyte↑）＋ 有破碎紅血球 | MAHA pattern → TMA family                            | TTP、HUS、DIC、malignant hypertension、drug-induced TMA，一次條列不要只鎖一個 |
+| 有 hemolysis 證據 ＋ 沒有破碎紅血球，但有 NRBC 增加／spherocytes／Coombs 陽性              | immune hemolysis ＋ immune thrombocytopenia 同時存在 | Evans syndrome，不是單純 ITP                                                  |
+| Leukoerythroblastic picture（immature myeloid ＋ NRBC）                                    | 獨立分支，與溶血分流是兩件事                         | 骨髓被佔據：metastatic cancer（尤其乳癌）、MDS、HLH、myelofibrosis            |
 
 **TMA 與 Evans syndrome 只差一個判斷點（第 3 題）**
 
-| 比較項目 | TMA（以 TTP 為代表） | Evans syndrome |
-| --- | --- | --- |
-| Hemolysis 證據 | 有 | 有 |
-| Thrombocytopenia | 有 | 有 |
-| 破碎紅血球（schistocytes） | 有 → 這是唯一的區辨點 | 沒有 |
-| 抹片／血清其他線索 | 屬於 MAHA pattern | NRBC 增加、spherocytes、Coombs test 陽性 |
-| LDH 上升幅度 | 通常較高：微血管栓塞造成廣泛組織缺血 | 較低：單純的免疫溶血 |
+| 比較項目                   | TMA（以 TTP 為代表）                 | Evans syndrome                           |
+| -------------------------- | ------------------------------------ | ---------------------------------------- |
+| Hemolysis 證據             | 有                                   | 有                                       |
+| Thrombocytopenia           | 有                                   | 有                                       |
+| 破碎紅血球（schistocytes） | 有 → 這是唯一的區辨點                | 沒有                                     |
+| 抹片／血清其他線索         | 屬於 MAHA pattern                    | NRBC 增加、spherocytes、Coombs test 陽性 |
+| LDH 上升幅度               | 通常較高：微血管栓塞造成廣泛組織缺血 | 較低：單純的免疫溶血                     |
 
 **確診 TTP 之後，答案要講滿三層（第 4 題）**
 
-| 項目 | 內容 | 為什麼不能漏 |
-| --- | --- | --- |
-| ADAMTS13 activity | < 10% 確診，代表 ADAMTS13 嚴重缺乏 | 診斷切點，急症要優先送驗 |
-| Plasma exchange（PEX） | 核心治療 | 只答到這裡就停住，正是本頁點名的常見陷阱 |
-| Steroid | 與 PEX 合併使用 | 最常被漏講的追加治療 |
-| Caplacizumab | 抗 vWF 的 nanobody，阻斷 vWF 與血小板結合 | 縮短急性期病程、降低早期惡化風險；已是常規治療核心 |
-| Rituximab | 根除自體抗體 | 降低復發率；漏掉會讓答案停在較舊的治療標準 |
-| 治療反應評估 | 追蹤血小板數目有沒有回升、LDH 有沒有下降趨勢 | 只會執行 PEX 卻講不出怎麼判斷有效，會被追問電到 |
+| 項目                   | 內容                                         | 為什麼不能漏                                       |
+| ---------------------- | -------------------------------------------- | -------------------------------------------------- |
+| ADAMTS13 activity      | < 10% 確診，代表 ADAMTS13 嚴重缺乏           | 診斷切點，急症要優先送驗                           |
+| Plasma exchange（PEX） | 核心治療                                     | 只答到這裡就停住，正是本頁點名的常見陷阱           |
+| Steroid                | 與 PEX 合併使用                              | 最常被漏講的追加治療                               |
+| Caplacizumab           | 抗 vWF 的 nanobody，阻斷 vWF 與血小板結合    | 縮短急性期病程、降低早期惡化風險；已是常規治療核心 |
+| Rituximab              | 根除自體抗體                                 | 降低復發率；漏掉會讓答案停在較舊的治療標準         |
+| 治療反應評估           | 追蹤血小板數目有沒有回升、LDH 有沒有下降趨勢 | 只會執行 PEX 卻講不出怎麼判斷有效，會被追問電到    |
 
 **Leukoerythroblastic picture 的鑑別方向（第 6、7 題）**
 
 機轉提醒：NRBC 增加是骨髓被佔據後細胞被機械性擠出，不是溶血反應性釋放，不能塞回溶血的推理路徑判讀。
 
-| 鑑別診斷 | 骨髓被佔據的成因 | 答題提醒 |
-| --- | --- | --- |
-| Metastatic cancer（尤其乳癌） | 腫瘤細胞直接佔據 | 有惡性腫瘤病史時，用 bone marrow biopsy 直接找侵犯證據；只講這一個就停下來是常見陷阱 |
-| MDS | 骨髓本身的疾病 | 第 7 題「四個必列方向」之一 |
-| HLH | 發炎細胞激素風暴造成的間接後果 | 與 metastatic cancer 同屬「骨髓被反應性佔據／擾亂」的機轉大類 |
-| AIHA | 免疫破壞造成的間接後果 | 第 7 題「四個必列方向」之一 |
-| Myelofibrosis | 纖維化 | 開頭分流圖列出的方向之一 |
+| 鑑別診斷                      | 骨髓被佔據的成因               | 答題提醒                                                                             |
+| ----------------------------- | ------------------------------ | ------------------------------------------------------------------------------------ |
+| Metastatic cancer（尤其乳癌） | 腫瘤細胞直接佔據               | 有惡性腫瘤病史時，用 bone marrow biopsy 直接找侵犯證據；只講這一個就停下來是常見陷阱 |
+| MDS                           | 骨髓本身的疾病                 | 第 7 題「四個必列方向」之一                                                          |
+| HLH                           | 發炎細胞激素風暴造成的間接後果 | 與 metastatic cancer 同屬「骨髓被反應性佔據／擾亂」的機轉大類                        |
+| AIHA                          | 免疫破壞造成的間接後果         | 第 7 題「四個必列方向」之一                                                          |
+| Myelofibrosis                 | 纖維化                         | 開頭分流圖列出的方向之一                                                             |
 
 ## 套用到實際問法
 
@@ -77,6 +77,7 @@ sidebar:
 </div>
 
 擬答：
+
 - **看到「貧血 + thrombocytopenia」這個組合，我會先在腦中啟動分流架構，而不是急著講診斷。**
   - 這兩個發現同時出現時鑑別診斷本來就很廣，直接跳診斷等於跳過推理過程，考官看得出來。
 - **如果題目又補一句 LDH 偏高、或抹片看到破碎紅血球，我會把這些話當成框架裡的指定線索，不是可有可無的背景資訊。**
@@ -104,6 +105,7 @@ sidebar:
 </div>
 
 擬答：
+
 - **我會先講一句原則：貧血合併 thrombocytopenia 的鑑別診斷不會只有一個，我會照框架一次列出來，不會一開始就鎖定單一診斷。**
 - **具體會列出三個一定要講的診斷：TTP、ITP、Evans syndrome。**
   - 這三個診斷分別對應框架分流圖上不同的分支，一次講出來是在向考官展示我有完整的分流概念，而不是只知道一個病名。
@@ -130,6 +132,7 @@ sidebar:
 </div>
 
 擬答：
+
 - **我會先講共同點：TMA（以 TTP 為代表）跟 Evans syndrome 都會同時出現 hemolysis 的證據跟 thrombocytopenia，單看這兩點沒辦法區分兩者。**
 - **真正的區辨點是抹片上有沒有破碎紅血球（schistocytes），這是框架第二步的核心判斷。**
   - 有破碎紅血球，屬於 MAHA pattern，走向 TMA family，要一次條列 TTP、HUS、DIC、malignant hypertension、drug-induced TMA，不只鎖一個往下鑽。
@@ -156,6 +159,7 @@ sidebar:
 </div>
 
 擬答：
+
 - **診斷：確診 TTP 要靠 ADAMTS13 activity 檢驗。**
   - 診斷切點要記得是 <10% 這個數量級，這代表 ADAMTS13 嚴重缺乏。
 - **治療：核心治療是 plasma exchange（PEX）合併 steroid，但現在的標準治療已經不只這兩樣，我不會只回答 PEX 就結束。**
@@ -184,6 +188,7 @@ sidebar:
 </div>
 
 擬答：
+
 - **題目給的線索是血小板低下合併貧血，抹片上血小板數量明顯偏少、又看到 NRBC 增加。**
 - **我會套框架第一步分支去判讀：這是「有 hemolysis 證據，但沒有破碎紅血球」的組合。**
   - 這個組合暗示的是 Evans syndrome，也就是 autoimmune hemolysis 加上 immune thrombocytopenia 同時存在，而不是單純 ITP。
@@ -209,6 +214,7 @@ sidebar:
 </div>
 
 擬答：
+
 - **如果周邊血抹片（PB）同時看到 immature myeloid cells 跟 nucleated RBC（NRBC），合併 cytopenia，我會認出這就是 leukoerythroblastic picture。**
 - **我會辨認出這不屬於前面「有沒有溶血」的分流範疇，而是框架裡另外獨立的一條分支，兩者不能混在一起判讀。**
   - 這個訊號代表骨髓正在被佔據，不是溶血反應性放出來的細胞，我會馬上聯想到 malignancy 骨髓侵犯，尤其是乳癌轉移到骨髓。
@@ -233,6 +239,7 @@ sidebar:
 </div>
 
 擬答：
+
 - **被問到 leukoerythroblastosis 的完整鑑別診斷時，我會一次列出四個方向，不只講最明顯的那一個。**
   - MDS。
   - Metastatic cancer（骨髓轉移癌）。
