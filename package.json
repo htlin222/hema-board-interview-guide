@@ -1,27 +1,29 @@
 {
-  "name": "board-interview",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro",
-    "verify:videos": "python3 scripts/verify-videos.py",
-    "build:epub": "uv run --script scripts/build_epub.py",
-    "build:anki": "uv run --script scripts/build_anki.py",
-    "build:assets": "uv run --script scripts/make-brand-assets.py"
-  },
-  "dependencies": {
-    "@astrojs/starlight": "^0.42.0",
-    "@catppuccin/starlight": "^2.1.0",
-    "astro": "^7.2.10",
-    "marked": "^18.0.12",
-    "sharp": "^0.35.3"
-  },
-  "allowScripts": {
-    "esbuild@0.28.2": true,
-    "fsevents@2.3.3": true
-  }
+	"name": "board-interview",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"verify:videos": "python3 scripts/verify-videos.py",
+		"build:epub": "uv run --script scripts/build_epub.py",
+		"build:anki": "uv run --script scripts/build_anki.py",
+		"build:assets": "uv run --script scripts/make-brand-assets.py",
+		"build:transcript": "uv run --script scripts/build_transcript.py",
+		"build:audio": "uv run --script scripts/build_audio.py"
+	},
+	"dependencies": {
+		"@astrojs/starlight": "^0.42.0",
+		"@catppuccin/starlight": "^2.1.0",
+		"astro": "^7.2.10",
+		"marked": "^18.0.12",
+		"sharp": "^0.35.3"
+	},
+	"allowScripts": {
+		"esbuild@0.28.2": true,
+		"fsevents@2.3.3": true
+	}
 }
