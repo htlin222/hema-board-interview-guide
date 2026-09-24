@@ -29,7 +29,7 @@
 | 產物 | 位置 | 建置 |
 | --- | --- | --- |
 | 網站 | GitHub Pages | `npm run build` |
-| 一頁速查（可列印 A4） | 站內 `/handout/` | 同上，由主題頁即時抽取 |
+| 一頁速查（可列印 A4 橫式） | 站內 `/handout/` | 同上，由主題頁即時抽取；版面與手冊共用 `src/styles/print.css` |
 | A4 手冊（21 頁 PDF） | 站內 `/booklet/`；[release `booklet-latest`](../../releases/tag/booklet-latest) | `npm run build && npm run build:booklet` |
 | EPUB（Kindle 相容） | [release `epub-latest`](../../releases/tag/epub-latest) | `npm run build:epub` |
 | Anki 牌組（巢狀） | [release `anki-latest`](../../releases/tag/anki-latest) | `npm run build:anki` |

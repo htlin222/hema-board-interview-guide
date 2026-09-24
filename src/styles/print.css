@@ -1,0 +1,263 @@
+/*
+ * 所有 A4 產物共用的列印樣式：/booklet/（手冊）、/handout/<slug>/（每章速查），
+ * 以及由 /booklet/ 印出、發布到 release 的 PDF。改這一份，三處一起變。
+ *
+ * 版面：橫式 A4 固定外框（.sheet > header + .content > .inner + footer），灰階、表格斑馬紋。
+ * 內容是 Markdown 用 set:html 塞進來的，所以這份一定要是全域樣式（在頁面 frontmatter import）。
+ */
+@page {
+	size: A4 landscape;
+	margin: 0;
+}
+:root {
+	/* 全灰階：黑白列印不失真，也不跟網站的主題色綁在一起 */
+	--ink: #111111;
+	--muted: #5c5c5c;
+	--line: #b4b4b4;
+	--accent: #2b2b2b;
+	--wash: #e4e4e4;
+	--zebra: #f1f1f1;
+	--warn: #111111;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background: #e9e9e9;
+	color: var(--ink);
+	font: 8pt/1.24 'PingFang TC', 'Heiti TC', 'Noto Sans TC', 'Noto Sans CJK TC', system-ui, sans-serif;
+}
+/* 每張 A4 橫式固定尺寸；溢出時內容被裁掉，build_booklet.py 會量 scrollHeight 抓出來 */
+.sheet {
+	width: 297mm;
+	height: 210mm;
+	margin: 12px auto;
+	padding: 8mm 8mm 7mm;
+	background: #fff;
+	box-shadow: 0 2px 14px rgb(0 0 0 / 12%);
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	break-after: page;
+	page-break-after: always;
+}
+/* content 撐滿剩餘高度並裁切，這樣 scrollHeight − clientHeight 才量得出溢出／剩餘 */
+.sheet > .content {
+	flex: 1 1 auto;
+	min-height: 0;
+	overflow: hidden;
+}
+header {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 10px;
+	border-bottom: 2px solid var(--accent);
+	padding-bottom: 2px;
+	margin-bottom: 5px;
+}
+h1 {
+	font-size: 13pt;
+	margin: 0;
+	letter-spacing: 0.01em;
+}
+header .kicker {
+	font-size: 7.4pt;
+	color: var(--muted);
+	white-space: nowrap;
+}
+h2 {
+	font-size: 8.2pt;
+	margin: 5px 0 1.5px;
+	padding: 1.2px 6px;
+	background: var(--accent);
+	color: #fff;
+	border-radius: 2px;
+	break-after: avoid;
+}
+h3 {
+	font-size: 8pt;
+	margin: 3.5px 0 1px;
+	color: var(--accent);
+	break-after: avoid;
+}
+p {
+	margin: 1.5px 0;
+}
+ul,
+ol {
+	margin: 1.5px 0;
+	padding-left: 1.05em;
+}
+li {
+	margin: 0.4px 0;
+}
+li > ul {
+	margin: 0;
+}
+strong,
+b {
+	font-weight: 700;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 1.5px 0 3.5px;
+	font-size: 7.1pt;
+	line-height: 1.22;
+}
+th,
+td {
+	border: 0.5px solid var(--line);
+	padding: 1.2px 3px;
+	vertical-align: top;
+	text-align: left;
+}
+th {
+	background: var(--wash);
+	font-weight: 700;
+	white-space: nowrap;
+}
+/* 斑馬紋：奇偶列不同灰底，橫式寬表格才對得上同一列 */
+tbody tr:nth-child(odd) td {
+	background: #ffffff;
+}
+tbody tr:nth-child(even) td {
+	background: var(--zebra);
+}
+td:first-child {
+	font-weight: 700;
+	min-width: 4.5em;
+}
+.fp {
+	border: 0.5px solid var(--accent);
+	border-left: 3px solid var(--accent);
+	background: var(--wash);
+	padding: 2.5px 6px;
+	margin: 2px 0 4px;
+	font-size: 8pt;
+}
+.fp b {
+	color: var(--accent);
+	margin-right: 4px;
+}
+.two {
+	column-count: 2;
+	column-gap: 6mm;
+	column-rule: 0.5px solid var(--line);
+}
+.two p,
+.two li,
+.two tr {
+	break-inside: avoid;
+}
+/* 並排兩段：寬度換高度 */
+.pair {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 5mm;
+	align-items: start;
+}
+.pair > section > h2:first-child {
+	margin-top: 5px;
+}
+.warn {
+	color: var(--warn);
+	font-weight: 700;
+	text-decoration: underline;
+}
+footer {
+	margin-top: 3px;
+	padding-top: 2px;
+	border-top: 0.5px solid var(--line);
+	display: flex;
+	justify-content: space-between;
+	font-size: 6.8pt;
+	color: var(--muted);
+}
+.toolbar {
+	max-width: 297mm;
+	margin: 14px auto -4px;
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	flex-wrap: wrap;
+	font: 13px system-ui, sans-serif;
+}
+.toolbar a,
+.toolbar button {
+	font: inherit;
+	padding: 5px 11px;
+	border: 1px solid #b4b4b4;
+	border-radius: 5px;
+	background: #fff;
+	color: #2b2b2b;
+	cursor: pointer;
+	text-decoration: none;
+}
+.toolbar span {
+	color: #5c5c5c;
+}
+@media print {
+	body {
+		background: #fff;
+	}
+	.sheet {
+		margin: 0;
+		box-shadow: none;
+	}
+	.toolbar {
+		display: none;
+	}
+}
+
+/* ── 以下是「一頁速查」（/handout/）才用到的：內容由主題頁自動抽取 ── */
+
+/* 條列在橫式下排三欄 */
+.two {
+	column-count: 3;
+	column-gap: 6mm;
+	column-rule: 0.5px solid var(--line);
+}
+.two p,
+.two li,
+.two dd {
+	break-inside: avoid;
+}
+/* 破題關鍵句清單 */
+.openers {
+	border: 0.5px solid var(--line);
+	border-left: 3px solid var(--accent);
+	background: var(--wash);
+	padding: 2.5px 6px;
+}
+.openers dl {
+	margin: 0;
+}
+.openers dt {
+	font-weight: 700;
+	margin-top: 2px;
+	break-after: avoid;
+}
+.openers dt:first-child {
+	margin-top: 0;
+}
+.openers dd {
+	margin: 0 0 0 0.7em;
+}
+/* 速記表兩欄流排，整張表不拆開 */
+.tables {
+	column-count: 2;
+	column-gap: 6mm;
+}
+.tables table,
+.tables p {
+	break-inside: avoid;
+}
+.tables p {
+	break-after: avoid;
+}
+tr {
+	break-inside: avoid;
+}
