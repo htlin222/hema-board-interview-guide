@@ -14,5 +14,9 @@ order: 16
 | CAR-T | 早期復發（≤12 個月）或三線 | Lymphodepletion fludarabine 30 mg/m² + cyclophosphamide d−5～−3（axi-cel 500、liso-cel 300 mg/m²）；axi-cel 2×10⁶ CAR+ cells/kg（上限 2×10⁸）；liso-cel 1×10⁸ | CRS（tocilizumab 8 mg/kg）、ICANS（dexamethasone）；BELINDA（tisa-cel）未顯示優勢，效益依產品 |
 | Polatuzumab-BR | R/R DLBCL 不適合移植 | Pola 1.8 mg/kg + bendamustine 90 mg/m² d1–2 + R 375 d1，每 21 天 ×6 | 藥證 vs 健保給付條件不一定一致（例如移植後資格） |
 | Bispecific antibody | 三線以上（補充） | Glofitamab：obinutuzumab 1000 mg 前置 d1 → 2.5 mg d8 → 10 mg d15 → 30 mg q3w 共 12 療程；epcoritamab 0.16 → 0.8 → 48 mg SC 每週 → 每 2 週 → 每 4 週 | 補充：step-up 減 CRS；首劑住院觀察 |
+| Glofitamab + GemOx | R/R DLBCL 不適合移植二線（STARGLO，補充） | Glofitamab step-up 同上 + gemcitabine 1000 mg/m² + oxaliplatin 100 mg/m² d1 q21d ×8，再 glofitamab 單藥至 12 療程 | 補充：OS 25.5 vs 12.9 個月（HR 0.62）；FDA 2025-07 CRL |
+| Nivolumab-AVD | Advanced cHL 一線（S1826，補充） | Nivolumab 240 mg IV d1、15 + doxorubicin 25、vinblastine 6、dacarbazine 375 mg/m² d1、15，每 28 天 ×6 | 補充：免疫相關 AE（甲狀腺、皮疹、肝）；BV-AVD 為 BV 1.2 mg/kg d1、15 加 G-CSF；R/R cHL 用 pembrolizumab 200 mg q3w（KEYNOTE-204） |
+| BTKi | MCL（一線加 BR、R/R）、CLL（一線或 R/R）、WM | Ibrutinib 560 mg（MCL）／420 mg（CLL）每日；acalabrutinib 100 mg bid；zanubrutinib 160 mg bid；pirtobrutinib（非共價，cBTKi 失敗後）200 mg 每日 | 心房顫動、出血、高血壓以 ibrutinib 最多；ALPINE：zanubrutinib PFS 優於 ibrutinib；ECHO：acalabrutinib + BR（MCL ≥65 歲） |
+| Venetoclax + obinutuzumab | CLL 一線固定療程 12 個月（CLL14／CLL13） | Obinutuzumab 1000 mg C1 d1（100 + 900）、8、15，C2–6 d1；venetoclax 自 C1 d22 起 20 → 50 → 100 → 200 → 400 mg 每週爬升，400 mg 每日至 C12 | TLS 風險分層（淋巴結 ≥10 cm、或 ≥5 cm + ALC ≥25k 為高危 → 住院爬升）；CLL14 6 年 PFS 53% vs 22% |
 | BR | FL／MZL 一線（符合 GELF） | Bendamustine 90 mg/m² d1–2 + R 375 d1，每 28 天 ×6 | 血液毒性較 R-CHOP 輕；淋巴球低下 → PJP／HSV 預防；R 維持 375 mg/m² 每 8 週 ×2 年（補充） |
 | R-CHOP（FL） | 高腫瘤負荷或疑 transformation | 同 DLBCL 劑量 ×6 | GELF：腫塊 ≥7 cm、≥3 處 ≥3 cm、B 症狀、脾腫大、壓迫、積液、血球低下、leukemic phase（LDH／β2M 屬後來修訂版） |

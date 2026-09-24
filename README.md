@@ -10,29 +10,29 @@
 
 12 個主題章，每章的結構固定：
 
-| 段落 | 作用 |
-| --- | --- |
-| 推理架構 | 可重複套用的邏輯，讓沒背過的案例也能自己推 |
-| 參考劑量 | 章內提到的藥物的成人常規劑量，與 A4 手冊的劑量總表同源（`src/booklet/doses/`） |
-| 破題關鍵句 | 一開口就該講的那一句 |
-| 最佳答法 | 用「依照…因為…」講出這樣答的道理 |
-| 擬答 | 巢狀條列，可直接照著唸 |
-| 追問 | 考官接下來最可能問什麼 |
-| 速記表 | 考前掃一眼用（全站 43 張） |
-| 容易被電的點 | 常見失分處 |
-| 相關 YouTube 影片 | 82 支，全部經 oEmbed 驗證存在 |
+| 段落              | 作用                                                                           |
+| ----------------- | ------------------------------------------------------------------------------ |
+| 推理架構          | 可重複套用的邏輯，讓沒背過的案例也能自己推                                     |
+| 參考劑量          | 章內提到的藥物的成人常規劑量，與 A4 手冊的劑量總表同源（`src/booklet/doses/`） |
+| 破題關鍵句        | 一開口就該講的那一句                                                           |
+| 最佳答法          | 用「依照…因為…」講出這樣答的道理                                               |
+| 擬答              | 巢狀條列，可直接照著唸                                                         |
+| 追問              | 考官接下來最可能問什麼                                                         |
+| 速記表            | 考前掃一眼用（全站 43 張）                                                     |
+| 容易被電的點      | 常見失分處                                                                     |
+| 相關 YouTube 影片 | 82 支，全部經 oEmbed 驗證存在                                                  |
 
 醫學內容經 OpenEvidence 逐項查證，修正過的地方以指引與試驗數據為準。
 
 ## 五種產物
 
-| 產物 | 位置 | 建置 |
-| --- | --- | --- |
-| 網站 | GitHub Pages | `npm run build` |
-| 一頁速查（可列印 A4 橫式） | 站內 `/handout/` | 同上，由主題頁即時抽取；版面與手冊共用 `src/styles/print.css` |
-| A4 手冊（21 頁 PDF） | 站內 `/booklet/`；[release `booklet-latest`](../../releases/tag/booklet-latest) | `npm run build && npm run build:booklet` |
-| EPUB（Kindle 相容） | [release `epub-latest`](../../releases/tag/epub-latest) | `npm run build:epub` |
-| Anki 牌組（巢狀） | [release `anki-latest`](../../releases/tag/anki-latest) | `npm run build:anki` |
+| 產物                       | 位置                                                                            | 建置                                                          |
+| -------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| 網站                       | GitHub Pages                                                                    | `npm run build`                                               |
+| 一頁速查（可列印 A4 橫式） | 站內 `/handout/`                                                                | 同上，由主題頁即時抽取；版面與手冊共用 `src/styles/print.css` |
+| A4 手冊（27 頁 PDF）       | 站內 `/booklet/`；[release `booklet-latest`](../../releases/tag/booklet-latest) | `npm run build && npm run build:booklet`                      |
+| EPUB（Kindle 相容）        | [release `epub-latest`](../../releases/tag/epub-latest)                         | `npm run build:epub`                                          |
+| Anki 牌組（巢狀）          | [release `anki-latest`](../../releases/tag/anki-latest)                         | `npm run build:anki`                                          |
 
 EPUB 與 Anki 都由主題頁的 markdown 直接產生，內容一改、workflow 會自動重建並覆蓋 release 資產，不需要人工同步。
 

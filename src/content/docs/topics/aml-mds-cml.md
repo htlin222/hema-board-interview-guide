@@ -15,8 +15,14 @@ sidebar:
 | --- | --- | --- | --- |
 | 7+3 | AML fit 誘導 | Cytarabine 100–200 mg/m²/day 持續輸注 d1–7 + daunorubicin 60–90 mg/m² d1–3（或 idarubicin 12 mg/m² d1–3） | >75 歲相對禁忌；anthracycline 累積劑量與 EF；d14 骨髓評估殘餘 blast |
 | Midostaurin | FLT3 突變 AML 加在 7+3 | 50 mg PO bid d8–21 每療程，鞏固期同 | 補充：QT、噁心；quizartinib 為 FLT3-ITD 替代 |
+| Quizartinib | FLT3-ITD AML 加在 7+3（QuANTUM-First，補充） | 35.4 mg PO 每日 d8–21（誘導與鞏固），維持 26.5 mg 每日 ×2 週後 53 mg 每日，至 36 療程 | 補充：QTcF 延長（>450 ms 減量）、併強 CYP3A4 抑制劑減半；OS HR 0.78 |
+| Gilteritinib | R/R FLT3 突變；移植後 MRD 陽性維持（MORPHO，補充） | 120 mg PO 每日，至少 6 個月再評估；移植後維持 120 mg ×24 個月 | 補充：分化症候群、QT、PRES、CK 上升；ADMIRAL OS HR 0.64 |
+| CPX-351 | Secondary／t-AML、60–75 歲 fit（補充） | 誘導：daunorubicin 44 mg/m² + cytarabine 100 mg/m²（liposomal，100 units/m²）d1、3、5；第二次誘導 d1、3；鞏固 65 units/m² d1、3 | 補充：血球恢復較慢；OS HR 0.70 vs 7+3 |
 | HiDAC 鞏固 | Favorable／intermediate CR1 不移植 | Cytarabine 1.5–3 g/m² q12h d1、3、5（<60 歲 3 g；≥60 歲 1–1.5 g），3–4 療程 | 小腦毒性（每劑前神經學檢查）、結膜炎（類固醇眼藥水） |
 | Venetoclax + HMA | Unfit 或 TP53／複雜核型 | Venetoclax 100 → 200 → 400 mg d1–3 ramp-up 後 400 mg/day d1–28（併 posaconazole 減至 70 mg，voriconazole 100 mg）+ azacitidine 75 mg/m² d1–7（或 decitabine 20 mg/m² d1–5），每 28 天 | TLS 預防；第一療程 d21–28 骨髓評估，CR 後 venetoclax 可縮短至 d1–14／21 |
+| Ivosidenib + Aza | IDH1 突變、不適合強化療（AGILE，補充） | Ivosidenib 500 mg PO 每日 + azacitidine 75 mg/m² d1–7 每 28 天 | 補充：分化症候群（dexamethasone、hydroxyurea 降 WBC）、QT；OS HR 0.42；R/R IDH1 可用 olutasidenib 150 mg bid |
+| Menin inhibitor | R/R KMT2A 重排或 NPM1 突變（補充） | Revumenib ≥40 kg 270 mg PO q12h（併 posaconazole 等強 CYP3A4 抑制劑 160 mg q12h）；ziftomenib 600 mg PO 每日 | 補充：分化症候群（steroid、必要時停藥）、QTc 延長（ECG）；單藥 CR/CRh 約 21–23% |
+| 口服 azacitidine（CC-486） | ≥55 歲 CR1 不移植的維持（QUAZAR，補充） | 300 mg PO 每日 d1–14 每 28 天，用至復發 | 補充：與注射型 azacitidine 不等效、不可互換；GI 副作用；OS HR 0.69 |
 | Azacitidine | 高危 MDS、CMML | 75 mg/m² SC 或 IV d1–7 每 28 天，至少 4–6 療程才評估反應 | 注射部位反應、血球下降先不減量；AZA-001 顯示 OS 優於 conventional care |
 | Decitabine | 高危 MDS 替代 | 20 mg/m² IV d1–5 每 28 天 | 補充：口服 decitabine-cedazuridine 35/100 mg d1–5 |
 | Lenalidomide | 低危 MDS del(5q) 輸血依賴 | 10 mg PO d1–21 每 28 天 | 補充：血球下降前 8 週明顯；TP53 突變反應差 |
@@ -58,6 +64,43 @@ sidebar:
 | 緩解後移植？Adverse      | 生物學本身就決定                     | **CR1 即移植，不論 MRD**，除非 TRM 過高                                                                                                                            |
 | 整體門檻與反例           | 復發風險 vs 移植風險對沖             | 不移植復發風險 **>35%** 才考慮 allo-HCT；反過來 **MRD 陰性者可能因 NRM 上升而使移植獲益消失甚至為負**。共病用 HCT-CI 量化                                          |
 
+**AML 近三年關鍵試驗：每個分岔講得出「哪個 trial、對照組、贏了什麼終點」（對應 AML 段落）**
+
+| 分岔 | 標準做法 | 試驗（年） | 實驗 vs 對照 | 主要終點 | OS | 口試怎麼講 |
+| --- | --- | --- | --- | --- | --- | --- |
+| Unfit | Venetoclax + azacitidine | VIALE-A（NEJM 2020；最終 2024） | Ven-Aza vs Aza | CR/CRi 66.8% vs 29.0% | **14.7 vs 9.6 個月，HR 0.58** | 「unfit 的標準是 Ven-Aza；IDH1/2 亞群獲益最大（HR 0.31），FLT3-ITD、RAS、TP53 是抗性軸。」 |
+| Unfit、IDH1 突變 | Ivosidenib + azacitidine | AGILE（NEJM 2022；2025 更新） | Ivo-Aza vs Aza | EFS HR 0.33；CR 47% vs 15% | **29.3 vs 7.9 個月，HR 0.42** | 「低強度方案裡 OS 最長的是 Ivo-Aza。」 |
+| Fit、FLT3-ITD | 7+3 + quizartinib（維持 3 年） | QuANTUM-First（Lancet 2023） | Quizartinib vs placebo，18–75 歲 | CR 率相同；RFS HR 0.61 | **31.9 vs 15.1 個月，HR 0.78** | 「只限 ITD 不含 TKD；要講 QT 延長與感染死亡 8% vs 4%。」 |
+| Fit、FLT3（ITD／TKD） | 7+3 + midostaurin | RATIFY（NEJM 2017；10 年 2024） | Midostaurin vs placebo，18–60 歲 | EFS 獲益維持 | 10 年 OS 43.7% vs 38.6% | 「HOVON 156 用 gilteritinib 取代 midostaurin，OS HR 1.02 沒贏——二代 FLT3i 前線沒有更好。」 |
+| Fit、secondary／t-AML、60–75 歲 | CPX-351 | CPX-351 vs 7+3（5 年 2021） | CPX-351 vs 7+3 | — | **9.33 vs 5.95 個月，HR 0.70** | 「AML19 對 FLAG-Ida 只在 MR-gene 突變亞群贏（HR 0.38）。」 |
+| Fit，Ven-Aza 能不能取代 7+3？ | 仍是 7+3 | PARADIGM（ASH 2025 plenary，phase 2） | Ven-Aza vs IC，n=172 | **EFS 14.5 vs 6.2 個月，HR 0.57**；30 天死亡 0% vs 3.5% | 21.5 vs 18.6 個月，無差 | 「EFS 贏、OS 沒贏、phase 2，phase 3（VINCENT／VICTOR）進行中，講『證據方向』不講『已經取代』。」 |
+| APL 高危（WBC >10×10⁹/L） | ATRA + ATO + 2 劑 idarubicin | APOLLO（JCO 2025） | ATRA-ATO-Ida vs AIDA | **2 年 EFS 88% vs 71%，HR 0.40**；分子復發 1.5% vs 12.3% | 93% vs 87%，無差 | 「低中危 APL 的 ATRA-ATO 依據是 APL0406；高危現在也有 APOLLO。」 |
+| NPM1 突變要不要 CR1 移植 | 看兩療程後周邊血 MRD | AML17／AML19 NPM1 MRD（Blood 2024） | MRD 分層，n=737 | MRD+：移植 HR 0.39（3 年 OS 60% vs 21%）；MRD−：移植無益，HR 0.82 | — | 「周邊血陽性就移植，陰性移植沒好處。」 |
+| 移植前 MRD | NGS 測 NPM1／FLT3-ITD | Pre-MEASURE（JAMA 2023） | 陽性 vs 陰性 | 陽性（17%）3 年復發 59% vs 24% | 34% vs 66% | 「移植前 NGS-MRD 陽性者才是移植後維持的對象。」 |
+| 移植後 FLT3-ITD 維持 | Gilteritinib 2 年 | MORPHO（JCO 2024） | Gilteritinib vs placebo | 全體 RFS HR 0.68（p=.052，未顯著）；**MRD+ HR 0.52**；MRD− HR 1.21 | 未查到 | 「MORPHO 全體沒達標，獲益只在 MRD 陽性——MRD 導向維持的代表。」 |
+| 不移植者的維持 | 口服 azacitidine | QUAZAR AML-001（NEJM 2020） | CC-486 vs placebo，≥55 歲 CR1 | — | **24.7 vs 14.8 個月，HR 0.69** | 「不移植的老年 CR1 用口服 azacitidine 維持。」 |
+| R/R FLT3 | Gilteritinib | ADMIRAL（NEJM 2019） | Gilteritinib vs salvage chemo | — | 9.3 vs 5.6 個月，HR 0.64 | 「R/R FLT3 的標準二線。」 |
+| R/R KMT2A 重排／NPM1 突變 | Menin inhibitor | AUGMENT-101（revumenib，2024／2025）；KOMET-001（ziftomenib） | 單臂 | CR/CRh：KMT2A-r 22.8%；NPM1 23%（revumenib）、21.4%（ziftomenib） | — | 「FDA 2024-11、2025-10、2025-11 核准；分化症候群約 28%、QTc 延長；與 7+3 或 Ven-Aza 併用 CRc 80–96% 但只是 phase 1。」 |
+| R/R IDH | Olutasidenib（IDH1）；enasidenib（IDH2） | 5 年單臂（2025）；IDHENTIFY（Blood 2023） | — | Olutasidenib CR/CRh 35%、反應期 25.3 個月 | Enasidenib 6.5 vs 6.2 個月，HR 0.86，**phase 3 失敗** | 「講得出失敗的方向：enasidenib phase 3、magrolimab 三個 phase 3（ENHANCE 系列 HR >1）。」 |
+| 低強度治療的風險分層 | ELN 2024 less-intensive | Döhner（Blood 2024） | — | Favorable：NPM1／IDH2／MR-gene 且無 FLT3-ITD、RAS、TP53，或 IDH1 用 Ivo-Aza；Intermediate：FLT3-ITD／RAS；Adverse：TP53（OS 5–8 個月） | — | 「同一個病人在 ELN 2022 與 2024 兩套系統可能落在不同風險。」 |
+| MRD 定義更新 | ELN-DAVID 2025 | 共識 | — | NPM1 骨髓 qPCR 陽性閾值 2% → **0.1%**；FLT3-ITD 用高敏 NGS | — | 「講 2% 是舊版。」 |
+
+**MDS 近三年關鍵試驗：低危這一軸在治貧血，高危這一軸加藥全部失敗（對應 MDS 段落）**
+
+| 軸 | 情境 | 標準 | 試驗（年） | 實驗 vs 對照 | 主要終點 | 口試怎麼講 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 低危貧血 | ESA-naive、輸血依賴、sEPO <500 | **Luspatercept 一線** | COMMANDS（Lancet 2023；primary 2024；FDA 2023-08） | Luspatercept vs epoetin alfa | RBC-TI ≥12 週＋Hb ↑≥1.5 g/dL：60% vs 35%（interim 58.5% vs 31.2%） | 「luspatercept 從 ESA 失敗後的 RS 型前移到一線、不限 RS；終點是 12 週 TI 加 Hb 上升，不是 8 週 TI。」 |
+| 低危貧血 | ESA 失敗、MDS-RS | Luspatercept | MEDALIST（NEJM 2020） | Luspatercept vs placebo | 8 週 TI 38% vs 13% | 「舊適應症。」 |
+| 低危貧血 | ESA 失敗、非 del(5q)、重度輸血依賴 | **Imetelstat**（telomerase 抑制劑） | IMerge（Lancet 2024；FDA 2024-06） | Imetelstat vs placebo | 8 週 TI 39.8% vs 15.0% | 「第一個 disease-modifying 機轉藥；代價是 G3–4 嗜中性球低下 68%、血小板低下 62%；族群是 ESA 失敗不是 ESA-naive。」 |
+| 低危貧血 | del(5q) 輸血依賴 | Lenalidomide 10 mg | MDS-004（2011）；SintraREV（2024） | Len 10／5 mg vs placebo；非輸血依賴者 5 mg vs placebo | RBC-TI ≥26 週 57.4%／37.2% vs 2.2%；至輸血依賴時間未達 vs 11.6 個月 | 「del(5q) 用 lenalidomide；TP53 突變反應差。」 |
+| 高危 | 50–75 歲、有 donor | **Allo-HCT**（唯一治癒） | BMT CTN 1102（JCO 2021） | 有 donor（RIC allo）vs 無 donor，生物分派 | 3 年 OS 47.9% vs 26.6% | 「老年 RIC 移植也有存活效益，適合者早期轉介；這是生物分派不是隨機。」 |
+| 高危 | 不移植或橋接 | HMA 單藥（azacitidine） | AZA-001（Lancet Oncol 2009） | Aza vs conventional care | OS 24.5 vs 15 個月 | 「HMA 單藥仍是標準。」 |
+| 高危加藥 | Venetoclax + azacitidine | **不是標準** | VERONA（2025） | Ven-Aza vs placebo-Aza | 反應率↑，OS 主要終點未達 | 「Ven-Aza 是 AML 的標準，不是 MDS 的；VERONA 陰性。」 |
+| 高危加藥 | Magrolimab、sabatolimab、tamibarotene | 全部失敗 | ENHANCE（JCO 2026）；STIMULUS-MDS2；SELECT-MDS-1 | 加藥 vs placebo + Aza | ENHANCE CR 21.3% vs 23.6%，OS 15.9 vs 18.6 個月（HR 1.20）；其餘皆陰性 | 「過去五年所有 azacitidine 加藥的 phase 3 全部失敗。」 |
+| 分層 | 所有 MDS | IPSS-M | NEJM Evidence 2022 | 31 個基因加進 IPSS-R → 6 級 | 46% 病人被重新分層；最壞 TP53 multihit、FLT3、KMT2A-PTD；SF3B1 為好因子 | 「移植與試驗決策依 IPSS-M。」 |
+| 分類 | WHO 2022 vs ICC 2022 | — | — | WHO：MDS-5q、MDS-SF3B1、MDS-biTP53（≥2 個 TP53 突變或 1 個＋copy loss，視同 AML）、IB1（5–9%）、IB2（10–19%）；ICC 多一個 MDS/AML（10–19%） | — | 「同一群病人兩套命名；biTP53 要 multi-hit，不是任何 TP53 突變。」 |
+| 前驅 | CHIP／CCUS | 觀察、分層 | CHRS（NEJM Evidence 2023） | VAF ≥2% 體細胞突變；有血球減少＝CCUS | 高風險：非單一 DNMT3A 的高風險基因、≥2 個突變、VAF ≥20%、≥65 歲、CCUS | 「突變數 ≥2 是進展最強預測。」 |
+
 **一線 TKI 怎麼依共病選（對應 CML 段落「TKI 治療策略：一線藥物與副作用比較」）**
 
 | 藥物       | 招牌副作用／要監測什麼                                                                                                                                                | 共病上的取捨                                |
@@ -67,6 +110,8 @@ sidebar:
 | Dasatinib  | 肋膜積水（pleural effusion）；長期使用有肺動脈高壓的顧慮                                                                                                              | 有肺部／心臟病史的病人要謹慎選用            |
 | Nilotinib  | QT 波間期延長、心血管／動脈阻塞性事件（周邊動脈疾病、心肌梗塞）；用藥前後監測心電圖、血糖、血脂；可能誘發高血糖與胰臟炎；服藥時間需注意進食（影響吸收與 QT 交互作用） | 有心血管病史的病人要避開                    |
 | Bosutinib  | 腹瀉；需留意肝毒性                                                                                                                                                    | —                                           |
+| Ponatinib  | 三代、唯一涵蓋 T315I 的 ATP 競爭型；動脈阻塞事件（劑量相關）、高血壓、胰臟炎；OPTIC：45 mg 起始、BCR-ABL1 ≤1% 後降到 15 mg，反應保住、心血管事件下降 | T315I、多重 TKI 失敗；心血管高風險者謹慎 |
+| Asciminib  | STAMP 抑制劑：結合 myristoyl pocket、不與 ATP 競爭，對 ATP 位突變有效、可與其他 TKI 併用；血小板／嗜中性球低下、脂肪酶上升、胰臟炎，AOE 約 2–3%；ASC4FIRST（NEJM 2024）一線 vs 醫師選 TKI 48 週 MMR 67.7% vs 49.0%（vs imatinib 層 69.3% vs 40.2%），96 週 74.1% vs 52.0%，因 AE 停藥率最低；ASCEMBL 三線 vs bosutinib 96 週 MMR 37.6% vs 15.8% | FDA 2024-10 加速核准一線（80 mg 每日）；T315I 用 200 mg bid；myristoyl pocket 突變與 e13a3／e14a3 無效 |
 
 **CML 從治療中到停藥的時間軸（對應 CML 段落「milestone 監測時程」與「停藥策略 TFR」）**
 
@@ -86,13 +131,14 @@ sidebar:
   - **最佳答法**：把這題**拆成兩個獨立的問題**分開答，是拉開分數最有效的方式——(1) 誘導治療給多強？看的是 **fitness**；(2) 緩解後要不要移植？看的是**疾病生物學 + MRD**。**依照**「這兩個問題用的判斷變項根本不同」這個事實，混在一起講就會出現「年輕體能好所以打強化療、順便早點評估移植」這種聽起來合理但其實錯誤的答案（favorable risk 反而不該在 CR1 移植）。**因為**考官要看的是你知不知道現代 AML 的決策已經不是「年齡決定強度、風險決定移植」這麼粗，而是 fitness 與生物學各管一段。
   - **第一個問題：誘導治療給多強？——判準是 fitness，不是年齡**
     - 標準 7+3（cytarabine + anthracycline）不建議用於 **>75 歲**（相對禁忌），或符合 **Ferrara criteria** 的 unfit 病人：ECOG PS ≥3、EF ≤50%、DLCO 或 FEV1 ≤65%（或需氧氣）、需腎替代治療、Child-Pugh B/C 肝硬化、難治性感染、需住院的精神疾病等。
-    - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 現代的問法已經從「**誰撐得住**強化療」變成「**誰真的能從中獲益**」：即使 fitness 過關，若屬不良風險生物學（**TP53 突變、複雜核型**），誘導緩解率或許還可以，但長期預後仍差，趨勢是改採 **venetoclax + HMA** 或標靶治療取代 7+3。能講出這個轉變，等於告訴考官你讀的是近幾年的東西。
+    - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 現代的問法已經從「**誰撐得住**強化療」變成「**誰真的能從中獲益**」：即使 fitness 過關，若屬不良風險生物學（**TP53 突變、複雜核型**），誘導緩解率或許還可以，但長期預後仍差，趨勢是改採 **venetoclax + HMA** 或標靶治療取代 7+3。能講出這個轉變，等於告訴考官你讀的是近幾年的東西。講 Ven-Aza 要講得出依據：VIALE-A 對 azacitidine 單藥 OS 14.7 vs 9.6 個月（HR 0.58），IDH1 突變者 AGILE 的 ivosidenib + azacitidine OS 29.3 vs 7.9 個月（HR 0.42）；而低強度治療現在有自己的風險分層（ELN 2024 less-intensive：FLT3-ITD、RAS、TP53 是 venetoclax 的抗性軸）。反過來，年輕 fit 病人能不能直接打 Ven-Aza？PARADIGM（phase 2）EFS HR 0.57 但 OS 沒差，所以還是 7+3，只能講「證據方向」。
   - **第二個問題：緩解後要不要移植？——ELN 2022 風險分類 × MRD × 移植相關死亡率**
     - 整體門檻：預估**不移植的復發風險 >35%** 時才考慮 allo-HCT，也就是要拿復發風險去對沖移植本身的 TRM。
     - **Favorable risk**（CBF、NPM1 突變／FLT3-ITD 野生型、CEBPA bZIP）：**不建議 CR1 移植**，首選 3–4 療程高劑量 cytarabine 鞏固或 auto-HCT；**但 MRD 持續陽性者仍要轉 allo-HCT**。
     - **Intermediate risk**：沒有共識，要個別化。**MRD 陰性**可留在化療／auto-HCT；**MRD 陽性建議 allo-HCT**。
     - **Adverse risk**：多數建議 **CR1 就移植，不論 MRD**，除非 TRM 風險過高。
     - 支持數據：一項 769 人的研究顯示，依此策略接受移植者三年整體存活明顯較佳（favorable HR 0.38、intermediate HR 0.53、adverse HR 0.51）。
+    - MRD 怎麼改變決定，要講得出試驗：NPM1 突變病人兩療程後**周邊血** qPCR MRD 陽性者 CR1 移植 HR 0.39（3 年 OS 60% vs 21%），陰性者移植無益（HR 0.82，AML17／AML19，Blood 2024）；移植前 NGS-MRD 陽性者 3 年復發 59% vs 24%（Pre-MEASURE）；移植後 FLT3-ITD 的 gilteritinib 維持全體未達標（RFS HR 0.68，p=.052），獲益只在 MRD 陽性（HR 0.52，MORPHO）。不移植的老年 CR1 則用口服 azacitidine 維持（QUAZAR AML-001，OS 24.7 vs 14.8 個月，HR 0.69）。ELN-DAVID 2025 把 NPM1 骨髓 qPCR 陽性閾值從 2% 降到 0.1%。
     - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 反過來也要記得：**MRD 陰性的病人不一定該移植**——非復發死亡率（NRM）的增加可能把移植的效益抵消掉甚至變成負的。這是「移植不是越早越好」的具體證據，被追問時講得出來很加分。
     - 其他要一併考慮的：年齡、共病（用 **HCT-CI** 量化）、donor 可及性與配對程度、中心經驗、病人意願。
 
@@ -109,6 +155,9 @@ sidebar:
 - 「Favorable risk 的病人也要在 CR1 移植嗎？」→ 不用，首選高劑量 cytarabine 鞏固或 auto-HCT；除非 MRD 持續陽性（例如 CBF 融合基因未達 3-log 下降、NPM1 MRD 陽性）才轉 allo-HCT。
 - 「一個年輕、體能很好，但帶 TP53 突變的病人，你會直接打 7+3 嗎？」→ 這正是「fit 不等於會獲益」的情境，現代趨勢會考慮 venetoclax + HMA 或標靶治療，而不是硬上 7+3。
 - 「什麼時候該轉去評估 allogeneic transplant？」→ 以「不移植的復發風險 >35%」為門檻，整合 ELN 2022 分層與 MRD；可對照 [myeloma 篇](/hema-board-interview-guide/topics/myeloma-and-transplant/) 移植適應症的判斷邏輯（該篇重點是自體、這裡是異體）。
+- 「FLT3 突變的 fit 病人，7+3 要加什麼？」→ FLT3-ITD 加 quizartinib（QuANTUM-First OS 31.9 vs 15.1 個月，HR 0.78，只限 ITD、到 75 歲、含 3 年維持）；TKD 或年輕者 midostaurin（RATIFY，10 年 OS 43.7% vs 38.6%）；gilteritinib 前線直接對比 midostaurin 沒贏（HOVON 156，OS HR 1.02）。R/R FLT3 的標準二線是 gilteritinib（ADMIRAL OS HR 0.64）。
+- 「KMT2A 重排或 NPM1 突變復發了，有沒有標靶？」→ Menin inhibitor：revumenib（KMT2A-r 與 NPM1）、ziftomenib（NPM1），單藥 CR/CRh 約 21–23%，要主動講分化症候群（約 28%）與 QTc 延長；與 7+3 或 Ven-Aza 併用的資料只是 phase 1。
+- 「近幾年哪些方向失敗了？」→ Magrolimab（抗 CD47）三個 phase 3 全部 HR >1 且感染死亡增加（ENHANCE 系列）、enasidenib 的 IDHENTIFY、gilteritinib 前線（HOVON 156）；講得出失敗方向才像真的讀過近三年。
 
 </div>
 
@@ -178,7 +227,9 @@ sidebar:
 
 - **要能講出 IPSS risk score 怎麼估、對應的處置方向**
   - **最佳答法**：把分層結果跟處置方向兩件事綁在一起講，不要只背 IPSS 公式的組成分數。**依照**推理架構裡「風險分層決定治療強度」的核心邏輯，回答時要明確講出「低風險對應 best supportive care／clinical trial，高風險對應 hypomethylating agent 等積極治療」這個配對關係。**因為**考官要驗證的是你知不知道分層的目的是什麼，而不是你會不會背評分表——只列出分數計算方式而講不出後續處置，等於只做了一半的答案。
-  - 依 IPSS risk score 估出來的風險分層，會對應到不同的處置強度：分層低的傾向 best supportive care 或考慮 clinical trial；分層較高、需要積極介入的則會用到 hypomethylating agent 等治療。
+  - 依 IPSS risk score 估出來的風險分層，會對應到不同的處置強度：分層低的傾向 best supportive care 或考慮 clinical trial；分層較高、需要積極介入的則會用到 hypomethylating agent 等治療。現在的分層工具是 **IPSS-M**（31 個基因加進 IPSS-R，46% 病人被重新分層；TP53 multihit 最差、SF3B1 是好因子），移植與試驗決策依它。
+  - 低危這一軸的治療目標是**貧血與輸血依賴**，近三年的新藥全在這裡：ESA-naive、輸血依賴、sEPO <500 者一線改用 **luspatercept**（COMMANDS 對 epoetin alfa：12 週 TI 加 Hb 上升 ≥1.5 g/dL 60% vs 35%，FDA 2023-08）；ESA 失敗、非 del(5q) 者用 **imetelstat**（IMerge 對 placebo：8 週 TI 39.8% vs 15.0%，FDA 2024-06，代價是 G3–4 血球低下）；del(5q) 用 lenalidomide（MDS-004 RBC-TI 57.4% vs 2.2%）。
+  - 高危這一軸的目標是**疾病本身**：唯一可治癒的是 allo-HCT（BMT CTN 1102：50–75 歲有 donor 3 年 OS 47.9% vs 26.6%），HMA 是橋接或無法移植者的標準；而所有在 azacitidine 上加藥的 phase 3——VERONA（venetoclax）、ENHANCE（magrolimab）、STIMULUS-MDS2（sabatolimab）、SELECT-MDS-1（tamibarotene）——全部失敗，所以「Ven-Aza 是 HR-MDS 標準」是錯的，只有 AML 才是。
   - 講的時候要把「分層」跟「處置方向」明確配對講出來，不能只背分層公式而講不出後續要怎麼處理。
 
 <div class="callout callout-keywords">
@@ -192,7 +243,8 @@ sidebar:
 <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
 
 - 「低風險病人什麼情況下會考慮升級成積極治療？」→ 當出現疾病演進（如 blast 比例上升）等惡化徵象時，呼應本篇「兩次骨髓報告」論點裡的動態判讀邏輯。
-- 「高風險 MDS 除了 hypomethylating agent，還有什麼選項？」→ 可能考慮 allogeneic transplant，可對照 [myeloma 篇](/hema-board-interview-guide/topics/myeloma-and-transplant/) 的移植決策邏輯。
+- 「高風險 MDS 除了 hypomethylating agent，還有什麼選項？」→ 適合者早期評估 allogeneic transplant（BMT CTN 1102：3 年 OS 47.9% vs 26.6%，生物分派而非隨機），可對照 [myeloma 篇](/hema-board-interview-guide/topics/myeloma-and-transplant/) 的移植決策邏輯；加藥（venetoclax、magrolimab、sabatolimab）的 phase 3 全部陰性。
+- 「低危 MDS 的貧血你會怎麼治？」→ 先看 sEPO 與輸血量：sEPO <500、ESA-naive 的輸血依賴者一線 luspatercept（COMMANDS 60% vs 35%）；ESA 失敗用 imetelstat（IMerge 39.8% vs 15.0%）；del(5q) 用 lenalidomide。COMMANDS 的終點是 12 週 TI 加 Hb 上升，IMerge 是 8 週 TI，不要講混。
 
 </div>
 
@@ -227,6 +279,9 @@ sidebar:
   - **Dasatinib**：要特別注意**肋膜積水（pleural effusion）**風險，長期使用也有肺動脈高壓的顧慮，有肺部/心臟病史的病人要謹慎選用。
   - **Nilotinib**：要注意 **QT 波間期延長**，以及心血管/動脈阻塞性事件（如周邊動脈疾病、心肌梗塞）風險上升，用藥前後需監測心電圖、血糖、血脂；另外要注意可能誘發高血糖與胰臟炎，服藥時間需避開空腹以外進食（會影響藥物吸收與 QT 交互作用），這也是常被忽略的細節。
   - **Bosutinib**：常見副作用是腹瀉，也需留意肝毒性。
+  - **Ponatinib**（三代）：唯一涵蓋 **T315I** 的 ATP 競爭型 TKI；動脈阻塞事件與劑量相關，所以 OPTIC 試驗確立「45 mg 起始、達 BCR-ABL1 ≤1% 就降到 15 mg」的減量策略，反應保住、心血管事件下降。
+  - **Asciminib**（STAMP 抑制劑）：結合 ABL 的 **myristoyl pocket**，不與 ATP 競爭，所以對 ATP 位的抗藥突變有效、可與其他 TKI 併用，也是 T315I 的另一個選項（200 mg bid）。**ASC4FIRST**（NEJM 2024）把它拿到一線跟醫師自選的 TKI 比：48 週 MMR **67.7% vs 49.0%**（對 imatinib 層 69.3% vs 40.2%），96 週 74.1% vs 52.0%，而且因副作用停藥率最低（5% vs imatinib 13%、二代 12.7%）；OS 尚未成熟；FDA 2024 年 10 月加速核准一線（80 mg 每日）。三線以上的 ASCEMBL 對 bosutinib 500 mg 96 週 MMR 37.6% vs 15.8%。招牌副作用是血小板／嗜中性球低下、脂肪酶上升與胰臟炎，動脈阻塞事件約 2–3%。它不是對所有突變都有效：myristoyl pocket 附近的突變（A337V、P465S 等）與缺 ABL1 exon 2 的轉錄本（e13a3／e14a3）對 asciminib 無效，這時要回到 ATP 競爭型 TKI。
+  - 二代 vs 一代要講一句：DASISION（dasatinib）與 ENESTnd（nilotinib）12 個月 MMR 約 44–46% vs 22–28%，反應更快更深、轉化較少，**但長期 OS 沒有差**（ENESTnd 10 年 OS 87.6% vs 88.3%；代價是 nilotinib 心血管事件 16.5% vs 3.6%、dasatinib 肋膜積水 28%）——所以不是一律優先二代，除非高風險（ELTS）或目標是 TFR（ENESTnd 10 年 TFR 資格 48.6% vs 29.7%）。ELN 2025 把 milestone 的 optimal／warning／failure 改名為 favorable／warning／unfavorable，數值不變，並強調不憑單次 PCR 換藥、毒性先減量再換藥。
   - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：只答得出藥名，講不出每個藥物各自要特別留意的副作用（dasatinib 的肋膜積水、nilotinib 的心血管風險），會被認為只是背藥名清單、沒有臨床選藥的概念。
 
 <div class="callout callout-keywords">
@@ -240,14 +295,16 @@ sidebar:
 <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
 
 - 「病人有肺部病史，選哪個 TKI 比較適合？」→ 避開 dasatinib（肋膜積水／肺動脈高壓風險），可考慮 imatinib，但若有心血管病史則要避開 nilotinib。
-- 「二代 TKI 反應更快更深，是不是就該一律優先選二代？」→ 不是，要權衡副作用與共病，這正是「依共病選藥」而非單看反應深度的核心邏輯。
+- 「二代 TKI 反應更快更深，是不是就該一律優先選二代？」→ 不是，DASISION／ENESTnd 長期 OS 沒有差，要權衡副作用與共病，這正是「依共病選藥」而非單看反應深度的核心邏輯。
+- 「Asciminib 跟其他 TKI 差在哪？」→ 機轉不同：STAMP 抑制劑結合 myristoyl pocket、不與 ATP 競爭；一線證據 ASC4FIRST 48 週 MMR 67.7% vs 49.0%，停藥率最低；T315I 要用 200 mg bid。
+- 「驗出 T315I 怎麼辦？」→ 只有 ponatinib（OPTIC 減量策略）與 asciminib 200 mg bid 有效；其他 ATP 競爭型 TKI 全部無效。
 
 </div>
 
 - **停藥策略：treatment-free remission（TFR）**
   - **最佳答法**：不要只講「深度分子反應維持夠久就能停藥」這一句話，TFR 其實是一整組條件（病程階段、治療反應史、治療時間長度、監測能力）加上停藥後的追蹤計畫，缺一不可。**依照**推理架構裡「持續評估、依結果調整」的邏輯，TFR 不是一次性決定，而是停藥前要通過完整資格檢核、停藥後仍要監測的動態過程。**因為**考官要看的是你知不知道 TFR 是有多重條件、有風險的決策，而不是把停藥講成「反應夠深就停」這麼單一的判斷——只講 MR4.5 跟時間長度，漏掉病程階段跟治療反應史這幾個條件，會顯得對這個決策的完整度理解不足。
   - 條件不是只有「深度分子反應維持夠久」一項，而是要同時滿足：病人處於**第一次慢性期**（沒有加速期或芽細胞期病史）、**先前治療沒有失敗過**、TKI 治療總時間通常需**滿 5 年以上**（若中間有用第二代 TKI，門檻可以縮短到滿 4 年）、並且要有能力做到**高品質、快速、標準化的 qPCR 監測**；在滿足這些前提下，再看分子反應是否達到**深度且持續**（通常是 MR4.5 這個深度）並維持**至少 2 年以上**，才會考慮嘗試停藥。
-  - 停藥後的監測要密集：**前 6 個月每月監測一次**，**第 6 到 12 個月每 2 個月監測一次**，之後可以拉長到**每 3 個月一次**，一旦復發要能及時重新啟動 TKI。
+  - 停藥後的監測要密集：**前 6 個月每月監測一次**，**第 6 到 12 個月每 2 個月監測一次**，之後可以拉長到**每 3 個月一次**；重啟門檻是**失去 MMR（>0.1%）**，不是失去 MR4，重啟後 >90% 回到 MMR。證據講得出來更好：EURO-SKI（n=728，JCO 2024）停藥後維持 MMR 的比例 6／24／36 個月為 61%／50%／46%，預測因子是 TKI 治療年數、深度反應年數與 e14a2 轉錄本；第一次 TFR 失敗後重啟 TKI、改 dasatinib 兩年再停，二次 TFR 24 個月仍有 46%（DAstop2）。失去 MMR 時不建議做突變檢測；停藥後約 20–30% 出現 withdrawal syndrome（肌肉骨骼疼痛）。
 
 <div class="callout callout-keywords">
 <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
@@ -267,7 +324,7 @@ sidebar:
 - **CML 的 milestone 監測時程，用具體切點記，比模糊講「要監測」更有說服力**
   - **最佳答法**：直接講出 3 個月、6 個月、12 個月各自對應的具體切點數字，再補上沒達標時要往回查服藥順從性、藥物交互作用，或考慮換藥／加驗 kinase domain mutation 的處置邏輯，不要只模糊地說「要定期監測分子反應」。**依照**推理架構裡「CML 用監測 milestone 取代風險分層」的邏輯，這一步本質上仍是「持續評估、依結果調整」的同一套骨架，只是評估對象換成分子反應而非細胞遺傳學分層。**因為**具體切點比模糊描述更有說服力，也才能展現你真的知道 failure／warning 的判斷標準是什麼，而不是只知道「有在監測」這個空泛概念。
   - 常見的分子學反應監測時間點與目標（ELN 建議的大致架構）：**3 個月** BCR-ABL1 IS ≤ 10%；**6 個月** ≤ 1%；**12 個月** 達到 major molecular response（MMR，即 ≤ 0.1%）。
-  - 沒有在這些時間點達標，稱為治療反應不佳（failure/warning），要考慮是否有服藥順從性問題、藥物交互作用，或需要換藥、加驗 BCR-ABL1 kinase domain mutation。
+  - 沒有在這些時間點達標，稱為治療反應不佳（failure/warning），要考慮是否有服藥順從性問題、藥物交互作用，或需要換藥、加驗 BCR-ABL1 kinase domain mutation。換哪一顆由突變決定：T315I 只有 ponatinib 或 asciminib 200 mg bid 有效；其他突變依敏感性表選二代或 asciminib；換藥時也把前一顆藥的毒性納入（例如 dasatinib 肋膜積水後不選 bosutinib 以外的肺毒性藥）。
   - 這一步是 CML 取代「風險分層決定治療強度」的那個位置——CML 幾乎所有病人一律先用 TKI，不靠分層決定要不要治療；本質上仍是框架裡「持續評估、依結果調整」的同一種邏輯，只是評估的對象換成監測分子反應，而不是骨髓型態或細胞遺傳學分層。
 
 <div class="callout callout-keywords">
@@ -305,5 +362,10 @@ sidebar:
 ## 容易被電的點
 
 - MDS 案例題容易忽略「兩次骨髓報告要一起看」的設計，只看第一次報告就下結論，漏掉疾病演進（blast 比例上升）這個關鍵訊息。
+- 說「Ven-Aza 是高危 MDS 的標準」：VERONA OS 陰性，只有 AML 才是；COMMANDS 的終點講成 8 週 TI（那是 MEDALIST／IMerge），IMerge 的族群講成 ESA-naive（實際是 ESA 失敗）。
+- CML 完全沒提 asciminib，或把 ASC4FIRST 的主要終點講成 OS（是 48 週 MMR）；把 asciminib 一線劑量（80 mg qd）跟 T315I 劑量（200 mg bid）混淆；說「二代 TKI 延長 OS」（DASISION 5 年、ENESTnd 10 年都無差）。
 - BCR-ABL1 陽性的急性白血病答成 AML 比 ALL 常見——順序答反了。
 - CML／AML 的分子生物學細節被追問到很深時（例如某個基因突變的下游機轉），答不出來很正常，講到自己有把握的深度就好，不用硬掰。
+- 把 PARADIGM 講成「Ven-Aza 已取代 7+3」：它是 phase 2，OS 21.5 vs 18.6 個月無差。把 MORPHO 講成全體有效：全體 RFS p=.052，獲益只在 MRD 陽性。
+- QuANTUM-First 與 RATIFY 混用：quizartinib 只限 FLT3-ITD、到 75 歲、有 3 年維持；midostaurin 收 ITD＋TKD、18–60 歲。
+- NPM1 MRD 閾值講 2%：ELN-DAVID 2025 已降到 0.1%，而決定移植的是「兩療程後周邊血」是否陽性。

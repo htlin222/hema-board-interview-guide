@@ -37,13 +37,18 @@ const DOSE_SHEETS: { id: string; title: string; slugs: string[] }[] = [
 	},
 	{
 		id: 'doses-myeloid',
-		title: '參考劑量總表 IV · 骨髓性疾病與 ALL',
-		slugs: ['aml-mds-cml', 'all-leukemia'],
+		title: '參考劑量總表 IV · AML、MDS、CML',
+		slugs: ['aml-mds-cml'],
 	},
 	{
 		id: 'doses-lymphoid',
-		title: '參考劑量總表 V · Lymphoma 與 Myeloma',
-		slugs: ['lymphoma-treatment-lines', 'myeloma-and-transplant'],
+		title: '參考劑量總表 V · ALL 與 Lymphoma',
+		slugs: ['all-leukemia', 'lymphoma-treatment-lines'],
+	},
+	{
+		id: 'doses-myeloma',
+		title: '參考劑量總表 VI · Myeloma',
+		slugs: ['myeloma-and-transplant'],
 	},
 ];
 const doseSheets = DOSE_SHEETS.map((d, j) => ({

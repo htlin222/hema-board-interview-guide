@@ -23,6 +23,7 @@ site: myeloma-and-transplant
 | VRd | bortezomib + lenalidomide + dexamethasone | 三合一，最廣泛使用；ORR ≥90%，但誘導期單獨達 CR 僅約兩到三成——深反應多在移植／鞏固後 |
 | Dara-VRd | VRd + daratumumab（anti-CD38：輸注反應、感染、干擾血型判定） | 四合一新標準；PERSEUS 48 月 PFS 84.3% vs 67.7%、≥CR 87.9% vs 70.1%、MRD 陰性 75.2% vs 47.5%，高風險亦一致；2025 EHA-EMN 列為移植適合者標準 |
 | VCd | bortezomib + cyclophosphamide + dexamethasone | 腎功能不佳或不適合 IMiD 時的替代 |
+| 移植不適合（TIE） | Isa-VRd 或 Dara-VRd（fit）；D-Rd（frail、≥80 歲，可去 dex） | IMROZ 60 月 PFS 63.2% vs 45.2%（HR 0.60）；CEPHEUS MRD 陰性 60.9% vs 39.4%；MAIA mOS 90.3 vs 64.1 月（HR 0.67）——四合一不分移植適合與否；復發線證據見第 21 頁 |
 | Lenalidomide 維持 | 移植後單藥 | 標準：多個 RCT 與統合分析延長 PFS，部分 OS 獲益；長期監測續發性癌症 |
 | Thalidomide 維持 | 移植後單藥 | PFS 效益但 OS 不一致；神經病變重、致畸胎性強；備用 |
 

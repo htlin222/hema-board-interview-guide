@@ -21,7 +21,6 @@ ALL（acute lymphoblastic leukemia）在成人血液科門診相對少見，很�
 | 維持治療 POMP（補充） | 緩解後 2–3 年 | 6-MP 60 mg/m² PO 每日 + MTX 20 mg/m² PO 每週 + vincristine 1.4 mg/m² 每月 + prednisone 5 天每月 | 補充：Ph+ 併 TKI；TPMT／NUDT15 基因型影響 6-MP 劑量（東亞 NUDT15 常見） |
 | Blinatumomab | Ph− B-ALL 鞏固（E1910）、MRD 陽性、R/R | R/R：第 1 療程 9 μg/day d1–7 → 28 μg/day d8–28 持續輸注，之後 28 μg/day ×28 天，休 14 天（42 天一療程）；鞏固／MRD+：28 μg/day ×28 天不需 step-up（<45 kg 用 15 μg/m²/day） | CRS、神經毒性；dexamethasone 前置；E1910：MRD 陰性者鞏固加 blinatumomab，OS 改善（HR 0.42） |
 | Inotuzumab ozogamicin | R/R CD22+ B-ALL（補充） | 1.8 mg/m²/療程分 0.8（d1）、0.5（d8）、0.5（d15），CR 後 1.5 mg/m² | 補充：VOD/SOS 風險，移植前限 ≤2 療程 |
-| Allo-HCT 時機 | 成人 CR1 | 高風險（Ph+ 傳統上、MRD 陽性、不良細胞遺傳學）於 CR1 評估；MRD 陰性 Ph+ 在 TKI 時代可個別化 | 兒童相對保守 |
 <!-- doses:end -->
 
 ## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg> 推理架構：急性白血病診斷是同一套骨架，分層依據不同
@@ -56,9 +55,25 @@ ALL（acute lymphoblastic leukemia）在成人血液科門診相對少見，很�
 
 | 分型 | 治療骨幹 | 緩解後 |
 | --- | --- | --- |
-| BCR-ABL1 陽性 ALL | 化療骨幹之外加上 TKI（如 imatinib 或 dasatinib），針對驅動疾病的融合蛋白，提升緩解率與反應深度 | 積極評估並安排異體移植 |
-| BCR-ABL1 陰性 ALL | 以化療為主的多階段療程（induction → consolidation → maintenance），不需常規加 TKI | 仍要評估異體移植的角色 |
-| 兒童 ALL（拿來對比） | 以化療為主 | 移植角色相對保守，跟成人的積極態度不同 |
+| BCR-ABL1 陽性 ALL | TKI 為骨幹：ponatinib + 低強度化療（PhALLCON），或 chemo-free TKI + blinatumomab（D-ALBA 的 dasatinib-blina、MDACC 的 ponatinib-blina）；CNS 預防 IT 12–15 次不能省 | 改為 MRD 導向：早期深度分子緩解（IG/TR 或 NGS 陰性）且無高風險特徵者可不移植；MRD 持續陽性、IG/TR MRD+、WBC ≥30–70×10⁹/L、IKZF1-plus 者仍 allo-HCT |
+| BCR-ABL1 陰性 B-ALL | Pediatric-inspired（CALGB 10403、GRAALL）或 hyper-CVAD 多階段化療；**MRD 陰性者鞏固期加 blinatumomab ×4（E1910）**；高風險（KMT2A-r、IKZF1del、MRD ≥10⁻⁴）亦加 blina | MRD 導向：MRD 持續陽性、KMT2A-r、hypodiploid／TP53、部分 Ph-like → 移植；MRD 陰性者不移植 |
+| ≥60 歲 Ph− | INO 為基礎的減量或無化療方案（INO → blina、INO + dex 誘導、mini-hyper-CVD + INO） | 通常不移植 |
+| T-ALL | 骨幹 + PEG-asparaginase，中高風險加 nelarabine（AALL0434） | ETP、MRD 持續陽性 → 移植 |
+| 兒童 ALL（拿來對比） | 以化療為主，標準風險亦加 blina（AALL1731） | 移植角色相對保守 |
+
+**成人 ALL 近三年關鍵試驗：口試要講得出「對照組是誰、贏了哪個終點」**
+
+| 情境 | 試驗（年） | 實驗 vs 對照 | 主要終點 | OS | 口試怎麼講 |
+| --- | --- | --- | --- | --- | --- |
+| Ph− B-ALL、MRD 陰性 | E1910（NEJM 2024；FDA 2024-06 核准鞏固期） | Blinatumomab ×4 + 鞏固化療 vs 鞏固化療，30–70 歲 | 3 年 RFS 80% vs 64%，HR 0.53 | **3 年 OS 85% vs 68%，HR 0.41** | 「MRD 陰性者加 blina 仍有 OS 獲益，是第一個證明免疫治療改善 MRD 陰性病人 OS 的試驗；收的是 MRD 陰性，不是陽性。」 |
+| Ph− B-ALL 高風險 | GRAALL-2014／B-QUEST（Blood 2026） | 鞏固／維持加 blina vs 歷史對照 | 5 年 CIR 23% vs 49%；DFS 68% vs 42% | 5 年 OS 79% vs 60% | 「高風險加 blina 後，真正做移植的人沒有額外 DFS 好處。」 |
+| Ph+ 新診斷 | PhALLCON（JAMA 2024；FDA 2024-03 加速核准） | Ponatinib 30 mg vs imatinib 600 mg，皆 + 低強度化療 | Cycle 3 末 MRD 陰性 CR **34.4% vs 16.7%** | EFS 未成熟（NR vs 29 個月） | 「第三代 TKI 一線 MRD 陰性 CR 加倍；主要終點不是 OS，不要講成延長存活。」 |
+| Ph+ chemo-free | D-ALBA（NEJM 2020；JCO 2024）；MDACC ponatinib-blina（JCO 2024；2025） | 單臂 | D-ALBA 4 年 OS 80.7%、DFS 75.8%，29/63 未化療未移植；pona-blina CMR 83–87%、3 年 OS 88–91%、60 人僅 2 人移植 | — | 「GIMEMA ALL2820 phase 3（pona-blina vs imatinib-化療）2025 年底讀出正向，正式 HR 待刊登；復發以 CNS 為主，IT 不能省。」 |
+| Ph+ 要不要 CR1 移植 | Ghobadi（Blood 2022）；GRAAPH-2014（JCO 2024） | CR1 移植 vs 不移植（回溯 n=230）；MRD 分層 | 移植 OS aHR 1.05（復發 aHR 0.32 被 NRM aHR 2.59 抵銷）；IG/TR MRD ≥0.01% 才預測 DFS，BCR::ABL1 定量不預測（43% 多系殘留） | 高風險組移植 HR 0.33 | 「早期 CMR 者可不移植；IG/TR MRD 陽性或 WBC 高的高風險組移植仍有益。」 |
+| MRD 陽性 CR | BLAST（Blood 2018；FDA 2018） | Blinatumomab 單臂 | MRD 完全反應 78% | 中位 OS 36.5 個月；反應者 NR vs 14.4 個月 | 「MRD+ 先用 blina 清除，再依風險移植。」 |
+| ≥60 歲 Ph− | Alliance A041703（JCO 2025）；GMALL INITIAL-1（JCO 2024） | INO ×2 → blina ×4–5，無化療無維持；INO + dex 誘導 | CR 97%、1 年 EFS 75%；CR 100%、3 年 EFS 55% | 1 年 OS 85%；3 年 OS 73% | 「老年 ALL 的死因是感染與次發骨髓惡性，方向是用抗體取代化療。」 |
+| R/R B-ALL | TOWER（NEJM 2017）；INO-VATE（2016）；ZUMA-3（3 年 2025）；FELIX（NEJM 2024；FDA 2024-11） | Blina vs 化療；INO vs 化療；brexu-cel、obe-cel 單臂 | Blina CR 34% vs 16%；INO CR/CRi 73.8% vs 30.9%、橋接移植 39.6% vs 10.5%、VOD 14%；brexu-cel CR/CRi 73%；obe-cel ORR 77%、CR 55%、≥G3 CRS 2.4% | Blina OS 7.7 vs 4.0 個月，HR 0.71；INO OS HR 0.75；brexu-cel mOS 25.6 個月 | 「Blina／INO 達 MRD 陰性後移植仍是標準鞏固；CAR-T 後要不要移植有爭議。」 |
+| T-ALL | COG AALL0434（JCO 2020） | ± nelarabine，1–31 歲中高風險 | 5 年 DFS 88.2% vs 82.1%；CNS 復發 1.3% vs 6.9% | — | 「一線 nelarabine 的隨機證據來自兒童／AYA，成人沒有專屬 RCT。」 |
 
 ## 套用到實際問法
 
@@ -124,9 +139,9 @@ ALL（acute lymphoblastic leukemia）在成人血液科門診相對少見，很�
 </div>
 
   - 擬答：
-    - Philadelphia chromosome（BCR-ABL1）陽性的 ALL，治療上的重點就是在化療骨幹之外**加上 TKI**（例如 imatinib 或 dasatinib），這是這個分型底下最關鍵的一個決策。
+    - Philadelphia chromosome（BCR-ABL1）陽性的 ALL，治療上的重點就是以 **TKI** 為骨幹，這是這個分型底下最關鍵的一個決策。現在的一線首選是第三代 **ponatinib**：PhALLCON（JAMA 2024）對 imatinib 600 mg 都加低強度化療，cycle 3 末 MRD 陰性 CR 34.4% vs 16.7%，FDA 2024 年 3 月加速核准；另一條路是 **chemo-free**——TKI 加 blinatumomab（D-ALBA 的 dasatinib-blina 4 年 OS 80.7%，MDACC 的 ponatinib-blina 3 年 OS 約 90%、60 人只有 2 人移植），phase 3 GIMEMA ALL2820 已讀出正向。
       - TKI 針對的是驅動這個白血病的 BCR-ABL1 融合蛋白，加上 TKI 可以提升緩解率與反應深度，這跟 CML 裡 TKI 的角色概念上是相通的，只是在 ALL 是搭配化療一起使用，而不是單獨作為主要治療。
-    - 成人 ALL 病人一旦達到緩解，大部分會積極評估並安排**異體移植**，這是成人 ALL（不論 BCR-ABL1 陽性與否）治療路徑裡很重要的一步，跟兒童 ALL 以化療為主、移植角色相對保守的態度不同。
+    - 成人 ALL 達到緩解後要評估**異體移植**，但現在是 **MRD 導向**而不是一律移植：Ph+ 早期達深度分子緩解（IG/TR 或 NGS MRD 陰性）且無高風險特徵者，CR1 移植沒有 OS 好處（Ghobadi，230 人回溯：復發減少被 NRM 增加抵銷，aHR 1.05）；IG/TR MRD 陽性或 WBC 高的高風險組移植仍有益（GRAAPH-2014，HR 0.33）。要注意 Ph+ 的 MRD 要看 IG/TR 或 NGS，BCR::ABL1 定量有 43% 是多系殘留、不預測預後。這跟兒童 ALL 以化療為主、移植角色相對保守的態度仍然不同，但差距已縮小。
       - 回答時可以主動點出這個「成人 vs. 兒童 ALL 治療態度不同」的對比，展現你知道年齡層會影響移植角色的權重。
     - 整體邏輯是：先確認診斷跟 lineage、再看 Philadelphia chromosome 狀態決定要不要加 TKI、達到緩解後再評估移植——跟推理架構裡「確認診斷→分層→決定強度」完全對應，只是每一步換成 ALL 專屬的分層工具跟藥物選擇。
 
@@ -134,7 +149,10 @@ ALL（acute lymphoblastic leukemia）在成人血液科門診相對少見，很�
 <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
 
 - 「成人跟兒童 ALL 對移植的態度為什麼不同？」→ 成人 ALL 整體預後相對兒童較差、緩解後復發風險較高，因此傾向積極評估移植；兒童 ALL 以化療為主，移植角色相對保守。
-- 「如果這個病人 BCR-ABL1 陰性，治療路徑會有什麼不同？」→ 走以化療為主的多階段療程（induction → consolidation → maintenance），不需常規加 TKI，但緩解後仍要評估異體移植的角色，可對照 [AML/MDS/CML 篇](/hema-board-interview-guide/topics/aml-mds-cml/) 裡年輕、體能好、細胞遺傳學不利就提早轉向移植的邏輯。
+- 「如果這個病人 BCR-ABL1 陰性，治療路徑會有什麼不同？」→ 走以化療為主的多階段療程（induction → consolidation → maintenance），不需常規加 TKI；**MRD 陰性者鞏固期加 blinatumomab ×4**（E1910：3 年 OS 85% vs 68%，HR 0.41，FDA 2024 核准）；緩解後依 MRD 與高風險特徵（KMT2A-r、hypodiploid／TP53、MRD ≥10⁻⁴）決定移植，可對照 [AML/MDS/CML 篇](/hema-board-interview-guide/topics/aml-mds-cml/) 的 MRD 導向邏輯。
+- 「E1910 收的是 MRD 陽性還是陰性的病人？」→ **陰性**（flow <0.01%）；MRD 陽性的證據是 BLAST（單臂，MRD 反應 78%，FDA 2018）。兩者族群、設計、終點都不同，混在一起是最常見的講錯。
+- 「六十幾歲的 Ph− ALL 你會怎麼打？」→ 用 inotuzumab 為基礎的減量或無化療方案：A041703（INO ×2 → blina ×4–5，完全無化療，1 年 OS 85%）、INITIAL-1（INO + dex 誘導，3 年 OS 73%）；老年死因是感染與次發骨髓惡性，所以化療越少越好。
+- 「復發的 B-ALL 有哪些選項？」→ 依 CD19／CD22 與前線暴露選：blinatumomab（TOWER OS 7.7 vs 4.0 個月，HR 0.71）、inotuzumab（INO-VATE CR/CRi 73.8% vs 30.9%，注意 VOD 14%、移植前限 ≤2 療程）、CD19 CAR-T（brexu-cel ZUMA-3 mOS 25.6 個月；obe-cel FELIX ORR 77%、≥G3 CRS 只有 2.4%，FDA 2024-11）；達 MRD 陰性後移植仍是標準鞏固。
 
 </div>
 
@@ -153,4 +171,7 @@ ALL（acute lymphoblastic leukemia）在成人血液科門診相對少見，很�
 
 - 把 t(9;22) transform 的常見度答反，講成「AML 比較常見」，忽略了 BCR-ABL1 陽性急性白血病其實是 ALL 遠比 AML 常見這件事——這跟 [AML/MDS/CML 篇](/hema-board-interview-guide/topics/aml-mds-cml/) 裡從 AML 角度問的同一個陷阱是同一題,只是問法反過來。
 - 型態學不確定 AML/ALL 時直接跳去講治療，漏掉「先染色、再聯絡 flow cytometry 確認 lineage」這個基本處置流程，讓答案顯得沒有章法。
-- 只講得出「BCR-ABL1 陽性要加 TKI」，卻講不出成人 ALL 緩解後移植角色這一段，讓答案停在一半，沒有把治療路徑講完整。
+- 只講得出「BCR-ABL1 陽性要加 TKI」，卻講不出成人 ALL 緩解後移植角色這一段，讓答案停在一半，沒有把治療路徑講完整；或反過來說「Ph+ 一律 CR1 移植」——TKI + blinatumomab 時代已改 MRD 導向。
+- 把 E1910 講成「MRD 陽性者加 blina」：E1910 收的是 MRD 陰性者，主要終點是 OS（HR 0.41）；MRD 陽性的證據是 BLAST。
+- 把 PhALLCON 講成「ponatinib 延長 OS」：主要終點是 cycle 3 末 MRD 陰性 CR（34.4% vs 16.7%），EFS 尚未成熟，對照組是 imatinib 600 mg。
+- 說「免疫治療可以省掉 IT」：blina／INO 對 CNS 穿透差，chemo-free 方案的復發以 CNS 為主，IT 12–15 次不能省。

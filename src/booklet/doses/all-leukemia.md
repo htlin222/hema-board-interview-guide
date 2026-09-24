@@ -13,4 +13,3 @@ order: 19
 | 維持治療 POMP（補充） | 緩解後 2–3 年 | 6-MP 60 mg/m² PO 每日 + MTX 20 mg/m² PO 每週 + vincristine 1.4 mg/m² 每月 + prednisone 5 天每月 | 補充：Ph+ 併 TKI；TPMT／NUDT15 基因型影響 6-MP 劑量（東亞 NUDT15 常見） |
 | Blinatumomab | Ph− B-ALL 鞏固（E1910）、MRD 陽性、R/R | R/R：第 1 療程 9 μg/day d1–7 → 28 μg/day d8–28 持續輸注，之後 28 μg/day ×28 天，休 14 天（42 天一療程）；鞏固／MRD+：28 μg/day ×28 天不需 step-up（<45 kg 用 15 μg/m²/day） | CRS、神經毒性；dexamethasone 前置；E1910：MRD 陰性者鞏固加 blinatumomab，OS 改善（HR 0.42） |
 | Inotuzumab ozogamicin | R/R CD22+ B-ALL（補充） | 1.8 mg/m²/療程分 0.8（d1）、0.5（d8）、0.5（d15），CR 後 1.5 mg/m² | 補充：VOD/SOS 風險，移植前限 ≤2 療程 |
-| Allo-HCT 時機 | 成人 CR1 | 高風險（Ph+ 傳統上、MRD 陽性、不良細胞遺傳學）於 CR1 評估；MRD 陰性 Ph+ 在 TKI 時代可個別化 | 兒童相對保守 |

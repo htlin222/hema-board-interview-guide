@@ -22,6 +22,10 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
 | CAR-T | 早期復發（≤12 個月）或三線 | Lymphodepletion fludarabine 30 mg/m² + cyclophosphamide d−5～−3（axi-cel 500、liso-cel 300 mg/m²）；axi-cel 2×10⁶ CAR+ cells/kg（上限 2×10⁸）；liso-cel 1×10⁸ | CRS（tocilizumab 8 mg/kg）、ICANS（dexamethasone）；BELINDA（tisa-cel）未顯示優勢，效益依產品 |
 | Polatuzumab-BR | R/R DLBCL 不適合移植 | Pola 1.8 mg/kg + bendamustine 90 mg/m² d1–2 + R 375 d1，每 21 天 ×6 | 藥證 vs 健保給付條件不一定一致（例如移植後資格） |
 | Bispecific antibody | 三線以上（補充） | Glofitamab：obinutuzumab 1000 mg 前置 d1 → 2.5 mg d8 → 10 mg d15 → 30 mg q3w 共 12 療程；epcoritamab 0.16 → 0.8 → 48 mg SC 每週 → 每 2 週 → 每 4 週 | 補充：step-up 減 CRS；首劑住院觀察 |
+| Glofitamab + GemOx | R/R DLBCL 不適合移植二線（STARGLO，補充） | Glofitamab step-up 同上 + gemcitabine 1000 mg/m² + oxaliplatin 100 mg/m² d1 q21d ×8，再 glofitamab 單藥至 12 療程 | 補充：OS 25.5 vs 12.9 個月（HR 0.62）；FDA 2025-07 CRL |
+| Nivolumab-AVD | Advanced cHL 一線（S1826，補充） | Nivolumab 240 mg IV d1、15 + doxorubicin 25、vinblastine 6、dacarbazine 375 mg/m² d1、15，每 28 天 ×6 | 補充：免疫相關 AE（甲狀腺、皮疹、肝）；BV-AVD 為 BV 1.2 mg/kg d1、15 加 G-CSF；R/R cHL 用 pembrolizumab 200 mg q3w（KEYNOTE-204） |
+| BTKi | MCL（一線加 BR、R/R）、CLL（一線或 R/R）、WM | Ibrutinib 560 mg（MCL）／420 mg（CLL）每日；acalabrutinib 100 mg bid；zanubrutinib 160 mg bid；pirtobrutinib（非共價，cBTKi 失敗後）200 mg 每日 | 心房顫動、出血、高血壓以 ibrutinib 最多；ALPINE：zanubrutinib PFS 優於 ibrutinib；ECHO：acalabrutinib + BR（MCL ≥65 歲） |
+| Venetoclax + obinutuzumab | CLL 一線固定療程 12 個月（CLL14／CLL13） | Obinutuzumab 1000 mg C1 d1（100 + 900）、8、15，C2–6 d1；venetoclax 自 C1 d22 起 20 → 50 → 100 → 200 → 400 mg 每週爬升，400 mg 每日至 C12 | TLS 風險分層（淋巴結 ≥10 cm、或 ≥5 cm + ALC ≥25k 為高危 → 住院爬升）；CLL14 6 年 PFS 53% vs 22% |
 | BR | FL／MZL 一線（符合 GELF） | Bendamustine 90 mg/m² d1–2 + R 375 d1，每 28 天 ×6 | 血液毒性較 R-CHOP 輕；淋巴球低下 → PJP／HSV 預防；R 維持 375 mg/m² 每 8 週 ×2 年（補充） |
 | R-CHOP（FL） | 高腫瘤負荷或疑 transformation | 同 DLBCL 劑量 ×6 | GELF：腫塊 ≥7 cm、≥3 處 ≥3 cm、B 症狀、脾腫大、壓迫、積液、血球低下、leukemic phase（LDH／β2M 屬後來修訂版） |
 <!-- doses:end -->
@@ -46,26 +50,55 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
 
 **二線那個分岔點怎麼走（對應 Q3）**
 
-| 復發時間點                                            | 走哪條路                                     | 支持證據                                 | 講的時候要補的限定                                                                                     |
-| ----------------------------------------------------- | -------------------------------------------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| 早期復發（一線後 12 個月內復發或未達 CR）且適合 CAR-T | 直接進入 CAR-T，已取代傳統「先化療、再移植」 | ZUMA-7（axi-cel）、TRANSFORM（liso-cel） | 效益是特定產品才有：BELINDA（tisagenlecleucel）並未顯示優於傳統路徑，不能講成「只要是 CAR-T 就比較好」 |
-| 較晚復發（超過 12 個月）                              | 挽救性化療誘導緩解，再評估自體移植           | 傳統路徑仍適用                           | 治療階段就要評估收 stem cell、準備 auto-PBSCT；只有大約一半病人反應夠好而真正走到移植                  |
+| 情境 | 走哪條路 | 支持證據（實驗 vs 對照） | 講的時候要補的限定 |
+| --- | --- | --- | --- |
+| 早期復發（一線後 12 個月內復發或未達 CR）且適合 CAR-T | 直接進入 CAR-T，取代「先化療、再移植」 | ZUMA-7（axi-cel vs salvage+auto-HCT）：EFS HR 0.40，**OS HR 0.73**（4 年 OS 54.6% vs 46%，NEJM 2023）；TRANSFORM（liso-cel）：EFS 中位 29.5 vs 2.4 個月，HR 0.375，OS 未顯著（66% 交叉） | 效益是特定產品才有：BELINDA（tisagenlecleucel）EFS HR 1.07 陰性——主因是設計（12 週終點、允許 bridging 化療），結論只是 tisa-cel 沒有二線適應症 |
+| 較晚復發（超過 12 個月）且適合移植 | 挽救性化療誘導緩解 → auto-HCT | CORAL、LY.12 | 治療階段就要評估收 stem cell；只有大約一半病人反應夠好而真正走到移植 |
+| 不適合 CAR-T／移植（年齡、共病、器官功能） | 非強化方案：liso-cel（PILOT，CR 54%）；glofitamab + GemOx；mosunetuzumab + polatuzumab；Pola-BR；tafasitamab + lenalidomide；loncastuximab + R | STARGLO（Glofit-GemOx vs R-GemOx）：**OS 25.5 vs 12.9 個月，HR 0.62**（Lancet 2024）；SUNMO（Mosun-Pola vs R-GemOx）：PFS 11.5 vs 3.8 個月，HR 0.41（JCO 2025）；LOTIS-5（Lonca-R vs R-GemOx）：PFS HR 0.73 | STARGLO 是第一個 bispecific 合併化療贏 OS 的 phase 3，但 FDA 2025 年 7 月以美國族群代表性不足發 CRL；台灣核准與健保給付另查 |
 
 **挽救性化療 regimen 與反應率，不能只說「二線化療」（對應 Q3 第二步）**
 
 | Regimen  | 組成                                                         | 試驗中的 ORR                         |
 | -------- | ------------------------------------------------------------ | ------------------------------------ |
 | R-ICE    | rituximab + ifosfamide + carboplatin + etoposide             | CORAL 64%                            |
-| R-DHAP   | rituximab + dexamethasone + high-dose cytarabine + cisplatin | CORAL 63%；LY.12 的 (R)-DHAP 45%     |
-| R-GDP    | rituximab + gemcitabine + dexamethasone + cisplatin          | LY.12 的 (R)-GDP 44%                 |
+| R-DHAP   | rituximab + dexamethasone + high-dose cytarabine + cisplatin | CORAL 63%；LY.12 的 (R)-DHAP 44%     |
+| R-GDP    | rituximab + gemcitabine + dexamethasone + cisplatin          | LY.12 的 (R)-GDP 45%（非劣、毒性最輕） |
 | 整體概念 | 依方案與研究不同                                             | 大約四到六成五，別隨口講「六到七成」 |
+
+**近三年關鍵試驗：口試要講得出「對照組是誰、贏了哪個終點」（對應 Q1、Q3、Q4 與 Hodgkin／MCL 延伸）**
+
+| 情境 | 試驗（年） | 實驗 vs 對照 | 主要終點 | OS | 口試怎麼講 |
+| --- | --- | --- | --- | --- | --- |
+| DLBCL 一線、IPI 2–5 | POLARIX（NEJM 2022；5 年 JCO 2025） | Pola-R-CHP vs R-CHOP | 5 年 PFS 64.9% vs 59.1%，HR 0.77 | 82.3% vs 79.5%，HR 0.85，無差異 | 「PFS 獲益、OS 沒差；ABC 亞型與 IPI 3–5 獲益較明顯；FDA 適應症限 IPI ≥2。」 |
+| DLBCL 一線、高風險 | frontMIND（Lancet 2026） | Tafasitamab + lenalidomide + R-CHOP vs R-CHOP | PFS HR 0.75（2 年 71.1% vs 62.9%） | 未成熟 | 「第一個在高風險 DLBCL 贏過 R-CHOP 的雙盲 phase 3，但毒性與致死 AE 增加、尚未核准。」 |
+| DLBCL 早期復發、適合 CAR-T | ZUMA-7（NEJM 2022；OS 2023） | Axi-cel vs salvage + auto-HCT | EFS HR 0.40 | **HR 0.73**（4 年 54.6% vs 46%） | 「唯一有 OS 獲益的二線 CAR-T 試驗。」 |
+| DLBCL 早期復發、適合 CAR-T | TRANSFORM（3 年 JCO 2025） | Liso-cel vs SOC | EFS 29.5 vs 2.4 個月，HR 0.375 | HR 0.76，未顯著 | 「EFS 大贏，OS 沒顯著是因為 66% 對照組交叉。」 |
+| DLBCL 二線、不適合移植 | STARGLO（Lancet 2024） | Glofitamab + GemOx vs R-GemOx | 主要終點即 OS | **25.5 vs 12.9 個月，HR 0.62** | 「第一個 bispecific 加化療贏 OS，但 FDA 2025-07 發 CRL。」 |
+| DLBCL 二線、不適合移植 | SUNMO（JCO 2025） | Mosunetuzumab + polatuzumab vs R-GemOx | PFS 11.5 vs 3.8 個月，HR 0.41 | 未查到 | 「chemo-free、CRS 極低，2 年 PFS 翻倍。」 |
+| DLBCL 三線以上 | EPCORE NHL-1（3 年）；NP30179 | Epcoritamab／glofitamab 單臂 | CR 39–41%；CR 者中位持續 36 個月（epcor） | 中位 OS 約 1 年（glofit） | 「bispecific 的價值在 CR 者的持久緩解；EPCORE DLBCL-1 對化療免疫 PFS HR 0.74 但 OS HR 0.96 未達。」 |
+| CAR-T 與 bispecific 的順序 | 真實世界（Blood Adv 2025） | CAR-T 失敗後用 bispecific | ORR 43%、PFS 2.8 個月 | — | 「先 CAR-T 再 bispecific：bispecific 失敗不損 CAR-T，反過來會。」 |
+| FL 一線 | StiL／BRIGHT；GALLIUM（7 年 2023）；PRIMA（10 年）；RELEVANCE（6 年） | BR vs R-CHOP；O-chemo vs R-chemo；R 維持 vs 觀察；R² vs R-chemo | BR PFS 69.5 vs 31.2 個月，HR 0.58；GALLIUM 7 年 PFS 63.4% vs 55.7%；PRIMA PFS 10.5 vs 4.1 年，HR 0.61；RELEVANCE 6 年 PFS 60% vs 59% | 全部無差 | 「FL 一線至今沒有任何 RCT 贏 OS；選 BR 是因為毒性，維持只贏 PFS，R² 是不輸不是更好。」 |
+| FL 復發（≥1 線後） | AUGMENT（5 年 2026）；inMIND（Lancet 2026；FDA 2025-06）；EPCORE FL-1（Lancet 2026；FDA 2025-11） | R² vs R；tafasitamab + R² vs R²；epcoritamab + R² vs R² | AUGMENT PFS HR 0.50；inMIND PFS 22.4 vs 13.9 個月，HR 0.43；EPCORE FL-1 ORR 95% vs 79%，PFS HR 0.21 | AUGMENT OS HR 0.59；其餘未成熟 | 「二線骨幹是 R²，2025 起在上面加 tafasitamab 或 epcoritamab 都有 phase 3。」 |
+| FL 三線以後 | GO29781（mosunetuzumab 3 年）；EPCORE NHL-1；ZUMA-5（5 年 2025）；ELARA；ROSEWOOD | 單臂為主；ROSEWOOD：zanubrutinib + O vs O | Mosun CR 60%、DOR 35.9 個月；epcor CR 62.5%；axi-cel 中位 PFS 62.2 個月；tisa-cel CR 68%、G3 CRS 0%；ROSEWOOD PFS 28.0 vs 10.4 個月，HR 0.50 | — | 「單臂數字不能互比；POD24（約 19%，5 年 OS 50% vs 90%）這群優先 bispecific／CAR-T，不要再打 BR。」 |
+| CLL 一線、fit、無 TP53 | CLL13／GAIA（NEJM 2023；4 年）；AMPLIFY（NEJM 2025；FDA 2026-02）；CLL17（NEJM 2026）；E1912 | VenO／GIV／VenR vs FCR／BR；AV／AVO vs FCR／BR；固定療程 VenO／VI vs 持續 ibrutinib；IR vs FCR | CLL13 4 年 PFS VenO 81.8%（HR 0.47）、GIV 85.5%（HR 0.30）vs 62.0%，VenR 無顯著；AMPLIFY 36 個月 PFS 76.5%／83.1% vs 66.5%；CLL17 3 年 PFS 81.1%／79.4%／81.0% 非劣 | E1912 OS HR 0.47 | 「FCR 退場；固定療程跟持續 BTKi 療效相當，差別是能不能停藥；VenO 才是 venetoclax 的正確搭檔，VenR 只在 R/R。」 |
+| CLL 一線、老年／共病 | CLL14（6 年 2024）；SEQUOIA（5 年 2025）；ELEVATE-TN（6 年 2025） | VenO vs ClbO；zanubrutinib vs BR；acalabrutinib ± O vs ClbO | CLL14 中位 PFS 76.2 vs 36.4 個月，HR 0.40；SEQUOIA PFS HR 0.29；ELEVATE-TN AO 6 年 PFS 78% | CLL14 OS HR 0.69（p=.052）；ELEVATE-TN AO OS HR 0.62 | 「一年 VenO 換五年以上無病；持續 BTKi 也可以。」 |
+| CLL、del(17p)／TP53 | SEQUOIA arm C（5 年）；ALPINE 亞組 | Zanubrutinib 單臂；vs ibrutinib | 5 年 PFS 70.7%、OS 82.3%；ALPINE TP53 HR 0.53 | — | 「TP53 用持續二代 BTKi；CLL13、AMPLIFY 都排除 TP53，結論不能外推。」 |
+| CLL 選哪顆 BTKi | ALPINE（final 2024）；ELEVATE-RR（2021） | Zanubrutinib vs ibrutinib；acalabrutinib vs ibrutinib（R/R） | ALPINE PFS HR 0.65，AF 7.1% vs 17.0%，心因死亡 0 vs 6；ELEVATE-RR PFS HR 1.00 非劣，AF 9.4% vs 16.0% | ALPINE OS HR 0.77，未顯著 | 「只有 ALPINE 是優越，ELEVATE-RR 是非劣；心血管共病避開 ibrutinib。」 |
+| CLL 復發 | MURANO（7 年 2025）；BRUIN CLL-321（JCO 2025；FDA 2025-12）；TRANSCEND CLL 004（FDA 2024） | VenR 固定 2 年 vs BR；pirtobrutinib vs IdelaR／BR；liso-cel 單臂 | MURANO PFS 54.7 vs 17.0 個月；pirtobrutinib PFS 14.0 vs 8.7 個月，HR 0.54；liso-cel CR 18% | MURANO 7 年 OS 69.6% vs 51.0% | 「cBTKi 後的順序：非共價 BTKi → CAR-T；venetoclax 可以再用（再治療 ORR 72%）。」 |
+| Hodgkin advanced 一線 | SWOG S1826（NEJM 2024；FDA 2026-03） | Nivolumab-AVD vs BV-AVD | 2 年 PFS 92% vs 83%，HR 0.42 | 未成熟 | 「N-AVD 取代 BV-AVD，老年耐受特別好。」 |
+| Hodgkin advanced（歐洲） | GHSG HD21（Lancet 2024） | BrECADD vs eBEACOPP | 4 年 PFS 94.3% vs 90.9%，HR 0.66；morbidity 42% vs 59% | 98.6% vs 98.2% | 「不只非劣還優越，且毒性低。」 |
+| Hodgkin R/R | KEYNOTE-204（Lancet Oncol 2021） | Pembrolizumab vs BV | PFS 13.2 vs 8.3 個月，HR 0.65 | 未達差異 | 「復發先 checkpoint inhibitor。」 |
+| MCL 年輕 | TRIANGLE（Lancet 2024；2026 更新） | 化療+ASCT（A）vs +ibrutinib（A+I）vs ibrutinib 無 ASCT（I） | 4 年 FFS 70% / 82% / 81%；A+I vs I HR 0.86 | 81% / 88% / 90% | 「含 ibrutinib 時加 ASCT 沒有額外好處，只加毒性。」 |
+| MCL 老年 | ECHO（JCO 2025；FDA 2025-01） | Acalabrutinib + BR vs BR | PFS 66.4 vs 49.6 個月，HR 0.73 | HR 0.86，未顯著 | 「老年一線 BR 加 acalabrutinib；SHINE（ibrutinib）雖 PFS HR 0.75 但治療期死亡多、未核准。」 |
+| MCL R/R | SYMPATICO（2025） | Ibrutinib + venetoclax vs ibrutinib | PFS 31.9 vs 22.1 個月，HR 0.63；CR 54% vs 32% | HR 0.83，未顯著 | 「BTKi 加 BCL2i 贏 PFS 與 CR。」 |
+| PTCL CD30+ | ECHELON-2（5 年 2022） | BV-CHP vs CHOP | PFS HR 0.70 | **5 年 70.1% vs 61.0%，HR 0.72** | 「PTCL 唯一贏 OS 的 phase 3，獲益主要在 sALCL。」 |
 
 **其他常見延伸：什麼時候才動手（對應「其他常見延伸」各條）**
 
 | 情境                                                                | 怎麼判斷                                                               | 處置方向                                                                             |
 | ------------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | Follicular lymphoma，原發腸胃道（duodenum/small intestine）、無症狀 | 侷限、低腫瘤負荷，不符合 GELF 的治療啟動標準                           | Watch and wait，不必看到 lymphoma 就急著治療                                         |
-| Follicular lymphoma，廣泛期或合併 B symptoms                        | 符合 GELF 的啟動情境（腫瘤體積大、多處淋巴結腫大、全身症狀、血球低下） | 啟動一線治療，處置邏輯與前一列完全不同                                               |
+| Follicular lymphoma，符合任一 GELF 項目（不論分期）                 | GELF：腫塊 ≥7 cm；≥3 處各 ≥3 cm；B symptoms；脾腫大；壓迫；肋膜積液／腹水；血球低下；leukemic phase（LDH、β2M 屬後來修訂版） | 啟動一線治療；廣泛期但低負荷、無症狀仍可 watch and wait，分岔是 GELF 而不是分期    |
 | Follicular lymphoma 一線選藥                                        | 依年紀、共病、腫瘤負荷                                                 | BR（bendamustine + rituximab，血液學毒性較輕，常優先）或 R-CHOP                      |
 | Asymptomatic lymphocytosis                                          | 先臨床、後檢驗                                                         | 先完整 H&P 排除感染／反應性原因，再送周邊血 flow cytometry 看 CD5、CD23 判斷是否 CLL |
 
@@ -139,15 +172,18 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
 擬答：
 
 - **第一步：先判斷復發時間點，這會直接改變二線策略的選擇**
-  - 如果是**早期復發**（一線治療後 12 個月內復發或未達 CR）且病人適合接受 CAR-T，現在的證據（ZUMA-7 用 axi-cel、TRANSFORM 用 liso-cel）支持直接進入 **CAR-T 細胞治療**，已經取代傳統「先化療、再移植」的舊路徑，因為這個族群走傳統路徑的預後本來就差。
+  - 如果是**早期復發**（一線治療後 12 個月內復發或未達 CR）且病人適合接受 CAR-T，現在的證據（ZUMA-7 用 axi-cel、TRANSFORM 用 liso-cel）支持直接進入 **CAR-T 細胞治療**，已經取代傳統「先化療、再移植」的舊路徑，因為這個族群走傳統路徑的預後本來就差。講得出數字更好：ZUMA-7 相對 salvage + auto-HCT 的 EFS HR 0.40，而且是唯一有 **OS 獲益**的二線 CAR-T 試驗（HR 0.73，4 年 OS 54.6% vs 46%）；TRANSFORM 的 EFS 中位 29.5 vs 2.4 個月（HR 0.375），OS 未顯著是因為 66% 對照組交叉。
   - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：把「CAR-T 是新的二線標準」講成適用所有 CAR-T 產品——同樣設計的 BELINDA 試驗（用 tisagenlecleucel）並沒有顯示優於傳統路徑的結果，這個效益是特定產品（axi-cel、liso-cel）才有的證據，不是「只要是 CAR-T 就一定比較好」，回答時要記得加上這個限定條件。
   - 如果是**較晚復發**（超過 12 個月），傳統路徑仍然適用：先用挽救性化療（salvage chemotherapy）誘導緩解，再評估自體移植。
 - **第二步（適用於走傳統路徑的病人）：講出實際的挽救性 regimen 名字，不能只說「二線化療」**
   - 常見挽救性 regimen 包括 **R-ICE**（rituximab + ifosfamide + carboplatin + etoposide）、**R-DHAP**（rituximab + dexamethasone + high-dose cytarabine + cisplatin）、**R-GDP**（rituximab + gemcitabine + dexamethasone + cisplatin）。
-  - 這類挽救性化療的整體反應率（ORR）依方案與研究不同，大約落在四到六成五之間（如 CORAL 試驗中 R-ICE 64%、R-DHAP 63%；LY.12 試驗中 (R)-DHAP 45%、(R)-GDP 44%），不是隨口講一個「六到七成」的高反應率就能交代過去。
+  - 這類挽救性化療的整體反應率（ORR）依方案與研究不同，大約落在四到六成五之間（如 CORAL 試驗中 R-ICE 64%、R-DHAP 63%；LY.12 試驗中 (R)-GDP 45%、(R)-DHAP 44%，GDP 非劣且毒性較輕），不是隨口講一個「六到七成」的高反應率就能交代過去。
   - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：把挽救性化療的反應率講得太樂觀——實際上只有大約一半的病人能因反應夠好而真正走到自體移植這一步，另一半會因反應不足而轉向其他策略（如前面提到的第二線 CAR-T），這個「反應率不等於能移植的比例」的落差是常被忽略的細節。
 - **第三步：同時評估是否要收 stem cell、準備做 auto-PBSCT**
   - 走傳統挽救化療路徑的病人，治療階段要主動評估病人是否適合收集 stem cell、準備自體移植（auto-PBSCT），這是二線決策裡不能漏講的一環。
+- **第四步：不適合 CAR-T 也不適合移植的病人，二線走非強化方案，而且現在有 phase 3 證據**
+  - 能拿到 CAR-T 就用 liso-cel（PILOT，CR 54%）；拿不到就用 bispecific 為主的組合：**glofitamab + GemOx**（STARGLO 對 R-GemOx **OS 25.5 vs 12.9 個月，HR 0.62**，第一個 bispecific 加化療贏 OS 的 phase 3）、**mosunetuzumab + polatuzumab**（SUNMO 對 R-GemOx PFS 11.5 vs 3.8 個月，HR 0.41）、或 Pola-BR、tafasitamab + lenalidomide、loncastuximab + R（LOTIS-5 PFS HR 0.73）。
+  - 講 STARGLO 要主動補一句：FDA 2025 年 7 月以美國族群代表性不足發 CRL、EU 已核准，台灣核准與給付另查——這正是骨架第四層「證據 ≠ 可及性」的例子。
 
 <div class="callout callout-followup">
 <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
@@ -170,10 +206,11 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
 
 擬答：
 
-- **第一步：講出後線常見的新藥角色**（套框架第四層）
-  - CAR-T 細胞治療。
-  - Bispecific antibody。
-  - Antibody-drug conjugate（如 polatuzumab）。
+- **第一步：講出後線常見的新藥角色，而且講得出各自的數字與順序**（套框架第四層）
+  - 還沒用過 CAR-T 的病人優先 CAR-T（axi-cel、liso-cel、tisa-cel 都有三線適應症）；三個產品療效相近但毒性差很多：axi-cel CRS 88%、ICANS 52%，liso-cel CRS 43%、ICANS 21%（真實世界）。
+  - CAR-T 之後（或拿不到 CAR-T）用 CD20×CD3 bispecific antibody：**epcoritamab**（皮下，EPCORE NHL-1：CR 39–41%，CR 者中位持續 36 個月）、**glofitamab**（靜脈、固定 12 療程，NP30179：CR 40%）。要講順序：先 CAR-T 再 bispecific——CAR-T 失敗後 bispecific ORR 只有 43%、PFS 2.8 個月，反過來 bispecific 失敗不影響 CAR-T 反應。
+  - Antibody-drug conjugate：polatuzumab（Pola-BR，GO29365 對 BR OS 12.4 vs 4.7 個月）、loncastuximab（LOTIS-2 ORR 48%）；其他：tafasitamab + lenalidomide（L-MIND 5 年 CR 41%、中位 OS 33.5 個月）、BV + R2（ECHELON-3，FDA 2025）。
+  - Bispecific 的副作用管理是必問：CRS 多為 grade 1–2、集中在 cycle 1 的 step-up 期（epcoritamab 0.16 → 0.8 → 48 mg，高峰在第一次 full dose；glofitamab 先給 obinutuzumab 清周邊 B 細胞），grade 2 以上給 tocilizumab ± dexamethasone，神經毒性（ICANS）用類固醇、tocilizumab 無效。
 - **第二步：主動點出「藥證核准」跟「健保給付條件」不一定一致**
   - 只丟藥名不夠，要講出藥物核准適應症和健保實際給付條件之間可能存在落差。
   - 舉例：已經做過 auto-transplant 的病人，可能不符合特定新藥的健保給付資格，這種細節是加分點。
@@ -190,7 +227,7 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
 
 - **Follicular lymphoma**
   - 符合治療指徵時，常見的一線選擇是 **bendamustine + rituximab（BR）**，或 **R-CHOP**（rituximab + cyclophosphamide + doxorubicin + vincristine + prednisone），依病人年紀、共病、腫瘤負荷（tumor bulk）決定選哪一種；BR 的血液學毒性通常較輕，是許多病人的優先選擇。
-  - GELF criteria（判斷何時該啟動治療的標準，例如腫瘤體積大、多處淋巴結腫大、有全身症狀、血球低下等）建議至少知道大方向即可，不用逐字背誦——核心概念是「腫瘤負荷夠大或病人有症狀，才啟動治療；否則採取 watch and wait」。
+  - GELF criteria（判斷何時該啟動治療的標準：腫塊 ≥7 cm、≥3 處各 ≥3 cm、B symptoms、脾腫大、壓迫症狀、肋膜積液／腹水、血球低下、leukemic phase；LDH 或 β2M 上升屬後來修訂版）建議至少知道大方向即可——核心概念是「腫瘤負荷夠大或病人有症狀，才啟動治療；否則採取 watch and wait」，分岔是 GELF 而不是分期，廣泛期但低負荷、無症狀一樣可以觀察。
   - **原發腸胃道（如 small intestine）表現的預後**
     - **最佳答法**：這題要把「表現部位」跟「治療啟動與否」串成同一個判斷邏輯來回答，不要把兩者當成無關的兩個問題分開答。**依照** GELF criteria 背後「腫瘤負荷夠大或病人有症狀才啟動治療」這個核心邏輯，原發於腸胃道（尤其 duodenum/small intestine）的局部 follicular lymphoma，多半屬於腫瘤負荷低、無全身症狀的惰性族群，**因為**考官要聽的是你會不會把「部位侷限、無症狀」直接對應到「屬於惰性、預後好」，並主動接一句「這類病人常可以 watch and wait，不必因為看到 lymphoma 就急著治療」——這個對比（侷限型 vs. 廣泛期／有全身症狀）才是分數所在，只回答「follicular lymphoma 是惰性淋巴瘤」沒有把部位表現的意義講出來，等於沒有真正回答到題目問的東西。
 
@@ -215,6 +252,10 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
 - 「如果之後真的符合 GELF 治療啟動標準，一線治療怎麼選？」→ 依年紀、共病、腫瘤負荷選 BR 或 R-CHOP，見前面「Follicular lymphoma」條目。
 
 </div>
+- **Hodgkin lymphoma（常被拿來對照問）**
+  - **最佳答法**：先講「分期決定路線」再講近三年的一線改變。**依照**早期 vs 晚期分流：早期用 PET-adapted ABVD ± RT（HD16：favorable 省略放療 5 年 PFS 掉 7.5%，HD17：unfavorable 強化化療後 PET 陰性可省略），晚期（III–IV）一線已從 BV-AVD 走到 **nivolumab-AVD**。**因為**考官要聽的是你知道「新標準贏在哪個終點、代價是什麼」：S1826 對 BV-AVD 2 年 PFS 92% vs 83%（HR 0.42），老年耐受性明顯較好，FDA 2026 年 3 月核准；歐洲路線則是 HD21 用 BrECADD 取代 eBEACOPP（4 年 PFS 94.3% vs 90.9%、treatment-related morbidity 42% vs 59%）。BV-AVD 的 ECHELON-1 是第一個一線贏 OS 的試驗（6 年 OS 93.9% vs 89.4%，HR 0.59），現在被 N-AVD 取代為 preferred。復發先用 checkpoint inhibitor（KEYNOTE-204：pembrolizumab 對 BV PFS 13.2 vs 8.3 個月，HR 0.65）；移植後高風險者 BV 鞏固只贏 PFS（AETHERA HR 0.52）。
+- **Mantle cell lymphoma（BTKi 進一線之後）**
+  - **最佳答法**：用「年輕能不能省掉 ASCT、老年 BR 要不要加 BTKi、復發怎麼排」三個決策點回答。**依照** TRIANGLE：含 ibrutinib 的方案（ibrutinib + R-CHOP/R-DHAP → 2 年 ibrutinib 維持）4 年 FFS 82%，再加 ASCT 沒有額外好處（A+I vs I HR 0.86）只增毒性，所以年輕 MCL 可以不做 ASCT——但不含 BTKi 時 ASCT 仍是標準。老年一線 BR 加 **acalabrutinib**（ECHO：PFS 66.4 vs 49.6 個月，HR 0.73，FDA 2025 核准）；SHINE 的 ibrutinib + BR 雖 PFS 80.6 vs 52.9 個月，但治療期死亡較多、未獲核准。復發：ibrutinib + venetoclax（SYMPATICO：PFS 31.9 vs 22.1 個月，HR 0.63，CR 54% vs 32%）；BTKi 失敗後 brexu-cel（ZUMA-2：ORR 91%、CR 68%，中位 OS 46.5 個月）或 pirtobrutinib。**因為** TP53 突變是獨立決策點：化療與 ASCT 反應差，優先 BTKi-based 三合一（BOVen 2 年 PFS 72%）、CAR-T 或臨床試驗。
 - **Lymphoma 做移植的時機**
   - 不同機構的實務做法差異很大：有些機構偏向提早做移植，有些則是打到藥物選項用盡才做。
   - 考官通常是想了解你對「機構間做法沒有絕對對錯」這件事有沒有概念，而不是在考單一標準答案，回答時不需要堅持某一種做法才是唯一正確解。
@@ -264,7 +305,8 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
 <div class="callout callout-followup">
 <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>追問</div>
 
-- 「Flow cytometry 驗出 CD5、CD23 陽性、確診是 CLL，這個病人現在就要開始治療嗎？」→ 不一定，要看有沒有達到治療啟動指徵，邏輯上類似 follicular lymphoma 的 GELF criteria：低腫瘤負荷、無症狀可以觀察。
+- 「Flow cytometry 驗出 CD5、CD23 陽性、確診是 CLL，這個病人現在就要開始治療嗎？」→ 不一定，只看 iwCLL 活動性疾病指徵：進行性骨髓衰竭、有症狀或巨大的脾（≥6 cm）／淋巴結（≥10 cm）、淋巴球倍增時間 <6 個月、類固醇無效的 AIHA／ITP、B 症狀；單純淋巴球數高或高風險基因（TP53、IGHV 未突變）都**不是**指徵，CLL-IPI 是預後工具。邏輯上類似 follicular lymphoma 的 GELF criteria：低腫瘤負荷、無症狀可以觀察。
+- 「真的要治了，一線怎麼選？」→ 先看 TP53／del(17p) 與共病：TP53 異常用持續二代 BTKi（zanubrutinib、acalabrutinib；SEQUOIA arm C 5 年 PFS 70.7%）；其他人固定療程 12 個月 venetoclax-obinutuzumab（CLL14 中位 PFS 76.2 vs 36.4 個月；CLL13 4 年 PFS 81.8% vs 化免疫 62.0%）或 acalabrutinib + venetoclax（AMPLIFY，FDA 2026），持續 BTKi 也可以——CLL17（NEJM 2026）證明固定療程與持續 ibrutinib 3 年 PFS 都約 80%，差別在能不能停藥與 uMRD 深度。心血管共病避開 ibrutinib（ALPINE：zanubrutinib PFS HR 0.65、AF 7.1% vs 17.0%）。FCR 已退場（E1912 OS HR 0.47）。
 - 「這種『先臨床排除、再送進階檢驗』的答題順序，在其他 malignancy 的最初評估上也適用嗎？」→ 適用，這正是四層骨架第一層「診斷/分期先確認」的精神，順序錯了後面全部推翻。
 
 </div>
@@ -288,3 +330,9 @@ Malignancy 部分的口試重點不是背分類系統，而是**能不能把治�
 
 - 治療反應不理想時直接跳去換藥，沒有先套框架第 3 層想到「診斷本身可能需要重新確認」。
 - 講三線治療時只丟藥名，沒有意識到健保給付條件的限制（框架第 4 層）。
+- 把 POLARIX 講成 OS 獲益：5 年 OS 82.3% vs 79.5%、HR 0.85（CI 跨 1），只有 PFS 獲益，且 FDA 適應症限 IPI ≥2。
+- 把 BELINDA 陰性講成「tisa-cel 沒效」：主因是試驗設計，結論只是 tisa-cel 沒有二線適應症；也不能反過來把「CAR-T 是二線標準」講成所有產品都適用。
+- 把 STARGLO 講成 FDA 已核准的二線標準（2025-07 CRL），或把 bispecific 單藥講成延長存活（EPCORE DLBCL-1 OS HR 0.96 未達）。
+- Hodgkin 一線還在講「ABVD」：晚期已是 nivolumab-AVD（S1826）或 BrECADD（HD21）；MCL 年輕病人還在講「一定要 ASCT」：TRIANGLE 之後含 ibrutinib 的方案加 ASCT 沒有額外好處。
+- 說「rituximab 維持或 obinutuzumab 改善 FL 的 OS」：PRIMA、GALLIUM、RELEVANCE、BRIGHT 全部只贏 PFS。
+- CLL 把 VenR 當 VenO 的等價物（CLL13 中 VenR 對化免疫無顯著）；把 CLL-IPI 或 TP53 當治療指徵；把 CLL13／AMPLIFY 的結論套到 TP53 病人。
