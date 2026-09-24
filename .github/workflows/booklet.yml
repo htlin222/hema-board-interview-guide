@@ -46,5 +46,5 @@ jobs:
           tag=booklet-latest
           gh release view "$tag" >/dev/null 2>&1 \
             || gh release create "$tag" --title "A4 手冊 PDF（最新）" \
-                 --notes "由 main 分支的 src/booklet/ 自動建置。每張 A4 一個主題：第一性原理、MECE 分岔、速記表、破題關鍵句、容易被電；末尾五張為參考劑量總表（與主題頁「參考劑量」段落同源）。劑量為成人常規參考值，實際處方以仿單與最新指引為準。"
+                 --notes "由 main 分支的 src/booklet/ 自動建置。每張橫式 A4 一個主題：第一性原理、MECE 分岔、速記表、破題關鍵句、容易被電；末尾五張為參考劑量總表（與主題頁「參考劑量」段落同源）。劑量為成人常規參考值，實際處方以仿單與最新指引為準。"
           gh release upload "$tag" dist-booklet/hema-board-interview-booklet.pdf --clobber

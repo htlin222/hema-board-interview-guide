@@ -1,6 +1,6 @@
 ---
 import { marked } from 'marked';
-import { loadSheets, loadDoses } from '../../lib/booklet';
+import { loadSheets, loadDoses, layoutSheet } from '../../lib/booklet';
 
 // 手冊正文：每檔一張 A4
 const pageFiles = import.meta.glob('/src/booklet/pages/*.md', {
@@ -63,9 +63,10 @@ const total = sheets.length + doseSheets.length;
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>A4 手冊｜血液科口試走向指南</title>
 		<link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
-		<style>
+		<!-- is:global：內容是 set:html 塞進來的 Markdown，scoped 樣式套不到 -->
+		<style is:global>
 			@page {
-				size: A4;
+				size: A4 landscape;
 				margin: 0;
 			}
 			:root {
@@ -85,10 +86,10 @@ const total = sheets.length + doseSheets.length;
 				color: var(--ink);
 				font: 8pt/1.24 'PingFang TC', 'Heiti TC', 'Noto Sans TC', 'Noto Sans CJK TC', system-ui, sans-serif;
 			}
-			/* 每張 A4 固定尺寸；溢出時內容被裁掉，build_booklet.py 會量 scrollHeight 抓出來 */
+			/* 每張 A4 橫式固定尺寸；溢出時內容被裁掉，build_booklet.py 會量 scrollHeight 抓出來 */
 			.sheet {
-				width: 210mm;
-				height: 297mm;
+				width: 297mm;
+				height: 210mm;
 				margin: 12px auto;
 				padding: 8mm 8mm 7mm;
 				background: #fff;
@@ -176,6 +177,13 @@ const total = sheets.length + doseSheets.length;
 				font-weight: 700;
 				white-space: nowrap;
 			}
+			/* 斑馬紋：奇偶列不同灰底，橫式寬表格才對得上同一列 */
+			tbody tr:nth-child(odd) td {
+				background: #ffffff;
+			}
+			tbody tr:nth-child(even) td {
+				background: #efeff3;
+			}
 			td:first-child {
 				font-weight: 700;
 				min-width: 4.5em;
@@ -202,6 +210,16 @@ const total = sheets.length + doseSheets.length;
 			.two tr {
 				break-inside: avoid;
 			}
+			/* 並排兩段：寬度換高度 */
+			.pair {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: 5mm;
+				align-items: start;
+			}
+			.pair > section > h2:first-child {
+				margin-top: 5px;
+			}
 			.warn {
 				color: var(--warn);
 				font-weight: 700;
@@ -216,7 +234,7 @@ const total = sheets.length + doseSheets.length;
 				color: var(--muted);
 			}
 			.toolbar {
-				max-width: 210mm;
+				max-width: 297mm;
 				margin: 14px auto -4px;
 				display: flex;
 				gap: 8px;
@@ -269,7 +287,7 @@ const total = sheets.length + doseSheets.length;
 					</header>
 					<div class="content">
 						<div class="inner">
-							<Fragment set:html={render(s.body)} />
+							<Fragment set:html={layoutSheet(s.body, render)} />
 						</div>
 					</div>
 					<footer>

@@ -67,3 +67,38 @@ export function loadDoses(files: Record<string, string>): DoseTable[] {
 		.sort((a, b) => a.order - b.order)
 		.map(({ slug, title, body }) => ({ slug, title, body }));
 }
+
+/**
+ * 橫式 A4 的排版：把 body 依 `## ` 切成段落，各自包成 <section>。
+ * 並排規則（寬度換高度）：
+ * - 段落標題前一行寫 `<!-- pair -->`，這段與下一段並排成兩欄。
+ * - 「破題關鍵句」＋「容易被電」這兩個固定結尾段預設並排。
+ * 標題之前的內容（第一性原理框）照原樣輸出。
+ */
+export function layoutSheet(body: string, render: (md: string) => string): string {
+	const parts = body.split(/^(?=## )/m);
+	const lead = parts[0].startsWith('## ') ? '' : parts.shift()!;
+	const secs = parts.map((p) => {
+		const pairNext = /<!--\s*pair\s*-->\s*$/.test(p);
+		const md = p.replace(/<!--\s*pair\s*-->\s*$/, '');
+		const title = md.match(/^## (.+)$/m)?.[1] ?? '';
+		return { md, title, pairNext };
+	});
+	// lead 的結尾也可以放 pair 標記，指向第一段
+	const out: string[] = [];
+	if (lead.trim()) out.push(render(lead.replace(/<!--\s*pair\s*-->\s*$/, '')));
+	for (let i = 0; i < secs.length; i++) {
+		const s = secs[i];
+		const n = secs[i + 1];
+		const autoTail = n && /破題關鍵句/.test(s.title) && /容易被電/.test(n.title);
+		if (n && (s.pairNext || autoTail)) {
+			out.push(
+				`<div class="pair"><section>${render(s.md)}</section><section>${render(n.md)}</section></div>`,
+			);
+			i++;
+		} else {
+			out.push(`<section>${render(s.md)}</section>`);
+		}
+	}
+	return out.join('\n');
+}

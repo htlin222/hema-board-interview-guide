@@ -5,7 +5,7 @@
 # ///
 """把 /booklet/ 印成 A4 PDF，並檢查每一張有沒有溢出。
 
-先 `npm run build`，本腳本讀 dist/booklet/index.html。每張 .sheet 是固定 297mm 高、overflow hidden，
+先 `npm run build`，本腳本讀 dist/booklet/index.html。每張 .sheet 是固定 A4 橫式（297×210mm）、overflow hidden，
 所以溢出不會在 PDF 上多出一頁、而是被裁掉——這裡直接量 scrollHeight 與 clientHeight，
 超過就列出頁碼與超出的 px，並以非零 exit code 結束，讓 CI 擋下來。
 
@@ -79,6 +79,7 @@ def main() -> int:
             page.pdf(
                 path=str(OUT_FILE),
                 format="A4",
+                landscape=True,
                 print_background=True,
                 prefer_css_page_size=True,
                 margin={"top": "0", "right": "0", "bottom": "0", "left": "0"},

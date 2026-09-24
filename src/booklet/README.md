@@ -1,6 +1,6 @@
 # A4 手冊（booklet）寫作規範
 
-`src/booklet/pages/*.md` 每一個檔案 = 一張 A4。由 `src/pages/booklet/index.astro` 依檔名順序渲染成 `/booklet/`，
+`src/booklet/pages/*.md` 每一個檔案 = 一張**橫式** A4（297×210 mm）。由 `src/pages/booklet/index.astro` 依檔名順序渲染成 `/booklet/`，
 再由 `scripts/build_booklet.py` 印成 PDF 並檢查每一頁有沒有溢出。
 
 `src/booklet/doses/*.md` 是**藥物參考劑量的唯一來源**：手冊末尾的劑量總表由它拼出來，
@@ -31,9 +31,16 @@ site: iron-deficiency-anemia      # 對應主題頁 slug，可省略
 - 三到五條，一行一條
 ```
 
+## 版面：橫式、斑馬紋、並排
+
+- 橫式是為了讓表格多放幾欄、一列不折行；表格奇偶列自動不同灰底，方便橫向對齊同一列。
+- 高度比直式少三成，所以用寬度換高度：「破題關鍵句」＋「容易被電」兩段自動並排成兩欄。
+- 其他短段落要並排時，在該段 `## ` 標題**之前**的段落結尾寫一行 `<!-- pair -->`，這段就會跟下一段並排（見 `src/lib/booklet.ts` 的 `layoutSheet`）。
+- 樣式是 `is:global`：內容是 Markdown 轉出後用 set:html 塞進去的，scoped 樣式套不到。
+
 ## 密度與長度
 
-- 字體 8pt、表格 7.1pt，A4 單頁扣掉邊界約可容 **1,500–1,900 個中文字**（含表格）。寫完一定要跑 `npm run build && npm run build:booklet`，溢出的頁會被腳本點名。
+- 字體 8pt、表格 7.1pt。寫完一定要跑 `npm run build && npm run build:booklet`，溢出的頁會被腳本點名。
 - 只用表格與條列，不寫段落。一格最多兩句。
 - 擬答、影片、「依照…因為…」的說理不進手冊——那些留在網站。手冊留的是**能自己生出答案的東西**：第一性原理、分岔、切點數字、破題句、陷阱。
 - 可以用 `<div class="two">…</div>` 把一段排成兩欄；表格通常不要放進兩欄。

@@ -24,7 +24,8 @@ const render = (s: string) => marked.parse(stripIcons(s), { async: false }) as s
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>{entry.data.title}｜一頁速查</title>
 		<link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
-		<style>
+		<!-- is:global：內容是 set:html 塞進來的 Markdown，scoped 樣式套不到 -->
+		<style is:global>
 			@page {
 				size: A4;
 				margin: 8mm 8mm;
