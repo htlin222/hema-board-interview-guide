@@ -36,7 +36,7 @@ VIDEO_H2 = re.compile(r"^## (?:<svg[\s\S]*?</svg>\s*)?相關 YouTube 影片", re
 NOTE = (
     "成人常規參考劑量，用來答「數量級、途徑、頻率、要監測什麼」；"
     "實際處方以仿單、健保規定與最新指引為準，特殊族群另行查核。"
-    "與 [A4 手冊](/hema-board-interview-guide/booklet/) 的劑量總表同源。"
+    "與 [A4 手冊](https://htlin222.github.io/hema-board-interview-guide/booklet/) 的劑量總表同源。"
 )
 
 
