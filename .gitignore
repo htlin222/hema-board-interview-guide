@@ -7,3 +7,5 @@ dist-epub/
 dist-audio/
 dist-booklet/
 dist-fork*/
+dist-base/
+dist-v-*/

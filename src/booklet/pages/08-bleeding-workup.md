@@ -13,17 +13,17 @@ site: bleeding-workup-hemophilia
 | 一 出血型態 | 病史裡的出血是表淺立即，還是深層延遲？ | **Primary**：黏膜／皮膚、發生快、表淺傷口流不停（瘀點、鼻血、牙齦、月經過多） | 查血小板數量／功能、vWF |
 | 一 出血型態 | 同上 | **Secondary**：深層組織／關節、延遲數小時才腫、hemarthrosis | 查 PT／aPTT、因子活性 |
 | 二 pathway | PT、aPTT 哪一個延長？ | 四種組合（下表） | 鎖定哪一段的因子 |
-| 三 mixing | 異常會不會被正常血漿稀釋掉？ | **Correctable**＝缺量 → 驗因子活性 | 補充治療方向 |
-| 三 mixing | 同上 | **Not correctable**＝有東西在擋 → inhibitor → Bethesda | 找 inhibitor、免疫抑制 |
+| 三 mixing | 異常會不會被正常血漿稀釋掉？ | **Correctable**（0h 與 2h 都矯正）＝缺量 → 驗因子活性 | 補充治療方向 |
+| 三 mixing | 同上 | **Not correctable**（任一時間點不矯正）＝有東西在擋 → inhibitor → Bethesda | 找 inhibitor、免疫抑制 |
 
 ## 框架二：PT／aPTT 四種組合
 
 | PT | aPTT | 測到哪裡 | 要列出的鑑別（依機轉排序） |
 | --- | --- | --- | --- |
-| 正常 | 延長 | Intrinsic 獨有：XII、XI、IX、VIII（common 沒事） | 缺量：hemophilia A（VIII）、B（IX）、XI、XII（不出血）；vWD（vWF 保護 FVIII，間接拉長）；抑制物：acquired hemophilia；<span class="warn">lupus anticoagulant——延長 aPTT 但臨床是血栓不是出血</span> |
+| 正常 | 延長 | Intrinsic 獨有：XII、XI、IX、VIII（common 沒事） | 缺量：hemophilia A（VIII）、B（IX）、XI、XII（不出血）；vWD（vWF 保護 FVIII，間接拉長）；抑制物：acquired hemophilia、heparin；<span class="warn">lupus anticoagulant——延長 aPTT 但臨床是血栓不是出血</span> |
 | 延長 | 正常 | Extrinsic 獨有：VII | FVII 半衰期最短 → 早期肝病、vitamin K 缺乏、warfarin 最先反映在 PT |
 | 延長 | 延長 | Common：X、V、II、fibrinogen；或多重因子 | 單一 common 因子缺乏少見；重點是多重因子：**消耗**（DIC，fibrinogen↓、D-dimer↑）→ **合成不良**（嚴重肝病、vit K 缺乏／warfarin：II、VII、IX、X）→ **稀釋**（大量輸液／輸血） |
-| 正常 | 正常 | 兩條路都沒事 | 回頭走框架一：血小板數量／功能、vWD、血管性（補充：FXIII 缺乏、α2-antiplasmin 缺乏） |
+| 正常 | 正常 | 兩條路都沒事 | 回頭走框架一：血小板數量／功能、vWD（輕度不拉長 aPTT）、血管性（補充：FXIII、α2-antiplasmin、PAI-1 缺乏；低於試劑敏感度的輕度因子缺乏） |
 
 ## 框架三：mixing study 判讀
 
@@ -31,7 +31,7 @@ site: bleeding-workup-hemophilia
 | --- | --- | --- | --- |
 | 矯正 | 矯正 | 缺量 → 因子缺乏 | 驗 FVIII／FIX／FXI 活性；疑 vWD 加 vWF antigen ＋ activity |
 | 矯正 | 不矯正 | Time／temperature-dependent inhibitor | Bethesda assay → acquired hemophilia（anti-FVIII） |
-| 不矯正 | 不矯正 | 立即作用型 inhibitor | 鑑別 lupus anticoagulant：不降單一因子活性；dRVVT 確認（補充） |
+| 不矯正 | 不矯正 | 立即作用型 inhibitor | 鑑別 lupus anticoagulant：一段式因子活性可被假性壓低（改 chromogenic）；dRVVT 確認（補充） |
 | Control 組也延長 | — | 技術性問題：檢體處理不當、factor degradation | 不是 inhibitor，重採 |
 
 ## 確診因子缺乏後還要驗什麼
@@ -40,7 +40,7 @@ site: bleeding-workup-hemophilia
 | --- | --- | --- |
 | FVIII、FIX、FXI 活性 | 確診並分型（A／B／C） | 優先——跟臨床出血風險走 |
 | FXII | 會延長 aPTT，臨床不出血 | 不急著驗 |
-| vWF antigen ＋ vWF activity（ristocetin cofactor） | FVIII 低可能是 vWF 保護不足的繼發結果 | 疑 vWD 一定加驗，不能只看 FVIII |
+| vWF antigen ＋ vWF activity（ristocetin cofactor／GPIbM） | FVIII 低可能是 vWF 保護不足的繼發結果 | 疑 vWD 一定加驗，不能只看 FVIII |
 | 血小板功能（PFA-100、aggregation）（補充） | PT／aPTT 正常但黏膜出血 | 框架一 primary 那一支 |
 
 ## 破題關鍵句

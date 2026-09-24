@@ -4,14 +4,14 @@ kicker: 03 · 貧血
 site: hemolytic-anemia-basics
 ---
 
-<div class="fp"><b>第一性原理</b>　脾臟是「破壞場所」，不是「缺陷所在」：膜缺陷（HS）切脾只拿掉破壞場所，缺陷還在；PNH 是補體抑制蛋白掉了，所以溶血、血栓、骨髓衰竭三組表現同源；輸血把「別人的抗原＋鐵」帶進來，急性反應看抗原、慢性併發症看鐵。</div>
+<div class="fp"><b>第一性原理</b>　脾臟是「破壞場所」，不是「缺陷所在」：膜缺陷（HS）切脾只拿掉破壞場所，缺陷還在；PNH 是補體抑制蛋白掉了，所以溶血、血栓、骨髓衰竭三組表現同源；輸血把「別人的抗原＋鐵」帶進來，急性反應看抗原與容積、慢性併發症看鐵與抗體。</div>
 
 ## Hereditary spherocytosis：Coombs 陰性的 spherocyte
 
 | 層 | 問什麼 | 內容 |
 | --- | --- | --- |
-| 確診 | Coombs 陰性後怎麼確認？ | 家族史（約 75% 體染色體顯性；25% 隱性或 de novo，**無家族史不能排除**）、脾腫大、osmotic fragility test 或 EMA binding test |
-| 要不要切脾 | 嚴重度分級，不是無條件 | 輕症（貧血輕、無症狀）→ 觀察，追 Hb／retic／bilirubin，常規補 folic acid（慢性溶血耗葉酸）；中重度／反覆輸血／症狀性貧血／膽色素結石／生長受影響 → 建議切脾 |
+| 確診 | Coombs 陰性後怎麼確認？ | 家族史（約 75% 體染色體顯性；25% 隱性或 de novo，**無家族史不能排除**）＋spherocyte／MCHC↑／retic↑ 即可診斷；不典型才加 EMA binding 或 cryohemolysis（osmotic fragility 不建議常規） |
+| 要不要切脾 | 嚴重度分級，不是無條件 | 輕症（貧血輕、無症狀）→ 觀察，追 Hb／retic／bilirubin，常規補 folic acid（慢性溶血耗葉酸）；重度 → 切脾；中度且輸血依賴／症狀性貧血／膽色素結石／生長受影響 → 考慮切脾 |
 | 病人拒絕手術 | 保留脾臟的代價 | 持續溶血、疲勞、膽結石↑；加強感染預防與長期追蹤 |
 | 一句話 | 切脾治的是「溶血」這個結果 | 不矯正膜缺陷本身，所以由嚴重度決定，不是必要處置 |
 
@@ -19,7 +19,7 @@ site: hemolytic-anemia-basics
 
 | 機轉鏈 | 後天造血幹細胞 PIGA 突變 → GPI-anchored 蛋白（CD55、CD59）缺失 → 紅血球對補體攻擊脆弱 |
 | --- | --- |
-| 血管內溶血 | 清晨茶色尿（夜間相對酸中毒促進補體活化）、疲倦、黃疸、LDH↑；MCV 分類落 normocytic |
+| 血管內溶血 | 清晨茶色尿（「夜間酸中毒」是舊假說，勿當定論）、疲倦、黃疸、LDH↑；MCV 分類落 normocytic |
 | 血栓傾向 | 靜脈血栓、**不典型部位**：肝靜脈（Budd-Chiari）、腦靜脈竇——主要死因之一，問診與影像要主動往這想 |
 | 骨髓衰竭 | 與 aplastic anemia 重疊／互相轉化，可合併 cytopenia |
 | 診斷（補充） | Flow cytometry 測 CD55／CD59 缺失（FLAER），不是 Coombs |
@@ -29,17 +29,17 @@ site: hemolytic-anemia-basics
 | 時間軸 | 併發症 | 要講出來的重點 |
 | --- | --- | --- |
 | 立即～術後 | 反應性 thrombocytosis、血栓（含 portal vein thrombosis） | 脾臟調節部分凝血因子與血球的功能被移除；視情況評估抗血小板／抗凝 |
-| 終身 | OPSI（overwhelming post-splenectomy infection） | 對莢膜菌清除力↓：肺炎鏈球菌、腦膜炎雙球菌、b 型流感嗜血桿菌；術前或術後儘早補疫苗、衛教發燒立刻就醫、部分病人預防性抗生素 |
-| 長期（爭議） | 肺動脈高壓 | 觀察到相關性，但 ESC/ERS 2022 已將「脾臟切除」移出 Group 5；可能是原本溶血疾病（thalassemia、鐮刀型）本身造成——講「有相關、因果未確立」 |
+| 終身 | OPSI（overwhelming post-splenectomy infection） | 對莢膜菌清除力↓：肺炎鏈球菌、腦膜炎雙球菌、b 型流感嗜血桿菌；術前 ≥2 週或術後 ≥14 天補疫苗（肺炎鏈球菌、MenACWY＋MenB、Hib，每年流感）、衛教發燒立刻就醫、部分病人預防性抗生素 |
+| 終身（因果爭議） | 肺動脈高壓 | 觀察到相關性；WSPH 2018／ESC/ERS 2022 已將「脾臟切除」移出 Group 5，改列 CTEPH（Group 4）危險因子；可能是原本溶血疾病（thalassemia、鐮刀型）本身造成——講「有相關、因果未確立」 |
 
 ## 輸血反應：急性看抗原與容積，慢性看鐵與抗體
 
 | 反應 | 時機 | 機轉／鑑別重點 |
 | --- | --- | --- |
-| 急性溶血反應 | 輸血當下 | 多為 ABO 不合；發燒、腰痛、血尿，可致命；強調 crossmatch 與床邊核對病人與血袋 |
+| 急性溶血反應 | 急性（輸血當下） | 多為 ABO 不合；發燒、腰痛、血尿，可致命；強調 crossmatch 與床邊核對病人與血袋 |
 | 發燒性非溶血反應（FNHTR） | 急性 | 最常見之一；白血球釋放細胞激素 |
 | 過敏 | 急性 | 蕁麻疹到 anaphylaxis；嚴重過敏想 **IgA 缺乏症** |
-| TRALI vs TACO | 急性 | 都是呼吸困難：TRALI＝免疫機轉肺損傷（非心因性）；TACO＝容積過載（心因性）；靠病史、理學、影像分 |
+| TRALI vs TACO | 急性 | 都是呼吸困難：TRALI＝6 h 內、供者抗 HLA／HNA 抗體致肺損傷（非心因性）；TACO＝12 h 內（ISBT 2018）、容積過載（BNP↑、高血壓、利尿劑有效） |
 | 鐵過載 | 慢性（多次輸血） | 每單位 PRBC 含鐵、人體無主動排鐵機制，累積肝→心→內分泌；追 ferritin、視情況 chelation（見 05 頁）——**只答急性反應是最常見失分** |
 | Alloimmunization | 慢性 | 對紅血球抗原產生抗體：配血更難、延遲性溶血反應風險↑ |
 

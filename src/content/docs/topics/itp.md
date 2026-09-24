@@ -15,11 +15,11 @@ sidebar:
 
 | 藥物 | 情境 | 參考劑量 | 備註（監測、調整） |
 | --- | --- | --- | --- |
-| Prednisone | 成人一線 | 1 mg/kg/day（0.5–2）PO 1–2 週後逐步減量，總療程不超過 6–8 週 | 治療門檻：plt <20–30 ×10⁹/L 或有出血；只有皮膚出血且 plt 較高可觀察 |
+| Prednisone | 成人一線 | 1 mg/kg/day（0.5–2）PO 1–2 週後逐步減量，總療程（含減量）≤6 週 | 治療門檻：plt <30 ×10⁹/L 或有出血；只有皮膚出血且 plt 較高可觀察 |
 | Dexamethasone | 成人一線替代 | 40 mg/day PO ×4 天，可重複 1–3 個療程 | 反應較快，長期緩解率與 prednisone 相近 |
-| IVIG | 需快速拉高（出血、術前） | 1 g/kg/day ×1–2 天（或 0.4 g/kg/day ×5 天） | 升高 1–3 天內見效，維持 2–4 週；監測腎功能、頭痛、血栓 |
+| IVIG | 需快速拉高（出血、術前） | 1 g/kg/day ×1–2 天（或 0.4 g/kg/day ×5 天） | 1–3 天內見效，維持 1–4 週；監測腎功能、頭痛、血栓 |
 | Anti-D | Rh(D) 陽性、未切脾 | 50–75 μg/kg IV 單次 | 補充：溶血風險，Coombs 陽性者禁用 |
-| TPO-RA | 二線 | Eltrombopag 50 mg PO 每日（**東亞裔起始 25 mg**）；romiplostim 1 μg/kg SC 每週，每週調 1 μg/kg 至上限 10；avatrombopag 20 mg 每日 | 目標 plt ≥50；eltrombopag 空腹、避開鈣鐵乳製品 4 小時；追肝功能 |
+| TPO-RA | 二線 | Eltrombopag 50 mg PO 每日（**東亞裔起始 25 mg**）；romiplostim 1 μg/kg SC 每週，每週調 1 μg/kg 至上限 10；avatrombopag 20 mg 每日（補充） | 目標 plt ≥50；eltrombopag 空腹、避開鈣鐵乳製品 4 小時；追肝功能 |
 | Rituximab | 二線 | 375 mg/m² IV 每週 ×4（低劑量 100 mg ×4 亦有人用） | HBV 篩檢（HBsAg、anti-HBc），帶原者預防性 entecavir |
 | Fostamatinib | 後線（補充） | 100 mg PO bid，4 週未達標增至 150 mg bid | 高血壓、腹瀉、ALT |
 | 脾臟切除 | 慢性（診斷 ≥12 個月）藥物無效 | 術前疫苗見溶血表 | 兒童盡量延後到 ≥5 歲 |
@@ -47,14 +47,14 @@ sidebar:
 
 **ITP 確診的兩步驟與排除清單（對應「ITP 怎麼確診」、Evans、drug-induced 三題）**
 
-| 要排除的診斷   | 用什麼線索抓它                                   | 現場要講的動作                 |
-| -------------- | ------------------------------------------------ | ------------------------------ |
-| 生產端疾病     | 骨髓 megakaryocyte 數量正常或增加                | 第一步：先驗證骨髓生產端沒問題 |
-| TTP            | 有沒有合併 hemolysis／schistocytes、器官缺血表現 | 第二步起，逐一排除周邊破壞清單 |
-| DIC            | 有沒有合併 hemolysis                             | 同上                           |
-| Drug-induced   | 主動問用藥史；停藥後血小板回升可支持             | 不等考官提示就自己問藥物史     |
-| Evans syndrome | 有沒有合併貧血、抹片上有沒有 NRBC                | 看到血小板極低要主動追問這兩項 |
-| 以上都排除後   | 沒有任何 checkpoint test 能直接驗出 ITP          | 結論句：剩下的才叫 ITP         |
+| 要排除的診斷   | 用什麼線索抓它                                                                                                          | 現場要講的動作                 |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
+| 生產端疾病     | 典型者 CBC 只有血小板低、抹片無 blast／dysplasia 即可推定；不典型、治療無效或脾切前才做骨髓（megakaryocyte 正常或增加） | 第一步：先驗證生產端沒問題     |
+| TTP            | 有沒有合併 hemolysis／schistocytes、器官缺血表現                                                                        | 第二步起，逐一排除周邊破壞清單 |
+| DIC            | 有沒有合併 hemolysis                                                                                                    | 同上                           |
+| Drug-induced   | 主動問用藥史；停藥後血小板回升可支持                                                                                    | 不等考官提示就自己問藥物史     |
+| Evans syndrome | 有沒有合併貧血與溶血證據（retic↑、spherocyte）、DAT 陽性                                                                | 看到血小板極低要主動追問       |
+| 以上都排除後   | 沒有任何 checkpoint test 能直接驗出 ITP                                                                                 | 結論句：剩下的才叫 ITP         |
 
 **兒童 vs 成人 ITP（對應兒童對比題）**
 
@@ -70,7 +70,7 @@ sidebar:
 - **考官問「ITP 怎麼確診」時，要完整講出「排除性診斷」背後的兩步驟邏輯，而不是只丟一句「ITP 是排除性診斷」**
   - **最佳答法**：這題最好的切入點是先破題講「ITP 沒有一個 checkpoint test 能直接驗出來」，再按順序交代兩步驟，而不是把「排除性診斷」四個字當結論丟出來就結束。**依照**開頭「thrombocytopenia 先分做不出來還是被破壞掉」的推理架構，回答順序必須先驗證骨髓生產端（megakaryocyte 數量正常或增加），確立走的是「周邊被破壞」這條路，才進入第二步逐一排除同路徑上的 TTP、DIC、drug-induced、Evans syndrome。**因為**考官問「怎麼確診」考的不是背知識而是有沒有推理過程，只回答「ITP 是排除性診斷」這句空話等於沒有套框架，講出「先驗證生產端、再排除周邊清單」這兩步的先後順序，才是真正展現出把開頭那套分流邏輯內化、而不是死背術語的差別。
   - 破題先講清楚：ITP 沒有任何一個「驗出來就是它」的 checkpoint test，診斷是靠邏輯推理排除出來的，不是靠某一項檢查陽性。
-  - 第一步：確認骨髓生產端沒問題——骨髓穿刺看 megakaryocyte 數量正常或增加，代表血小板不是「做不出來」。
+  - 第一步：確認骨髓生產端沒問題——典型病人 CBC 只有血小板低、其他兩系與抹片正常，就可推定不是「做不出來」（ASH 2019 不建議典型 ITP 常規做骨髓）；不典型、治療無效或考慮脾切時才骨髓穿刺，看 megakaryocyte 正常或增加。
   - 第二步：在生產端正常的前提下，逐一排除同一條「周邊被破壞」路徑上的其他可能，包括 TTP、DIC、drug-induced thrombocytopenia、Evans syndrome。
   - 結論句：只有在骨髓生產端驗證正常、且上述周邊破壞機轉都排除之後，剩下的才叫 ITP。
   - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 陷阱：只回答「ITP 要排除其他疾病」這種空話會被當成沒有套框架——一定要講出「先驗證骨髓生產正常、再排除周邊破壞機轉清單」這兩步驟的完整邏輯，才算是有推理過程的答案。
@@ -91,16 +91,16 @@ sidebar:
 </div>
 
 - **遇到「血小板低下、周邊抹片幾乎看不到血小板」的情境題**
-  - **最佳答法**：這題最好先講出第一直覺（周邊看不到血小板高度提示 ITP），但答題的重心要放在後面主動追問的動作，而不是把「這是 ITP」講完就結束。**依照**開頭「周邊被破壞」這條路徑上還有其他鑑別（TTP、DIC、drug-induced、Evans syndrome）的邏輯，看到血小板極低要繼續往下問有沒有貧血、抹片上有沒有 NRBC，這是在同一條路徑上做進一步分流，確認紅血球有沒有一起被破壞。**因為**光講「這是 ITP」鑑別度很低，幾乎每個人都能講出這一步，考官真正要看的是會不會主動往 Evans syndrome 延伸——這代表懂得 ITP 的鑑別診斷不是單點診斷，而是一個要持續排查的清單，漏掉這一步就等於鑑別診斷做半套。
+  - **最佳答法**：這題最好先講出第一直覺（周邊看不到血小板高度提示 ITP），但答題的重心要放在後面主動追問的動作，而不是把「這是 ITP」講完就結束。**依照**開頭「周邊被破壞」這條路徑上還有其他鑑別（TTP、DIC、drug-induced、Evans syndrome）的邏輯，看到血小板極低要繼續往下問有沒有貧血、有沒有溶血證據、DAT 是否陽性，這是在同一條路徑上做進一步分流，確認紅血球有沒有一起被破壞。**因為**光講「這是 ITP」鑑別度很低，幾乎每個人都能講出這一步，考官真正要看的是會不會主動往 Evans syndrome 延伸——這代表懂得 ITP 的鑑別診斷不是單點診斷，而是一個要持續排查的清單，漏掉這一步就等於鑑別診斷做半套。
   - 第一反應：這個組合高度提示 ITP（周邊破壞導致血小板數量極低但骨髓生產正常）。
-  - 但不能停在這裡，要主動追問／檢查有沒有合併其他線索：是否同時有貧血、周邊血液抹片上是否看到 NRBC（nucleated RBC）。
+  - 但不能停在這裡，要主動追問／檢查有沒有合併其他線索：是否同時有貧血與溶血證據（retic 上升、spherocyte），並驗 DAT（Coombs）；抹片上的 NRBC 可當線索，但不是 Evans 的典型表現。
   - 若合併上述線索，代表紅血球也同時被破壞，要提高警覺這其實是 Evans syndrome（ITP 合併自體免疫性溶血性貧血），而不是單純 ITP。
   - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 陷阱：只回答「這是 ITP」就結束作答，沒有主動提出要找 Evans syndrome 的伴隨線索，會被認為鑑別診斷做得不夠完整。
 
 <div class="callout callout-keywords">
 <div class="callout-title"><svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>破題關鍵句</div>
 
-「周邊看不到血小板高度提示 ITP，但我還要主動問有沒有貧血、抹片上有沒有 NRBC，排除紅血球也一起被破壞的 Evans syndrome。」
+「周邊看不到血小板高度提示 ITP，但我還要主動問有沒有貧血、有沒有溶血證據、DAT 是否陽性，排除紅血球也一起被破壞的 Evans syndrome。」
 
 </div>
 

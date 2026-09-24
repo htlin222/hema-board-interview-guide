@@ -11,28 +11,27 @@ site: aml-mds-cml
 | 層 | 問什麼 | 分支（互斥、窮盡） | 決定了什麼 |
 | --- | --- | --- | --- |
 | 1 診斷／分期 | 確定是它、有多壞？ | 臨床→骨髓→flow 定 lineage→cytogenetics／分子；分期或風險分數 | 起手強度；這層錯，後面全部推翻 |
-| 2 一線 | 依分層選強度 | 高風險／fit → intensive；低風險／unfit → less intensive 或觀察 | 不是所有人打同一種 regimen |
+| 2 一線 | 要不要治看病、多強看人 | 無症狀低風險 → 觀察；需治療 × fit → intensive；需治療 × unfit → less intensive | 不是所有人打同一種 regimen |
 | 3 反應差 | 先問「診斷對不對」，再問「換不換藥」 | 分數不支持效果差 → 回頭 review 病理、補檢查；診斷確定 → 才換線 | 考官最愛設的陷阱 |
 | 4 後線 | 療效證據 ＋ 給付限制 | 新藥（CAR-T、bispecific、ADC）；藥證核准 ≠ 健保給付 | 只丟藥名是零分答案 |
 
 ## AML 第一個問題：誘導給多強？——判準是 fitness，不是年齡
 
-| 分岔 | 內容 | 結論 |
+| 分岔（先問 fit，再問生物學） | 內容 | 結論 |
 | --- | --- | --- |
-| Unfit（Ferrara criteria） | ECOG PS ≥3；EF ≤50%；DLCO 或 FEV1 ≤65%（或需氧）；需腎替代治療；Child-Pugh B/C；難治性感染；需住院的精神疾病 | 不建議 7+3（cytarabine + anthracycline） |
-| 年齡 | >75 歲為 7+3 的**相對**禁忌，不是絕對 | 年齡只是 fitness 的一個代理指標 |
-| Fit 但生物學不良 | TP53 突變、複雜核型：誘導緩解率或許可，長期預後仍差 | **fit ≠ 獲益**，趨勢改用 venetoclax + HMA 或標靶取代 7+3 |
-| 現代問法 | 從「誰撐得住」變成「誰真的能從強化療獲益」 | 講出這個轉變＝讀的是近幾年的東西 |
+| Unfit（Ferrara 任一項） | 年齡 ≥75（單獨存在只是**相對**禁忌，年齡是 fitness 的代理指標）；ECOG PS ≥3；EF ≤50%；DLCO 或 FEV1 ≤65%（或需氧）；需腎替代治療；Child-Pugh B/C；難治性感染；需住院的精神疾病 | 不建議 7+3（cytarabine + anthracycline） |
+| Fit 但生物學不良 | TP53 突變、複雜核型：誘導緩解率或許可，長期預後仍差 | **fit ≠ 獲益**（現代問法：誰真的能從強化療獲益），趨勢改用 venetoclax + HMA 或標靶取代 7+3 |
+| Fit × 其餘（補充） | 非上述生物學 | 標準 7+3 誘導 |
 
 ## AML 第二個問題：緩解後要不要移植？——ELN 2022 × MRD × TRM
 
 | ELN 2022 分層 | 定義要點 | CR1 移植？ | MRD 怎麼改變決定 |
 | --- | --- | --- | --- |
 | Favorable | CBF（t(8;21)、inv(16)）、NPM1 mut／FLT3-ITD wt、CEBPA bZIP in-frame | **不建議**；首選 HiDAC 鞏固 3–4 療程或 auto-HCT | MRD 持續陽性（CBF 未達 3-log 下降、NPM1 MRD+）→ 轉 allo-HCT |
-| Intermediate | 不屬於上下兩類者（含 FLT3-ITD 不論 NPM1） | 無共識，個別化 | MRD 陰性 → 化療／auto 即可；MRD 陽性 → allo-HCT |
-| Adverse | TP53、複雜／單體核型、−5／−7、inv(3)、KMT2A 重排等 | **CR1 即移植**，不論 MRD | 除非 TRM 過高（HCT-CI 量化共病） |
+| Intermediate | 不屬於上下兩類者（含 FLT3-ITD 不論 NPM1／allelic ratio、t(9;11)） | 無共識，個別化 | MRD 陰性 → 化療／auto 即可；MRD 陽性 → allo-HCT |
+| Adverse | TP53（VAF ≥10%）、複雜／單體核型、−5／−7、inv(3)、KMT2A 重排（t(9;11) 除外）、MDS 相關基因突變（ASXL1、RUNX1 等 9 個） | **CR1 即移植**，不論 MRD | 除非 TRM 過高（HCT-CI 量化共病） |
 | 整體門檻 | 不移植的復發風險 **>35%** 才拿去對沖 TRM | — | MRD 陰性者 NRM 上升可能抵消甚至反轉效益：移植不是越早越好 |
-| 其他變項 | 年齡、共病（HCT-CI）、donor 可及性與配對、中心經驗、病人意願 | — | 支持數據：依此策略移植者 3 年 OS 較佳（favorable HR 0.38、intermediate 0.53、adverse 0.51） |
+| 橫跨三層的修正因子 | 年齡、共病（HCT-CI）、donor 可及性與配對、中心經驗、病人意願 | — | 支持數據：依此策略移植者 3 年 OS 較佳（favorable HR 0.38、intermediate 0.53、adverse 0.51；Zhang, Cancer 2025, n=769） |
 
 ## 診斷層共通處置
 

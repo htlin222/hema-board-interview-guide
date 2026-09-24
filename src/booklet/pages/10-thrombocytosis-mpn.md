@@ -13,7 +13,7 @@ site: thrombocytosis-mpn
 | 一 | 找得到外部誘因嗎？（IDA、感染、發炎、post-splenectomy、malignancy paraneoplastic、急性失血、組織損傷） | **找得到** → reactive：矯正誘因（例如補鐵）後追蹤 platelet 是否下降 | 不驗基因 |
 | 一 | 同上 | **找不到** → 往 clonal 走 | 進第二層；一開口就驗基因＝順序錯 |
 | 二 | 抹片 WBC differential 長什麼樣？ | **Basophilia ＋ left shift ＋ myeloblast 到 segmented 各成熟階段同時出現** → CML | 特異度高，不用等基因；驗 BCR-ABL1 |
-| 二 | 同上 | **Differential 大致正常，異常只在血小板數** → ET／其他 MPN | 進第三層 |
+| 二 | 同上 | **沒有上述左移圖像** → ET／其他 MPN（PV 看 Hb、PMF 看 teardrop） | 進第三層；BCR::ABL1 陰性仍是 ET 診斷必要條件 |
 | 三 | 驅動基因 JAK2、CALR、MPL 哪個陽性？ | **任一陽性** → clonal 確立 | 同一條 JAK-STAT 路徑的三個入口 |
 | 三 | 同上 | **三個都陰性（triple-negative，約一成）** | 不能因基因陰性排除 ET；靠骨髓切片與 WHO 準則 |
 

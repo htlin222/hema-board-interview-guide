@@ -18,9 +18,9 @@ site: hemolytic-anemia-basics
 
 | retic ＼ MCV | Microcytic（血紅素合成鏈壞掉） | Normocytic | Macrocytic（DNA 合成／成熟壞掉） |
 | --- | --- | --- | --- |
-| 低（做不出來） | 缺鐵（最常見）、thalassemia trait、anemia of chronic disease（部分）、鉛中毒、sideroblastic anemia | ACD、腎性貧血、骨髓浸潤／再生不良、早期缺鐵、內分泌 | B12／folate 缺乏（megaloblastic）、酒精、肝病、甲狀腺低下、藥物（hydroxyurea、化療）、MDS 無效造血 |
-| 高（被破壞／流失） | 慢性失血合併缺鐵（retic 可稍高但仍不足） | 急性失血、多數溶血性貧血、燒傷（血液濃縮假象＋熱傷害破膜）、march hemoglobinuria（足底反覆撞擊機械性破壞，良性自限） | 溶血伴大量 retic（retic 體積大把 MCV 拉高）、溶血後 folate 相對缺乏 |
-| 老年人漂移 | 年輕時 microcytic 缺鐵 | 年紀大轉 normocytic 甚至 macrocytic | 主動想 megaloblastic 或 MDS——造血功能本身退化，不是缺鐵沒補好；型態改變當獨立事件重新分類 |
+| 低（做不出來） | 缺鐵（最常見）、thalassemia trait、anemia of chronic disease（部分）、鉛中毒、sideroblastic anemia（遺傳型） | ACD、腎性貧血、骨髓浸潤／再生不良、早期缺鐵、內分泌 | B12／folate 缺乏（megaloblastic）、酒精、肝病、甲狀腺低下、藥物（hydroxyurea、化療）、MDS（含 ring sideroblast 型）無效造血 |
+| 高（被破壞／流失） | HbH disease／β-thal intermedia（無效造血＋溶血）；慢性失血缺鐵 retic index 仍 <2，歸「低」列 | 急性失血、多數溶血性貧血、燒傷（血液濃縮假象＋熱傷害破膜）、march hemoglobinuria（足底反覆撞擊機械性破壞，良性自限） | 溶血伴大量 retic（retic 體積大把 MCV 拉高）、溶血後 folate 相對缺乏 |
+| 附：老年人漂移（非 retic 層） | 年輕時 microcytic 缺鐵 | 年紀大轉 normocytic 甚至 macrocytic | 主動想 megaloblastic 或 MDS——造血功能本身退化，不是缺鐵沒補好；型態改變當獨立事件重新分類 |
 
 ## 溶血兩段式：先證明有溶血，再分機轉
 
@@ -35,10 +35,10 @@ site: hemolytic-anemia-basics
 | 第 2 步：Coombs（DAT） | 機轉分類（MECE） | 代表疾病 | 抹片 |
 | --- | --- | --- | --- |
 | 陽性 | Immune：紅血球表面被抗體／補體標記 | AIHA（warm／cold）、藥物誘發、輸血反應、Evans | Spherocyte（脾臟巨噬細胞咬掉部分膜） |
-| 陰性・膜 | Non-immune，內在缺陷：膜蛋白 | Hereditary spherocytosis | Spherocyte——型態一樣，機轉不同 |
-| 陰性・酵素 | Non-immune，內在缺陷：氧化壓力 | G6PD deficiency | Bite cell、Heinz body |
-| 陰性・機械 | Non-immune，外在破壞：微血管切割 | TTP／HUS／DIC、人工瓣膜、malignant HTN | Schistocyte（MAHA） |
-| 陰性・感染／補體 | Non-immune，外在破壞：直接寄生或補體 | 瘧疾（紅血球內複製）、PNH（補體、GPI anchor 缺失）、敗血症合併 DIC | 瘧原蟲／schistocyte |
+| 陰性・內在・膜 | Non-immune，內在缺陷：膜（先天／後天） | HS；PNH（後天 PIGA 突變→GPI anchor 缺失→CD55/CD59 沒了→補體溶解） | HS：spherocyte——型態一樣，機轉不同 |
+| 陰性・內在・酵素／Hb | Non-immune，內在缺陷：酵素或血紅素 | G6PD、PK deficiency；sickle cell、unstable Hb | Bite cell、Heinz body；sickle cell |
+| 陰性・外在・機械 | Non-immune，外在破壞：微血管切割 | TTP／HUS／DIC（含敗血症合併 DIC）、人工瓣膜、malignant HTN | Schistocyte（MAHA） |
+| 陰性・外在・感染 | Non-immune，外在破壞：病原寄生或毒素溶膜 | 瘧疾（紅血球內複製）、babesiosis、C. perfringens 敗血症（α-toxin） | 瘧原蟲／microspherocyte |
 
 ## 破題關鍵句
 

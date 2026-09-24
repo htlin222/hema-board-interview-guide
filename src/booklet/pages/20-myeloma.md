@@ -1,6 +1,6 @@
 ---
 title: Myeloma 與移植：問傷害發生了沒；標準移植是自體
-kicker: 16 · Malignancy
+kicker: 20 · Malignancy
 site: myeloma-and-transplant
 ---
 
@@ -11,10 +11,10 @@ site: myeloma-and-transplant
 | 層 | 問什麼 | 內容與切點 | 處置 |
 | --- | --- | --- | --- |
 | 1 CRAB | 傷害**已經**發生？ | 高血鈣、腎功能惡化、貧血、骨病灶 | 任一項＝活動性 MM → 治療 |
-| 1 SLiM | 傷害**即將**發生？（IMWG 2014 起視同 MM） | 骨髓漿細胞 ≥60%；sFLC 比值 ≥100 且受累輕鏈 ≥10 mg/dL；MRI >1 個局灶性病灶 | 任一項＝活動性 MM → 治療（篩掉原 SMM 約 10–15%） |
+| 1 SLiM | 傷害**即將**發生？（IMWG 2014 起視同 MM） | 骨髓漿細胞 ≥60%；sFLC 比值 ≥100 且受累輕鏈 ≥10 mg/dL；MRI >1 個 ≥5 mm 局灶性病灶 | 任一項＝活動性 MM → 治療（篩掉原 SMM 約 10–15%） |
 | 2 分層 2/20/20 | 真 SMM 的進展風險？ | M 蛋白 >2 g/dL、骨髓漿細胞 >20%、sFLC 比值 >20 | 0 項低危（2 年 6–10%）／1 項中危（18–26%）／≥2 項高危（44–47%）；加 t(4;14)、t(14;16)、+1q、del(13q) → 超高危 63–73% |
 | 3 低／中危 | 治療嗎？ | 觀察 | 每 3–6 個月追 M 蛋白、Hb、腎功能、sFLC；evolving change（12 個月內 M 蛋白 ↑≥0.5 合併 Hb ↓≥0.5 g/dL）即重評 |
-| 3 高危 | 治療嗎？ | 討論提早介入或進試驗 | 兩年期 lenalidomide ± dex 或 daratumumab 單藥；QuiRedex（TTP 9.5 vs 2.1 年，HR 0.28）、E3A06（PFS HR 0.28）、AQUILA（PFS HR 0.49；首個 FDA 核准於高危 SMM） |
+| 3 高危 | 治療嗎？ | 討論提早介入或進試驗 | QuiRedex：Rd 誘導＋lenalidomide 維持至 2 年（TTP 9.5 vs 2.1 年，HR 0.28）；E3A06：lenalidomide 單藥至進展（3 年 PFS 91% vs 66%，HR 0.28）；AQUILA：daratumumab 單藥 3 年（5 年 PFS 63.1% vs 40.8%，HR 0.49；首個 FDA 核准於高危 SMM） |
 
 ## 誘導與維持：先講現行標準，再講演進方向
 
@@ -40,7 +40,7 @@ site: myeloma-and-transplant
 | --- | --- | --- | --- |
 | Autologous（標準） | 誘導後的標準鞏固；年齡、functional status、共病決定撐不撐得住 | G-CSF ± plerixafor 動員 → apheresis 冷凍 → 高劑量 melphalan → 回輸；**沒有 donor** | 不是每個確診病人都自動排入 |
 | Allogeneic | 非標準，僅特定高風險／多次復發的年輕病人，且在試驗框架下 | 真正需要 HLA 配對 donor | GVHD 與 TRM 高，證據未一致優於自體 |
-| Tandem（兩次自體） | 不是所有人都做 | 仍是自體 | 未篩選族群無優勢（STaMINA）；del17p、t(4;14) 或首次反應不深者可能有益（EMN02/HO95） |
+| Tandem（兩次自體） | 不是所有人都做 | 仍是自體 | 未篩選族群無優勢（STaMINA）；高危細胞遺傳 del17p、t(4;14)、t(14;16) 獲益較明顯（EMN02/HO95）；首次移植未達 VGPR 者亦受益（IFM94） |
 
 ## 破題關鍵句
 

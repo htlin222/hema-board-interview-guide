@@ -4,17 +4,17 @@ kicker: 01 · 總覽
 site: exam-format-and-mindset
 ---
 
-<div class="fp"><b>第一性原理</b>　血液科所有案例題只問一件事：<b>某一系血球（或止血系統）「量」或「功能」的失衡，是「做不出來」還是「做出來被消耗／被破壞」</b>。先定位是哪一系、哪個方向，再問「為什麼」，每一章的分岔都從這句推出來。</div>
+<div class="fp"><b>第一性原理</b>　血液科所有案例題只問一件事：<b>某一系血球（或止血系統）「量」或「功能」的失衡：太少問「做不出來」還是「做出來被消耗／被破壞」；太多問「外部訊號驅動（reactive）」還是「自己失控（clonal）」</b>。先定位是哪一系、哪個方向，再問「為什麼」，每一章的分岔都從這句推出來。</div>
 
 ## 第一層 MECE：主訴落在哪一格
 
-| 主訴／檢驗 | 太少（做不出來 vs 被破壞／流失） | 太多（reactive vs clonal） | 本手冊對應頁 |
+| 主訴／檢驗 | 太少（做不出來 vs 被破壞／消耗／流失） | 太多（reactive vs clonal；止血改問 Virchow 三邊） | 本手冊對應頁 |
 | --- | --- | --- | --- |
-| 紅血球 | 貧血：MCV 分類 × retic 代償 → IDA／thal／溶血 | 紅血球增多（PV，未列入） | 02–05 |
-| 血小板 | 骨髓 megakaryocyte 多＝周邊破壞（ITP／TTP／Evans／DIC／藥）；少＝生產端（AA／浸潤／MDS） | Thrombocytosis：先排 reactive，再抹片分 CML vs ET，再驅動基因 | 06–07, 10 |
-| 白血球 | 白血球低下（未列入） | 急性：AML／ALL 用 flow 定 lineage；慢性：CML（BCR-ABL1）、CLL（CD5/CD23）、lymphoma | 12–15 |
-| 漿細胞 | — | MGUS → SMM → MM：問「傷害發生了沒」（CRAB／SLiM） | 16 |
-| 止血系統 | 出血：primary（血小板／vWF）vs secondary（凝血因子）→ PT/aPTT pathway → mixing | 血栓：癌症相關（腫瘤本身 vs 治療相關異物 vs 病人狀態） | 08–09, 11 |
+| 紅血球 | 貧血：retic 分做不出來 vs 破壞／失血，再 × MCV → IDA／thal／溶血 | 紅血球增多（PV，未列入） | 02–05 |
+| 血小板 | megakaryocyte 少＝生產端（AA／浸潤／MDS）；正常或多＝周邊：免疫破壞（ITP／Evans／藥）、消耗（TTP／DIC）、扣押（脾腫大） | Thrombocytosis：先排 reactive，再抹片分 CML vs ET，再驅動基因 | 06–07, 10 |
+| 白血球 | 白血球低下（未列入）；MDS＝clonal 的做不出來，可落任一系 | 急性：AML／ALL 用 flow 定 lineage；慢性：CML（BCR-ABL1）、CLL（CD5/CD23） | 12–19 |
+| 淋巴組織／漿細胞 | — | Lymphoma（腫塊，不是計數異常）；MGUS → SMM → MM：問「傷害發生了沒」（CRAB／SLiM） | 19–21 |
+| 止血系統 | 出血：primary（血小板／vWF）vs secondary（凝血因子）→ PT/aPTT pathway → mixing | 血栓（癌症相關）：Virchow 三邊（高凝／滯留／內皮）× 來源（腫瘤／治療／病人） | 08–09, 11 |
 
 ## 第二層：每一題都照同一條骨架講（7 步）
 
@@ -43,7 +43,7 @@ site: exam-format-and-mindset
 
 | 情境 | 一開口就講 |
 | --- | --- |
-| 拿到異常值 | 「我先定位這是哪一系、做不出來還是被破壞，再往回找為什麼。」 |
+| 拿到異常值 | 「我先定位哪一系、太少還是太多，再分做不出來 vs 被破壞（或 reactive vs clonal），再往回找為什麼。」 |
 | 被問鑑別 | 「這個組合的鑑別不會只有一個，我照分岔一次列完再排優先順序。」 |
 | 被問治療 | 「先問該不該跳過一線／要不要治療，再談用哪個 regimen。」 |
 | 反應不好 | 「先懷疑診斷跟順從性，再懷疑藥。」 |
@@ -54,4 +54,4 @@ site: exam-format-and-mindset
 - 確診就停：IDA 補鐵、TTP 講到 PEX、ITP 講「排除性診斷」四個字，都少了「然後呢」。
 - 把型態當機轉：spherocyte 不等於 HS，NRBC 不等於溶血，megakaryocyte 多不等於 MPN。
 - 把行政數字講成生理鐵律：健保給付門檻、prophylaxis trough level 會變，講數字後補一句「依當年規定」。
-- 把 AML 的異體移植邏輯套到 myeloma（標準是自體，沒有 donor）；把 t(9;22) 跟 AML 綁在一起（急性白血病裡 ALL 遠比 AML 常見）。
+- 把 AML 的異體移植邏輯套到 myeloma（標準是自體，沒有 donor）；把 t(9;22) 跟 AML 綁在一起（t(9;22) 陽性的急性白血病裡 ALL 遠比 AML 常見；但成人整體 AML 較多）。

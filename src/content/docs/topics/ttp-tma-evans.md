@@ -15,11 +15,11 @@ sidebar:
 | --- | --- | --- | --- |
 | Plasma exchange（PEX） | TTP 核心，懷疑即啟動、不等 ADAMTS13 | 每日置換 1–1.5 倍血漿容積（FFP 補充），至 plt >150 ×10⁹/L 連續 2 天且 LDH 正常化 | 無法立刻 PEX 時先輸 FFP 10–15 mL/kg；**避免血小板輸注**（除非危及生命出血） |
 | Corticosteroid | 與 PEX 併用 | Methylprednisolone 1 g/day IV ×3 天，或 prednisone 1 mg/kg/day，緩解後減量 | 常被漏講的第二項 |
-| Caplacizumab | 免疫性 TTP 急性期 | 首劑 11 mg IV（第一次 PEX 前），之後 11 mg SC 每日至 PEX 結束後 30 天；ADAMTS13 仍 <10% 可延長至 28 天 | 抗 vWF nanobody；出血傾向（黏膜）；依 ADAMTS13 回升決定停藥 |
-| Rituximab | 降低復發、頑固型 | 375 mg/m² IV 每週 ×4（PEX 後給，避免被洗掉） | 也用於緩解期 ADAMTS13 <10–20% 的搶先治療（補充） |
+| Caplacizumab | 免疫性 TTP 急性期 | 首日 11 mg IV（PEX 前）＋PEX 後 11 mg SC；之後每日 11 mg SC 至 PEX 結束後 30 天，可再延長最多 28 天 | 抗 vWF nanobody；出血傾向（黏膜）；依 ADAMTS13 回升決定停藥 |
+| Rituximab | 降低復發、頑固型 | 375 mg/m² IV 每週 ×4（PEX 後給，避免被洗掉） | 也用於緩解期 ADAMTS13 <20% 的搶先治療（補充） |
 | 反應評估 | 每日 | plt、LDH、Hb、Cr；plt 未回升或再降 → refractory／exacerbation，加 rituximab、考慮 caplacizumab | 緩解後每 1–3 個月追 ADAMTS13 活性 |
 | Evans syndrome | AIHA + ITP 同時 | Prednisone 1 mg/kg/day；出血或 Hb 急降加 IVIG 1 g/kg；二線 rituximab 375 mg/m² ×4 | 補充：兩條免疫破壞路徑一起治；長期常需 MMF／sirolimus |
-| HUS / aHUS | TMA 但 ADAMTS13 >10% | 典型 HUS（STEC）支持性治療；aHUS：eculizumab 900 mg 每週 ×4 → 1200 mg 每 2 週 | 補充：ADAMTS13 送檢前抽血，PEX 可先做但 aHUS 效果差 |
+| HUS / aHUS | TMA 但 ADAMTS13 >10% | 典型 HUS（STEC）支持性治療；aHUS：eculizumab 900 mg 每週 ×4 → 第 5 週起 1200 mg 每 2 週；ravulizumab 依體重 loading 後每 8 週 | 補充：用補體抑制劑前打腦膜炎球菌疫苗（ACWY＋B）或預防性抗生素；ADAMTS13 送檢前抽血 |
 <!-- doses:end -->
 
 ## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg> 推理架構：貧血 + thrombocytopenia，一張分流圖走到底
@@ -71,13 +71,13 @@ sidebar:
 
 機轉提醒：NRBC 增加是骨髓被佔據後細胞被機械性擠出，不是溶血反應性釋放，不能塞回溶血的推理路徑判讀。
 
-| 鑑別診斷                      | 骨髓被佔據的成因               | 答題提醒                                                                             |
-| ----------------------------- | ------------------------------ | ------------------------------------------------------------------------------------ |
-| Metastatic cancer（尤其乳癌） | 腫瘤細胞直接佔據               | 有惡性腫瘤病史時，用 bone marrow biopsy 直接找侵犯證據；只講這一個就停下來是常見陷阱 |
-| MDS                           | 骨髓本身的疾病                 | 第 7 題「四個必列方向」之一                                                          |
-| HLH                           | 發炎細胞激素風暴造成的間接後果 | 與 metastatic cancer 同屬「骨髓被反應性佔據／擾亂」的機轉大類                        |
-| AIHA                          | 免疫破壞造成的間接後果         | 第 7 題「四個必列方向」之一                                                          |
-| Myelofibrosis                 | 纖維化                         | 開頭分流圖列出的方向之一                                                             |
+| 鑑別診斷                      | 骨髓被佔據的成因                                     | 答題提醒                                                                             |
+| ----------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Metastatic cancer（尤其乳癌） | 腫瘤細胞直接佔據                                     | 有惡性腫瘤病史時，用 bone marrow biopsy 直接找侵犯證據；只講這一個就停下來是常見陷阱 |
+| MDS                           | 骨髓本身的疾病                                       | 第 7 題「四個必列方向」之一                                                          |
+| HLH                           | 發炎細胞激素風暴造成的間接後果                       | 與 metastatic cancer 同屬「骨髓被反應性佔據／擾亂」的機轉大類                        |
+| AIHA                          | 溶血後的壓力造血，只放出 NRBC、沒有 immature myeloid | 口試常被要求列出；但嚴格說不算骨髓佔據（myelophthisis），列出時補這句                |
+| Myelofibrosis                 | 纖維化                                               | 開頭分流圖列出的方向之一                                                             |
 
 ## 套用到實際問法
 
@@ -260,7 +260,7 @@ sidebar:
   - MDS。
   - Metastatic cancer（骨髓轉移癌）。
   - HLH。
-  - AIHA。
+  - AIHA（嚴格說是溶血後壓力造血放出 NRBC，不算骨髓被佔據；列出時補這一句，顯示你分得清機轉）。
 - <svg class="icon-inline icon-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> 常見陷阱：只講出最容易聯想到的 metastatic cancer 就停下來，沒有把 MDS、HLH、AIHA 這些次要但同樣重要的鑑別診斷一併列出。
 
 <div class="callout callout-followup">

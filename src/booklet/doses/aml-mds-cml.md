@@ -12,10 +12,10 @@ order: 18
 | Azacitidine | 高危 MDS、CMML | 75 mg/m² SC 或 IV d1–7 每 28 天，至少 4–6 療程才評估反應 | 注射部位反應、血球下降先不減量；AZA-001 顯示 OS 優於 conventional care |
 | Decitabine | 高危 MDS 替代 | 20 mg/m² IV d1–5 每 28 天 | 補充：口服 decitabine-cedazuridine 35/100 mg d1–5 |
 | Lenalidomide | 低危 MDS del(5q) 輸血依賴 | 10 mg PO d1–21 每 28 天 | 補充：血球下降前 8 週明顯；TP53 突變反應差 |
-| ESA | 低危 MDS 貧血、EPO <500 | Epoetin 40,000–60,000 U SC 每週；darbepoetin 300–500 μg 每 2–3 週 | 補充：8–12 週評估；luspatercept 1 mg/kg q3w 用於 MDS-RS／SF3B1 |
+| ESA | 低危 MDS 貧血、EPO <500 | Epoetin 40,000–60,000 U SC 每週；darbepoetin 300–500 μg 每 2–3 週 | 補充：8–12 週評估；luspatercept 1 mg/kg q3w（RS／SF3B1 優先，COMMANDS 後 ESA-naive 一線亦可）；imetelstat 7.1 mg/kg IV q4w（ESA 失敗） |
 | Imatinib | CML-CP 一線 | 400 mg PO 每日（AP 600 mg） | 水腫、肌肉痠痛、GI；長期資料最多 |
 | Dasatinib | CML-CP 一線或二線 | 100 mg PO 每日（AP／BP 140 mg） | 肋膜積水、肺動脈高壓；有肺病史避開；不受食物影響 |
 | Nilotinib | CML-CP 一線或二線 | 300 mg PO bid（二線 400 mg bid），**空腹**：進食前 1 h 或後 2 h | QTc 基準與追蹤、血糖、血脂、胰臟炎、動脈阻塞事件 |
 | Bosutinib | CML-CP 一線或後線 | 400 mg PO 每日隨餐（後線 500 mg） | 腹瀉（早期、多自限）、ALT |
-| Ponatinib / Asciminib | T315I 或多重 TKI 失敗（補充） | Ponatinib 45 mg 每日，反應後減至 15 mg；asciminib 40 mg bid（T315I 200 mg bid） | 補充：ponatinib 動脈阻塞事件、胰臟炎 |
+| Ponatinib / Asciminib | T315I 或多重 TKI 失敗（補充） | Ponatinib 45 mg 每日，BCR-ABL1 ≤1% 後減至 15 mg；asciminib 80 mg 每日或 40 mg bid（T315I 200 mg bid） | 補充：ponatinib 動脈阻塞事件、胰臟炎；asciminib 80 mg 已核准一線（ASC4FIRST） |
 | ATRA + ATO | APL（補充，唯一急症） | ATRA 45 mg/m²/day 分兩次 + arsenic trioxide 0.15 mg/kg/day IV，至 CR | 補充：懷疑即開始 ATRA；differentiation syndrome 用 dexamethasone 10 mg bid；QTc、電解質 |

@@ -19,22 +19,22 @@ site: bleeding-workup-hemophilia
 | --- | --- |
 | 最典型表現 → 後果 | Hemarthrosis（膝、肘、踝），即「深層、延遲」的 secondary 型態；反覆出血 → hemophilic arthropathy，不可逆 |
 | 何時開始 prophylaxis | 第一次關節出血後、或幼年期（primary prophylaxis），搶在關節破壞之前 |
-| 目標 trough | 傳統 >1%（severe 拉到 moderate 表現型）；現行指引可能 >3–5%，依藥物半衰期調整，不是死數字 |
+| 目標 trough | 傳統 >1%（severe 拉到 moderate 表現型）；WFH 2020 建議 >3–5% 或更高，依出血表型、PK／半衰期、活動量個別化 |
 
 ## Inhibitor 的 MECE：急性止血 vs 長期處理
 
 | 時間尺度 | 目標 | 選項 | 邏輯 |
 | --- | --- | --- | --- |
 | 急性出血 | 先止血 | Bypassing agent：FEIBA（aPCC）或 rFVIIa | 補的因子會被抗體中和，所以繞過被抑制的那個因子 |
-| 長期 | 根除或繞過抗體 | ITI（高劑量因子誘導耐受）；emicizumab（bispecific 模擬 FVIIIa，皮下，有無 inhibitor 皆可用） | 兩個時間尺度、兩個目標，不混著講 |
+| 長期 | 根除抗體或長期預防 | ITI（高劑量因子誘導耐受）；emicizumab（bispecific 模擬 FVIIIa，皮下；僅 hemophilia A、有無 inhibitor 皆可，只做預防不治急性出血；併 aPCC >100 U/kg/day ≥24h → TMA／血栓） | 兩個時間尺度、兩個目標，不混著講 |
 
 ## Acquired hemophilia vs lupus anticoagulant：兩條證據鏈
 
 | 證據鏈 | Acquired hemophilia（anti-FVIII） | Lupus anticoagulant／APS |
 | --- | --- | --- |
 | Mixing ＋ 因子活性 | Time-dependent（0 小時矯正、2 小時不矯正）；FVIII 明顯下降；Bethesda 定 titer | 立即型（0 小時就不矯正）；不降單一因子；dRVVT（補充） |
-| 臨床 | 出血（老年、產後、自體免疫、惡性腫瘤） | 血栓，不出血 |
-| 治療 | 止血：bypassing（FEIBA／rFVIIa）；根除：steroid ± cyclophosphamide 或 rituximab（合併緩解率較高但要權衡感染） | 抗凝，方向相反 |
+| 臨床 | 出血；族群雙峰（老年為主、產後）；約半數 idiopathic，其餘自體免疫、惡性腫瘤 | 血栓，不出血 |
+| 治療 | 止血：bypassing（FEIBA／rFVIIa）或 rpFVIII（補充）；根除：steroid ± cyclophosphamide 或 rituximab（合併緩解率較高但要權衡感染） | 抗凝，方向相反 |
 
 ## Isolated aPTT ＋ correctable：推理鏈到 vWD
 
@@ -48,7 +48,7 @@ site: bleeding-workup-hemophilia
 | 型 | 本質 | 檢驗 pattern（治療方向為補充） |
 | --- | --- | --- |
 | Type 1 | 量的部分性缺乏，最常見 | Ag、activity 等比例下降；DDAVP 有效 |
-| Type 2 | 功能性異常（2A、2B、2M、2N） | Activity／Ag <0.6–0.7；2B 忌 DDAVP |
+| Type 2 | 功能性異常（2A、2B、2M、2N） | 2A／2B／2M：Activity／Ag <0.7（2021 指引；舊文獻 ≤0.6）；2N 比值正常，FVIII／Ag 低 → FVIII binding assay；2B 忌 DDAVP（血小板低下） |
 | Type 3 | 幾乎完全缺乏，最重最少 | Ag、activity 幾乎測不到，FVIII 很低；vWF／FVIII 濃縮製劑 |
 
 ## 破題關鍵句

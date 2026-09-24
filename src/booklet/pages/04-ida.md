@@ -10,8 +10,8 @@ site: iron-deficiency-anemia
 
 | 層 | 問什麼 | 分支（互斥、窮盡） | 決定了什麼 |
 | --- | --- | --- | --- |
-| 1 確診 | 真的缺鐵嗎？ | MCV 低 → ferritin <15–30 ng/mL；發炎（acute phase reactant）時切點上修、看 TSAT <20%；marrow iron 金標準但例行少用 | 及格線，講完立刻進第 2 層 |
-| 2 找原因 | 鐵往哪裡去？ | 流失（月經、GI）／吸收不良（celiac、H. pylori、減重手術、IBD、IRIDA）／需求增加（懷孕、成長） | 大腸鏡、tTG-IgA、還是問月經 |
+| 1 確診 | 真的缺鐵嗎？ | MCV 低 → ferritin <30 ng/mL（<15 最特異；AGA 用 <45）；發炎（acute phase reactant）時 <100 仍可缺鐵，配 TSAT <20%；marrow iron 金標準但例行少用 | 及格線，講完立刻進第 2 層 |
+| 2 找原因 | 鐵往哪裡去？ | 進來太少（飲食攝取不足；吸收不良：celiac、H. pylori、減重手術、IBD、IRIDA）／出去太多（流失：月經、GI）／需求增加（懷孕、成長） | 大腸鏡、tTG-IgA、還是問月經 |
 | 3 治療路徑 | 該不該一開始就走 IV？ | 有理由→IV 第一線；沒有→口服，用**數字**判失敗再換 | 不是「口服失敗才換」 |
 | 4 終點 | 何時停？ | Hb ↑≥1 g/dL（2–4 週）判反應；Hb 正常後再補 3 個月；ferritin 回正常才停 | Hb 正常 ≠ 補滿 |
 
@@ -20,25 +20,25 @@ site: iron-deficiency-anemia
 | 族群 | 優先找哪裡 | 怎麼問／怎麼查 |
 | --- | --- | --- |
 | 共同起手式 | 病史：飲食、GI 症狀、月經量、慢性失血警訊；理學：蒼白、koilonychia、glossitis | 不等考官給資料 |
-| 停經前女性 | 月經史（hypermenorrhea 最常見），仍排除其他失血源 | 定義 >80 mL 門診量不到 → 問棉片是否每小時換、大血塊、經期 >7 天，或 PBAC 半定量；確認後超音波排 fibroid／polyp／adenomyosis |
-| 停經後／男性／年輕有警訊 | GI evaluation 優先（潛血、大腸鏡） | 藏 GI malignancy 機率顯著上升，考官愛用年齡／性別轉折考警覺性 |
-| 吸收不良 | Celiac：tTG-IgA 第一線；H. pylori：urea breath test 或糞便抗原 → triple／quadruple 除菌 | 補鐵沒效時回頭想 |
+| 停經前女性（無 GI 警訊） | 月經史（hypermenorrhea 最常見），仍排除其他失血源 | 研究定義 >80 mL（ACOG／FIGO 現以影響生活品質定義），門診量不到 → 問棉片是否每小時換、大血塊、經期 >7 天，或 PBAC 半定量；確認後超音波排 fibroid／polyp／adenomyosis |
+| 停經後女性／男性／任何人有 GI 警訊 | GI evaluation 優先（潛血、大腸鏡） | 藏 GI malignancy 機率顯著上升，考官愛用年齡／性別轉折考警覺性 |
+| 跨族群：找不到失血源或口服無效 → 查吸收不良 | Celiac：tTG-IgA 第一線；H. pylori：urea breath test 或糞便抗原 → triple／quadruple 除菌 | 補鐵沒效時回頭想 |
 
 ## 第 3 層：口服 vs IV，三個決策層次（劑量見劑量總表）
 
 | 層次 | 判斷 | 具體項目 |
 | --- | --- | --- |
 | 直接走 IV | 有這些理由就不必等口服失敗 | 吸收註定不良（減重手術後、IBD、CKD 尤其透析）；發炎 hepcidin↑（RA、癌症、心衰竭）；失血速度超過口服補充；需快速拉 Hb（術前）；懷孕第二、三孕期較嚴重者；IRIDA |
-| 先試口服 | 沒有上述理由 | Ferrous sulfate／fumarate／gluconate；空腹或配 vit C；**約七成 GI 副作用、其中半數停藥**，先衛教 |
+| 先試口服 | 沒有上述理由 | Ferrous sulfate／fumarate／gluconate；空腹或配 vit C；**GI 副作用是停藥主因**，先衛教；隔日給藥可改善耐受 |
 | 口服失敗門檻 | 用數字，不憑感覺 | 2–4 週 Hb 未升 ≥1 g/dL，或 1 個月 ferritin 未升；CKD 依 KDIGO 最適化口服 1–3 個月；換路前先排除「根本沒吃」與失血未處理 |
-| IV 安全性 | 不要只答「怕過敏」 | 無絕對禁忌；輸注反應多為補體活化的**假過敏**（非 IgE）；輕約 1/200、重約 1/200,000；ferric carboxymaltose 可致 hypophosphatemia；第一孕期不建議；總量依仿單／體重表，Ganzoni 臨床少手算 |
+| IV 安全性 | 不要只答「怕過敏」 | 無絕對禁忌；輸注反應多為補體活化的**假過敏**（非 IgE）；輕（含 Fishbane）約 1–5%、anaphylaxis 約 1/200,000；ferric carboxymaltose 可致 hypophosphatemia；第一孕期不建議；總量依仿單／體重表，Ganzoni 臨床少手算 |
 
 ## Hb 沒回升：先立二分，再掛四原因
 
 | 二分 | 原因 | 怎麼確認 |
 | --- | --- | --- |
-| 骨髓做不出來 | 順從性差（副作用自行減停）；未診斷的吸收不良（celiac、H. pylori、IBD） | 回頭問服藥與 GI 副作用；tTG-IgA、UBT／糞便抗原 |
-| 骨髓做不出來 | 診斷錯或合併其他貧血（thalassemia、ACD、B12／folate） | 重跑 MCV × retic；thalassemia 通常鐵過多，貿然補鐵是錯的方向 |
+| 骨髓做不出來：鐵沒進來 | 順從性差（副作用自行減停）；未診斷的吸收不良（celiac、H. pylori、IBD） | 回頭問服藥與 GI 副作用；tTG-IgA、UBT／糞便抗原 |
+| 骨髓做不出來：有鐵也做不出 | 診斷錯或合併其他貧血（thalassemia、ACD、B12／folate） | 重跑 MCV × retic；thalassemia 通常鐵過多，貿然補鐵是錯的方向 |
 | Source 沒斷 | 出血點（月經過多、GI 病灶）沒處理 | 回去處理 source，否則換 IV 一樣失敗 |
 
 ## 破題關鍵句
@@ -46,7 +46,7 @@ site: iron-deficiency-anemia
 | 題 | 一開口就講 |
 | --- | --- |
 | Ferritin 偏低怎麼 approach | 「Ferritin 低本身不是重點，重點是我要往回找為什麼缺鐵。」 |
-| 月經過多怎麼問 | 「定義是 >80 mL，但門診量不到，我用替代指標問出來。」 |
+| 月經過多怎麼問 | 「研究定義是 >80 mL，但門診量不到，我用替代指標問出來。」 |
 | 口服還是 IV | 「先問該不該一開始就走 IV——對特定族群 IV 本來就是第一線。」 |
 | 治療多久 | 「Hb 正常不等於結束，ferritin 沒回正常前鐵不能停。」 |
 | Hb 沒起色 | 「只有兩種可能：骨髓做不出來，或失血沒斷。」 |
