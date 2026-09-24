@@ -1,0 +1,50 @@
+name: Build A4 booklet PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/booklet/**'
+      - 'src/pages/booklet/**'
+      - 'src/lib/booklet.ts'
+      - 'scripts/build_booklet.py'
+      - '.github/workflows/booklet.yml'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: astral-sh/setup-uv@v5
+
+      # 手冊字型：本機用 PingFang，runner 上退到 Noto Sans CJK
+      - name: Install CJK fonts
+        run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk
+
+      - run: npm ci
+      - run: npm run build
+
+      - name: Install Chromium for Playwright
+        run: uv run --with playwright playwright install --with-deps chromium
+
+      # 腳本會量每一頁有沒有溢出，溢出就 exit 1——手冊每頁都必須是一張完整的 A4
+      - name: Render PDF and check overflow
+        run: uv run --script scripts/build_booklet.py
+
+      - name: Publish to release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag=booklet-latest
+          gh release view "$tag" >/dev/null 2>&1 \
+            || gh release create "$tag" --title "A4 手冊 PDF（最新）" \
+                 --notes "由 main 分支的 src/booklet/ 自動建置。每張 A4 一個主題：第一性原理、MECE 分岔、速記表、破題關鍵句、容易被電；末尾五張為參考劑量總表（與主題頁「參考劑量」段落同源）。劑量為成人常規參考值，實際處方以仿單與最新指引為準。"
+          gh release upload "$tag" dist-booklet/hema-board-interview-booklet.pdf --clobber

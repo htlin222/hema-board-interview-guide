@@ -13,6 +13,7 @@
 | 段落 | 作用 |
 | --- | --- |
 | 推理架構 | 可重複套用的邏輯，讓沒背過的案例也能自己推 |
+| 參考劑量 | 章內提到的藥物的成人常規劑量，與 A4 手冊的劑量總表同源（`src/booklet/doses/`） |
 | 破題關鍵句 | 一開口就該講的那一句 |
 | 最佳答法 | 用「依照…因為…」講出這樣答的道理 |
 | 擬答 | 巢狀條列，可直接照著唸 |
@@ -23,16 +24,19 @@
 
 醫學內容經 OpenEvidence 逐項查證，修正過的地方以指引與試驗數據為準。
 
-## 四種產物
+## 五種產物
 
 | 產物 | 位置 | 建置 |
 | --- | --- | --- |
 | 網站 | GitHub Pages | `npm run build` |
 | 一頁速查（可列印 A4） | 站內 `/handout/` | 同上，由主題頁即時抽取 |
+| A4 手冊（21 頁 PDF） | 站內 `/booklet/`；[release `booklet-latest`](../../releases/tag/booklet-latest) | `npm run build && npm run build:booklet` |
 | EPUB（Kindle 相容） | [release `epub-latest`](../../releases/tag/epub-latest) | `npm run build:epub` |
 | Anki 牌組（巢狀） | [release `anki-latest`](../../releases/tag/anki-latest) | `npm run build:anki` |
 
 EPUB 與 Anki 都由主題頁的 markdown 直接產生，內容一改、workflow 會自動重建並覆蓋 release 資產，不需要人工同步。
+
+A4 手冊是另外手寫的（`src/booklet/pages/`，每檔一張 A4），不是主題頁的列印版：每章重新用「第一性原理 → MECE 分岔 → 速記表 → 破題關鍵句 → 容易被電」壓成一頁，末尾五張是參考劑量總表。劑量只維護在 `src/booklet/doses/`，`npm run sync:doses` 會把它注入各主題頁的「參考劑量」段落，`npm run check:booklet` 會量每一頁有沒有溢出。寫法見 `src/booklet/README.md`。
 
 ## 本機開發
 

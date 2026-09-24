@@ -6,6 +6,21 @@ sidebar:
 
 這篇是更基本層次的題目——考官不是每次都會挑刁鑽的少見疾病來考，反而很喜歡先確認考生有沒有把「貧血分類」跟「溶血性貧血的判斷邏輯」這兩套最底層的功夫練熟。這類題目乍看簡單，但正因為簡單，答不出結構反而更扣分：考官預期的不是背出一堆病名，而是看你能不能用一個清楚的架構把病人自動分流到正確的鑑別診斷方向。
 
+<!-- doses:start -->
+## 參考劑量
+
+成人常規參考劑量，用來答「數量級、途徑、頻率、要監測什麼」；實際處方以仿單、健保規定與最新指引為準，特殊族群另行查核。與 [A4 手冊](/hema-board-interview-guide/booklet/) 的劑量總表同源。
+
+| 藥物 | 情境 | 參考劑量 | 備註（監測、調整） |
+| --- | --- | --- | --- |
+| Folic acid | 慢性溶血（HS、AIHA、thal） | 1 mg PO 每日 | 需求增加易缺乏；補充前確認非單純 B12 缺乏 |
+| Prednisone | 溫型 AIHA（Coombs 陽性）一線 | 1 mg/kg/day PO，Hb 回升後 2–3 週起緩慢減量，總程數月 | 補充：反應差或依賴 → rituximab 375 mg/m² 每週 ×4；冷凝集素症 steroid 無效 |
+| 脾臟切除前疫苗 | HS／ITP／AIHA 擇期切脾 | 術前 ≥2 週：肺炎鏈球菌（PCV20，或 PCV15 + 8 週後 PPSV23）、腦膜炎雙球菌（MenACWY + MenB）、Hib | 緊急切脾則術後 14 天再打；每年流感疫苗；衛教發燒立即就醫 |
+| 預防性抗生素 | 切脾後 OPSI 預防 | Penicillin V 250–500 mg PO bid（或 amoxicillin），兒童至少至 5 歲／術後 ≥1–2 年 | 補充：成人高風險者可延長；備用抗生素在家（發燒先吃再就醫） |
+| Eculizumab | PNH 溶血／血栓（補充） | 600 mg IV 每週 ×4，第 5 週起 900 mg 每 2 週 | 補充：用藥前 ≥2 週打腦膜炎雙球菌疫苗；ravulizumab 依體重負荷後每 8 週 |
+| 輸血 | 症狀性貧血 | 1 單位 pRBC 約升 Hb 1 g/dL；AIHA 交叉配血困難時「最相容」血品仍可輸 | 補充：長期輸血追 ferritin，鐵過載見 thalassemia 表 |
+<!-- doses:end -->
+
 ## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg> 推理架構：MCV 分類 + 溶血兩段式判斷
 
 延續 [IDA 篇](/hema-board-interview-guide/topics/iron-deficiency-anemia/)「看到任何 anemia 先問三個問題」的框架，這裡把第一個問題（MCV 怎麼分類）展開成完整的三分表，並把「骨髓有沒有代償」這個問題延伸成溶血性貧血專屬的判斷邏輯。

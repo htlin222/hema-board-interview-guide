@@ -1,0 +1,319 @@
+---
+import { marked } from 'marked';
+import { loadSheets, loadDoses } from '../../lib/booklet';
+
+// 手冊正文：每檔一張 A4
+const pageFiles = import.meta.glob('/src/booklet/pages/*.md', {
+	query: '?raw',
+	import: 'default',
+	eager: true,
+}) as Record<string, string>;
+const sheets = loadSheets(pageFiles);
+
+// 劑量表：由 doses/ 拼成兩張總表（benign / malignant），跟主題頁注入的是同一份來源
+const doseFiles = import.meta.glob('/src/booklet/doses/*.md', {
+	query: '?raw',
+	import: 'default',
+	eager: true,
+}) as Record<string, string>;
+const doses = loadDoses(doseFiles);
+// 劑量總表分四張：內容多的章節（malignancy）拆開才塞得下一頁
+const DOSE_SHEETS: { id: string; title: string; slugs: string[] }[] = [
+	{
+		id: 'doses-anemia',
+		title: '參考劑量總表 I · 貧血與鐵',
+		slugs: ['hemolytic-anemia-basics', 'iron-deficiency-anemia', 'thalassemia-iron-overload'],
+	},
+	{
+		id: 'doses-platelet',
+		title: '參考劑量總表 II · 血小板',
+		slugs: ['itp', 'ttp-tma-evans', 'thrombocytosis-mpn'],
+	},
+	{
+		id: 'doses-hemostasis',
+		title: '參考劑量總表 III · 出血與血栓',
+		slugs: ['bleeding-workup-hemophilia', 'cancer-associated-thrombosis'],
+	},
+	{
+		id: 'doses-myeloid',
+		title: '參考劑量總表 IV · 骨髓性疾病與 ALL',
+		slugs: ['aml-mds-cml', 'all-leukemia'],
+	},
+	{
+		id: 'doses-lymphoid',
+		title: '參考劑量總表 V · Lymphoma 與 Myeloma',
+		slugs: ['lymphoma-treatment-lines', 'myeloma-and-transplant'],
+	},
+];
+const doseSheets = DOSE_SHEETS.map((d, j) => ({
+	id: d.id,
+	title: d.title,
+	kicker: `${String(sheets.length + j + 1).padStart(2, '0')} · 劑量`,
+	groups: d.slugs.map((slug) => doses.find((x) => x.slug === slug)).filter((x): x is NonNullable<typeof x> => !!x),
+}));
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const render = (s: string) => marked.parse(s, { async: false }) as string;
+const total = sheets.length + doseSheets.length;
+---
+
+<html lang="zh-Hant">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>A4 手冊｜血液科口試走向指南</title>
+		<link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+		<style>
+			@page {
+				size: A4;
+				margin: 0;
+			}
+			:root {
+				--ink: #1a1a1a;
+				--muted: #5b5b66;
+				--line: #b9b9c6;
+				--accent: #6b3fa0;
+				--wash: #f4f0fa;
+				--warn: #b45309;
+			}
+			* {
+				box-sizing: border-box;
+			}
+			body {
+				margin: 0;
+				background: #eceaf0;
+				color: var(--ink);
+				font: 8pt/1.24 'PingFang TC', 'Heiti TC', 'Noto Sans TC', 'Noto Sans CJK TC', system-ui, sans-serif;
+			}
+			/* 每張 A4 固定尺寸；溢出時內容被裁掉，build_booklet.py 會量 scrollHeight 抓出來 */
+			.sheet {
+				width: 210mm;
+				height: 297mm;
+				margin: 12px auto;
+				padding: 8mm 8mm 7mm;
+				background: #fff;
+				box-shadow: 0 2px 14px rgb(0 0 0 / 12%);
+				overflow: hidden;
+				display: flex;
+				flex-direction: column;
+				break-after: page;
+				page-break-after: always;
+			}
+			/* content 撐滿剩餘高度並裁切，這樣 scrollHeight − clientHeight 才量得出溢出／剩餘 */
+			.sheet > .content {
+				flex: 1 1 auto;
+				min-height: 0;
+				overflow: hidden;
+			}
+			header {
+				display: flex;
+				align-items: baseline;
+				justify-content: space-between;
+				gap: 10px;
+				border-bottom: 2px solid var(--accent);
+				padding-bottom: 2px;
+				margin-bottom: 5px;
+			}
+			h1 {
+				font-size: 13pt;
+				margin: 0;
+				letter-spacing: 0.01em;
+			}
+			header .kicker {
+				font-size: 7.4pt;
+				color: var(--muted);
+				white-space: nowrap;
+			}
+			h2 {
+				font-size: 8.2pt;
+				margin: 5px 0 1.5px;
+				padding: 1.2px 6px;
+				background: var(--accent);
+				color: #fff;
+				border-radius: 2px;
+				break-after: avoid;
+			}
+			h3 {
+				font-size: 8pt;
+				margin: 3.5px 0 1px;
+				color: var(--accent);
+				break-after: avoid;
+			}
+			p {
+				margin: 1.5px 0;
+			}
+			ul,
+			ol {
+				margin: 1.5px 0;
+				padding-left: 1.05em;
+			}
+			li {
+				margin: 0.4px 0;
+			}
+			li > ul {
+				margin: 0;
+			}
+			strong,
+			b {
+				font-weight: 700;
+			}
+			table {
+				width: 100%;
+				border-collapse: collapse;
+				margin: 1.5px 0 3.5px;
+				font-size: 7.1pt;
+				line-height: 1.22;
+			}
+			th,
+			td {
+				border: 0.5px solid var(--line);
+				padding: 1.2px 3px;
+				vertical-align: top;
+				text-align: left;
+			}
+			th {
+				background: var(--wash);
+				font-weight: 700;
+				white-space: nowrap;
+			}
+			td:first-child {
+				font-weight: 700;
+				min-width: 4.5em;
+			}
+			.fp {
+				border: 0.5px solid var(--accent);
+				border-left: 3px solid var(--accent);
+				background: var(--wash);
+				padding: 2.5px 6px;
+				margin: 2px 0 4px;
+				font-size: 8pt;
+			}
+			.fp b {
+				color: var(--accent);
+				margin-right: 4px;
+			}
+			.two {
+				column-count: 2;
+				column-gap: 6mm;
+				column-rule: 0.5px solid var(--line);
+			}
+			.two p,
+			.two li,
+			.two tr {
+				break-inside: avoid;
+			}
+			.warn {
+				color: var(--warn);
+				font-weight: 700;
+			}
+			footer {
+				margin-top: 3px;
+				padding-top: 2px;
+				border-top: 0.5px solid var(--line);
+				display: flex;
+				justify-content: space-between;
+				font-size: 6.8pt;
+				color: var(--muted);
+			}
+			.toolbar {
+				max-width: 210mm;
+				margin: 14px auto -4px;
+				display: flex;
+				gap: 8px;
+				align-items: center;
+				flex-wrap: wrap;
+				font: 13px system-ui, sans-serif;
+			}
+			.toolbar a,
+			.toolbar button {
+				font: inherit;
+				padding: 5px 11px;
+				border: 1px solid #b9b4c7;
+				border-radius: 5px;
+				background: #fff;
+				color: #3a3050;
+				cursor: pointer;
+				text-decoration: none;
+			}
+			.toolbar span {
+				color: #6b6478;
+			}
+			@media print {
+				body {
+					background: #fff;
+				}
+				.sheet {
+					margin: 0;
+					box-shadow: none;
+				}
+				.toolbar {
+					display: none;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="toolbar">
+			<button onclick="window.print()">列印 / 存成 PDF</button>
+			<a href={`${base}/`}>回網站</a>
+			<a href={`${base}/handout/`}>每章一頁速查</a>
+			<span>{total} 張 A4：第一性原理 × MECE 分岔 × 速記表 × 參考劑量</span>
+		</div>
+
+		{
+			sheets.map((s, i) => (
+				<div class="sheet" id={s.id} data-page={i + 1}>
+					<header>
+						<h1>{s.title}</h1>
+						<div class="kicker">{s.kicker || `${String(i + 1).padStart(2, '0')}`} · 血液科口試走向指南</div>
+					</header>
+					<div class="content">
+						<div class="inner">
+							<Fragment set:html={render(s.body)} />
+						</div>
+					</div>
+					<footer>
+						<span>
+							htlin222.github.io/hema-board-interview-guide
+							{s.site && ` · 完整內容：/topics/${s.site}/`}
+						</span>
+						<span>
+							{i + 1} / {total} · 去名化整理，非官方資料
+						</span>
+					</footer>
+				</div>
+			))
+		}
+
+		{
+			doseSheets.map((d, j) => (
+				<div class="sheet" id={d.id} data-page={sheets.length + j + 1}>
+					<header>
+						<h1>{d.title}</h1>
+						<div class="kicker">{d.kicker} · 血液科口試走向指南</div>
+					</header>
+					<div class="content">
+						<div class="inner">
+						<div class="fp">
+							<b>怎麼用</b>
+							成人常規參考劑量，答題時講得出「數量級、途徑、頻率、要監測什麼」即可；實際處方以仿單、健保規定與最新指引為準，特殊族群（腎功能、孕婦、兒童）另行查核。
+						</div>
+						{d.groups.map((g) => (
+							<>
+								<h2>{g.title}</h2>
+								<Fragment set:html={render(g.body)} />
+							</>
+						))}
+						</div>
+					</div>
+					<footer>
+						<span>htlin222.github.io/hema-board-interview-guide · 主題頁「參考劑量」段落與本表同源</span>
+						<span>
+							{sheets.length + j + 1} / {total} · 參考值，非處方依據
+						</span>
+					</footer>
+				</div>
+			))
+		}
+	</body>
+</html>

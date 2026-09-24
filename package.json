@@ -13,7 +13,11 @@
 		"build:anki": "uv run --script scripts/build_anki.py",
 		"build:assets": "uv run --script scripts/make-brand-assets.py",
 		"build:transcript": "uv run --script scripts/build_transcript.py",
-		"build:audio": "uv run --script scripts/build_audio.py"
+		"build:audio": "uv run --script scripts/build_audio.py",
+		"build:booklet": "uv run --script scripts/build_booklet.py",
+		"check:booklet": "uv run --script scripts/build_booklet.py --check",
+		"sync:doses": "uv run --script scripts/sync_doses.py",
+		"check:doses": "uv run --script scripts/sync_doses.py --check"
 	},
 	"dependencies": {
 		"@astrojs/starlight": "^0.42.0",

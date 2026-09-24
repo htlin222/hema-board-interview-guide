@@ -5,3 +5,5 @@ dist/
 dist-anki/
 dist-epub/
 dist-audio/
+dist-booklet/
+dist-fork*/

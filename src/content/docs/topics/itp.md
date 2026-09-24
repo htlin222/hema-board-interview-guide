@@ -6,6 +6,26 @@ sidebar:
 
 單獨出現頻率不如 IDA／hemophilia 高，但常以「排除法」的角色出現在其他血小板低下的鑑別題組中（尤其容易跟 [TTP/Evans syndrome](/hema-board-interview-guide/topics/ttp-tma-evans/) 放在一起考鑑別）。
 
+<!-- doses:start -->
+## 參考劑量
+
+成人常規參考劑量，用來答「數量級、途徑、頻率、要監測什麼」；實際處方以仿單、健保規定與最新指引為準，特殊族群另行查核。與 [A4 手冊](/hema-board-interview-guide/booklet/) 的劑量總表同源。
+
+主題頁本身只談診斷邏輯，以下治療劑量皆為補充，方便被追問「確診之後怎麼治」時接得上。
+
+| 藥物 | 情境 | 參考劑量 | 備註（監測、調整） |
+| --- | --- | --- | --- |
+| Prednisone | 成人一線 | 1 mg/kg/day（0.5–2）PO 1–2 週後逐步減量，總療程不超過 6–8 週 | 治療門檻：plt <20–30 ×10⁹/L 或有出血；只有皮膚出血且 plt 較高可觀察 |
+| Dexamethasone | 成人一線替代 | 40 mg/day PO ×4 天，可重複 1–3 個療程 | 反應較快，長期緩解率與 prednisone 相近 |
+| IVIG | 需快速拉高（出血、術前） | 1 g/kg/day ×1–2 天（或 0.4 g/kg/day ×5 天） | 升高 1–3 天內見效，維持 2–4 週；監測腎功能、頭痛、血栓 |
+| Anti-D | Rh(D) 陽性、未切脾 | 50–75 μg/kg IV 單次 | 補充：溶血風險，Coombs 陽性者禁用 |
+| TPO-RA | 二線 | Eltrombopag 50 mg PO 每日（**東亞裔起始 25 mg**）；romiplostim 1 μg/kg SC 每週，每週調 1 μg/kg 至上限 10；avatrombopag 20 mg 每日 | 目標 plt ≥50；eltrombopag 空腹、避開鈣鐵乳製品 4 小時；追肝功能 |
+| Rituximab | 二線 | 375 mg/m² IV 每週 ×4（低劑量 100 mg ×4 亦有人用） | HBV 篩檢（HBsAg、anti-HBc），帶原者預防性 entecavir |
+| Fostamatinib | 後線（補充） | 100 mg PO bid，4 週未達標增至 150 mg bid | 高血壓、腹瀉、ALT |
+| 脾臟切除 | 慢性（診斷 ≥12 個月）藥物無效 | 術前疫苗見溶血表 | 兒童盡量延後到 ≥5 歲 |
+| 危急出血 | 顱內／內臟出血 | IVIG 1 g/kg + methylprednisolone 1 g/day ×3 + 血小板輸注 ± tranexamic acid 1 g IV q8h | 補充：血小板輸注在 ITP 只用於危急出血 |
+<!-- doses:end -->
+
 ## <svg class="icon-inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg> 推理架構：thrombocytopenia 先分「做不出來」還是「被破壞掉」
 
 跟 [TTP/TMA/Evans 篇](/hema-board-interview-guide/topics/ttp-tma-evans/) 的分流圖是同一套邏輯的另一半——那篇處理的是「有沒有合併 hemolysis」，這裡處理的是骨髓端的驗證：

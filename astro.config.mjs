@@ -64,6 +64,11 @@ export default defineConfig({
 					link: '/handout/',
 					attrs: { target: '_blank' },
 				},
+				{
+					label: 'A4 手冊（21 頁，含劑量表）',
+					link: '/booklet/',
+					attrs: { target: '_blank' },
+				},
 			],
 		}),
 	],
