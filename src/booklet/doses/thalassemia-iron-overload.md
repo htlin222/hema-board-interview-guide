@@ -5,7 +5,7 @@ order: 11
 
 | 藥物 | 情境 | 參考劑量 | 備註（監測、調整） |
 | --- | --- | --- | --- |
-| 何時啟動 chelation | 輸血依賴 | ferritin 持續 >1000 ng/mL，或累積輸血約 10–20 單位、LIC >3 mg Fe/g dw | 健保給付門檻依當年公告；ferritin 是 acute phase reactant，配合 MRI |
+| 何時啟動 chelation | 輸血依賴（TDT）／非輸血依賴（NTDT） | TDT：累積輸血 10–12 單位或 ferritin 持續 >1000 ng/mL；NTDT：ferritin ≥800 ng/mL 或 LIC ≥5 mg Fe/g dw（BSH 2022） | 健保給付門檻依當年公告；ferritin 是 acute phase reactant，配合 MRI |
 | Deferoxamine（Desferal） | 一線之一；嚴重心臟鐵沉積首選併用 | 30–60 mg/kg/day（兒童 20–40），皮下持續輸注 8–12 h，每週 5–7 晚 | 年度聽力、視力檢查；生長遲緩（兒童）；ferritin <1000 時減量避免毒性 |
 | Deferasirox（Exjade 分散錠） | 口服一線，順從性佳 | 20–30 mg/kg/day 一天一次（起始 20，上限 40） | 每月 creatinine、尿蛋白、ALT；GI 不適；Jadenu 膜衣錠劑量為 Exjade 的 70%（14–21，上限 28 mg/kg/day） |
 | Deferiprone（Ferriprox） | 心臟鐵移除較佳；常與 deferoxamine 併用 | 75 mg/kg/day 分三次口服（上限 99 mg/kg/day） | **Agranulocytosis**：每週 CBC；發燒即停藥驗 ANC；關節痛、ALT 上升 |

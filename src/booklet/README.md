@@ -5,6 +5,8 @@
 `src/booklet/pages/*.md` 每一個檔案 = 一張**橫式** A4（297×210 mm）。由 `src/pages/booklet/index.astro` 依檔名順序渲染成 `/booklet/`，
 再由 `scripts/build_booklet.py` 印成 PDF 並檢查每一頁有沒有溢出。
 
+`src/booklet/criteria/*.md` 是**診斷標準的唯一來源**，手冊末尾的「診斷標準總表」由它拼出，主題頁的「診斷標準」段落也由 `scripts/sync_doses.py` 從這裡注入。每份先放一個第一性原理框（這組疾病的診斷必須證明哪幾件事），每條標準都要對應回其中一件；WHO 2022 與 ICC 2022 不同就並列。內容一張放不下時可在中間放 `<!-- page -->`，後半段進「（續）」張（只有 CRITERIA_SHEETS 裡有續張的組別可用，見 `src/lib/booklet-data.ts`）。
+
 `src/booklet/doses/*.md` 是**藥物參考劑量的唯一來源**：手冊末尾的劑量總表由它拼出來，
 主題頁的「參考劑量」段落也由 `scripts/sync_doses.py` 從這裡注入（檔名對應 `src/content/docs/topics/<slug>.md`）。
 
@@ -14,22 +16,26 @@
 ---
 title: IDA（缺鐵性貧血）
 kicker: 04 · 貧血
-site: iron-deficiency-anemia      # 對應主題頁 slug，可省略
+site: iron-deficiency-anemia # 對應主題頁 slug，可省略
 ---
 
 <div class="fp"><b>第一性原理</b>　一句話，講出這一章所有分岔都從哪個生理事實推出來。</div>
 
 ## MECE 分岔
+
 | 層 | 問什麼 | 分支（互斥、窮盡） | 決定了什麼 |
 | … |
 
 ## 速記表
+
 （一到三張表）
 
 ## 破題關鍵句
+
 | 題 | 一開口就講 |
 
 ## 容易被電
+
 - 三到五條，一行一條
 ```
 

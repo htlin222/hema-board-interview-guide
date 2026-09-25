@@ -6,6 +6,23 @@ sidebar:
 
 常與 IDA 題組出現在同一個案例的延伸，也會單獨以年輕女性 microcytic anemia 情境出現。這裡有三個可重複套用的推理框架，練熟以後不管案例怎麼變化題目都能自己推。
 
+<!-- criteria:start -->
+## 診斷標準
+
+診斷標準每一組先講第一性原理（這套標準為什麼長這樣），再列切點；WHO 2022 與 ICC 2022 有差異時並列。與 [A4 手冊](https://htlin222.github.io/hema-board-interview-guide/booklet/) 的診斷標準總表同源。
+
+> **第一性原理**　Trait＝證明「**globin 鏈合成失衡**」：β 鏈少→代償 δ 鏈，HbA2 會升，看蛋白就夠；α 鏈少時所有 Hb 都一起少、比例不變，只能看**基因**。鐵過載＝證明「**器官裡有鐵**」：ferritin 只是間接訊號，定量要 MRI 直接量肝與心。
+
+| 標準 | 切點（出處） | 為什麼（證明哪一件事） |
+| --- | --- | --- |
+| Mentzer index | MCV÷RBC <13 偏 thal、≥13 偏 IDA | **只是篩檢**：量化「MCV 掉得比 Hb 多」，分不出 α／β，不能診斷 |
+| β-thal trait | HbA2 >3.5%（3.3–3.9 灰區；BSH 2023 >4.0% 伴 microcytosis 直接判定）；HbF 可輕度↑ | δ 鏈代償＝β 鏈不足的蛋白證據；**合併缺鐵會壓低 HbA2**，先補鐵再驗 |
+| α-thal trait | 電泳／HPLC 正常 → DNA：gap-PCR（--SEA、-α3.7、-α4.2） | 比例不變所以蛋白看不出；--/αα（cis）與 -α/-α（trans）血液學無法區分，下一代 Hb Bart's 風險只有基因能講 |
+| LIC（MRI R2／T2\*） | 正常 <1.8 mg Fe/g dw；目標 3–7；>7 肝病風險↑；>15 肝纖維化與心臟死亡↑ | 肝是主倉庫，LIC 反映全身鐵總量 |
+| Cardiac T2\*（1.5 T） | >20 ms 無明顯心臟鐵；10–20 輕中度；<10 ms 高風險心衰竭（AHA 2013、TIF 2021） | 心臟鐵不能由 ferritin／LIC 推估，必須直接量 |
+| Ferritin | >1000 ng/mL 或輸血 10–12 單位起 chelation（TDT）；NTDT：≥800 或 LIC ≥5；持續 >2500 心臟風險↑ | 間接、會被發炎撐高，只能初篩與追趨勢 |
+<!-- criteria:end -->
+
 <!-- doses:start -->
 ## 參考劑量
 
@@ -13,7 +30,7 @@ sidebar:
 
 | 藥物 | 情境 | 參考劑量 | 備註（監測、調整） |
 | --- | --- | --- | --- |
-| 何時啟動 chelation | 輸血依賴 | ferritin 持續 >1000 ng/mL，或累積輸血約 10–20 單位、LIC >3 mg Fe/g dw | 健保給付門檻依當年公告；ferritin 是 acute phase reactant，配合 MRI |
+| 何時啟動 chelation | 輸血依賴（TDT）／非輸血依賴（NTDT） | TDT：累積輸血 10–12 單位或 ferritin 持續 >1000 ng/mL；NTDT：ferritin ≥800 ng/mL 或 LIC ≥5 mg Fe/g dw（BSH 2022） | 健保給付門檻依當年公告；ferritin 是 acute phase reactant，配合 MRI |
 | Deferoxamine（Desferal） | 一線之一；嚴重心臟鐵沉積首選併用 | 30–60 mg/kg/day（兒童 20–40），皮下持續輸注 8–12 h，每週 5–7 晚 | 年度聽力、視力檢查；生長遲緩（兒童）；ferritin <1000 時減量避免毒性 |
 | Deferasirox（Exjade 分散錠） | 口服一線，順從性佳 | 20–30 mg/kg/day 一天一次（起始 20，上限 40） | 每月 creatinine、尿蛋白、ALT；GI 不適；Jadenu 膜衣錠劑量為 Exjade 的 70%（14–21，上限 28 mg/kg/day） |
 | Deferiprone（Ferriprox） | 心臟鐵移除較佳；常與 deferoxamine 併用 | 75 mg/kg/day 分三次口服（上限 99 mg/kg/day） | **Agranulocytosis**：每週 CBC；發燒即停藥驗 ANC；關節痛、ALT 上升 |

@@ -6,6 +6,26 @@ sidebar:
 
 這篇是更基本層次的題目——考官不是每次都會挑刁鑽的少見疾病來考，反而很喜歡先確認考生有沒有把「貧血分類」跟「溶血性貧血的判斷邏輯」這兩套最底層的功夫練熟。這類題目乍看簡單，但正因為簡單，答不出結構反而更扣分：考官預期的不是背出一堆病名，而是看你能不能用一個清楚的架構把病人自動分流到正確的鑑別診斷方向。
 
+<!-- criteria:start -->
+## 診斷標準
+
+診斷標準每一組先講第一性原理（這套標準為什麼長這樣），再列切點；WHO 2022 與 ICC 2022 有差異時並列。與 [A4 手冊](https://htlin222.github.io/hema-board-interview-guide/booklet/) 的診斷標準總表同源。
+
+> **第一性原理**　溶血分兩步：先證明「**有破壞**」（產物↑＋骨髓代償），再證明「**怎麼破壞**」——抗體（DAT）、膜（EMA）、補體調控蛋白缺失（flow）、酵素（G6PD 活性）。每個病的標準就是那一個機轉的直接證據。
+
+| 病 | 標準（出處） | 為什麼（證明哪一件事） |
+| --- | --- | --- |
+| 有沒有溶血 | Retic↑、LDH↑、indirect bil↑、haptoglobin↓，方向一致即可；血管內再加 free Hb、hemoglobinuria（dipstick＋無 RBC）、hemosiderinuria | 有破壞；retic 可因骨髓抑制而不升，不能單靠它排除 |
+| Warm AIHA | DAT 單特異 IgG ±C3d（BSH 2017；Jäger 2020 共識） | 紅血球表面有 IgG → 脾臟吞噬（血管外）；DAT 陰性 AIHA 約 5%，先排 PNH |
+| CAD | DAT **只有 C3d**＋cold agglutinin titer ≥64（4°C）；thermal amplitude 決定臨床意義 | IgM 冷處結合、固定補體後脫落 → 只留 C3d；mixed AIHA 約 5% |
+| HS（BSH 2011） | 家族史＋spherocyte＋MCHC↑＋retic↑ → **不需再驗**；不典型才做 EMA binding（或 cryohemolysis）；osmotic fragility 不建議常規；仍不明才 SDS-PAGE／基因 | 膜蛋白缺陷；前提是 DAT 陰性（排除抗體造成的 spherocyte） |
+| PNH（ICCS 2018） | 高敏感 flow（偵測下限 0.01%）：顆粒球 FLAER＋CD24、單核球 FLAER＋CD14，**≥2 系、≥2 個 GPI 標記**；RBC（CD59 type II/III）補充 | GPI anchor 缺失的直接證據；RBC 會被溶掉＋輸血稀釋而低估，clone 大小看顆粒球 |
+| PNH clone 大小 | <1% 在 AA／MDS 常見、不溶血、預測 IST 反應佳；>50% 顆粒球 clone 多見典型溶血 PNH | 「有 clone」≠「PNH 病」，要配溶血證據 |
+| G6PD（BSH 2020） | 定量分光光度法；男性可先 fluorescent spot，異常或邊緣要定量；女性直接定量（異型合子可用 cytochemical） | 酵素缺乏；**急性溶血後 retic 活性高 → 假性正常**，2–3 個月後重驗 |
+
+**口試怎麼講**：「四項溶血指標只證明有破壞，下一步 DAT 決定是不是抗體，DAT 陰性再依抹片走膜、酵素、補體、機械。」
+<!-- criteria:end -->
+
 <!-- doses:start -->
 ## 參考劑量
 
@@ -45,43 +65,43 @@ sidebar:
 
 **MCV 一分三類，各自要想到什麼（推理架構・第一層）**
 
-| 分類 | 這一格裡有什麼 | 考官愛問的少見／情境性原因 |
-| --- | --- | --- |
-| Microcytic（MCV 低） | 缺鐵、thalassemia trait、anemia of chronic disease（部分病人） | 鉛中毒、sideroblastic anemia |
+| 分類                   | 這一格裡有什麼                                                                    | 考官愛問的少見／情境性原因                                                                                                                 |
+| ---------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Microcytic（MCV 低）   | 缺鐵、thalassemia trait、anemia of chronic disease（部分病人）                    | 鉛中毒、sideroblastic anemia                                                                                                               |
 | Normocytic（MCV 正常） | 急性失血、多數溶血性貧血、anemia of chronic disease、腎性貧血、骨髓浸潤或再生不良 | 燒傷（體液滲漏造成血液濃縮的假象＋熱傷害直接破壞紅血球膜）、march hemoglobinuria（足底反覆撞擊造成微血管內機械性破壞，良性、通常自行緩解） |
-| Macrocytic（MCV 高） | B12／folate 缺乏（megaloblastic）、酒精、肝病、甲狀腺低下 | 藥物（hydroxyurea、化療藥）、MDS 造成的無效造血 |
-| 老年人（型態會漂移） | 年輕時是 microcytic 的缺鐵，年紀大常轉成 normocytic 甚至 macrocytic | 主動想 megaloblastic anemia（B12／folate）或 MDS——造血功能本身在退化，不是缺鐵沒補好 |
+| Macrocytic（MCV 高）   | B12／folate 缺乏（megaloblastic）、酒精、肝病、甲狀腺低下                         | 藥物（hydroxyurea、化療藥）、MDS 造成的無效造血                                                                                            |
+| 老年人（型態會漂移）   | 年輕時是 microcytic 的缺鐵，年紀大常轉成 normocytic 甚至 macrocytic               | 主動想 megaloblastic anemia（B12／folate）或 MDS——造血功能本身在退化，不是缺鐵沒補好                                                       |
 
 **溶血的四項實驗室證據各自代表什麼（推理架構・第二層第 1 步）**
 
-| 檢驗項目 | 方向 | 代表什麼 |
-| --- | --- | --- |
-| Reticulocyte count | 上升 | 骨髓在代償 |
-| LDH | 上升 | 細胞被破壞後釋出 |
-| Indirect bilirubin | 上升 | 血基質代謝產物增加 |
-| Haptoglobin | 下降 | 被釋出的游離血紅素消耗掉 |
-| 四項合起來看 | 不必每項到極端值，但方向要一致 | 只證明「有溶血」；講完就停住是失分點，下一步一定要接抹片型態＋Coombs test |
+| 檢驗項目           | 方向                           | 代表什麼                                                                  |
+| ------------------ | ------------------------------ | ------------------------------------------------------------------------- |
+| Reticulocyte count | 上升                           | 骨髓在代償                                                                |
+| LDH                | 上升                           | 細胞被破壞後釋出                                                          |
+| Indirect bilirubin | 上升                           | 血基質代謝產物增加                                                        |
+| Haptoglobin        | 下降                           | 被釋出的游離血紅素消耗掉                                                  |
+| 四項合起來看       | 不必每項到極端值，但方向要一致 | 只證明「有溶血」；講完就停住是失分點，下一步一定要接抹片型態＋Coombs test |
 
 **Coombs test（DAT）分岔：兩條路各是什麼（第二層第 2 步／spherocyte 那題）**
 
-| Coombs test（DAT） | 機轉方向 | 代表疾病 | 抹片看到什麼 |
-| --- | --- | --- | --- |
-| 陽性 | Immune-mediated：紅血球表面被抗體或補體標記 | Autoimmune hemolytic anemia（AIHA） | Spherocyte（部分細胞膜被脾臟巨噬細胞咬掉） |
-| 陰性・膜結構 | Non-immune：先天紅血球膜蛋白缺陷 | Hereditary spherocytosis | Spherocyte（型態一樣，但機轉不是抗體攻擊） |
-| 陰性・酵素 | Non-immune：氧化壓力誘發溶血 | G6PD deficiency | Bite cell、Heinz body |
-| 陰性・機械性 | Non-immune：微血管內機械性切割 | TTP／TMA、人工瓣膜、DIC | Schistocyte |
-| 少見原因（感染） | 瘧疾＝寄生蟲直接在紅血球內複製破壞；登革熱＝骨髓抑制、血小板減少，部分病人誘發免疫介導破壞；敗血症合併 DIC＝纖維蛋白網切割 | 最終仍收斂回 immune vs non-immune、有沒有 schistocyte 兩條軸 | DIC 時可見 schistocyte |
+| Coombs test（DAT） | 機轉方向                                                                                                                   | 代表疾病                                                     | 抹片看到什麼                               |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------ |
+| 陽性               | Immune-mediated：紅血球表面被抗體或補體標記                                                                                | Autoimmune hemolytic anemia（AIHA）                          | Spherocyte（部分細胞膜被脾臟巨噬細胞咬掉） |
+| 陰性・膜結構       | Non-immune：先天紅血球膜蛋白缺陷                                                                                           | Hereditary spherocytosis                                     | Spherocyte（型態一樣，但機轉不是抗體攻擊） |
+| 陰性・酵素         | Non-immune：氧化壓力誘發溶血                                                                                               | G6PD deficiency                                              | Bite cell、Heinz body                      |
+| 陰性・機械性       | Non-immune：微血管內機械性切割                                                                                             | TTP／TMA、人工瓣膜、DIC                                      | Schistocyte                                |
+| 少見原因（感染）   | 瘧疾＝寄生蟲直接在紅血球內複製破壞；登革熱＝骨髓抑制、血小板減少，部分病人誘發免疫介導破壞；敗血症合併 DIC＝纖維蛋白網切割 | 最終仍收斂回 immune vs non-immune、有沒有 schistocyte 兩條軸 | DIC 時可見 schistocyte                     |
 
 **輸血副作用：急性 vs 慢性（輸血那題）**
 
-| 輸血反應 | 時機 | 要講出來的重點 |
-| --- | --- | --- |
-| 急性溶血反應 | 急性 | 多因 ABO 不合，發燒、腰痛、血尿，嚴重可致命；強調輸血前 crossmatch 與床邊核對病人與血袋 |
-| 發燒性非溶血反應 | 急性 | 最常見的輸血反應之一，機轉與白血球釋放的細胞激素有關 |
-| 過敏反應 | 急性 | 從蕁麻疹到 anaphylaxis 都有可能；嚴重過敏要想到 IgA 缺乏症 |
-| TRALI／TACO | 急性 | 都表現呼吸困難但機轉不同：TRALI 是免疫機轉的肺損傷、TACO 是容積過載，靠病史、理學檢查與影像鑑別 |
-| 鐵過載 | 慢性（多次輸血後） | 每單位濃縮紅血球都含鐵、人體沒有主動排鐵機制，累積在肝、心、內分泌器官；thalassemia major 這類病人最重要的長期併發症，定期監測 ferritin、視情況 iron chelation。這題只答急性反應就是最常見的失分點 |
-| Alloimmunization | 慢性（多次輸血後） | 產生對紅血球抗原的抗體，未來配血更困難、延遲性溶血反應風險上升 |
+| 輸血反應         | 時機               | 要講出來的重點                                                                                                                                                                                     |
+| ---------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 急性溶血反應     | 急性               | 多因 ABO 不合，發燒、腰痛、血尿，嚴重可致命；強調輸血前 crossmatch 與床邊核對病人與血袋                                                                                                            |
+| 發燒性非溶血反應 | 急性               | 最常見的輸血反應之一，機轉與白血球釋放的細胞激素有關                                                                                                                                               |
+| 過敏反應         | 急性               | 從蕁麻疹到 anaphylaxis 都有可能；嚴重過敏要想到 IgA 缺乏症                                                                                                                                         |
+| TRALI／TACO      | 急性               | 都表現呼吸困難但機轉不同：TRALI 是免疫機轉的肺損傷、TACO 是容積過載，靠病史、理學檢查與影像鑑別                                                                                                    |
+| 鐵過載           | 慢性（多次輸血後） | 每單位濃縮紅血球都含鐵、人體沒有主動排鐵機制，累積在肝、心、內分泌器官；thalassemia major 這類病人最重要的長期併發症，定期監測 ferritin、視情況 iron chelation。這題只答急性反應就是最常見的失分點 |
+| Alloimmunization | 慢性（多次輸血後） | 產生對紅血球抗原的抗體，未來配血更困難、延遲性溶血反應風險上升                                                                                                                                     |
 
 ## 套用到實際問法
 
@@ -97,6 +117,7 @@ sidebar:
 </div>
 
 擬答：
+
 - **Microcytic：鐵不夠、或血紅素合成鏈出問題**
   - 缺鐵性貧血最常見，其次是 thalassemia trait、anemia of chronic disease、少見的鉛中毒和 sideroblastic anemia。
 - **Normocytic：急性事件或破壞性疾病，骨髓還沒來得及代償或代償不了**
@@ -127,11 +148,12 @@ sidebar:
 </div>
 
 擬答：
+
 - **下一步做 Coombs test（Direct Antiglobulin Test, DAT）**
   - Coombs test 陽性代表紅血球表面被抗體或補體標記，方向是 immune-mediated，例如 autoimmune hemolytic anemia。
   - Coombs test 陰性則排除 immune 機轉，方向轉往先天性或結構性的疾病，例如 hereditary spherocytosis。
 - **若 Coombs test 陰性,支持 hereditary spherocytosis 的診斷**
-  - 可以搭配家族史（約 75% 為體染色體顯性遺傳，常有家族中類似病史；其餘約 25% 是體染色體隱性遺傳或 de novo 突變，這種情況下家族史可能是陰性的，沒有家族史不能排除診斷）、脾臟腫大的理學發現，以及 osmotic fragility test 或 EMA binding test 等確認性檢查。
+  - 可以搭配家族史（約 75% 為體染色體顯性遺傳，常有家族中類似病史；其餘約 25% 是體染色體隱性遺傳或 de novo 突變，這種情況下家族史可能是陰性的，沒有家族史不能排除診斷）、脾臟腫大的理學發現；典型者（家族史＋spherocyte＋MCHC 上升＋retic 上升）即可診斷，不典型才加驗 EMA binding test 或 cryohemolysis（BSH 2011 不建議常規做 osmotic fragility test）。
   - 這個案例的年齡、貧血程度與抹片表現都符合 hereditary spherocytosis 的典型呈現。
 
 <div class="callout callout-followup">
@@ -154,6 +176,7 @@ sidebar:
 </div>
 
 擬答：
+
 - **先評估溶血的嚴重度，不是每個病人都需要立即手術**
   - 輕症病人（貧血輕微、沒有明顯症狀或併發症）可以先採取保守觀察，定期追蹤 Hb、reticulocyte count、膽紅素等指標。
   - 補充葉酸（folic acid）是常規建議，因為慢性溶血會增加紅血球生成的需求,容易併發葉酸缺乏。
@@ -181,6 +204,7 @@ sidebar:
 </div>
 
 擬答：
+
 - **感染相關的溶血原因**
   - 登革熱（dengue fever）可能合併溶血，機轉包含病毒直接或間接造成的骨髓抑制、血小板減少、以及部分病人可能誘發免疫介導的紅血球破壞。
   - 瘧疾（malaria）是感染造成溶血的經典例子，機轉是寄生蟲直接在紅血球內複製並破壞細胞。
@@ -208,6 +232,7 @@ sidebar:
 </div>
 
 擬答：
+
 - **血管內溶血相關表現**
   - 典型症狀是清晨解出茶色或深色尿液（夜間睡眠時相對酸中毒環境促進補體活化,加重溶血,清晨尿液中血紅素濃縮而顏色變深）。
   - 慢性溶血可合併疲倦、黃疸、LDH 上升等一般溶血性貧血的表現。
@@ -236,6 +261,7 @@ sidebar:
 </div>
 
 擬答：
+
 - **感染風險（最重要,終身存在）**
   - 脾臟切除後對莢膜細菌（encapsulated organisms）的清除能力下降，容易發生猛爆性感染（overwhelming post-splenectomy infection, OPSI），常見致病菌包括肺炎鏈球菌、腦膜炎雙球菌、b 型流感嗜血桿菌。
   - 處置原則是術前或術後儘早補打莢膜細菌相關疫苗，並衛教病人若發燒要提高警覺、及早就醫,部分病人會考慮預防性抗生素。
@@ -265,6 +291,7 @@ sidebar:
 </div>
 
 擬答：
+
 - **急性輸血反應（輸血當下到數小時內）**
   - 急性溶血反應：通常因為 ABO 不合，臨床上表現發燒、腰痛、血尿，嚴重時可致命，強調輸血前一定要做交叉配對（crossmatch）並在床邊核對病人與血袋資料。
   - 發燒性非溶血反應（febrile non-hemolytic reaction）：最常見的輸血反應之一，機轉與白血球釋放的細胞激素有關。

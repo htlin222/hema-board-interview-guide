@@ -6,6 +6,23 @@ sidebar:
 
 急診情境題的固定班底，起手式幾乎都是同一個套路：年輕（或中年）女性、貧血合併血小板低下。**這類題目考官刻意不會一開始就讓你鎖定單一診斷**，用下面這張分流圖，看到「貧血+thrombocytopenia」就能自己把病人分到對的分支，而不是憑第一印象猜診斷。
 
+<!-- criteria:start -->
+## 診斷標準
+
+診斷標準每一組先講第一性原理（這套標準為什麼長這樣），再列切點；WHO 2022 與 ICC 2022 有差異時並列。與 [A4 手冊](https://htlin222.github.io/hema-board-interview-guide/booklet/) 的診斷標準總表同源。
+
+> **第一性原理**　三者都是「溶血／血小板被耗掉」，差在機轉：TTP 要證明 **vWF 切不斷**（ADAMTS13）、Evans 要證明**免疫標記**（DAT）、DIC 要證明**凝血系統被全面消耗**（因子與纖維蛋白指標）。
+
+| 疾病（出處） | 標準／切點 | 證明哪件事 |
+| --- | --- | --- |
+| TTP（ISTH 2020） | MAHA＋血小板低，ADAMTS13 activity <b><10%</b>（10–20% 高度懷疑則重驗）；iTTP＝抗 ADAMTS13 抗體／inhibitor，cTTP＝ADAMTS13 雙對偶基因突變 | 酵素缺乏→超大 vWF 多聚體；抗體 vs 基因決定治療（PEX＋免疫抑制 vs 補充 ADAMTS13） |
+| PLASMIC（等報告時） | 7 項各 1 分：plt <30、溶血（retic >2.5% 或 hapto 測不到或 IB >2）、無活動癌症、無器官／幹細胞移植、MCV <90、INR <1.5、Cr <2.0；0–4 低／5 中／6–7 高 | 先驗機率：不等 ADAMTS13 就先 PEX |
+| Evans | 同時或先後出現 AIHA（DAT＋）與 ITP | 兩系都被免疫標記，無 schistocyte |
+| Overt DIC（ISTH 2001） | 前提：有會引起 DIC 的底病。plt <100＝1、<50＝2；D-dimer 中度↑＝2、強↑＝3；PT 延長 3–6 s＝1、>6 s＝2；fibrinogen <1 g/L＝1；<b>≥5 分</b>＝overt，<5 每 1–2 天重算 | 消耗：血小板＋因子＋fibrinogen 同時掉、纖溶產物升 |
+
+- 容易被電：PLASMIC 是「先治療」的依據不是確診；ADAMTS13 要在 PEX／輸血漿前抽。TTP 凝血正常、DIC 凝血異常，是兩者的分界。
+<!-- criteria:end -->
+
 <!-- doses:start -->
 ## 參考劑量
 

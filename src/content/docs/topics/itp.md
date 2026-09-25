@@ -6,6 +6,23 @@ sidebar:
 
 單獨出現頻率不如 IDA／hemophilia 高，但常以「排除法」的角色出現在其他血小板低下的鑑別題組中（尤其容易跟 [TTP/Evans syndrome](/hema-board-interview-guide/topics/ttp-tma-evans/) 放在一起考鑑別）。
 
+<!-- criteria:start -->
+## 診斷標準
+
+診斷標準每一組先講第一性原理（這套標準為什麼長這樣），再列切點；WHO 2022 與 ICC 2022 有差異時並列。與 [A4 手冊](https://htlin222.github.io/hema-board-interview-guide/booklet/) 的診斷標準總表同源。
+
+> **第一性原理**　ITP 沒有 checkpoint test，是排除性診斷：要證明 ①血小板真的低 ②生產端正常 ③周邊其他機轉都排除——所以標準本身就是「數字＋排除清單」。
+
+| 標準（IWG 2009；ASH 2019） | 內容 | 證明哪件事 |
+| --- | --- | --- |
+| 數字 | 單獨 plt <100×10⁹/L（舊定義 <150 已棄用）；先排除 EDTA 假性凝集 | ① 真的低 |
+| 生產端 | CBC 其他兩系與抹片正常即可；典型者不需骨髓（不論年齡），不典型、治療無效才做 | ② 生產端沒事 |
+| 排除清單 | HIV、HCV 必驗；H. pylori 建議篩；藥物史、TMA／DIC、Evans、SLE、CLL | ③ 剩下的才叫 primary ITP |
+| 分期 | Newly diagnosed <3 月／persistent 3–12 月／chronic >12 月 | 不是診斷，決定脾切等時機 |
+
+- 容易被電：把分期（3／12 月）當診斷條件；或說每個 ITP 都要骨髓。
+<!-- criteria:end -->
+
 <!-- doses:start -->
 ## 參考劑量
 
