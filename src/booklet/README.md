@@ -1,6 +1,6 @@
 # A4 手冊（booklet）寫作規範
 
-同一份內容也會建成 A5 平板版（`/booklet-a5/`，`src/pages/booklet-a5/`、`src/styles/print-a5.css`）：每章自動分頁、字較大，不需要另外寫。只要 A4 版每頁塞得下，A5 版一章大約就是兩頁。
+同一份內容也會建成平板大字版（`/booklet-a5/`，`src/pages/booklet-a5/`、`src/styles/print-a5.css`）：同樣是 A4 橫式，但每頁只放約半張內容、字約 1.5 倍，每章自動分頁，不需要另外寫。只要 A4 版每頁塞得下，大字版一章大約就是兩頁。
 
 `src/booklet/pages/*.md` 每一個檔案 = 一張**橫式** A4（297×210 mm）。由 `src/pages/booklet/index.astro` 依檔名順序渲染成 `/booklet/`，
 再由 `scripts/build_booklet.py` 印成 PDF 並檢查每一頁有沒有溢出。

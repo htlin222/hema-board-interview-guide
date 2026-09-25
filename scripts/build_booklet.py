@@ -9,7 +9,7 @@
 所以溢出不會在 PDF 上多出一頁、而是被裁掉——這裡直接量 scrollHeight 與 clientHeight，
 超過就列出頁碼與超出的 px，並以非零 exit code 結束，讓 CI 擋下來。
 
-同一支腳本也印 A5 平板版（/booklet-a5/）：每章自動分頁，所以不量溢出，改成檢查
+同一支腳本也印平板大字版（/booklet-a5/，A4 橫式、每頁約半張內容、字約 1.5 倍）：每章自動分頁，所以不量溢出，改成檢查
 「沒有東西超出頁寬」以及「實際頁數＝頁面上每章預估頁數加總」（不一致代表某章多出一頁只有零星幾行）。
 
 用法：
@@ -116,7 +116,7 @@ A5_MEASURE = """
 
 
 def check_a5(browser, out) -> int:
-    """印 A5 平板版並檢查；回傳問題數。沒有 /booklet-a5/ 就跳過。"""
+    """印平板大字版並檢查；回傳問題數。沒有 /booklet-a5/ 就跳過。"""
     if not SRC_A5.exists():
         return 0
     import io
@@ -132,7 +132,7 @@ def check_a5(browser, out) -> int:
 
     actual = len(PdfReader(io.BytesIO(pdf)).pages)
     expected = sum(c["pages"] for c in info["chapters"])
-    print(f"\nA5 平板版：{len(info['chapters'])} 章 → {actual} 頁（每章預估加總 {expected}）")
+    print(f"\n平板大字版：{len(info['chapters'])} 章 → {actual} 頁（每章預估加總 {expected}）")
     for c in info["chapters"]:
         if c["pages"] != 2 or c["zoom"] != "1":
             print(f"   {c['title'][:28]:30s} {c['pages']} 頁  縮放 {c['zoom']}")

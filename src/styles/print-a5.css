@@ -1,64 +1,70 @@
 /*
- * A5 平板版：在 print.css（A4 版）之上覆寫。
+ * 平板大字版（網址與檔名沿用 a5）：在 print.css（A4 版）之上覆寫。
  *
- * 跟 A4 版的差別只有版面：A4 版每章手動塞進一張固定大小的外框；A5 版每章從新的一頁開始，
- * 內容自動往下一頁流，字級放大。內容、灰階配色、表格斑馬紋都沿用 print.css，所以改一處兩版同步。
+ * 想法是「把每張 A4 切一半、放大成一整頁」：紙張跟 A4 版一樣是橫式 A4，每頁只放約半張的內容，
+ * 整套版面（字級、邊界、間距）是 A5 版面乘上 √2≈1.414。所以頁數約為 A4 版兩倍，
+ * 而不論 PDF 用原尺寸看、還是在網站上看，字都實際比 A4 版大約 1.5 倍。
+ * （先前用真正的 A5 紙時，字只是「相對紙張」較大；原尺寸或網頁上看，跟 A4 版一樣小。）
  *
- * 方向用橫式：直式 A5 只有 13 公分寬，四欄表格會每格折好幾行。
+ * 跟 A4 版的差別只有版面：A4 版每章手動塞進一張固定外框；這一版每章從新的一頁開始、
+ * 內容自動往下一頁流。內容、灰階配色、表格斑馬紋都沿用 print.css，改一處兩版同步。
  */
 @page {
-	size: A5 landscape;
-	margin: 7mm 8mm 9mm;
+	size: A4 landscape;
+	margin: 10mm 11.3mm 12.7mm;
 	@bottom-left {
-		content: '血液科口試走向指南 · A5 平板版 · 去名化整理，非官方資料';
-		font: 6.8pt 'PingFang TC', 'Noto Sans CJK TC', sans-serif;
+		content: '血液科口試走向指南 · 平板大字版 · 去名化整理，非官方資料';
+		font: 9.6pt 'PingFang TC', 'Noto Sans CJK TC', sans-serif;
 		color: #5c5c5c;
 	}
 	@bottom-right {
 		content: counter(page) ' / ' counter(pages);
-		font: 6.8pt 'PingFang TC', 'Noto Sans CJK TC', sans-serif;
+		font: 9.6pt 'PingFang TC', 'Noto Sans CJK TC', sans-serif;
 		color: #5c5c5c;
 	}
 }
 
 body {
-	font-size: 8.4pt;
+	font-size: 11.9pt;
 	line-height: 1.3;
 }
 /* 每章的字級都乘上 --s：某章只多出一小截時，頁面 script 把 --s 調小收回整數頁。
    用字級而不是 zoom，因為 Chrome 印 zoom 過的文字會改用點陣字型，PDF 大四倍。 */
 .flow {
-	font-size: calc(8.4pt * var(--s, 1));
+	font-size: calc(11.9pt * var(--s, 1));
 }
 
-/* 每章：螢幕上是一欄 A5 寬的卡片，列印時每章從新的一頁開始 */
+/* 每章：螢幕上是一張 A4 橫式寬的卡片，列印時每章從新的一頁開始 */
 .chapter {
-	max-width: 210mm;
+	max-width: 297mm;
 	margin: 12px auto;
 	/* 跟 @page 邊界相同，螢幕上量到的高度才等於列印高度（見頁面裡的 fit script） */
-	padding: 7mm 8mm 9mm;
+	padding: 10mm 11.3mm 12.7mm;
 	background: #fff;
 	box-shadow: 0 2px 14px rgb(0 0 0 / 12%);
 }
 .chapter header {
-	margin-bottom: 6px;
+	margin-bottom: 8.5px;
+	border-bottom-width: 3px;
+	padding-bottom: 3px;
 }
 h1 {
-	font-size: calc(13.5pt * var(--s, 1));
+	font-size: calc(19pt * var(--s, 1));
 	line-height: 1.3;
 }
 header .kicker {
-	font-size: calc(7.5pt * var(--s, 1));
+	font-size: calc(10.6pt * var(--s, 1));
 }
 h2 {
-	font-size: calc(9.2pt * var(--s, 1));
-	margin: 7px 0 2px;
-	padding: 1.6px 7px;
+	font-size: calc(13pt * var(--s, 1));
+	margin: 10px 0 3px;
+	padding: 2.3px 10px;
+	border-radius: 3px;
 	break-after: avoid;
 }
 h3 {
-	font-size: calc(9pt * var(--s, 1));
-	margin: 6px 0 2px;
+	font-size: calc(12.7pt * var(--s, 1));
+	margin: 8.5px 0 3px;
 	break-after: avoid;
 }
 p,
@@ -67,19 +73,21 @@ li {
 	widows: 2;
 }
 .fp {
-	font-size: calc(8.4pt * var(--s, 1));
-	padding: 4px 8px;
-	margin: 3px 0 6px;
+	font-size: calc(11.9pt * var(--s, 1));
+	padding: 5.7px 11.3px;
+	margin: 4px 0 8.5px;
+	border-left-width: 4.2px;
 	break-inside: avoid;
 }
 table {
-	font-size: calc(7.7pt * var(--s, 1));
+	font-size: calc(10.9pt * var(--s, 1));
 	line-height: 1.28;
-	margin: 2px 0 5px;
+	margin: 3px 0 7px;
 }
 th,
 td {
-	padding: 1.6px 3.5px;
+	padding: 2.3px 5px;
+	border-width: 0.7px;
 }
 /* 跨頁時每頁重複表頭，列不從中間切開 */
 thead {
@@ -88,14 +96,13 @@ thead {
 tr {
 	break-inside: avoid;
 }
-/* A4 版的左右並排在 A5 寬度下太擠，改成上下排 */
+/* A4 版的左右並排在這個字級下太擠，改成上下排 */
 .pair {
 	display: block;
 }
 .pair > section > h2:first-child {
-	margin-top: 9px;
+	margin-top: 12.7px;
 }
-
 @media print {
 	body {
 		background: #fff;

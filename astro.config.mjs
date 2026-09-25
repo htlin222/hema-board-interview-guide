@@ -70,7 +70,7 @@ export default defineConfig({
 					attrs: { target: '_blank' },
 				},
 				{
-					label: 'A5 平板版手冊',
+					label: '平板大字版手冊',
 					link: '/booklet-a5/',
 					attrs: { target: '_blank' },
 				},

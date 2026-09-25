@@ -5,7 +5,8 @@ import { sheets, tableSheets } from '../../lib/booklet-data';
 import '../../styles/print.css';
 import '../../styles/print-a5.css';
 
-// A5 平板版：跟 /booklet/（A4）讀同一份資料、同一套樣式，只是版面改成每章自動分頁、字放大。
+// 平板大字版（網址沿用 booklet-a5）：跟 /booklet/（A4）讀同一份資料、同一套樣式。
+// 紙張同為 A4 橫式，但每頁只放約半張內容、字放大約 1.5 倍，每章自動分頁。
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const render = (s: string) => marked.parse(s, { async: false }) as string;
 const total = sheets.length + tableSheets.length;
@@ -15,7 +16,7 @@ const total = sheets.length + tableSheets.length;
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>A5 平板版手冊｜血液科口試走向指南</title>
+		<title>平板大字版手冊｜血液科口試走向指南</title>
 		<link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
 	</head>
 	<body>
@@ -23,7 +24,7 @@ const total = sheets.length + tableSheets.length;
 			<button onclick="window.print()">列印 / 存成 PDF</button>
 			<a href={`${base}/`}>回網站</a>
 			<a href={`${base}/booklet/`}>A4 版</a>
-			<span>{total} 章，每章從新的一頁開始；內容與 A4 版同源</span>
+			<span>{total} 章，每章從新的一頁開始、字約為 A4 版 1.5 倍；內容與 A4 版同源</span>
 		</div>
 
 		{
@@ -68,10 +69,10 @@ const total = sheets.length + tableSheets.length;
 		<script is:inline>
 			// 每章從新的一頁開始，內容自動往下流。某章如果只多出一小截（不到 45% 頁），
 			// 就把那章的字級調小一檔（CSS 變數 --s）收回整數頁，避免最後一頁只有兩三行；最小 87%，多出很多就維持多一頁。
-			// 螢幕上 .chapter 的 padding 跟列印的 @page 邊界相同（上 7、下 9、左右 8 mm），所以在這裡量的就是列印時的高度。
+			// 螢幕上 .chapter 的 padding 跟列印的 @page 邊界相同（上 10、下 12.7、左右 11.3 mm），所以在這裡量的就是列印時的高度。
 			(function () {
 				var mm = 96 / 25.4;
-				var pageH = (148 - 7 - 9) * mm * 0.93; // 0.93：表格列不拆頁會在頁尾留白，預留這個損耗
+				var pageH = (210 - 10 - 12.7) * mm * 0.93; // 0.93：表格列不拆頁會在頁尾留白，預留這個損耗
 				// 只用三檔比例：Chrome 會為每一種字級各嵌一份字型，每章各算一個比例會讓 PDF 暴增數倍
 				var STEPS = [1, 0.93, 0.87];
 				function fit() {
