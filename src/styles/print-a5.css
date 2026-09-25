@@ -1,0 +1,113 @@
+/*
+ * A5 平板版：在 print.css（A4 版）之上覆寫。
+ *
+ * 跟 A4 版的差別只有版面：A4 版每章手動塞進一張固定大小的外框；A5 版每章從新的一頁開始，
+ * 內容自動往下一頁流，字級放大。內容、灰階配色、表格斑馬紋都沿用 print.css，所以改一處兩版同步。
+ *
+ * 方向用橫式：直式 A5 只有 13 公分寬，四欄表格會每格折好幾行。
+ */
+@page {
+	size: A5 landscape;
+	margin: 7mm 8mm 9mm;
+	@bottom-left {
+		content: '血液科口試走向指南 · A5 平板版 · 去名化整理，非官方資料';
+		font: 6.8pt 'PingFang TC', 'Noto Sans CJK TC', sans-serif;
+		color: #5c5c5c;
+	}
+	@bottom-right {
+		content: counter(page) ' / ' counter(pages);
+		font: 6.8pt 'PingFang TC', 'Noto Sans CJK TC', sans-serif;
+		color: #5c5c5c;
+	}
+}
+
+body {
+	font-size: 8.4pt;
+	line-height: 1.3;
+}
+/* 每章的字級都乘上 --s：某章只多出一小截時，頁面 script 把 --s 調小收回整數頁。
+   用字級而不是 zoom，因為 Chrome 印 zoom 過的文字會改用點陣字型，PDF 大四倍。 */
+.flow {
+	font-size: calc(8.4pt * var(--s, 1));
+}
+
+/* 每章：螢幕上是一欄 A5 寬的卡片，列印時每章從新的一頁開始 */
+.chapter {
+	max-width: 210mm;
+	margin: 12px auto;
+	/* 跟 @page 邊界相同，螢幕上量到的高度才等於列印高度（見頁面裡的 fit script） */
+	padding: 7mm 8mm 9mm;
+	background: #fff;
+	box-shadow: 0 2px 14px rgb(0 0 0 / 12%);
+}
+.chapter header {
+	margin-bottom: 6px;
+}
+h1 {
+	font-size: calc(13.5pt * var(--s, 1));
+	line-height: 1.3;
+}
+header .kicker {
+	font-size: calc(7.5pt * var(--s, 1));
+}
+h2 {
+	font-size: calc(9.2pt * var(--s, 1));
+	margin: 7px 0 2px;
+	padding: 1.6px 7px;
+	break-after: avoid;
+}
+h3 {
+	font-size: calc(9pt * var(--s, 1));
+	margin: 6px 0 2px;
+	break-after: avoid;
+}
+p,
+li {
+	orphans: 2;
+	widows: 2;
+}
+.fp {
+	font-size: calc(8.4pt * var(--s, 1));
+	padding: 4px 8px;
+	margin: 3px 0 6px;
+	break-inside: avoid;
+}
+table {
+	font-size: calc(7.7pt * var(--s, 1));
+	line-height: 1.28;
+	margin: 2px 0 5px;
+}
+th,
+td {
+	padding: 1.6px 3.5px;
+}
+/* 跨頁時每頁重複表頭，列不從中間切開 */
+thead {
+	display: table-header-group;
+}
+tr {
+	break-inside: avoid;
+}
+/* A4 版的左右並排在 A5 寬度下太擠，改成上下排 */
+.pair {
+	display: block;
+}
+.pair > section > h2:first-child {
+	margin-top: 9px;
+}
+
+@media print {
+	body {
+		background: #fff;
+	}
+	.chapter {
+		max-width: none;
+		margin: 0;
+		padding: 0;
+		box-shadow: none;
+		break-before: page;
+	}
+	.chapter:first-of-type {
+		break-before: auto;
+	}
+}

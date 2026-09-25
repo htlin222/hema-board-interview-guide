@@ -1,62 +1,8 @@
 ---
 import { marked } from 'marked';
-import { loadSheets, loadDoses, layoutSheet } from '../../lib/booklet';
+import { layoutSheet } from '../../lib/booklet';
+import { sheets, doseSheets } from '../../lib/booklet-data';
 import '../../styles/print.css';
-
-// 手冊正文：每檔一張 A4
-const pageFiles = import.meta.glob('/src/booklet/pages/*.md', {
-	query: '?raw',
-	import: 'default',
-	eager: true,
-}) as Record<string, string>;
-const sheets = loadSheets(pageFiles);
-
-// 劑量表：由 doses/ 拼成兩張總表（benign / malignant），跟主題頁注入的是同一份來源
-const doseFiles = import.meta.glob('/src/booklet/doses/*.md', {
-	query: '?raw',
-	import: 'default',
-	eager: true,
-}) as Record<string, string>;
-const doses = loadDoses(doseFiles);
-// 劑量總表分四張：內容多的章節（malignancy）拆開才塞得下一頁
-const DOSE_SHEETS: { id: string; title: string; slugs: string[] }[] = [
-	{
-		id: 'doses-anemia',
-		title: '參考劑量總表 I · 貧血與鐵',
-		slugs: ['hemolytic-anemia-basics', 'iron-deficiency-anemia', 'thalassemia-iron-overload'],
-	},
-	{
-		id: 'doses-platelet',
-		title: '參考劑量總表 II · 血小板',
-		slugs: ['itp', 'ttp-tma-evans', 'thrombocytosis-mpn'],
-	},
-	{
-		id: 'doses-hemostasis',
-		title: '參考劑量總表 III · 出血與血栓',
-		slugs: ['bleeding-workup-hemophilia', 'cancer-associated-thrombosis'],
-	},
-	{
-		id: 'doses-myeloid',
-		title: '參考劑量總表 IV · AML、MDS、CML',
-		slugs: ['aml-mds-cml'],
-	},
-	{
-		id: 'doses-lymphoid',
-		title: '參考劑量總表 V · ALL 與 Lymphoma',
-		slugs: ['all-leukemia', 'lymphoma-treatment-lines'],
-	},
-	{
-		id: 'doses-myeloma',
-		title: '參考劑量總表 VI · Myeloma',
-		slugs: ['myeloma-and-transplant'],
-	},
-];
-const doseSheets = DOSE_SHEETS.map((d, j) => ({
-	id: d.id,
-	title: d.title,
-	kicker: `${String(sheets.length + j + 1).padStart(2, '0')} · 劑量`,
-	groups: d.slugs.map((slug) => doses.find((x) => x.slug === slug)).filter((x): x is NonNullable<typeof x> => !!x),
-}));
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const render = (s: string) => marked.parse(s, { async: false }) as string;
@@ -75,6 +21,7 @@ const total = sheets.length + doseSheets.length;
 			<button onclick="window.print()">列印 / 存成 PDF</button>
 			<a href={`${base}/`}>回網站</a>
 			<a href={`${base}/handout/`}>每章一頁速查</a>
+			<a href={`${base}/booklet-a5/`}>A5 平板版</a>
 			<span>{total} 張 A4：第一性原理 × MECE 分岔 × 速記表 × 參考劑量</span>
 		</div>
 

@@ -65,8 +65,13 @@ export default defineConfig({
 					attrs: { target: '_blank' },
 				},
 				{
-					label: 'A4 手冊（21 頁，含劑量表）',
+					label: 'A4 手冊（含劑量表）',
 					link: '/booklet/',
+					attrs: { target: '_blank' },
+				},
+				{
+					label: 'A5 平板版手冊',
+					link: '/booklet-a5/',
 					attrs: { target: '_blank' },
 				},
 			],
