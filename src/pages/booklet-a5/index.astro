@@ -24,7 +24,7 @@ const total = sheets.length + tableSheets.length;
 			<button onclick="window.print()">列印 / 存成 PDF</button>
 			<a href={`${base}/`}>回網站</a>
 			<a href={`${base}/booklet/`}>A4 版</a>
-			<span>{total} 章，每章從新的一頁開始、字約為 A4 版 1.5 倍；內容與 A4 版同源</span>
+			<span>{total} 章，每章分成約兩頁、字約為 A4 版 1.5 倍；內容與 A4 版同源</span>
 		</div>
 
 		{
@@ -66,36 +66,157 @@ const total = sheets.length + tableSheets.length;
 			))
 		}
 
+		<main id="pages"></main>
+
 		<script is:inline>
-			// 每章從新的一頁開始，內容自動往下流。某章如果只多出一小截（不到 45% 頁），
-			// 就把那章的字級調小一檔（CSS 變數 --s）收回整數頁，避免最後一頁只有兩三行；最小 87%，多出很多就維持多一頁。
-			// 螢幕上 .chapter 的 padding 跟列印的 @page 邊界相同（上 10、下 12.7、左右 11.3 mm），所以在這裡量的就是列印時的高度。
+			// 把每章（.chapter 裡的原始內容）切成一張張橫式 A4 頁（.pg）：螢幕上看到的就是印出來的頁。
+			// - 依區塊逐一放進頁面，放不下就換頁；標題不留在頁尾（跟著下一塊走）。
+			// - 表格從列與列之間切開、下一頁重複表頭；條列從項目之間切開。
+			// - 某章最後一頁只剩一小截（<45%）時，試著把整章字級調小一檔（93%、87%）收回整數頁。
+			//   只用這三檔：Chrome 會為每一種字級各嵌一份字型，檔位多了 PDF 會暴增。
+			// 完成後在 <body> 標上 data-paged，建置腳本等這個訊號再印 PDF。
 			(function () {
-				var mm = 96 / 25.4;
-				var pageH = (210 - 10 - 12.7) * mm * 0.93; // 0.93：表格列不拆頁會在頁尾留白，預留這個損耗
-				// 只用三檔比例：Chrome 會為每一種字級各嵌一份字型，每章各算一個比例會讓 PDF 暴增數倍
 				var STEPS = [1, 0.93, 0.87];
-				function fit() {
-					document.querySelectorAll('.chapter .flow').forEach(function (flow) {
-						var chapter = flow.parentElement;
-						flow.style.setProperty('--s', '1');
-						var n = flow.getBoundingClientRect().height / pageH;
-						var whole = Math.floor(n);
-						chapter.dataset.pages = String(Math.ceil(n));
-						if (whole < 1 || n === whole || n - whole > 0.45) return;
-						var room = whole * pageH;
-						for (var i = 1; i < STEPS.length; i++) {
-							flow.style.setProperty('--s', String(STEPS[i]));
-							if (flow.getBoundingClientRect().height <= room) {
-								chapter.dataset.pages = String(whole);
-								return;
+				var FOOT_LEFT = '血液科口試走向指南 · 平板大字版 · 去名化整理，非官方資料';
+				var root = document.getElementById('pages');
+
+				function blocks(node) {
+					var out = [];
+					for (var i = 0; i < node.children.length; i++) {
+						var el = node.children[i];
+						if (el.tagName === 'SECTION' || (el.tagName === 'DIV' && el.classList.contains('pair'))) {
+							out = out.concat(blocks(el));
+						} else out.push(el);
+					}
+					return out;
+				}
+				function over(body) {
+					return body.scrollHeight > body.clientHeight + 1;
+				}
+				function isHeading(el) {
+					return el && /^H[1-6]$/.test(el.tagName);
+				}
+
+				function paginate(chapter, s) {
+					var title = chapter.querySelector('h1').textContent;
+					var pages = [];
+					var body;
+					function newPage() {
+						var pg = document.createElement('section');
+						pg.className = 'pg';
+						pg.style.setProperty('--s', String(s));
+						if (pages.length) {
+							var cont = document.createElement('div');
+							cont.className = 'pg-cont';
+							cont.textContent = title + '（續）';
+							pg.appendChild(cont);
+						}
+						body = document.createElement('div');
+						body.className = 'pg-body';
+						pg.appendChild(body);
+						var foot = document.createElement('div');
+						foot.className = 'pg-foot';
+						foot.innerHTML = '<span></span><span></span>';
+						pg.appendChild(foot);
+						root.appendChild(pg);
+						pages.push(pg);
+					}
+					// 換頁時把頁尾孤零零的標題帶到新頁
+					function breakPage() {
+						var carry = [];
+						while (isHeading(body.lastElementChild) && body.children.length > 1) carry.unshift(body.removeChild(body.lastElementChild));
+						newPage();
+						carry.forEach(function (el) { body.appendChild(el); });
+					}
+					function splitInto(el, items, makeShell, holder) {
+						// 表格／條列：一列一列放，放不下就換頁、重建外殼
+						var shell = makeShell();
+						body.appendChild(shell);
+						for (var i = 0; i < items.length; i++) {
+							var it = items[i].cloneNode(true);
+							holder(shell).appendChild(it);
+							if (over(body)) {
+								holder(shell).removeChild(it);
+								if (!holder(shell).children.length) body.removeChild(shell);
+								breakPage();
+								shell = makeShell();
+								body.appendChild(shell);
+								holder(shell).appendChild(it);
 							}
 						}
-						flow.style.setProperty('--s', '1'); // 最小一檔也收不回，就維持原大小、多一頁
+					}
+					newPage();
+					blocks(chapter.querySelector('.flow')).forEach(function (el) {
+						var c = el.cloneNode(true);
+						body.appendChild(c);
+						if (!over(body)) return;
+						if (el.tagName === 'TABLE' && el.tBodies.length) {
+							body.removeChild(c);
+							splitInto(el, el.tBodies[0].rows, function () {
+								var t = el.cloneNode(false);
+								if (el.tHead) t.appendChild(el.tHead.cloneNode(true));
+								t.appendChild(document.createElement('tbody'));
+								return t;
+							}, function (t) { return t.tBodies[0]; });
+						} else if ((el.tagName === 'UL' || el.tagName === 'OL') && el.children.length > 1) {
+							body.removeChild(c);
+							splitInto(el, el.children, function () { return el.cloneNode(false); }, function (l) { return l; });
+						} else if (body.children.length > 1) {
+							body.removeChild(c);
+							breakPage();
+							body.appendChild(c); // 單一區塊比一頁還高就只能放著，建置檢查會抓出來
+						}
 					});
+					return pages;
 				}
-				if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
-				else window.addEventListener('load', fit);
+
+				function lastFill(pages) {
+					var b = pages[pages.length - 1].querySelector('.pg-body');
+					var last = b.lastElementChild;
+					if (!last) return 0;
+					return (last.getBoundingClientRect().bottom - b.getBoundingClientRect().top) / b.clientHeight;
+				}
+
+				function run() {
+					root.innerHTML = '';
+					document.querySelectorAll('.chapter').forEach(function (chapter) {
+						var best = paginate(chapter, STEPS[0]);
+						best[0].dataset.s = '1';
+						if (best.length > 1 && lastFill(best) < 0.45) {
+							for (var i = 1; i < STEPS.length; i++) {
+								var mark = root.lastElementChild;
+								var trial = paginate(chapter, STEPS[i]);
+								if (trial.length < best.length) {
+									best.forEach(function (p) { root.removeChild(p); });
+									best = trial;
+									best[0].dataset.s = String(STEPS[i]);
+									break;
+								}
+								trial.forEach(function (p) { root.removeChild(p); });
+							}
+						}
+						best[0].dataset.chapter = chapter.querySelector('h1').textContent;
+					});
+					var all = root.querySelectorAll('.pg');
+					all.forEach(function (pg, i) {
+						var spans = pg.querySelectorAll('.pg-foot span');
+						spans[0].textContent = FOOT_LEFT;
+						spans[1].textContent = i + 1 + ' / ' + all.length;
+					});
+					document.body.classList.add('paged');
+					document.body.dataset.paged = String(all.length);
+					fitWidth();
+				}
+
+				// 螢幕上把整頁縮放到視窗寬（平板上一頁剛好一個畫面寬）；列印不受影響
+				function fitWidth() {
+					var pageW = (297 * 96) / 25.4 + 16;
+					document.documentElement.style.setProperty('--fitw', String(Math.min(1, window.innerWidth / pageW)));
+				}
+				window.addEventListener('resize', fitWidth);
+
+				if (document.fonts && document.fonts.ready) document.fonts.ready.then(run);
+				else window.addEventListener('load', run);
 			})();
 		</script>
 	</body>

@@ -11,17 +11,7 @@
  */
 @page {
 	size: A4 landscape;
-	margin: 10mm 11.3mm 12.7mm;
-	@bottom-left {
-		content: '血液科口試走向指南 · 平板大字版 · 去名化整理，非官方資料';
-		font: 9.6pt 'PingFang TC', 'Noto Sans CJK TC', sans-serif;
-		color: #5c5c5c;
-	}
-	@bottom-right {
-		content: counter(page) ' / ' counter(pages);
-		font: 9.6pt 'PingFang TC', 'Noto Sans CJK TC', sans-serif;
-		color: #5c5c5c;
-	}
+	margin: 0;
 }
 
 body {
@@ -34,14 +24,52 @@ body {
 	font-size: calc(11.9pt * var(--s, 1));
 }
 
-/* 每章：螢幕上是一張 A4 橫式寬的卡片，列印時每章從新的一頁開始 */
+/* 原始內容（.chapter）：頁面 script 會把它切成一張張 .pg；切完就藏起來。沒有 JS 時照原樣顯示。 */
 .chapter {
 	max-width: 297mm;
 	margin: 12px auto;
-	/* 跟 @page 邊界相同，螢幕上量到的高度才等於列印高度（見頁面裡的 fit script） */
 	padding: 10mm 11.3mm 12.7mm;
 	background: #fff;
 	box-shadow: 0 2px 14px rgb(0 0 0 / 12%);
+}
+.paged .chapter {
+	display: none;
+}
+
+/* 一張 .pg＝一頁橫式 A4：螢幕上看到的卡片就是印出來的那一頁 */
+#pages {
+	zoom: var(--fitw, 1); /* 螢幕上縮放到視窗寬；列印時 @media print 取消 */
+}
+.pg {
+	width: 297mm;
+	height: 210mm;
+	margin: 12px auto;
+	padding: 10mm 11.3mm 0;
+	background: #fff;
+	box-shadow: 0 2px 14px rgb(0 0 0 / 12%);
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+.pg-body {
+	flex: 1 1 auto;
+	min-height: 0;
+	overflow: hidden;
+}
+.pg-cont {
+	font-size: calc(10.6pt * var(--s, 1));
+	color: var(--muted);
+	border-bottom: 1px solid var(--line);
+	padding-bottom: 2px;
+	margin-bottom: 6px;
+}
+.pg-foot {
+	flex: 0 0 12.7mm;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 9.6pt;
+	color: var(--muted);
 }
 .chapter header {
 	margin-bottom: 8.5px;
@@ -107,14 +135,19 @@ tr {
 	body {
 		background: #fff;
 	}
+	#pages {
+		zoom: 1;
+	}
+	.pg {
+		margin: 0;
+		box-shadow: none;
+		break-after: page;
+	}
+	/* 沒有 JS（沒切頁）時的退路：每章從新的一頁開始 */
 	.chapter {
 		max-width: none;
 		margin: 0;
-		padding: 0;
 		box-shadow: none;
 		break-before: page;
-	}
-	.chapter:first-of-type {
-		break-before: auto;
 	}
 }
