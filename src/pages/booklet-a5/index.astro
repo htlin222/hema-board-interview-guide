@@ -196,6 +196,7 @@ const total = sheets.length + tableSheets.length;
 							}
 						}
 						best[0].dataset.chapter = chapter.querySelector('h1').textContent;
+						best[0].dataset.id = chapter.id; // 建置腳本用來分組 PDF 書籤
 					});
 					var all = root.querySelectorAll('.pg');
 					all.forEach(function (pg, i) {

@@ -81,14 +81,14 @@ def main() -> int:
 
         if not check_only:
             OUT_DIR.mkdir(exist_ok=True)
-            page.pdf(
-                path=str(OUT_FILE),
+            pdf = page.pdf(
                 format="A4",
                 landscape=True,
                 print_background=True,
                 prefer_css_page_size=True,
                 margin={"top": "0", "right": "0", "bottom": "0", "left": "0"},
             )
+            OUT_FILE.write_bytes(with_outline(pdf, page.evaluate(A4_OUTLINE)))
             print(f"\n→ {OUT_FILE.relative_to(ROOT)}  ({len(rows)} 頁)")
 
         a5_problems = check_a5(browser, None if check_only else OUT_A5)
@@ -100,6 +100,48 @@ def main() -> int:
     if a5_problems:
         return 1
     return 0
+
+
+# PDF 書籤（巢狀）：第一層分組（正文／診斷標準總表／參考劑量總表）→ 第二層各章 → 第三層章內小節（h2）。
+# 每一項記它在第幾頁（0 起算），由頁面 DOM 讀出；Chrome 的 page.pdf 不會自己產生這種分組。
+A4_OUTLINE = """
+() => [...document.querySelectorAll('.sheet')].map((s, i) => ({
+  id: s.id, title: s.querySelector('h1').textContent.trim(), page: i,
+  subs: [...s.querySelectorAll('.inner h2')].map(h => [h.textContent.trim(), i]),
+}))
+"""
+A5_OUTLINE = """
+() => {
+  const out = [];
+  [...document.querySelectorAll('#pages .pg')].forEach((p, i) => {
+    if (p.dataset.chapter) out.push({ id: p.dataset.id, title: p.dataset.chapter.trim(), page: i, subs: [] });
+    p.querySelectorAll('.pg-body h2').forEach(h => out.at(-1).subs.push([h.textContent.trim(), i]));
+  });
+  return out;
+}
+"""
+GROUPS = [("criteria-", "診斷標準總表"), ("doses-", "參考劑量總表"), ("", "正文")]
+
+
+def with_outline(pdf: bytes, chapters: list[dict]) -> bytes:
+    """在 PDF 加上巢狀書籤，並設定開檔時顯示書籤欄。"""
+    import io
+
+    from pypdf import PdfReader, PdfWriter
+
+    writer = PdfWriter(clone_from=PdfReader(io.BytesIO(pdf)))
+    group_items: dict[str, object] = {}
+    for ch in chapters:
+        group = next(name for prefix, name in GROUPS if ch["id"].startswith(prefix))
+        if group not in group_items:
+            group_items[group] = writer.add_outline_item(group, ch["page"])
+        item = writer.add_outline_item(ch["title"], ch["page"], parent=group_items[group])
+        for title, page in ch["subs"]:
+            writer.add_outline_item(title, page, parent=item)
+    writer.page_mode = "/UseOutlines"
+    buf = io.BytesIO()
+    writer.write(buf)
+    return buf.getvalue()
 
 
 A5_MEASURE = """
@@ -134,6 +176,7 @@ def check_a5(browser, out) -> int:
     page.wait_for_function("document.body.dataset.paged", timeout=60000)  # 等切頁跑完
     info = page.evaluate(A5_MEASURE)
     pdf = page.pdf(prefer_css_page_size=True, print_background=True)
+    outline = page.evaluate(A5_OUTLINE)
     page.close()
 
     actual = len(PdfReader(io.BytesIO(pdf)).pages)
@@ -153,7 +196,7 @@ def check_a5(browser, out) -> int:
         print(f"平板大字版：網頁 {info['pages']} 頁 ≠ PDF {actual} 頁", file=sys.stderr)
         problems += 1
     if out and not problems:
-        out.write_bytes(pdf)
+        out.write_bytes(with_outline(pdf, outline))
         print(f"→ {out.relative_to(ROOT)}")
     return problems
 
