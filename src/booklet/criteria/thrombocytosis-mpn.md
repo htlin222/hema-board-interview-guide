@@ -34,10 +34,10 @@ order: 14
 
 <div class="two">
 
-- **口試怎麼講**：「MPN 診斷＝克隆＋表型＋骨髓＋排除四件事；PV 看 Hb 和 EPO，ET 看 plt 450 和巨核細胞長相，PMF 看 atypia 和纖維化分級。」
-- **容易被電**：ET 不做骨髓——ET vs pre-PMF 只能靠骨髓區分，而 pre-PMF 預後較差、轉 overt MF 較多。
-- **容易被電**：Hb 在 PV 範圍但 EPO 高 → 先找繼發（吸菸 CO、OSA、腎腫瘤、SGLT2i、testosterone）。
-- **容易被電**：JAK2 陽性不等於 PV——同一個突變可以是 ET、PMF 或 CHIP，表型與骨髓才決定是哪一種。
+- **核心必知概念**：「MPN 診斷＝克隆＋表型＋骨髓＋排除四件事；PV 看 Hb 和 EPO，ET 看 plt 450 和巨核細胞長相，PMF 看 atypia 和纖維化分級。」
+- **常見誤區**：ET 不做骨髓——ET vs pre-PMF 只能靠骨髓區分，而 pre-PMF 預後較差、轉 overt MF 較多。
+- **常見誤區**：Hb 在 PV 範圍但 EPO 高 → 先找繼發（吸菸 CO、OSA、腎腫瘤、SGLT2i、testosterone）。
+- **常見誤區**：JAK2 陽性不等於 PV——同一個突變可以是 ET、PMF 或 CHIP，表型與骨髓才決定是哪一種。
 
 </div>
 

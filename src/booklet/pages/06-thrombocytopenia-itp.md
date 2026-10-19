@@ -24,8 +24,8 @@ site: itp
 | 生產端疾病 | CBC 單純血小板低、抹片無 blast／dysplasia；不典型、治療無效或脾切前才做骨髓（ASH 2019） | 第一步：先驗證生產端沒問題 |
 | TTP／TMA | 合併 hemolysis（LDH↑、haptoglobin↓）、抹片 schistocyte、器官缺血 | 有溶血就轉往 07 頁的分流圖 |
 | DIC | schistocyte 不一定有；關鍵是 PT／aPTT 延長、fibrinogen↓、D-dimer↑ | 凝血指標一起看 |
-| Drug-induced | 主動問用藥史（heparin、quinine、抗生素、抗癲癇藥）；停藥後回升可支持 | 不等考官提示就自己問藥物史 |
-| Evans syndrome | 合併貧血＋溶血證據（網狀紅血球↑、spherocyte）、DAT 陽性 | 血小板極低要主動追問這兩項 |
+| Drug-induced | 主動問用藥史（heparin、quinine、抗生素、抗癲癇藥）；停藥後回升可支持 | 主動問藥物史，不等提示 |
+| Evans syndrome | 合併貧血＋溶血證據（網狀紅血球↑、spherocyte）、DAT 陽性 | 血小板極低要主動查這兩項 |
 | 次發性 ITP（補充） | HIV、HCV、H. pylori、SLE、CLL | 病史與基本血清學 |
 | 以上都排除 | 沒有 checkpoint test | 結論句：剩下的才叫 ITP |
 
@@ -47,20 +47,20 @@ site: itp
 | 一線急救 | IVIG（± steroid） | 需要幾天內快速拉高：活動性出血、術前 |
 | 二線 | TPO-RA（eltrombopag、romiplostim）、rituximab、脾臟切除（盡量延到診斷 ≥12 個月後） | Steroid 依賴或無效 |
 
-## 破題關鍵句
+## 核心必知概念
 
-| 題 | 一開口就講 |
+| 主題 | 一句話 |
 | --- | --- |
 | ITP 怎麼確診 | 「ITP 沒有 checkpoint test，我先驗證生產端正常（典型者看 CBC＋抹片，不典型才做骨髓），再逐一排除周邊被破壞的其他機轉。」 |
 | 抹片幾乎看不到血小板 | 「高度提示 ITP，但我還要看有沒有貧血、溶血、DAT，排除 Evans syndrome。」 |
 | 兒童 ITP | 「兒童多為急性自限，我的治療門檻看出血嚴重度，不看血小板數字。」 |
-| 還要排除什麼 | 「清單裡一定有 drug-induced，所以我主動問用藥史，不等考官提示。」 |
+| 還要排除什麼 | 「清單裡一定有 drug-induced，所以我主動問用藥史，不等提示。」 |
 | 骨髓 megakaryocyte 減少 | 「那是生產端出問題，方向轉向 aplastic anemia、浸潤、MDS，跟 ITP 無關。」 |
 
-## 容易被電
+## 常見誤區
 
 - 只丟一句「ITP 是排除性診斷」，講不出「先驗證生產端、再排除周邊清單」兩步驟；或說每個 ITP 都要骨髓（ASH 2019 不建議常規做）。
 - 看到血小板低就下單純 ITP，沒先確認有沒有合併溶血證據（Evans、TTP）。
 - 整段圍繞免疫機轉打轉，忘了「主動問藥物史」這個最容易加分的具體動作。
 - 把成人的積極治療態度套到兒童；或把兒童的治療門檻講成一個血小板數字。
-- 跑台陷阱：骨髓 megakaryocyte 很多＋周邊血小板極低是 ITP 經典組合，直覺答 MPN 就錯——骨髓與周邊一定對照著看。
+- 常見陷阱：骨髓 megakaryocyte 很多＋周邊血小板極低是 ITP 經典組合，直覺答 MPN 就錯——骨髓與周邊一定對照著看。

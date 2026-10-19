@@ -37,16 +37,16 @@ site: aml-mds-cml
 | 能力 | 典型 e13a2／e14a2 轉錄本；有高品質、快速、標準化的 qPCR 監測 | — |
 | 停藥後監測 | 0–6 個月每月；6–12 個月每 2 個月；之後每 3 個月；**失去 MMR（>0.1%）才重啟 TKI**，重啟後 >90% 回到 MMR | 失去 MMR 時不建議做突變檢測；withdrawal syndrome（肌肉骨骼痛）約 20–30% |
 
-## 破題關鍵句
+## 核心必知概念
 
-| 題 | 一開口就講 |
+| 主題 | 一句話 |
 | --- | --- |
 | 選一線 TKI | 「先問目標與共病：肺病史避 dasatinib、心血管病史避 nilotinib；二代 MMR 更快但 OS 沒有比 imatinib 好；asciminib 在 ASC4FIRST 一線 48 週 MMR 67.7% vs 49.0%，而且停藥率最低。」 |
 | 3 個月 >10% | 「先查順從性跟交互作用，再驗 kinase domain mutation，最後才換藥；T315I 只有 ponatinib 跟 asciminib 200 mg bid 有效。」 |
 | 停藥 | 「TFR 不是反應夠深就停，是病程、治療史、時間、監測能力四個條件都要滿足；EURO-SKI 大約一半的人兩年後還維持，失去 MMR 才重啟。」 |
 | Asciminib 是什麼 | 「STAMP 抑制劑，結合 myristoyl pocket，不跟 ATP 競爭，所以對 ATP 位突變有效、可與其他 TKI 併用。」 |
 
-## 容易被電
+## 常見誤區
 
 - 只答藥名清單，講不出 dasatinib 肋膜積水、nilotinib 心血管與 QT 這些「各自」的副作用；完全沒提 asciminib。
 - 「二代比較好所以一律用二代」——DASISION 5 年、ENESTnd 10 年 OS 都沒差，選藥看共病與目標。ASC4FIRST 的主要終點是 48 週 MMR，不是 OS。

@@ -13,7 +13,7 @@ const total = sheets.length + tableSheets.length;
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>A4 手冊｜血液科口試走向指南</title>
+		<title>A4 手冊｜血液科核心必知概念</title>
 		<link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
 	</head>
 	<body>
@@ -30,7 +30,7 @@ const total = sheets.length + tableSheets.length;
 				<div class="sheet" id={s.id} data-page={i + 1}>
 					<header>
 						<h1>{s.title}</h1>
-						<div class="kicker">{s.kicker || `${String(i + 1).padStart(2, '0')}`} · 血液科口試走向指南</div>
+						<div class="kicker">{s.kicker || `${String(i + 1).padStart(2, '0')}`} · 血液科核心必知概念</div>
 					</header>
 					<div class="content">
 						<div class="inner">
@@ -55,7 +55,7 @@ const total = sheets.length + tableSheets.length;
 				<div class="sheet" id={d.id} data-page={sheets.length + j + 1}>
 					<header>
 						<h1>{d.title}</h1>
-						<div class="kicker">{d.kicker} · 血液科口試走向指南</div>
+						<div class="kicker">{d.kicker} · 血液科核心必知概念</div>
 					</header>
 					<div class="content">
 						<div class="inner">

@@ -43,9 +43,9 @@ site: bleeding-workup-hemophilia
 | vWF antigen ＋ vWF activity（ristocetin cofactor／GPIbM） | FVIII 低可能是 vWF 保護不足的繼發結果 | 疑 vWD 一定加驗，不能只看 FVIII |
 | 血小板功能（PFA-100、aggregation）（補充） | PT／aPTT 正常但黏膜出血 | 框架一 primary 那一支 |
 
-## 破題關鍵句
+## 核心必知概念
 
-| 題 | 一開口就講 |
+| 主題 | 一句話 |
 | --- | --- |
 | 任何出血案例 | 「我先從出血型態分 primary 還是 secondary hemostasis，再進檢驗數字。」 |
 | Isolated aPTT 延長 | 「重點不是背四個因子，是立刻點名 lupus anticoagulant 這個延長 aPTT 卻是血栓體質的陷阱。」 |
@@ -54,7 +54,7 @@ site: bleeding-workup-hemophilia
 | Mixing 怎麼做 | 「一定要測 0 小時和 2 小時、跑 control——anti-FVIII 是 time-dependent，只測立即會誤判成 correctable。」 |
 | 驗哪些因子 | 「優先順序跟臨床出血風險走，不跟誰延長 aPTT 走——FXII 缺乏不出血，不急。」 |
 
-## 容易被電
+## 常見誤區
 
 - 沒先講出血型態分流就跳進 PT／aPTT 數字，被當成只會背檢驗流程。
 - Mixing study 只看單一時間點、忘了 control 組。

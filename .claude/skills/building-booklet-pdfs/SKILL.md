@@ -59,7 +59,7 @@ python3 .claude/skills/building-booklet-pdfs/scripts/compact_tables.py <md...>  
 
 ### 新增一章
 
-在 `src/booklet/pages/` 新增 `NN-slug.md`（檔名排序＝頁序，可用 `10a-` 插在 10 與 11 之間），結構照 `src/booklet/README.md`：第一性原理框 → MECE 分岔表 → 速記表 → 破題關鍵句 → 容易被電。全書地圖 `01-map.md` 的頁碼範圍要跟著改。
+在 `src/booklet/pages/` 新增 `NN-slug.md`（檔名排序＝頁序，可用 `10a-` 插在 10 與 11 之間），結構照 `src/booklet/README.md`：第一性原理框 → MECE 分岔表 → 速記表 → 核心必知概念 → 常見誤區。全書地圖 `01-map.md` 的頁碼範圍要跟著改。
 
 ### 新增或修改診斷標準／劑量
 
@@ -81,6 +81,7 @@ python3 .claude/skills/building-booklet-pdfs/scripts/compact_tables.py <md...>  
 - **使用者要「大字」是指實際字級**：大字版不能用真正的 A5 紙（原尺寸或網頁上看字還是小）。它是 A4 紙、A5 版面 × √2。網頁上也要真的分頁，不能是一章一張長卡片。
 - **A4、大字版、網站要長得一樣**：任何版面改動同時檢查兩個頁面與 `print.css`。
 - **主題頁的站內連結要用完整網址**：EPUB 驗證器（epubcheck）不接受 `/hema-board-interview-guide/...` 這種絕對路徑。
+- **PDF 不用口試措詞**：手冊是「血液科核心必知概念」，章末段落叫「核心必知概念」「常見誤區」，不寫考官／口試／被電／破題。網站主題頁仍是口試指南（核心必知概念手冊與網站口吻不同是刻意的）。
 - **主題頁有些內容來自考生實際被問的題目**：查證發現不精確時，保留原題、加上正確的限定，不要直接刪。
 - **表格被自動補對齊空白**：寫完跑 `compact_tables.py`；版面量測要在最終格式下做。
 - **其他 session 可能同時在這個工作目錄**：`ListAgents` 看同 repo 的 peer；用 SendMessage 協調誰 commit 哪些檔，commit 時用明確路徑。

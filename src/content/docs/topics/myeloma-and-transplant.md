@@ -49,9 +49,9 @@ Multiple myeloma 常被認為「基本、看到就要會寫」，口試更常考
 
 <div class="two">
 
-**口試怎麼講**　「先量克隆（M 蛋白、漿細胞 %），再問傷害已發生（CRAB）或即將發生（SLiM）——兩軸決定 MGUS、SMM 還是 MM。」
+**核心必知概念**　「先量克隆（M 蛋白、漿細胞 %），再問傷害已發生（CRAB）或即將發生（SLiM）——兩軸決定 MGUS、SMM 還是 MM。」
 
-**容易被電**　SLiM 的 FLC 要「比值 ≥100 **且** 受累輕鏈 ≥100 mg/L」兩個都講；PET 熱點沒溶骨不算 B；SMM 上限是 <60%，不是 <10%。
+**常見誤區**　SLiM 的 FLC 要「比值 ≥100 **且** 受累輕鏈 ≥100 mg/L」兩個都講；PET 熱點沒溶骨不算 B；SMM 上限是 <60%，不是 <10%。
 
 </div>
 
@@ -85,9 +85,9 @@ Multiple myeloma 常被認為「基本、看到就要會寫」，口試更常考
 
 <div class="two">
 
-**口試怎麼講**　「WM、AL、POEMS 是克隆小、傷害由產物造成——所以標準要同時證明傷害機轉（IgM、Congo red＋typing、VEGF）和克隆。」
+**核心必知概念**　「WM、AL、POEMS 是克隆小、傷害由產物造成——所以標準要同時證明傷害機轉（IgM、Congo red＋typing、VEGF）和克隆。」
 
-**容易被電**　AL 沒做 typing 就化療（可能是 ATTR）；把單獨 t(4;14) 或 1q+ 講成高風險（2024 已改）；MRD 沒達 CR 不能評。
+**常見誤區**　AL 沒做 typing 就化療（可能是 ATTR）；把單獨 t(4;14) 或 1q+ 講成高風險（2024 已改）；MRD 沒達 CR 不能評。
 
 </div>
 <!-- criteria:end -->

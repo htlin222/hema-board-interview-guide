@@ -29,7 +29,7 @@ ALL（acute lymphoblastic leukemia）在成人血液科門診相對少見，很�
 | 基因定義 MPAL | BCR::ABL1、KMT2A-r、ZNF384-r、BCL11B-r | 相近 | ③：BCR::ABL1 MPAL 要加 TKI |
 | Ph-like | **B-ALL, BCR::ABL1-like**：表現譜似 Ph+ 但無 BCR::ABL1 | 再分 **ABL1-class-r**（ABL1／ABL2／CSF1R／PDGFRB）、**JAK-STAT**（CRLF2、JAK、EPOR）、NOS | ③：ABL-class 可用 imatinib／dasatinib，JAK-STAT 看 ruxolitinib 試驗 |
 
-**容易被電**：ALL 沒有像 AML 一樣的正式 blast 下限；MPAL 先查基因再看表型；Ph-like 要 RNA／fusion panel 才抓得到，flow 只有 CRLF2 能給線索。
+**常見誤區**：ALL 沒有像 AML 一樣的正式 blast 下限；MPAL 先查基因再看表型；Ph-like 要 RNA／fusion panel 才抓得到，flow 只有 CRLF2 能給線索。
 <!-- criteria:end -->
 
 <!-- doses:start -->

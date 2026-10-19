@@ -22,7 +22,7 @@ sidebar:
 | IDA vs ACD | IDA：ferritin↓、TSAT↓、TIBC↑、sTfR↑；ACD：ferritin 正常↑、TIBC↓、sTfR 正常；sTfR/log ferritin >2 偏 IDA（或合併）、<1 偏 ACD（依 assay） | sTfR 反映骨髓「要鐵」、不是 acute phase reactant，發炎時仍能分辨 |
 | 金標準 | 骨髓 Perls 染色無鐵 | 直接看儲存鐵；侵入性，只用於模稜兩可 |
 
-**容易被電**：發炎病人 ferritin 80 說「正常」；只背 <15 不知道那是低敏感度的切點。
+**常見誤區**：發炎病人 ferritin 80 說「正常」；只背 <15 不知道那是低敏感度的切點。
 <!-- criteria:end -->
 
 <!-- doses:start -->

@@ -12,4 +12,4 @@ order: 15
 | 排除清單 | HIV、HCV 必驗；H. pylori 建議篩；藥物史、TMA／DIC、Evans、SLE、CLL | ③ 剩下的才叫 primary ITP |
 | 分期 | Newly diagnosed <3 月／persistent 3–12 月／chronic >12 月 | 不是診斷，決定脾切等時機 |
 
-- 容易被電：把分期（3／12 月）當診斷條件；或說每個 ITP 都要骨髓。
+- 常見誤區：把分期（3／12 月）當診斷條件；或說每個 ITP 都要骨髓。

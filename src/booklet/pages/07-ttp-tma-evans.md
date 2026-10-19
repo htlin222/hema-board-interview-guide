@@ -38,25 +38,25 @@ site: ttp-tma-evans
 | --- | --- | --- |
 | 診斷 | ADAMTS13 activity **<10%**；等報告期間 PLASMIC 6–7 高風險、≥5 即考慮先治療（補充） | 急症，先送驗、先 PEX |
 | 治療 | PEX ＋ steroid ＋ **caplacizumab**（抗 vWF nanobody，阻斷 vWF–血小板結合）＋ **rituximab**（根除抗體、降復發）；兩者 ISTH 2020 為 conditional 建議，2025 update 未變 | 只講 PEX＋steroid 是舊標準 |
-| 反應評估 | 血小板回升、LDH 下降；緩解後追 ADAMTS13，掉到 <20% 考慮 preemptive rituximab | 講不出怎麼判斷有效會被追問 |
+| 反應評估 | 血小板回升、LDH 下降；緩解後追 ADAMTS13，掉到 <20% 考慮 preemptive rituximab | 療效要有客觀指標，不是只看症狀 |
 
 ## Leukoerythroblastic picture 的鑑別（一次列四個）
 
-| 鑑別 | 骨髓被佔據的成因 | 答題提醒 |
+| 鑑別 | 骨髓被佔據的成因 | 重點提醒 |
 | --- | --- | --- |
 | Metastatic cancer（尤其乳癌） | 腫瘤細胞直接佔據 | 有癌症病史用 bone marrow biopsy 找證據；只講這個就停是常見陷阱 |
 | MDS／myelofibrosis／HLH | 骨髓本身疾病、纖維化、吞噬與細胞激素擾亂 | HLH 最常被漏；AIHA、sepsis、缺氧、大出血只放 NRBC（壓力造血），不算佔據 |
 
-## 破題關鍵句
+## 核心必知概念
 
-| 題 | 一開口就講 |
+| 主題 | 一句話 |
 | --- | --- |
 | 貧血＋血小板低 | 「我第一句是問有沒有 hemolysis 證據，不是先講診斷。」 |
 | 鑑別診斷 | 「這個組合不會只有一個，我一次列出 TTP、ITP、Evans，不鎖 TTP 往下鑽。」 |
 | TMA vs Evans | 「兩者都有溶血加血小板低，抹片先看有沒有破碎紅血球，再用 DAT、ADAMTS13 確認。」 |
 | 確診 TTP | 「ADAMTS13 <10% 確診後，我接 PEX、steroid、caplacizumab、rituximab，不會講到 PEX 就停。」 |
 
-## 容易被電
+## 常見誤區
 
 - 「中年女性＋cytopenia」直接鎖 TTP，沒先走「有沒有溶血」「有沒有 schistocyte」兩步。
 - Evans 被忽略（差別只在有沒有合併溶血證據）；TTP 治療停在 PEX；leukoerythroblastosis 只講轉移癌。

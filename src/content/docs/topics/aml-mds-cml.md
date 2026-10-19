@@ -54,7 +54,7 @@ sidebar:
 | 加速期 | **取消**，只分 CP／BP；改標記「高危特徵」（TKI 抗藥、ABL1 KD 突變、Ph+ 細胞額外染色體異常） | **保留 AP**：blast 10–19%、嗜鹼性球 ≥20%、Ph+ 額外克隆異常（second Ph、+8、i(17q)、+19）；**刪除**血小板、脾腫大、TKI 抗藥條件 | ⑤：TKI 時代 AP 預後近 CP，WHO 改用風險而非分期 |
 | 芽細胞期 | blast ≥20%、髓外 blast 增生、或 lymphoblast 增加（門檻未定） | blast ≥20%、髓外增生、或 lymphoblast ≥5%（免疫表型確認） | ①：分化停滯；ELN／MDACC 仍用 ≥30%，三套切點不同 |
 
-**口試怎麼講**：「blast 門檻是在沒有基因證據時，用來證明分化停滯的替代指標；WHO 認為定義性基因本身就夠，ICC 保留 10% 作安全網。」**容易被電**：MDS-biTP53 要 multi-hit；BCR::ABL1 AML 兩套都要 ≥20%；CML 的 AP 只有 ICC 還在。
+**核心必知概念**：「blast 門檻是在沒有基因證據時，用來證明分化停滯的替代指標；WHO 認為定義性基因本身就夠，ICC 保留 10% 作安全網。」**常見誤區**：MDS-biTP53 要 multi-hit；BCR::ABL1 AML 兩套都要 ≥20%；CML 的 AP 只有 ICC 還在。
 <!-- criteria:end -->
 
 <!-- doses:start -->

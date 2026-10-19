@@ -51,9 +51,9 @@ site: bleeding-workup-hemophilia
 | Type 2 | 功能性異常（2A、2B、2M、2N） | 2A／2B／2M：Activity／Ag <0.7（2021 指引；舊文獻 ≤0.6）；2N 比值正常，FVIII／Ag 低 → FVIII binding assay；2B 忌 DDAVP（血小板低下） |
 | Type 3 | 幾乎完全缺乏，最重最少 | Ag、activity 幾乎測不到，FVIII 很低；vWF／FVIII 濃縮製劑 |
 
-## 破題關鍵句
+## 核心必知概念
 
-| 題 | 一開口就講 |
+| 主題 | 一句話 |
 | --- | --- |
 | 嚴重度分級 | 「不是背三個區間，是 factor level 越低、自發出血門檻越低的連續光譜——mild 常到成年手術才確診。」 |
 | Prophylaxis | 「第一次關節出血後或幼年就開始，目的是搶在不可逆的 arthropathy 之前。」 |
@@ -61,7 +61,7 @@ site: bleeding-workup-hemophilia
 | Acquired vs LA | 「同時用兩條證據鏈：mixing 的 time-dependent pattern，加上出血傾向完全相反。」 |
 | aPTT 延長 ＋ correctable | 「不能停在缺 FVIII，要往回問是不是 vWF 保護不足，才推到 vWD。」 |
 
-## 容易被電
+## 常見誤區
 
 - Mild 的下界講成「5% 到 40%」（5% 屬 moderate）；trough 講死成 1%，沒補「依指引與半衰期調整」。
 - 有 inhibitor 答「加大因子劑量」；沒把急性止血與長期根除／繞過分開講；FVIII 低就下 hemophilia A，沒加驗 vWF。

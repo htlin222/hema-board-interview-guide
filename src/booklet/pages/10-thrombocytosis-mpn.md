@@ -11,7 +11,7 @@ site: thrombocytosis-mpn
 | 層 | 問什麼 | 分支（互斥、窮盡） | 決定了什麼 |
 | --- | --- | --- | --- |
 | 一 | 找得到外部誘因嗎？（IDA、感染、發炎、post-splenectomy、malignancy paraneoplastic、急性失血、組織損傷） | **找得到** → reactive：矯正誘因（例如補鐵）後追蹤 platelet 是否下降 | 不驗基因 |
-| 一 | 同上 | **找不到** → 往 clonal 走 | 進第二層；一開口就驗基因＝順序錯 |
+| 一 | 同上 | **找不到** → 往 clonal 走 | 進第二層；第一步就驗基因＝順序錯 |
 | 二 | 抹片 WBC differential 長什麼樣？ | **Basophilia ＋ left shift ＋ myeloblast 到 segmented 各成熟階段同時出現** → CML | 特異度高，不用等基因；驗 BCR-ABL1 |
 | 二 | 同上 | **沒有上述左移圖像** → ET／其他 MPN（PV 看 Hb、PMF 看 teardrop） | 進第三層；BCR::ABL1 陰性仍是 ET 診斷必要條件 |
 | 三 | 驅動基因 JAK2、CALR、MPL 哪個陽性？ | **任一陽性** → clonal 確立 | 同一條 JAK-STAT 路徑的三個入口 |
@@ -41,9 +41,9 @@ site: thrombocytosis-mpn
 | Intermediate | >60 歲、無血栓史、JAK2 陰性 | Aspirin；cytoreduction 個別化 |
 | High | 血栓史，或 >60 歲且 JAK2 陽性 | Aspirin ＋ cytoreduction（hydroxyurea 一線；anagrelide、interferon 替代）；劑量見總表 |
 
-## 破題關鍵句
+## 核心必知概念
 
-| 題 | 一開口就講 |
+| 主題 | 一句話 |
 | --- | --- |
 | 門診 thrombocytosis 第一步 | 「Reactive 遠比 clonal 常見，起手式是先排除 reactive，不是急著驗 JAK2、CALR、MPL。」 |
 | CML vs ET 抹片 | 「先找 CML『各成熟階段顆粒球同時出現』的左移圖像，看不到就往 ET 想，不用等基因。」 |
@@ -52,9 +52,9 @@ site: thrombocytosis-mpn
 | 風險分層 | 「血栓風險不是血小板數說了算，基因型才是關鍵：JAK2 比 CALR 高，即使血小板更低。」 |
 | IDA 合併 thrombocytosis | 「先補鐵，追蹤血小板有沒有跟著降，才知道是不是單純 reactive。」 |
 
-## 容易被電
+## 常見誤區
 
-- 一開口就驗基因，跳過排除 reactive 這一步。
+- 第一步就驗基因，跳過排除 reactive 這一步。
 - 只答得出 JAK2，講不出 CALR、MPL 與三者比例。
 - 機轉問到 TPO pathway 就卡住——至少要講出「三個基因是同一條路徑的不同進入點」。
 - 風險分層只講年齡與血栓史，沒把基因型當第三個獨立因子。

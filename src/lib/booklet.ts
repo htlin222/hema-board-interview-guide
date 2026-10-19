@@ -72,7 +72,7 @@ export function loadDoses(files: Record<string, string>): DoseTable[] {
  * 橫式 A4 的排版：把 body 依 `## ` 切成段落，各自包成 <section>。
  * 並排規則（寬度換高度）：
  * - 段落標題前一行寫 `<!-- pair -->`，這段與下一段並排成兩欄。
- * - 「破題關鍵句」＋「容易被電」這兩個固定結尾段預設並排。
+ * - 「核心必知概念」＋「常見誤區」這兩個固定結尾段預設並排。
  * 標題之前的內容（第一性原理框）照原樣輸出。
  */
 export function layoutSheet(body: string, render: (md: string) => string): string {
@@ -90,7 +90,7 @@ export function layoutSheet(body: string, render: (md: string) => string): strin
 	for (let i = 0; i < secs.length; i++) {
 		const s = secs[i];
 		const n = secs[i + 1];
-		const autoTail = n && /破題關鍵句/.test(s.title) && /容易被電/.test(n.title);
+		const autoTail = n && /核心必知概念/.test(s.title) && /常見誤區/.test(n.title);
 		if (n && (s.pairNext || autoTail)) {
 			out.push(
 				`<div class="pair"><section>${render(s.md)}</section><section>${render(n.md)}</section></div>`,

@@ -27,9 +27,9 @@ site: myeloma-and-transplant
 | ≥2 線（PI + IMiD 後） | Belantamab-Vd | DREAMM-7（NEJM 2024；FDA 2025-10） | BVd vs DVd | **mPFS 36.6 vs 13.4 月，HR 0.41** | HR 0.58 | 眼毒性 79%（REMS、每劑前眼科）；FDA 適應症 ≥2 線不是 ≥1 線；單藥 DREAMM-3 陰性 |
 | ≥3–4 線、triple-class refractory | BCMA bispecific（teclistamab、elranatamab、linvoseltamab）；BCMA 失敗換 talquetamab | MajesTEC-1；MagnetisMM-3；LINKER-MM1；MonumenTAL-1 | 單臂 | ORR 63%／61%／71%／74%；teclistamab mPFS 11.3 月 | CARTITUDE-1 5 年：mOS 60.7 月，33% 五年無進展 | 感染是主要死因：IgG <400 每月 IVIG、PJP／HSV 預防；talquetamab + dara 在 MonumenTAL-3 已進二線（PFS HR 0.28、OS HR 0.47） |
 
-## 破題關鍵句
+## 核心必知概念
 
-| 題 | 一開口就講 |
+| 主題 | 一句話 |
 | --- | --- |
 | 誘導怎麼選 | 「移植適合用 Dara-VRd，PERSEUS 48 個月 PFS 84.3% vs 67.7%、HR 0.42；不適合用 Isa-VRd（IMROZ HR 0.60）或 D-VRd（CEPHEUS），frail 用 D-Rd（MAIA OS 90 vs 64 個月）。」 |
 | MRD 陰性還要移植嗎 | 「DETERMINATION 早期移植贏 PFS 不贏 OS；MIDAS 四合一後 MRD 陰性者不移植 MRD 也一樣深，但 PFS 未成熟——現在仍是早期移植、可延後。」 |
@@ -37,7 +37,7 @@ site: myeloma-and-transplant
 | Triple-class refractory | 「BCMA bispecific 或 CAR-T，BCMA 失敗換 GPRC5D；重點是感染預防跟 IVIG。」 |
 | Anti-CD38 的檢驗干擾 | 「輸血前先做血型表現型；血庫用 DTT 或 polybrene；IFE 會多一條 IgG-κ 帶，DIRA 才能判 CR。」 |
 
-## 容易被電
+## 常見誤區
 
 - 把 KarMMa-3 講成有 OS 獲益：ITT OS HR 1.01，CARTITUDE-4 才有（0.55）。Venetoclax 講成已核准：CANOVA（t(11;14)）PFS HR 0.82 未達標。
 - DREAMM-7 的 FDA 適應症是 ≥2 線，不是試驗的 ≥1 線；belantamab 單藥 DREAMM-3 是陰性。

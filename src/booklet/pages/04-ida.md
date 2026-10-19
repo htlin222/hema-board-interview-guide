@@ -19,9 +19,9 @@ site: iron-deficiency-anemia
 
 | 族群 | 優先找哪裡 | 怎麼問／怎麼查 |
 | --- | --- | --- |
-| 共同起手式 | 病史：飲食、GI 症狀、月經量、慢性失血警訊；理學：蒼白、koilonychia、glossitis | 不等考官給資料 |
+| 共同起手式 | 病史：飲食、GI 症狀、月經量、慢性失血警訊；理學：蒼白、koilonychia、glossitis | 主動問，不等資料送上門 |
 | 停經前女性（無 GI 警訊） | 月經史（hypermenorrhea 最常見），仍排除其他失血源 | 研究定義 >80 mL（ACOG／FIGO 現以影響生活品質定義），門診量不到 → 問棉片是否每小時換、大血塊、經期 >7 天，或 PBAC 半定量；確認後超音波排 fibroid／polyp／adenomyosis |
-| 停經後女性／男性／任何人有 GI 警訊 | GI evaluation 優先（潛血、大腸鏡） | 藏 GI malignancy 機率顯著上升，考官愛用年齡／性別轉折考警覺性 |
+| 停經後女性／男性／任何人有 GI 警訊 | GI evaluation 優先（潛血、大腸鏡） | 藏 GI malignancy 機率顯著上升，年齡／性別一轉折，警覺性就要跟著升 |
 | 跨族群：找不到失血源或口服無效 → 查吸收不良 | Celiac：tTG-IgA 第一線；H. pylori：urea breath test 或糞便抗原 → triple／quadruple 除菌 | 補鐵沒效時回頭想 |
 
 ## 第 3 層：口服 vs IV，三個決策層次（劑量見劑量總表）
@@ -41,9 +41,9 @@ site: iron-deficiency-anemia
 | 骨髓做不出來：有鐵也做不出 | 診斷錯或合併其他貧血（thalassemia、ACD、B12／folate） | 重跑 MCV × retic；thalassemia 通常鐵過多，貿然補鐵是錯的方向 |
 | Source 沒斷 | 出血點（月經過多、GI 病灶）沒處理 | 回去處理 source，否則換 IV 一樣失敗 |
 
-## 破題關鍵句
+## 核心必知概念
 
-| 題 | 一開口就講 |
+| 主題 | 一句話 |
 | --- | --- |
 | Ferritin 偏低怎麼 approach | 「Ferritin 低本身不是重點，重點是我要往回找為什麼缺鐵。」 |
 | 月經過多怎麼問 | 「研究定義是 >80 mL，但門診量不到，我用替代指標問出來。」 |
@@ -52,7 +52,7 @@ site: iron-deficiency-anemia
 | Hb 沒起色 | 「只有兩種可能：骨髓做不出來，或失血沒斷。」 |
 | 電泳能否排除 thal | 「電泳正常不能排除 alpha-thal trait；IDA 還會讓 HbA2 假性低，先補鐵再重驗。」（詳見 05 頁） |
 
-## 容易被電
+## 常見誤區
 
 - 確診就停在補鐵劑量，沒接「往回找 source」——這才是整題考點。
 - 只講「口服不耐受就換 IV」，講不出 IV 第一線族群，也給不出換路的數字門檻。

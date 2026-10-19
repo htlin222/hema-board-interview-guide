@@ -12,7 +12,7 @@ site: hemolytic-anemia-basics
 | --- | --- | --- | --- |
 | 1 | 骨髓有沒有代償？（retic count／retic index） | 低＝hypoproliferative（做不出來）／高＝溶血或失血（做得出來但被消耗） | 往「原料／骨髓」查，還是往「破壞／出血源」查 |
 | 2 | MCV 落在哪一格？ | Microcytic／Normocytic／Macrocytic | 決定要驗哪一組（iron study／溶血四項／B12-folate） |
-| 3 | 有沒有明確的失血或破壞來源？ | 有→處理 source；沒有→回頭主動問病史（家族史、月經、GI、用藥） | 考官等你自己問，不會主動給 |
+| 3 | 有沒有明確的失血或破壞來源？ | 有→處理 source；沒有→回頭主動問病史（家族史、月經、GI、用藥） | 病史不會自己出現，要主動問 |
 
 ## 2 × 3 矩陣：每一格裡有什麼
 
@@ -40,17 +40,17 @@ site: hemolytic-anemia-basics
 | 陰性・外在・機械 | Non-immune，外在破壞：微血管切割 | TTP／HUS／DIC（含敗血症合併 DIC）、人工瓣膜、malignant HTN | Schistocyte（MAHA） |
 | 陰性・外在・感染 | Non-immune，外在破壞：病原寄生或毒素溶膜 | 瘧疾（紅血球內複製）、babesiosis、C. perfringens 敗血症（α-toxin） | 瘧原蟲／microspherocyte |
 
-## 破題關鍵句
+## 核心必知概念
 
-| 題 | 一開口就講 |
+| 主題 | 一句話 |
 | --- | --- |
 | 任何 anemia | 「我先看 retic 分做不出來還是被破壞，再用 MCV 決定驗哪一組。」 |
-| MCV 三分類鑑別 | 「常見的大家都會背，這題拉分的是燒傷、march hemoglobinuria 這種機轉推得出來的少見原因。」 |
+| MCV 三分類鑑別 | 「常見原因大家都會背，容易漏的是燒傷、march hemoglobinuria 這種靠機轉推得出來的少見原因。」 |
 | 抹片 spherocyte | 「Spherocyte 不能直接跳 HS，下一步永遠是 Coombs 分 immune／non-immune。」 |
 | 少見溶血原因 | 「再罕見都收斂回 immune vs non-immune、有沒有 schistocyte 兩條軸，講得出機轉方向就有分。」 |
 | 老年人型態改變 | 「型態變了是新事件，重新跑一次分類，不套舊診斷。」 |
 
-## 容易被電
+## 常見誤區
 
 - 看到 spherocyte 直接答 hereditary spherocytosis，漏掉 Coombs 排除 immune——順序顛倒是最常見扣分。
 - 背出溶血四項證據就停，答不出下一步用什麼分 immune／non-immune。

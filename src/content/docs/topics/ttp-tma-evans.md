@@ -20,7 +20,7 @@ sidebar:
 | Evans | 同時或先後出現 AIHA（DAT＋）與 ITP | 兩系都被免疫標記，無 schistocyte |
 | Overt DIC（ISTH 2001） | 前提：有會引起 DIC 的底病。plt <100＝1、<50＝2；D-dimer 中度↑＝2、強↑＝3；PT 延長 3–6 s＝1、>6 s＝2；fibrinogen <1 g/L＝1；<b>≥5 分</b>＝overt，<5 每 1–2 天重算 | 消耗：血小板＋因子＋fibrinogen 同時掉、纖溶產物升 |
 
-- 容易被電：PLASMIC 是「先治療」的依據不是確診；ADAMTS13 要在 PEX／輸血漿前抽。TTP 凝血正常、DIC 凝血異常，是兩者的分界。
+- 常見誤區：PLASMIC 是「先治療」的依據不是確診；ADAMTS13 要在 PEX／輸血漿前抽。TTP 凝血正常、DIC 凝血異常，是兩者的分界。
 <!-- criteria:end -->
 
 <!-- doses:start -->
